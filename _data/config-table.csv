@@ -1,5 +1,10 @@
 field,display_name
 title,Title
-date,Date
-description,Description
-subject,Subjects
+timestamp, Timestamp
+film, Film
+distance,Camera Distance
+location,Shot Location
+movement,Camera Movement
+lighting,Lighting
+composition,Shot Composition,,true,Shot Composition
+duration,Shot Duration

@@ -1,6 +1,13 @@
 field,display_name,btn,hidden,sort_name
-date,Date,,,Date
-creator,Creator,,,
-subject,,true
-location,,true
-identifier,,,true,Identifier
+title,Title,,true,Timestamp
+description,Description,,true,
+subject,Subjects,,true,
+film,Film,,true,Film
+description,Description,,true,
+angle,Camera Angle,,true,Camera Angle
+distance,Camera Distance,,true,Camera Distance
+location,Shot Location,,true,Shot Location
+movement,Camera Movement,,true,Camera Movement
+lighting,Lighting,,true,Lighting
+composition,Shot Composition,,true,Shot Composition
+duration,Shot Duration,,true,Shot Duration

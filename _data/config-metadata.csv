@@ -1,13 +1,19 @@
 field,display_name,browse_link,external_link,dc_map,schema_map
 title,Title,,,DCTERMS.title,headline
+timestamp,Timestamp,,,,
+film,Film,,,,
+source,Source,,,,
 creator,Creator,,,DCTERMS.creator,creator
 date,Date Created,,,DCTERMS.date,dateCreated
 description,Description,,,DCTERMS.description,description
 subject,Subjects,true,,DCTERMS.subject,keywords
-location,Location,,,,contentLocation
-latitude,Latitude,,,,
-longitude,Longitude,,,,
-source,Source,,,,
+angle,Camera Angle,,,,
+distance,Camera Distance,,,,
+location,Shot Location,,,,
+movement,Camera Movement,,,,
+lighting,Lighting,,,,
+composition,Shot Composition,,,,
+duration,Shot Duration,,,,
 identifier,Source Identifier,,,,
 type,Type,,,DCTERMS.type,
 format,Format,,,,encodingFormat

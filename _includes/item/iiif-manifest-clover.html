@@ -1,0 +1,15 @@
+{% comment %}
+
+    Embed Clover IIIF viewer to load item from an IIIF manifest file, https://samvera-labs.github.io/clover-iiif
+    This include assumes that Item's object_location field is a relative link or direct url to a IIIF manifest json file. e.g. https://wellcomelibrary.org/iiif/b18035723/manifest 
+    If you are using an external manifest url, you may encounter CORS policy error if the server hosting the manifest is not set up correctly--one workaround is to download the json file, add to your "objects" folder, and use a relative link, e.g. "objects/book-manifest1.json". You do not need the images, just the manifest file!
+
+{% endcomment %}
+<!-- add Clover IIIF assets from CDN -->
+<script src="https://www.unpkg.com/@samvera/clover-iiif@latest/dist/web-components/index.umd.js"></script>
+<!-- add div for viewer -->
+<div class="clover" id="clover" style="width: 100%;">
+    <clover-viewer
+        id="{{ page.object_location }}"
+        />
+</div>
