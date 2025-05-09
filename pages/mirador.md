@@ -17,7 +17,7 @@ permalink: mirador.html
 
 <script type="text/javascript">
     // get manifest from embed URL
-    var manifest = location.href.split("?iiif-content=")[1];
+    var manifest = location.href.split("#")[1];
     // configure viewer
     var mirador = Mirador.viewer({
         "id": "my-mirador",
