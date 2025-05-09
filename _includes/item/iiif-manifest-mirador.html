@@ -1,0 +1,8 @@
+{% comment %}
+
+    Embed Mirador IIIF viewer to load item from an IIIF manifest file, https://projectmirador.org
+    This include assumes that Item's object_location field is a relative link or direct url to a IIIF manifest json file. e.g. https://wellcomelibrary.org/iiif/b18035723/manifest 
+
+{% endcomment %}
+
+<iframe width="100%" height="600" src="{{ '/mirador' | relative_url }}/?iiif-content={{ page.object_location }}"></iframe>
