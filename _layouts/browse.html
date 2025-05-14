@@ -17,8 +17,10 @@ custom-foot: js/browse-js.html
 
 <script>
     /* ------- Add facet functionality to Browse page ------- */
-    var checkboxes = document.getElementsByClassName("facet-checkbox");
+    // define filteredItems for compatibility with CollectionBuilder search
+    var filteredItems = [];
 
+    var checkboxes = document.getElementsByClassName("facet-checkbox");
     function removeFilters() {
         // uncheck all checkboxes
         for (let i = 0; i < checkboxes.length; i++) {
@@ -31,7 +33,11 @@ custom-foot: js/browse-js.html
             items[i].setAttribute("aria-hidden", "false");
         }
         // update "Showing __ of __ items" message
-        document.querySelector("#numberOf").innerHTML = "Showing " + filteredItems.length + " of {{ items | size }} items";
+        if (filteredItems.length > 0) {
+            document.querySelector("#numberOf").innerHTML = "Showing " + filteredItems.length + " of {{ items | size }} items";
+        } else {
+            document.querySelector("#numberOf").innerHTML = "Showing {{ items | size }} of {{ items | size }} items";
+        }
     }
 
     function applyFilters() {  
