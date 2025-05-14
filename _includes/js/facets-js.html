@@ -1,0 +1,69 @@
+{% comment %}   Browse with Facets    {% endcomment %}
+
+{% if site.data.theme.browse-child-objects == true %}
+{%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid' -%}
+{% else %}
+{%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid and item.parentid == nil' -%}
+{% endif %}
+
+<script>
+    /* ------- Add facet functionality to Browse page ------- */
+    // define filteredItems for compatibility with CollectionBuilder search
+    var filteredItems = [];
+
+    var checkboxes = document.getElementsByClassName("facet-checkbox");
+    function removeFilters() {
+        // uncheck all checkboxes
+        for (let i = 0; i < checkboxes.length; i++) {
+            checkboxes[i].checked = false;
+        }
+        // unhide all items
+        var items = document.getElementsByClassName("item");
+        for (let i = 0; i < items.length; i++) {
+            items[i].classList.remove("d-none");
+            items[i].setAttribute("aria-hidden", "false");
+        }
+        // update "Showing __ of __ items" message
+        if (filteredItems.length > 0) {
+            document.querySelector("#numberOf").innerHTML = "Showing " + filteredItems.length + " of {{ items | size }} items";
+        } else {
+            document.querySelector("#numberOf").innerHTML = "Showing {{ items | size }} of {{ items | size }} items";
+        }
+    }
+
+    function applyFilters() {  
+        // get values of all checked checkboxes
+        var facetsClasses = [];
+        for (let i = 0; i < checkboxes.length; i++) {
+            if (checkboxes[i].checked) {
+                facetsClasses.push(checkboxes[i].value);
+            }
+        }
+        // console.log(facetsClasses);
+
+        // iterate through items
+        var items = document.getElementsByClassName("item");
+        var itemCount = 0;
+        for (let i = 0; i < items.length; i++) {
+            // hide all items by default
+            items[i].classList.add("d-none");
+            items[i].setAttribute("aria-hidden", "true");
+            // give each item a score based on how many search criteria are true
+            score = 0;
+            for (let f = 0; f < facetsClasses.length; f++) {
+                if (items[i].classList.contains(facetsClasses[f])) {
+                    score++;
+                }
+            }
+            // if the score is equal to the number of facets, unhide item and increase item count
+            if (score == facetsClasses.length) {
+                items[i].classList.remove("d-none");
+                items[i].setAttribute("aria-hidden", "false");
+                itemCount++;
+            }
+        }
+        // update "Showing __ of __ items" message
+        document.querySelector("#numberOf").innerHTML = "Showing " + itemCount + " of {{ items | size }} items";
+    }
+    /* ------- End facets script ------- */
+</script>
