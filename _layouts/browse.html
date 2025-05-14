@@ -6,35 +6,152 @@ custom-foot: js/browse-js.html
 
 {{ content }}
 
+{% comment %}   Browse with Facets    {% endcomment %}
+
+{% if site.data.theme.browse-child-objects == true %}
+{%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid' -%}
+{% else %}
+{%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid and item.parentid == nil' -%}
+{% endif %}
+{% assign facets = site.data.config-facets %}
+
+<script>
+    /* ------- Add facet functionality to Browse page ------- */
+    var checkboxes = document.getElementsByClassName("facet-checkbox");
+
+    function removeFilters() {
+        // uncheck all checkboxes
+        for (let i = 0; i < checkboxes.length; i++) {
+            checkboxes[i].checked = false;
+        }
+        // unhide all items
+        var items = document.getElementsByClassName("item");
+        for (let i = 0; i < items.length; i++) {
+            items[i].classList.remove("hidden");
+            items[i].setAttribute("aria-hidden", "false");
+        }
+        // update "Showing __ of __ items" message
+        document.querySelector("#numberOf").innerHTML = "Showing " + filteredItems.length + " of {{ items | size }} items";
+    }
+
+    function applyFilters() {  
+        // get values of all checked checkboxes
+        var facetsClasses = [];
+        for (let i = 0; i < checkboxes.length; i++) {
+            if (checkboxes[i].checked) {
+                facetsClasses.push(checkboxes[i].value);
+            }
+        }
+        // console.log(facetsClasses);
+
+        // iterate through items
+        var items = document.getElementsByClassName("item");
+        var itemCount = 0;
+        for (let i = 0; i < items.length; i++) {
+            // hide all items by default
+            items[i].classList.add("hidden");
+            items[i].setAttribute("aria-hidden", "true");
+            // give each item a score based on how many search criteria are true
+            score = 0;
+            for (let f = 0; f < facetsClasses.length; f++) {
+                if (items[i].classList.contains(facetsClasses[f])) {
+                    score++;
+                }
+            }
+            // if the score is equal to the number of facets, unhide item and increase item count
+            if (score == facetsClasses.length) {
+                items[i].classList.remove("hidden");
+                items[i].setAttribute("aria-hidden", "false");
+                itemCount++;
+            }
+        }
+        // update "Showing __ of __ items" message
+        document.querySelector("#numberOf").innerHTML = "Showing " + itemCount + " of {{ items | size }} items";
+    }
+    /* ------- End facets script ------- */
+</script>
+
 <div class="row mb-3 justify-content-center">
-    <div class="col-md-8 text-center">
+    <div class="col-md-12 text-center">
         <form role="search" id="browseFilter" onsubmit="submitFilter(); return false;">
             <div class="input-group input-group-lg">
-                <input type="text" class="form-control" id="filterTextBox" placeholder="Filter ... " aria-label="Search"> 
+                <input type="text" class="form-control" id="filterTextBox" placeholder="Search by keyword" aria-label="Search"> 
                 <button class="btn btn-success" type="submit" title="Filter items" id="filterButton" >Search</button>
                 <button class="btn btn-outline-secondary filter" onclick="resetFilter(); return false;" data-filter="">Reset</button>
             </div>
         </form>
-        <div class="h2" id="numberOf"></div>
     </div>
+    <!--
     <div class="col-md-2">
         <div class="dropdown">
             <button class="btn btn-secondary mt-1 dropdown-toggle" type="button" id="browseSortButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Sort by <span id="sortFilter">Random</span>
+                Sort by <span id="sortFilter">Timestamp</span>
             </button>
-            <div class="dropdown-menu browse-sort-menu" aria-labelledby="browseSortButton">
-                <button class="dropdown-item browse-sort-item active" data-filter="random">Random</button>
-                {% assign sort_options = site.data.config-browse | where_exp: 'i','i.sort_name != nil' %}
+            <div class="dropdown-menu browse-sort-menu" aria-labelledby="browseSortButton">                {% assign sort_options = site.data.config-browse | where_exp: 'i','i.sort_name != nil' %}
                 {% for o in sort_options %}
-                <button class="dropdown-item browse-sort-item" data-filter="{{ o.field | escape }}">{{ o.sort_name }}</button>
+                <button class="dropdown-item browse-sort-item {% if forloop.first %}active{% endif %}" data-filter="{{ o.field | escape }}">{{ o.sort_name }}</button>
                 {% endfor %}
             </div>
         </div>
     </div>
+    -->
 </div>
+
+<div class="row mb-3 justify-content-center">
+    <div class="col-md-12">
+        <h3>Filters</h3>
+        <ul id="facets-menu" class="list-unstyled m-0 p-0">
+            {% for facet in facets %}
+            <li id="{{ facet.name }}-options" class="facet-options dropdown">
+                <button class="btn dropdown-toggle btn-outline-secondary mb-1" type="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-role="menu" aria-label="{{ facet.name }} filters" aria-expanded="false">{{ facet.display_name }}</button>
+                <ul class="dropdown-menu facet-values">
+                    {% assign values = facet.values | split: "|" %}
+                    {% for value in values %}
+                    <li>
+                        <input class="facet-checkbox form-check-input" type="checkbox" id="{{ value | slugify }}" name="{{ value | slugify}}" value="{{ facet.name }}-{{ value | slugify }}">
+                        <label class="form-check-label" for="{{ value | slugify }}">{{ value }}</label>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+<div class="row mb-3 justify-content-center">
+    <div class="col-md-12 text-end">
+        <div class="btn-group" role="group" aria-label="Apply and Remove Filters">
+            <button class="btn btn-lg btn-success mx-0" type="button" onclick="applyFilters()">Apply Filters</button>
+            <button class="btn btn-lg btn-outline-secondary mx-0" type="button" onclick="removeFilters()">Remove Filters</button>
+        </div>
+    </div>
+</div>
+<div class="row mb-3 justify-content-center text-center"><div id="numberOf"></div></div>
 
 <div id="loadingIcon" class="text-center">
     <div class="spinner-border text-dark" role="status"><span class="visually-hidden">Loading...</span></div>
 </div>
 
 <div class="row" id="browseItems"></div>
+
+<style>
+    #facets-menu {
+
+        .facet-options {
+            display: inline;
+        }
+
+        .facet-values {
+            padding-left: .25rem;
+            min-width: 12rem;
+
+            label {
+                padding-left: .25rem;
+            }
+        }
+    }
+
+    .hidden {
+        display: none;
+    }
+</style>

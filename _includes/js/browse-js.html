@@ -1,9 +1,11 @@
+{% comment %}   This file is modified to support Browse with Facets   {% endcomment %}
 {% if site.data.theme.browse-child-objects == true %}
 {%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid' -%}
 {% else %}
 {%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid and item.parentid == nil' -%}
 {% endif %}
 {%- assign fields = site.data.config-browse -%}
+{% assign facets = site.data.config-facets %}
 <script>
 
 /* add items */
@@ -16,7 +18,10 @@ var items = [
         {% if item.image_alt_text %}"alt": {{ item.image_alt_text | escape | jsonify }}, {%- endif -%}
         "title":{{ item.title | strip | escape | jsonify }},
         {% if item.parentid %}"parent": {{ item.parentid | jsonify }}, {%- endif -%}
-        "id":{{ item.objectid | jsonify }} }{% unless forloop.last %},{% endunless %}{%- endfor -%}
+        "id":{{ item.objectid | jsonify }},
+        "facets":"{% for f in facets %}{% if item[f.name] %}{%- assign values = item[f.name] | split: "; " -%}{%- for v in values -%}{{ f.name | slugify }}-{{ v | slugify | append: " " }}{%- endfor -%}{%- endif -%}{%- endfor -%}"
+    }{% unless forloop.last %},{% endunless %}
+    {%- endfor -%}
 ];
 
 {% include helpers/get-icon.js %}
@@ -39,7 +44,7 @@ function makeCard(obj) {
     var imgAlt = obj.alt ? obj.alt : obj.title;
 
     // start card
-    var card = '<div class="item col-lg-4 col-md-6 mb-2"><div class="card">';
+    var card = '<div class="item col-lg-4 col-md-6 mb-2 ' + obj.facets + '"><div class="card">';
     // top image for items with image
     if(imgSrc) {
         card += '<a href="' + itemHref + '"> <img class="card-img-top lazyload" src="' + placeholder + '" data-src="' + imgSrc + '" alt="' + imgAlt + '"></a>';
@@ -105,7 +110,7 @@ function filterItems(arr,q) {
         }
     }
     // add number 
-    document.querySelector("#numberOf").innerHTML = filteredItems.length + " of {{ items | size }} items";
+    document.querySelector("#numberOf").innerHTML = "Showing " + filteredItems.length + " of {{ items | size }} items";
     
     // add stuff, make cards first in giant var, then add all at once to speed things up
     var cards = "";
@@ -136,7 +141,7 @@ function shuffle(array) {
 /* init browse page */
 
 /* randomize items once at page load */
-shuffle(items);
+/* shuffle(items); */
 
 /* set some elements */ 
 var loadingIcon = document.querySelector("#loadingIcon");
