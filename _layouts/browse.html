@@ -12,7 +12,7 @@ custom-foot: js/browse-js.html
 <div class="row mb-3 justify-content-center">
     <div class="col-md-12 text-center">
         <form role="search" id="browseFilter" onsubmit="submitFilter(); return false;">
-            <div class="input-group input-group-lg">
+            <div class="input-group input-group">
                 <input type="text" class="form-control" id="filterTextBox" placeholder="Search by keyword" aria-label="Search"> 
                 <button class="btn btn-primary" type="submit" title="Filter items" id="filterButton" >Search</button>
                 <button class="btn btn-outline-secondary filter" onclick="resetFilter(); return false;" data-filter="">Reset</button>
@@ -44,8 +44,8 @@ custom-foot: js/browse-js.html
 <div class="row mb-3 justify-content-center">
     <div class="col-md-12 text-end">
         <div class="btn-group" role="group" aria-label="Apply and Remove Filters">
-            <button class="btn btn-lg btn-primary mx-0" type="button" onclick="applyFilters()">Apply Filters</button>
-            <button class="btn btn-lg btn-outline-secondary mx-0" type="button" onclick="removeFilters()">Remove Filters</button>
+            <button class="btn btn-primary mx-0" type="button" onclick="applyFilters()">Apply Filters</button>
+            <button class="btn btn-outline-secondary mx-0" type="button" onclick="removeFilters()">Remove Filters</button>
         </div>
     </div>
 </div>
