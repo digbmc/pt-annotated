@@ -15,7 +15,8 @@ lighting,Lighting,,,,
 composition,Shot Composition,,,,
 duration,Shot Duration,,,,
 identifier,Source Identifier,,,,
-type,Type,,,DCTERMS.type,
+type,,,,DCTERMS.type,
 format,Format,,,,encodingFormat
 language,Language,,,DCTERMS.language,
+object_location,IIIF Manifest,,true,,
 rightsstatement,,,,DCTERMS.rights,license
