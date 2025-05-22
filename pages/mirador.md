@@ -22,8 +22,8 @@ permalink: mirador.html
     var mirador = Mirador.viewer({
         "id": "my-mirador",
         "manifests": {
-            "https://digbmc.github.io/pta-punc-server/index.json": {
-            "provider": "Bryn Mawr College"
+            "https://digbmc.github.io/pta-manifests/index.json": {
+            "provider": "Digital Scholarship at Bryn Mawr College"
             }
         },
         "windows": [

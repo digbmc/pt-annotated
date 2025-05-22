@@ -18,10 +18,12 @@
         <p class="card-text text-center">
             <a class="btn btn-sm btn-secondary m-1" href="{{ '/assets/data/metadata.csv' | relative_url }}" download>Metadata CSV</a>
             <a class="btn btn-sm btn-secondary m-1" href="{{ '/assets/data/metadata.json' | relative_url }}" target="_blank">Metadata JSON</a>
+            {% comment %}
             {% if stubs contains "subject" %}
             <a class="btn btn-sm btn-secondary m-1" href="{{ '/assets/data/subjects.csv' | relative_url }}" download>Subjects CSV</a>
             <a class="btn btn-sm btn-secondary m-1" href="{{ '/assets/data/subjects.json' | relative_url }}" target="_blank">Subjects JSON</a>
             {% endif %}
+            {% endcomment %}
             {% if stubs contains "map" %}
             <a class="btn btn-sm btn-secondary m-1" href="{{ '/assets/data/geodata.json' | relative_url }}" target="_blank">Geodata JSON</a>
             {% endif %}
