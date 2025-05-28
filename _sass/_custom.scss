@@ -3,6 +3,34 @@
     This allows you to override any CollectionBuilder or Bootstrap CSS without modifying the base theme files directly.
 */
 
+$primary: #000000;
+$secondary: #f0f1f2;
+$success: #4bbf73;
+$info: #1f9bcf;
+$warning: #f0ad4e;
+$danger: #d9534f;
+$light: #f0f1f2;
+$dark: #343a40;
+
+$secondary-active: #cdcecf;
+
 .navbar {
     padding: 0.5rem;
+}
+
+.dropdown-menu {
+    color: $primary;
+}
+
+.form-check-input {
+    background-color: white;
+    border: 1px solid $dark;
+}
+
+.outline-light {
+    border: 1px solid $light;
+}
+
+.outline-dark {
+    border: 1px solid $dark;
 }
