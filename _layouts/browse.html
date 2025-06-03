@@ -15,7 +15,7 @@ custom-foot: js/browse-js.html
             <div class="input-group input-group">
                 <input type="text" class="form-control" id="filterTextBox" placeholder="Search by keyword" aria-label="Search"> 
                 <button class="btn btn-primary" type="submit" title="Filter items" id="filterButton" >Search</button>
-                <button class="btn btn-outline-secondary filter" onclick="resetFilter(); return false;" data-filter="">Reset</button>
+                <button class="btn btn-outline-dark filter" onclick="resetFilter(); return false;" data-filter="">Reset</button>
             </div>
         </form>
     </div>
@@ -26,7 +26,7 @@ custom-foot: js/browse-js.html
         <ul id="facets-menu" class="list-unstyled m-0 p-0">
             {% for facet in facets %}
             <li id="{{ facet.name }}-options" class="facet-options dropdown d-inline">
-                <button class="btn dropdown-toggle btn-outline-secondary mb-1" type="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-role="menu" aria-label="{{ facet.name }} filters" aria-expanded="false">{{ facet.display_name }}</button>
+                <button class="btn dropdown-toggle btn-dark mb-1" type="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-role="menu" aria-label="{{ facet.name }} filters" aria-expanded="false">{{ facet.display_name }}</button>
                 <ul class="facet-values dropdown-menu p-2">
                     {% assign values = facet.values | split: "|" %}
                     {% for value in values %}
@@ -45,7 +45,7 @@ custom-foot: js/browse-js.html
     <div class="col-md-12 text-end">
         <div class="btn-group" role="group" aria-label="Apply and Remove Filters">
             <button class="btn btn-primary mx-0" type="button" onclick="applyFilters()">Apply Filters</button>
-            <button class="btn btn-outline-secondary mx-0" type="button" onclick="removeFilters()">Remove Filters</button>
+            <button class="btn btn-outline-dark mx-0" type="button" onclick="removeFilters()">Remove Filters</button>
         </div>
     </div>
 </div>

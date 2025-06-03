@@ -21,6 +21,25 @@ permalink: mirador.html
     // configure viewer
     var mirador = Mirador.viewer({
         "id": "my-mirador",
+        "selectedTheme": 'dark',
+        themes: { 
+            dark: {
+            palette: {
+                type: 'dark',
+                primary: {
+                main: '#2e8ef8',
+                },
+            },
+            },
+            light: {
+            palette: {
+                type: 'light',
+                primary: {
+                main: '#2e8ef8',
+                },
+            },
+            },
+        },
         "manifests": {
             "https://digbmc.github.io/pta-manifests/index.json": {
             "provider": "Digital Scholarship at Bryn Mawr College"
