@@ -5,13 +5,13 @@
 
 /*
 $primary: #000000;
-$secondary: #f0f1f2;
+$secondary: #F8F9FA;
 $success: #4bbf73;
-$info: #1f9bcf;
+$info: #2e8ef8;
 $warning: #f0ad4e;
 $danger: #d9534f;
 $light: #f0f1f2;
-$dark: #343a40;
+$dark: #212529;
 
 $secondary-active: #cdcecf;
 
@@ -36,4 +36,48 @@ $secondary-active: #cdcecf;
 
 .navbar {
     padding: 0.5rem;
+}
+
+
+/*
+
+#title h1, #home-title-box h1 {
+    font-family: "helvetica-lt-pro", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: none;
+}
+    
+body {
+    font-family: "helvetica-lt-pro", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-transform: none;
+    background-color: black;
+}
+
+h1, h2, h3, h4, h5, h6, .card-title {
+    font-family: "helvetica-lt-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: none;
+}
+*/
+
+body {
+    background-color: black;
+}
+
+.card {
+    background-color: #212529;
+    color: #F8F9FA;
+    border: none;
+}
+
+.item {
+    transition: all 0.3s ease-in-out;
+}
+
+.item:hover {
+    transform: scale(1.1);
 }

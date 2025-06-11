@@ -29,13 +29,21 @@ permalink: mirador.html
                 primary: {
                 main: '#2e8ef8',
                 },
+                secondary: {
+                    main: '#2e8ef8',
+                },
+                shades: {
+                    dark: '#000000',
+                    main: '#212529',
+                    light: '#616161',
+                }
             },
             },
             light: {
             palette: {
                 type: 'light',
                 primary: {
-                main: '#2e8ef8',
+                    main: '#2e8ef8',
                 },
             },
             },
@@ -80,3 +88,14 @@ permalink: mirador.html
         },
         });
 </script>
+
+<style>
+.MuiPaper-root {
+    background-color: #000000;
+    color: #F8F9FA;
+}
+
+.mirador50, .mirador33 {
+    background-color: #212529;
+}
+</style>
