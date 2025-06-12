@@ -21,6 +21,45 @@ permalink: mirador.html
     // configure viewer
     var mirador = Mirador.viewer({
         "id": "my-mirador",
+        "selectedTheme": 'pta',
+        themes: {
+            pta:{
+            palette: {
+                type: 'dark',
+                primary: {
+                    main: '#f6754f',
+                    dark: '#f6754f',
+                },
+                secondary: {
+                    main: '#7fff00',
+                },
+                shades: {
+                    dark: '#000000',
+                    main: '#1C2122',
+                    light: '#1C2122',     
+                },
+            },
+            typography:{
+                fontFamily: ['Helvetica'],
+            },
+            },
+            dark: {
+            palette: {
+                type: 'dark',
+                primary: {
+                main: '#ba55d3',
+                },
+            },
+            },
+            light: {
+            palette: {
+                type: 'light',
+                primary: {
+                main: '#ba55d3 ',
+                },
+            },
+            },
+        },
         "manifests": {
             "https://digbmc.github.io/pta-manifests/index.json": {
             "provider": "Digital Scholarship at Bryn Mawr College"
@@ -61,3 +100,16 @@ permalink: mirador.html
         },
         });
 </script>
+
+<!--
+<style>
+.MuiPaper-root {
+    background-color: #000000;
+    color: #F8F9FA;
+}
+
+.mirador50, .mirador33 {
+    background-color: #212529;
+}
+</style>
+-->

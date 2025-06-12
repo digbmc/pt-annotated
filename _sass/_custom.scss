@@ -2,3 +2,91 @@
     Put your custom SCSS here! 
     This allows you to override any CollectionBuilder or Bootstrap CSS without modifying the base theme files directly.
 */
+
+
+$primary: #f6754f;
+$secondary: #FEFEFE;
+$success: #EAF57F;
+$info: #db43df;
+$warning: #f8c667;
+$danger: #e74a75;
+$light: #FEFEFE;
+$dark: #1C2122;
+
+$dark-border: #373B3E;
+$disabled: #5E6568;
+
+$focused-glow: #f6764f58;
+
+
+.dropdown-menu {
+    color: $light;
+    background-color: $dark;
+}
+
+.form-check-input {
+    background-color: white;
+    border: 1px solid $dark-border;
+
+    &:checked {
+        background-color: $primary;
+        border: 1px solid $primary;
+    }
+
+    &:focus {
+        border: 1px solid $primary;
+        box-shadow: 0 0 0 .25rem $focused-glow;
+    }
+}
+
+.navbar {
+    padding: 0.5rem;
+}
+
+#title h1, #home-title-box h1 {
+    font-family: "helvetica-lt-pro", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: none;
+}
+
+body {
+    background-color: black;
+}
+
+.card {
+    background-color: #212529;
+    color: #F8F9FA;
+    border: none;
+}
+
+.item {
+    transition: all 0.3s ease-in-out;
+}
+
+.item:hover {
+    transform: scale(1.1);
+}
+
+.pagination {
+    .paginate_button .page-link {
+        background-color: $dark;
+        color: $light;
+        border: 1px solid $dark-border;
+
+        &:focus {
+            box-shadow: 0 0 0 .25rem $focused-glow;
+        }
+    }
+
+    .paginate_button.disabled .page-link {
+        color: $disabled;
+    }
+
+    .paginate_button.active .page-link {
+        background-color: $primary;
+        color: $dark;
+        border: none;
+    }
+
+}

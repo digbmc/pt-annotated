@@ -56,9 +56,13 @@
         var i, size;
         var items = "";
         {% if include.shuffle == true %}shuffle(array);{% endif %}
+        var colors = [{% for c in site.data.config-theme-colors %}"{{ c.color_class }}"{% unless forloop.last %}, {% endunless %}{% endfor %}];
+        colors.pop();
+        colors.pop();
         for (i = 0; i < array.length; i++) {
             size = mapSize(array[i][1]);
-            items += '<a class="btn btn-{{ include.button | default: "outline-primary" }} m-2 tagcloud' + size + '" href="{{ "/browse.html" | relative_url }}#' + encodeURIComponent(array[i][0]) + '" >' + array[i][0] + '</a>';
+            var randomColor = colors[Math.floor(Math.random() * colors.length)];
+            items += '<a class="btn btn-' + randomColor + ' m-2 tagcloud' + size + '" href="{{ "/browse.html" | relative_url }}#' + encodeURIComponent(array[i][0]) + '" >' + array[i][0] + '</a>';
         }
         cloud.innerHTML = items;
     }

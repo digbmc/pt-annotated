@@ -12,10 +12,10 @@ custom-foot: js/browse-js.html
 <div class="row mb-3 justify-content-center">
     <div class="col-md-12 text-center">
         <form role="search" id="browseFilter" onsubmit="submitFilter(); return false;">
-            <div class="input-group input-group-lg">
+            <div class="input-group input-group">
                 <input type="text" class="form-control" id="filterTextBox" placeholder="Search by keyword" aria-label="Search"> 
-                <button class="btn btn-primary" type="submit" title="Filter items" id="filterButton" >Search</button>
-                <button class="btn btn-outline-secondary filter" onclick="resetFilter(); return false;" data-filter="">Reset</button>
+                <button class="btn btn-success" type="submit" title="Filter items" id="filterButton" >Search</button>
+                <button class="btn btn-danger filter" onclick="resetFilter(); return false;" data-filter="">Reset</button>
             </div>
         </form>
     </div>
@@ -26,7 +26,7 @@ custom-foot: js/browse-js.html
         <ul id="facets-menu" class="list-unstyled m-0 p-0">
             {% for facet in facets %}
             <li id="{{ facet.name }}-options" class="facet-options dropdown d-inline">
-                <button class="btn dropdown-toggle btn-outline-secondary mb-1" type="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-role="menu" aria-label="{{ facet.name }} filters" aria-expanded="false">{{ facet.display_name }}</button>
+                <button class="btn dropdown-toggle btn-dark mb-1" type="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-role="menu" aria-label="{{ facet.name }} filters" aria-expanded="false">{{ facet.display_name }}</button>
                 <ul class="facet-values dropdown-menu p-2">
                     {% assign values = facet.values | split: "|" %}
                     {% for value in values %}
@@ -44,15 +44,15 @@ custom-foot: js/browse-js.html
 <div class="row mb-3 justify-content-center">
     <div class="col-md-12 text-end">
         <div class="btn-group" role="group" aria-label="Apply and Remove Filters">
-            <button class="btn btn-lg btn-primary mx-0" type="button" onclick="applyFilters()">Apply Filters</button>
-            <button class="btn btn-lg btn-outline-secondary mx-0" type="button" onclick="removeFilters()">Remove Filters</button>
+            <button class="btn btn-success mx-0" type="button" onclick="applyFilters()">Apply Filters</button>
+            <button class="btn btn-danger mx-0" type="button" onclick="removeFilters()">Remove Filters</button>
         </div>
     </div>
 </div>
 <div class="row mb-3 justify-content-center text-center"><div id="numberOf"></div></div>
 
 <div id="loadingIcon" class="text-center">
-    <div class="spinner-border text-dark" role="status"><span class="visually-hidden">Loading...</span></div>
+    <div class="spinner-border text-light" role="status"><span class="visually-hidden">Loading...</span></div>
 </div>
 
 <div class="row" id="browseItems"></div>
