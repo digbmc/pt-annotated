@@ -21,29 +21,41 @@ permalink: mirador.html
     // configure viewer
     var mirador = Mirador.viewer({
         "id": "my-mirador",
-        "selectedTheme": 'dark',
-        themes: { 
+        "selectedTheme": 'pta',
+        themes: {
+            pta:{
+            palette: {
+                type: 'dark',
+                primary: {
+                    main: '#f6754f',
+                    dark: '#f6754f',
+                },
+                secondary: {
+                    main: '#7fff00',
+                },
+                shades: {
+                    dark: '#000000',
+                    main: '#1C2122',
+                    light: '#1C2122',     
+                },
+            },
+            typography:{
+                fontFamily: ['Helvetica'],
+            },
+            },
             dark: {
             palette: {
                 type: 'dark',
                 primary: {
-                main: '#2e8ef8',
+                main: '#ba55d3',
                 },
-                secondary: {
-                    main: '#2e8ef8',
-                },
-                shades: {
-                    dark: '#000000',
-                    main: '#212529',
-                    light: '#616161',
-                }
             },
             },
             light: {
             palette: {
                 type: 'light',
                 primary: {
-                    main: '#2e8ef8',
+                main: '#ba55d3 ',
                 },
             },
             },
@@ -89,6 +101,7 @@ permalink: mirador.html
         });
 </script>
 
+<!--
 <style>
 .MuiPaper-root {
     background-color: #000000;
@@ -99,3 +112,4 @@ permalink: mirador.html
     background-color: #212529;
 }
 </style>
+-->

@@ -16,8 +16,8 @@
         <{{ include.heading_level | default: 'h2' | strip }} class="card-title h5">Collection as Data</{{ include.heading_level | default: 'h2' | strip }}>
         <p><small>Download this collection's metadata in a variety of reusable formats.</small></p>
         <p class="card-text text-center">
-            <a class="btn btn-sm btn-secondary m-1" href="{{ '/assets/data/metadata.csv' | relative_url }}" download>Metadata CSV</a>
-            <a class="btn btn-sm btn-secondary m-1" href="{{ '/assets/data/metadata.json' | relative_url }}" target="_blank">Metadata JSON</a>
+            <a class="btn btn-sm btn-primary m-1" href="{{ '/assets/data/metadata.csv' | relative_url }}" download>Metadata CSV</a>
+            <a class="btn btn-sm btn-warning m-1" href="{{ '/assets/data/metadata.json' | relative_url }}" target="_blank">Metadata JSON</a>
             {% comment %}
             {% if stubs contains "subject" %}
             <a class="btn btn-sm btn-secondary m-1" href="{{ '/assets/data/subjects.csv' | relative_url }}" download>Subjects CSV</a>
@@ -35,9 +35,9 @@
             <a class="btn btn-sm btn-secondary m-1" href="{{ '/assets/data/timelinejs.json' | relative_url }}" target="_blank">Timeline JSON</a>
             {% endif %}
             {% if site.data.theme.metadata-facets-fields %}
-            <a class="btn btn-sm btn-secondary m-1" href="{{ '/assets/data/facets.json' | relative_url }}" target="_blank">Facets JSON</a>
+            <a class="btn btn-sm btn-success m-1" href="{{ '/assets/data/facets.json' | relative_url }}" target="_blank">Facets JSON</a>
             {% endif %}
-            <a class="btn btn-sm btn-secondary m-1" href="{{ site.source-code }}" rel="noopener">Source Code</a>
+            <a class="btn btn-sm btn-danger m-1" href="{{ site.source-code }}" rel="noopener">Source Code</a>
         </p>
     </div>
 </div>

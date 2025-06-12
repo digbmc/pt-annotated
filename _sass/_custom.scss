@@ -3,43 +3,45 @@
     This allows you to override any CollectionBuilder or Bootstrap CSS without modifying the base theme files directly.
 */
 
-/*
-$primary: #000000;
-$secondary: #F8F9FA;
-$success: #4bbf73;
-$info: #2e8ef8;
-$warning: #f0ad4e;
-$danger: #d9534f;
-$light: #f0f1f2;
-$dark: #212529;
 
-$secondary-active: #cdcecf;
+$primary: #f6754f;
+$secondary: #FEFEFE;
+$success: #EAF57F;
+$info: #db43df;
+$warning: #f8c667;
+$danger: #e74a75;
+$light: #FEFEFE;
+$dark: #1C2122;
+
+$dark-border: #373B3E;
+$disabled: #5E6568;
+
+$focused-glow: #f6764f58;
+
 
 .dropdown-menu {
-    color: $primary;
+    color: $light;
+    background-color: $dark;
 }
 
 .form-check-input {
     background-color: white;
-    border: 1px solid $dark;
-}
+    border: 1px solid $dark-border;
 
-.outline-light {
-    border: 1px solid $light;
-}
+    &:checked {
+        background-color: $primary;
+        border: 1px solid $primary;
+    }
 
-.outline-dark {
-    border: 1px solid $dark;
+    &:focus {
+        border: 1px solid $primary;
+        box-shadow: 0 0 0 .25rem $focused-glow;
+    }
 }
-
-*/
 
 .navbar {
     padding: 0.5rem;
 }
-
-
-/*
 
 #title h1, #home-title-box h1 {
     font-family: "helvetica-lt-pro", sans-serif;
@@ -47,22 +49,6 @@ $secondary-active: #cdcecf;
     font-style: normal;
     text-transform: none;
 }
-    
-body {
-    font-family: "helvetica-lt-pro", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    text-transform: none;
-    background-color: black;
-}
-
-h1, h2, h3, h4, h5, h6, .card-title {
-    font-family: "helvetica-lt-pro", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    text-transform: none;
-}
-*/
 
 body {
     background-color: black;
@@ -80,4 +66,27 @@ body {
 
 .item:hover {
     transform: scale(1.1);
+}
+
+.pagination {
+    .paginate_button .page-link {
+        background-color: $dark;
+        color: $light;
+        border: 1px solid $dark-border;
+
+        &:focus {
+            box-shadow: 0 0 0 .25rem $focused-glow;
+        }
+    }
+
+    .paginate_button.disabled .page-link {
+        color: $disabled;
+    }
+
+    .paginate_button.active .page-link {
+        background-color: $primary;
+        color: $dark;
+        border: none;
+    }
+
 }
