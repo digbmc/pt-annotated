@@ -35,8 +35,8 @@ permalink: mirador.html
                 },
                 shades: {
                     dark: '#000000',
-                    main: '#1C2122',
-                    light: '#1C2122',     
+                    main: '#252525',
+                    light: '#252525',     
                 },
             },
             typography:{

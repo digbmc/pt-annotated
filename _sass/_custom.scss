@@ -11,15 +11,47 @@ $info: #db43df;
 $warning: #f8c667;
 $danger: #e74a75;
 $light: #FEFEFE;
-$dark: #1C2122;
+$dark: #252525;
 
 $dark-border: #373B3E;
 $disabled: #5E6568;
 
+$nav-text-inactive: #ffffff8c;
+$nav-text-hover: #ffffffbf;
 $focused-glow: #f6764f58;
 
+.navbar .dropdown-menu {
+    background-color: $dark;
+    border: none;
+}
 
-.dropdown-menu {
+.nav-item {
+     &:focus {
+        border: none;
+    }
+}
+
+
+.navbar .dropdown-menu .dropdown-item {
+    color: $nav-text-inactive;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+    
+    &.active {
+        color: $light;
+    }
+
+    &:hover {
+        background-color: $dark;
+        color: $nav-text-hover;
+    }
+
+    &:focus {
+        background-color: $dark;
+        border: none;
+    }
+}
+
+.facet-options .dropdown-menu {
     color: $light;
     background-color: $dark;
 }
@@ -43,7 +75,7 @@ $focused-glow: #f6764f58;
     padding: 0.5rem;
 }
 
-#title h1, #home-title-box h1 {
+#title h1, #home-title-box h1, #film-title-box h2 {
     font-family: "helvetica-lt-pro", sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -55,7 +87,7 @@ body {
 }
 
 .card {
-    background-color: #212529;
+    background-color: #252525;
     color: #F8F9FA;
     border: none;
 }
@@ -89,4 +121,8 @@ body {
         border: none;
     }
 
+}
+
+#scroll-to-top {
+    color: $primary;
 }
