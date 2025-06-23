@@ -1,9 +1,9 @@
 name,display_name,values
 film,Film,Punch-Drunk Love
 angle,Camera Angle,overhead|high|low|eye-level|dutch|point of view
-distance,Camera Distance,big close-up|close-up|medium shot|plan américain|full shot|long shot|extreme long shot|establishing shot
+distance,Camera Distance,extreme close-up|close-up|medium shot|plan américain|full shot|long shot|extreme long shot|establishing shot
 location,Shot Location,interior|exterior
 movement,Camera Movement,fixed|mobile|pan|tilt|tracking|zoom|crane|handheld|roll
 lighting,Lighting,low key|high key|backlighting
-composition,Shot Composition,single shot|two shot|three shot|group shot
+composition,Shot Composition,single shot|dirty single|two shot|three shot|group shot
 duration,Shot Duration,long take
