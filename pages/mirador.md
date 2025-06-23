@@ -76,14 +76,13 @@ permalink: mirador.html
             allowFullscreen: true,
             allowMaximize: false,
             allowTopMenuButton: false,
-            allowWindowSideBar: true,
             hideWindowTitle: true, // Configure if the window title is shown in the window title bar or not
             defaultSideBarPanel: 'annotations',
             sideBarOpenByDefault: true,
             defaultSidebarPanelWidth: 250, // Configure default sidebar width in pixels
             highlightAllAnnotations: true,
             panels: { // Configure which panels are visible in WindowSideBarButtons
-                info: true,
+                info: false,
                 attribution: false,
                 canvas: false,
                 annotations: true,
