@@ -82,7 +82,7 @@ permalink: mirador.html
             defaultSidebarPanelWidth: 250, // Configure default sidebar width in pixels
             highlightAllAnnotations: true,
             panels: { // Configure which panels are visible in WindowSideBarButtons
-                info: true,
+                info: false,
                 attribution: false,
                 canvas: false,
                 annotations: true,
