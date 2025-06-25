@@ -19,6 +19,13 @@ $danger: #e74a75;
 $light: #FEFEFE;
 $dark: #252525;
 
+$red:  #e74a75;
+$orange: #f6764f;
+$yellow: #f8c667;
+$green: #d0db72;
+$blue: #72c4db;
+$purple: #CA40C0;
+
 $dark-border: #373B3E;
 $disabled: #5E6568;
 
@@ -91,8 +98,9 @@ body {
    ------------ */
 
 .navbar .dropdown-menu {
-    background-color: $dark;
+    background-color: black;
     border: none;
+    text-align: center;
 }
 
 .nav-item {
@@ -110,12 +118,12 @@ body {
     }
 
     &:hover {
-        background-color: $dark;
+        background-color: black;
         color: $nav-text-hover;
     }
 
     &:focus {
-        background-color: $dark;
+        background-color: black;
         border: none;
     }
 }
@@ -163,5 +171,63 @@ body {
     &:focus {
         border: 1px solid $primary;
         box-shadow: 0 0 0 .25rem $focused-glow;
+    }
+}
+
+/* --------------
+    Cloud Colors
+   -------------- */
+
+.btn-red {
+    color: black;
+    background-color: $red;
+
+    &:hover {
+         background-color: mix($red, white, 75%);
+    }
+}
+
+.btn-orange {
+    color: black;
+    background-color: $orange;
+
+    &:hover {
+         background-color: mix($orange, white, 75%);
+    }
+}
+
+.btn-yellow {
+    color: black;
+    background-color: $yellow;
+
+    &:hover {
+         background-color: mix($yellow, white, 75%);
+    }
+}
+
+.btn-green {
+    color: black;
+    background-color: $green;
+
+    &:hover {
+         background-color: mix($green, white, 75%);
+    }
+}
+
+.btn-blue {
+    color: black;
+    background-color: $blue;
+
+    &:hover {
+         background-color: mix($blue, white, 75%);
+    }
+}
+
+.btn-purple {
+    color: black;
+    background-color: $purple;
+
+    &:hover {
+         background-color: mix($purple, white, 75%);
     }
 }
