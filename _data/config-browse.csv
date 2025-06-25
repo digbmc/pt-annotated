@@ -1,5 +1,6 @@
 field,display_name,btn,hidden,sort_name
 title,Title,,true,Film
+film, Film,,true,Film
 description,Description,,true,
 subject,Subjects,,true,
 description,Description,,true,
