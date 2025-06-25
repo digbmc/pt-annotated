@@ -10,7 +10,7 @@ custom-foot: js/browse-js.html
 {% include js/facets-js.html %}
 
 <div class="row mb-3 justify-content-center">
-    <div class="col-md-12 text-center">
+    <div class="col-md-12">
         <form role="search" id="browseFilter" onsubmit="submitFilter(); return false;">
             <div class="input-group input-group">
                 <input type="text" class="form-control" id="filterTextBox" placeholder="Search by keyword" aria-label="Search"> 
@@ -20,9 +20,9 @@ custom-foot: js/browse-js.html
         </form>
     </div>
 </div>
+<h3>Filters</h3>
 <div class="row mb-3 justify-content-center">
-    <div class="col-md-12">
-        <h3>Filters</h3>
+    <div class="col-12 col-lg-8 mb-1">
         <ul id="facets-menu" class="list-unstyled m-0 p-0">
             {% for facet in facets %}
             <li id="{{ facet.name }}-options" class="facet-options dropdown d-inline">
@@ -40,15 +40,29 @@ custom-foot: js/browse-js.html
             {% endfor %}
         </ul>
     </div>
-</div>
-<div class="row mb-3 justify-content-center">
-    <div class="col-md-12 text-end">
-        <div class="btn-group" role="group" aria-label="Apply and Remove Filters">
+    <div class="col-12 col-lg-4 mb-1 text-end">
+        <div class="btn-group mb-1" role="group" aria-label="Apply and Remove Filters">
             <button class="btn btn-success mx-0" type="button" onclick="applyFilters()">Apply Filters</button>
             <button class="btn btn-danger mx-0" type="button" onclick="removeFilters()">Remove Filters</button>
         </div>
+        <div class="dropdown mb-1">
+            <button class="btn btn-warning text-dark dropdown-toggle" type="button" id="browseSortButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Sort by <span class="font-weight-bold" id="sortFilter">Film</span>
+            </button>
+            <div class="dropdown-menu browse-sort-menu" aria-labelledby="browseSortButton">
+                <button class="dropdown-item browse-sort-item active" data-filter="title">Film</button>
+                {% assign sort_options = site.data.config-browse | where_exp: 'i','i.sort_name != nil' %}
+                {% for o in sort_options %}
+                {% unless o.sort_name == "Film" %}
+                <button class="dropdown-item browse-sort-item" data-filter="{{ o.field | escape }}">{{ o.sort_name }}</button>
+                {% endunless %}
+                {% endfor %}
+                <button class="dropdown-item browse-sort-item" data-filter="random">Random</button>
+            </div>
+        </div>
     </div>
 </div>
+
 <div class="row mb-3 justify-content-center text-center"><div id="numberOf"></div></div>
 
 <div id="loadingIcon" class="text-center">

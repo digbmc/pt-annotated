@@ -1,8 +1,8 @@
 color_class,color
 primary, #f6754f
 secondary, #FEFEFE
-success, #EAF57F
-info, #db43df
+success, #d0db72
+info, #CA40C0
 warning, #f8c667
 danger, #e74a75
 light, #FEFEFE

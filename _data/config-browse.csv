@@ -1,8 +1,7 @@
 field,display_name,btn,hidden,sort_name
-title,Title,,true,Timestamp
+title,Title,,true,Film
 description,Description,,true,
 subject,Subjects,,true,
-film,Film,,true,Film
 description,Description,,true,
 angle,Camera Angle,,true,Camera Angle
 distance,Camera Distance,,true,Camera Distance

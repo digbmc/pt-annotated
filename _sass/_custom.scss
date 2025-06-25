@@ -3,11 +3,17 @@
     This allows you to override any CollectionBuilder or Bootstrap CSS without modifying the base theme files directly.
 */
 
+/* ---------------------------------------------------------------------
+    Colors
+    ------
+    These should match the values in _data/config-theme-colors.csv,
+    and the Mirador theme must be manually adjusted in pages/mirador.md.
+   --------------------------------------------------------------------- */
 
 $primary: #f6754f;
 $secondary: #FEFEFE;
-$success: #EAF57F;
-$info: #db43df;
+$success: #d0db72;
+$info: #CA40C0;
 $warning: #f8c667;
 $danger: #e74a75;
 $light: #FEFEFE;
@@ -20,67 +26,9 @@ $nav-text-inactive: #ffffff8c;
 $nav-text-hover: #ffffffbf;
 $focused-glow: #f6764f58;
 
-.navbar .dropdown-menu {
-    background-color: $dark;
-    border: none;
-}
-
-.nav-item {
-     &:focus {
-        border: none;
-    }
-}
-
-
-.navbar .dropdown-menu .dropdown-item {
-    color: $nav-text-inactive;
-    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
-    
-    &.active {
-        color: $light;
-    }
-
-    &:hover {
-        background-color: $dark;
-        color: $nav-text-hover;
-    }
-
-    &:focus {
-        background-color: $dark;
-        border: none;
-    }
-}
-
-.facet-options .dropdown-menu {
-    color: $light;
-    background-color: $dark;
-}
-
-.form-check-input {
-    background-color: white;
-    border: 1px solid $dark-border;
-
-    &:checked {
-        background-color: $primary;
-        border: 1px solid $primary;
-    }
-
-    &:focus {
-        border: 1px solid $primary;
-        box-shadow: 0 0 0 .25rem $focused-glow;
-    }
-}
-
-.navbar {
-    padding: 0.5rem;
-}
-
-#title h1, #home-title-box h1, #film-title-box h2 {
-    font-family: "helvetica-lt-pro", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    text-transform: none;
-}
+/* ---------
+    General
+   --------- */
 
 body {
     background-color: black;
@@ -125,4 +73,95 @@ body {
 
 #scroll-to-top {
     color: $primary;
+}
+
+/* --------
+    Header
+   -------- */
+
+#title h1, #home-title-box h1, #film-title-box h2 {
+    font-family: "helvetica-lt-pro", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: none;
+}
+
+/* ------------
+    Navigation
+   ------------ */
+
+.navbar .dropdown-menu {
+    background-color: $dark;
+    border: none;
+}
+
+.nav-item {
+     &:focus {
+        border: none;
+    }
+}
+
+.navbar .dropdown-menu .dropdown-item {
+    color: $nav-text-inactive;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+    
+    &.active {
+        color: $light;
+    }
+
+    &:hover {
+        background-color: $dark;
+        color: $nav-text-hover;
+    }
+
+    &:focus {
+        background-color: $dark;
+        border: none;
+    }
+}
+
+.navbar {
+    padding: 0.5rem;
+}
+
+/* -----------------
+    Browse Settings
+   ----------------- */
+
+.browse-sort-menu {
+    background-color: $dark;
+}
+
+.browse-sort-item {
+    color: $light;
+    
+    &:hover {
+        background-color: $focused-glow;
+        color: $light;
+    }
+
+    &.active {
+        background-color: $primary;
+        color: $dark;
+    }
+}
+
+.facet-options .dropdown-menu {
+    color: $light;
+    background-color: $dark;
+}
+
+.form-check-input {
+    background-color: white;
+    border: 1px solid $dark-border;
+
+    &:checked {
+        background-color: $primary;
+        border: 1px solid $primary;
+    }
+
+    &:focus {
+        border: 1px solid $primary;
+        box-shadow: 0 0 0 .25rem $focused-glow;
+    }
 }
