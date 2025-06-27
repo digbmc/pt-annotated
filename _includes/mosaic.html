@@ -1,0 +1,25 @@
+{% assign this-film = site.data[site.metadata] | where: "film", include.film %}
+
+<div class="mosaic text-center">
+{% for item in this-film %}
+    <span class="mosaic-tile"><a href="{{ '/items/' | append: item.objectid | append: '.html' | relative_url }}"><img src="{{ item.image_thumb }}"></a></span>
+{% endfor %}
+</div>
+
+
+
+<style>
+    .mosaic {
+        width: 100%;
+    }
+    .mosaic-tile img {
+        width: 50px;
+        margin: 0;
+
+        transition: all .25s ease-in-out;
+
+        &:hover {
+            transform: scale(3);
+        }
+    }
+</style>
