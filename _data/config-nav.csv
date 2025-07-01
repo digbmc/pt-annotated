@@ -1,8 +1,9 @@
-display_name,stub,dropdown_parent
-Home,/,
-Films,,
-Phantom Thread,phan.html,Films
-Punch-Drunk Love,punc.html,Films
-Browse,/browse.html,
-Subjects,/subjects.html,
-About,/about.html,
+display_name,stub,dropdown_parent,font
+Home,/,,
+Films,,,
+Phantom Thread,phan.html,Films,true
+Punch-Drunk Love,punc.html,Films,true
+There Will Be Blood,twbb.html,Films,true
+Browse,/browse.html,,
+Subjects,/subjects.html,,
+About,/about.html,,

@@ -11,13 +11,13 @@
    --------------------------------------------------------------------- */
 
 $primary: #f6754f;
-$secondary: #FEFEFE;
+$secondary: #252525;
 $success: #d0db72;
 $info: #CA40C0;
 $warning: #f8c667;
 $danger: #e74a75;
 $light: #FEFEFE;
-$dark: #252525;
+$dark: #000000;
 
 $dark-border: #373B3E;
 $disabled: #5E6568;
@@ -27,15 +27,37 @@ $nav-text-hover: #ffffffbf;
 $focused-glow: #f6764f58;
 
 /* ---------
+    Fonts
+   --------- */
+
+   .font-phan {
+        font-family: "baskerville-display-pt", serif;
+        font-weight: 400;
+        font-style: italic;
+   }
+
+   .font-punc {
+        font-family: "amatic-sc", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+   }
+
+   .font-twbb {
+        font-family: "sabbath-black", serif;
+        font-weight: 400;
+        font-style: normal;
+   }
+
+/* ---------
     General
    --------- */
 
 body {
-    background-color: black;
+    background-color: $dark;
 }
 
 .card {
-    background-color: #252525;
+    background-color: $secondary;
     color: #F8F9FA;
     border: none;
 }
@@ -79,7 +101,7 @@ body {
     Header
    -------- */
 
-#title h1, #home-title-box h1, #film-title-box h2 {
+#title h1, #home-title-box h1 {
     font-family: "helvetica-lt-pro", sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -90,9 +112,20 @@ body {
     Navigation
    ------------ */
 
+.navbar {
+    padding: 0.5rem;
+    font-size: 1.25rem;
+}
+
+.navbar-nav .nav-link:first-child {
+    padding-left: 0;
+    padding-right: 1.5rem;
+}
+
 .navbar .dropdown-menu {
     background-color: $dark;
-    border: none;
+    border: 1px solid $secondary;
+    font-size: 1.25rem;
 }
 
 .nav-item {
@@ -120,16 +153,13 @@ body {
     }
 }
 
-.navbar {
-    padding: 0.5rem;
-}
-
 /* -----------------
     Browse Settings
    ----------------- */
 
 .browse-sort-menu {
     background-color: $dark;
+    border: 1px solid $secondary;
 }
 
 .browse-sort-item {
@@ -149,6 +179,7 @@ body {
 .facet-options .dropdown-menu {
     color: $light;
     background-color: $dark;
+    border: 1px solid $secondary;
 }
 
 .form-check-input {
