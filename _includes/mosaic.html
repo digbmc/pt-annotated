@@ -1,7 +1,7 @@
 {% assign this-film = site.data[site.metadata] | where: "film", include.film %}
 
 <div class="mosaic text-center">
-    {% for item in this-film %}<div class="mosaic-tile"><a href="{{ '/items/' | append: item.objectid | append: '.html' | relative_url }}"><img src="{{ item.image_thumb }}"></a></div>{% endfor %}
+    {% for item in this-film %}<div class="mosaic-tile"><a href="{{ '/items/' | append: item.objectid | append: '.html' | relative_url }}"><img src="{{ item.image_thumb }}" alt="{{ item.image_alt_text }}"></a></div>{% endfor %}
 </div>
 
 
@@ -9,22 +9,29 @@
 <style>
     .mosaic {
         width: 100%;
-        /* line-height: 10px; */
+        font-size: 10px;
     }
+
     .mosaic-tile {
         display: inline-block;
-    }
 
-    .mosaic-tile img {
-        width: 20px;
-        margin: 0;
-        padding: 0;
+        a {
 
-        transition: all .25s ease-in-out;
+            img {
+                width: 20px;
+                margin: 0;
+                padding: 0;
+                /* transition: all .25s ease-in-out; */
+            }
 
-        &:hover {
-            transform: scale(10);
-            /* width: 200px; */
+            &:hover, &:focus {
+                background-color: #f6754f;
+
+                img {
+                    transform: scale(10) translateY(-7px);
+                }
+            }
         }
     }
+    
 </style>
