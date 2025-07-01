@@ -1,7 +1,7 @@
 ---
 title: Punch-Drunk Love
 layout: film
-featured-image: /assets/img/punc-banner.jpg  #must be in /assets/img/
+featured-image: /assets/img/punc-banner.jpg  # full url or relative path
 permalink: /punc.html
 ---
 

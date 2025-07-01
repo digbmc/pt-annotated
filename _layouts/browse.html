@@ -26,7 +26,7 @@ custom-foot: js/browse-js.html
         <ul id="facets-menu" class="list-unstyled m-0 p-0">
             {% for facet in facets %}
             <li id="{{ facet.name }}-options" class="facet-options dropdown d-inline">
-                <button class="btn dropdown-toggle btn-outline-secondary mb-1" type="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-role="menu" aria-label="{{ facet.name }} filters" aria-expanded="false">{{ facet.display_name }}</button>
+                <button class="btn dropdown-toggle btn-primary mb-1" type="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-role="menu" aria-label="{{ facet.name }} filters" aria-expanded="false">{{ facet.display_name }}</button>
                 <ul class="facet-values dropdown-menu p-2">
                     {% assign values = facet.values | split: "|" %}
                     {% for value in values %}

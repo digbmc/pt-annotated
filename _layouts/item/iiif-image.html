@@ -2,13 +2,9 @@
 # basic image item layout
 # Displays image_small if available, with fall back to object_location. 
 # Adds gallery view to open images full screen using object_location, with fall back to image_small.
-layout: item/item-page-full-width
-gallery: true
+layout: item/item-page-base
+gallery: false
 ---
 
-<div class="card mb-4 text-center">
+{% include item/iiif-manifest-mirador.html %}
 
-    {% include item/iiif-manifest-mirador.html %}
-
-
-</div>

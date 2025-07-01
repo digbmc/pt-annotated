@@ -1,7 +1,7 @@
 ---
 title: Phantom Thread
 layout: film
-featured-image: #must be in /assets/img/
+featured-image: https://digitalscholarship.brynmawr.edu/pta/phan/phan-10617/tiles/full/1920,1080/0/default.jpg # full url or relative path
 permalink: /phan.html
 ---
 
