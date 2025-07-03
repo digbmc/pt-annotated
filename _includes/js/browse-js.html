@@ -153,7 +153,7 @@ var browseItemsDiv = document.querySelector("#browseItems");
 var query = "";
 if(window.location.hash) {
     var hashValue = decodeURIComponent(location.hash.substr(1));
-    if (hashValue != 'maincontent') { 
+    if (hashValue != 'maincontent' && hashValue != 'site-title') { 
         query = hashValue;
     } else {
         query = "";
@@ -181,7 +181,7 @@ function resetFilter() {
 window.addEventListener("hashchange", function() {
     // read hash
     var hashValue = decodeURIComponent(location.hash.substr(1));
-    if (hashValue != 'maincontent') { 
+    if (hashValue != 'maincontent' && hashValue != 'site-title') { 
         query = hashValue;
         filterTextBox.value = query;
         // filter
