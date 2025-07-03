@@ -23,12 +23,8 @@
             items[i].classList.remove("d-none");
             items[i].setAttribute("aria-hidden", "false");
         }
-        // update "Showing __ of __ items" message
-        if (filteredItems.length > 0) {
-            document.querySelector("#numberOf").innerHTML = "Showing " + filteredItems.length + " of {{ items | size }} items";
-        } else {
-            document.querySelector("#numberOf").innerHTML = "Showing {{ items | size }} of {{ items | size }} items";
-        }
+        
+        // console.log("Filters removed")
     }
 
     function applyFilters() {  
@@ -39,7 +35,6 @@
                 facetsClasses.push(checkboxes[i].value);
             }
         }
-        // console.log(facetsClasses);
 
         // iterate through items
         var items = document.getElementsByClassName("item");
@@ -62,8 +57,10 @@
                 itemCount++;
             }
         }
-        // update "Showing __ of __ items" message
-        document.querySelector("#numberOf").innerHTML = "Showing " + itemCount + " of {{ items | size }} items";
+        // update results message
+        document.querySelector("#numberOf").innerHTML = "Showing all " + itemCount + " results";
+
+        // console.log("Filters applied")
     }
     /* ------- End facets script ------- */
 </script>
