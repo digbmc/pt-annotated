@@ -16,7 +16,7 @@ $success: #d0db72;
 $info: #CA40C0;
 $warning: #f8c667;
 $danger: #e74a75;
-$light: #FEFEFE;
+$light: #F9F6EE;
 $dark: #000000;
 
 $dark-border: #373B3E;
@@ -57,7 +57,7 @@ body {
 }
 
 .card {
-    background-color: $secondary;
+    background-color: $dark;
     color: #F8F9FA;
     border: none;
 }
@@ -101,12 +101,21 @@ body {
     Header
    -------- */
 
+/*
 #site-title h1, #home-title-box h1 {
     font-family: "helvetica-lt-pro", sans-serif;
     font-weight: 700;
     font-style: normal;
     text-transform: none;
 }
+*/
+
+#site-title img {
+    &:hover {
+        filter: opacity(80%);
+    }
+}
+
 
 /* ------------
     Navigation
@@ -183,7 +192,7 @@ body {
 }
 
 .form-check-input {
-    background-color: white;
+    background-color: $light;
     border: 1px solid $dark-border;
 
     &:checked {
