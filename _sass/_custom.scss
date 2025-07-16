@@ -26,9 +26,9 @@ $nav-text-inactive: #ffffff8c;
 $nav-text-hover: #ffffffbf;
 $focused-glow: #f6764f58;
 
-/* ---------
+/* -------
     Fonts
-   --------- */
+   ------- */
 
    .font-phan {
         font-family: "baskerville-display-pt", serif;
@@ -54,6 +54,13 @@ $focused-glow: #f6764f58;
 
 body {
     background-color: $dark;
+    overflow-x: hidden;
+}
+
+@media only screen and (max-width: 576px) {
+    body {
+        overflow-x: hidden;
+    }
 }
 
 .card {
@@ -64,10 +71,26 @@ body {
 
 .item {
     transition: all 0.3s ease-in-out;
+
+    .card-title-container {
+        position: relative;
+        top: -50px;
+        height: 0px;
+        display: none;
+
+        a {
+            color: $light !important;
+            text-shadow: 1px 1px 3px #000000;
+        }
+    }
 }
 
 .item:hover {
-    transform: scale(1.1);
+    /* transform: scale(1.1); */
+
+    .card-title-container {
+        display: block;
+    }
 }
 
 .pagination {
@@ -203,5 +226,63 @@ body {
     &:focus {
         border: 1px solid $primary;
         box-shadow: 0 0 0 .25rem $focused-glow;
+    }
+}
+
+/* ------------------------------
+    Responsive Mirador Container
+   ------------------------------ */
+
+.mirador-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+
+    iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .mirador-container {
+        padding-top: 100%; /* 1:1 Aspect Ratio */
+    }
+}
+
+/* ----------------------
+    Mosaic Visualization
+   ---------------------- */
+
+.mosaic {
+    width: 100%;
+    font-size: 15px;
+}
+
+.mosaic-tile {
+    display: inline-block;
+
+    a {
+
+        img {
+            height: 15px;
+            margin: 0;
+            padding: 0;
+            /* transition: all .25s ease-in-out; */
+        }
+
+        &:hover, &:focus {
+            background-color: #f6754f;
+
+            img {
+                transform: scale(10) translateY(-10px);
+            }
+        }
     }
 }

@@ -1,0 +1,103 @@
+{% comment %}   Custom Gallery for PTA   {% endcomment %}
+
+{% assign sample-items = site.data[site.metadata] | sample: 160 %}
+{% assign first-60 = sample-items | slice: 0, 80 %}
+{% assign last-60 = sample-items | slice: 80, 159 %}
+
+<div class="gallery-container">
+    <div id="animated-gallery">
+        {%- for item in first-60 -%}
+        <div class="flip-item">
+            <div class="flip-item-inner">
+                <div class="flip-item-front"><img class="flip-image" src="{{ item.image_thumb }}" alt="{{ item.image_alt_text }}"></div>
+                <div class="flip-item-back"><img class="flip-image" src="{{ last-60[forloop.index0].image_thumb }}" alt="{{ last-60[forloop.index0].image_alt_text }}"></div>
+            </div>
+        </div>
+        {%- endfor -%}
+    </div>
+</div>
+
+<style>
+    .gallery-container {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    #animated-gallery {
+        line-height: 1px;
+        width: 110%;
+        max-height: 400px;
+        overflow-y: hidden;
+    }
+
+    @media only screen and (max-width: 576px) {
+        #animated-gallery {
+            max-height: 300px;
+        }
+    }
+
+    .flip-item {
+        display: inline-block;
+        height: 100px;
+        width: 100px;
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+        perspective: 1000px;
+    }
+
+    .flip-item-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        transition: transform 0.8s;
+        transform-style: preserve-3d;
+    }
+
+    /* Do a horizontal flip when the "flipped" class is applied to the flip box container (via js) */
+    .flip-item.flipped .flip-item-inner {
+        transform: rotateY(180deg);
+    }
+
+    /* Position the front and back side */
+    .flip-item-front, .flip-item-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden; /* Safari */
+        backface-visibility: hidden;
+    }
+
+    /* Style the front side (fallback if image is missing) */
+    .flip-item-front {
+        background-color: #000000;
+    }
+
+    /* Style the back side */
+    .flip-item-back {
+        background-color: #193f64;
+        transform: rotateY(180deg);
+    }
+
+    .flip-image {
+        position: absolute;
+        top: -25%;
+        left: -25%;
+        height: 169px;
+        width: 169px;
+        object-fit: cover;
+    }
+</style>
+
+<script>
+    function flipRandom() {
+        var flipItems = document.getElementsByClassName("flip-item");
+        var randomFlipItem = flipItems[Math.floor(Math.random() * flipItems.length)];
+        randomFlipItem.classList.toggle("flipped");
+    }
+
+    var flipInterval = window.setInterval(function(){
+        flipRandom();
+    }, 3000);
+
+</script>
