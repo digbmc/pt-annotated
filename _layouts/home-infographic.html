@@ -4,19 +4,16 @@ layout: page
 ---
 <div class="row justify-content-center">
 
-  <div class="col-12 col-lg-8">
+  <div class="col-12 col-md-8 my-4">
 
     <img src="{{ '/assets/img/pta-logo-bone.svg' | relative_url }}" alt="{{ site.title }}">
 
     {% include index/description.html %}
-    {% include index/carousel.html %}
     
-  </div>
-
-  <div class="col-12 col-lg-8">
+    {% comment %}
+    {% include index/carousel.html %}
+    {% endcomment %}
 
     {% include index/data-download.html %}
-
   </div>
-
 </div>

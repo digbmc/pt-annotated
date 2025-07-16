@@ -54,6 +54,13 @@ $focused-glow: #f6764f58;
 
 body {
     background-color: $dark;
+    overflow-x: hidden;
+}
+
+@media only screen and (max-width: 576px) {
+    body {
+        overflow-x: hidden;
+    }
 }
 
 .card {

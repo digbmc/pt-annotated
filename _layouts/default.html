@@ -10,6 +10,7 @@
     {% include collection-nav.html %}
     {% endunless %}
     <main id="maincontent" role="main" class="flex-shrink-0">
+      {% if page.title == "Home" %}{% include index/animated-gallery.html %}{% endif %}
       {{ content }}
     </main>
     {% unless page.permalink == "mirador.html" %}{% include footer.html %}{% endunless %}
