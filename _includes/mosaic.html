@@ -3,35 +3,3 @@
 <div class="mosaic text-center">
     {% for item in this-film %}<div class="mosaic-tile"><a href="{{ '/items/' | append: item.objectid | append: '.html' | relative_url }}"><img src="{{ item.image_thumb }}" alt="{{ item.image_alt_text }}"></a></div>{% endfor %}
 </div>
-
-
-
-<style>
-    .mosaic {
-        width: 100%;
-        font-size: 15px;
-    }
-
-    .mosaic-tile {
-        display: inline-block;
-
-        a {
-
-            img {
-                height: 15px;
-                margin: 0;
-                padding: 0;
-                /* transition: all .25s ease-in-out; */
-            }
-
-            &:hover, &:focus {
-                background-color: #f6754f;
-
-                img {
-                    transform: scale(10) translateY(-10px);
-                }
-            }
-        }
-    }
-    
-</style>
