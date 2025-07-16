@@ -102,16 +102,3 @@ permalink: mirador.html
         },
         });
 </script>
-
-<!--
-<style>
-.MuiPaper-root {
-    background-color: #000000;
-    color: #F8F9FA;
-}
-
-.mirador50, .mirador33 {
-    background-color: #212529;
-}
-</style>
--->
