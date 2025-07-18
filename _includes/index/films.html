@@ -1,5 +1,5 @@
 <div class="row">
-    {%- assign films = site.data.config-films | sort: "deployed" | reverse -%}
+    {%- assign films = site.data.config-films | sort: "deployed" -%}
     {% for film in films %}
         <div class="col-6 col-lg-4 mb-4 ">
             <div class="btn w-100 film-btn{% if film.deployed == 'false' %} disabled opacity-100" aria-disabled="true"{% else %}"{% endif %}" style="background-image: url({{ film.featured_image }});">
