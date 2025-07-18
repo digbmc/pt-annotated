@@ -30,15 +30,21 @@ $focused-glow: #f6764f58;
     Fonts
    ------- */
 
+   .font-boog {
+        font-family: "cheesecake", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+   }
+
    .font-phan {
-        font-family: "baskerville-display-pt", serif;
+        font-family: "castoro-titling", serif;
         font-weight: 400;
-        font-style: italic;
+        font-style: normal;
    }
 
    .font-punc {
         font-family: "amatic-sc", sans-serif;
-        font-weight: 400;
+        font-weight: 700;
         font-style: normal;
    }
 
@@ -71,24 +77,32 @@ body {
 
 .item {
     transition: all 0.3s ease-in-out;
+    position: relative;
 
-    .card-title-container {
-        position: relative;
-        top: -50px;
-        height: 0px;
+    .card-text-container {
+        position: absolute;
+        margin: 0;
+        // top: 50%;
+        // left: 50%;
+        bottom: .5rem;
+        width: 100%;
+        // padding: 0.5rem 0;
+        // background-color: #00000093;
+        // -ms-transform: translate(-50%, -50%);
+        // transform: translate(-50%, -50%);
         display: none;
 
-        a {
+        .card-title, .card-text {
             color: $light !important;
-            text-shadow: 1px 1px 3px #000000;
+            text-shadow: 2px 2px 2px #000000;
         }
     }
 }
 
 .item:hover {
-    /* transform: scale(1.1); */
+    transform: scale(1.1);
 
-    .card-title-container {
+    .card-text-container {
         display: block;
     }
 }
@@ -124,21 +138,11 @@ body {
     Header
    -------- */
 
-/*
-#site-title h1, #home-title-box h1 {
-    font-family: "helvetica-lt-pro", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    text-transform: none;
-}
-*/
-
 #site-title img {
     &:hover {
         filter: opacity(80%);
     }
 }
-
 
 /* ------------
     Navigation
@@ -284,5 +288,109 @@ body {
                 transform: scale(10) translateY(-10px);
             }
         }
+    }
+}
+
+/* -------------------
+    Homepage Elements
+   ------------------- */
+
+#home-title {
+    h2 {
+        margin: 0;
+    }
+
+    .full-logo {
+        display: block;
+    }
+
+    .narrow-logo {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #home-title .full-logo {
+        display: none;
+    }
+
+    #home-title .narrow-logo {
+        display: block;
+    }
+}
+
+.film-btn {
+    position: relative;
+    height: 250px;
+    padding: 0;
+    background-size: 736px 414px;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: $light;
+    text-shadow: 2px 2px 2px #000000;;
+    background-color: $secondary;
+    border: none;
+    transition: all .2s ease-in-out;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+
+    &.disabled:hover {
+        transform: none;
+    }
+
+    a {
+        color: $light;
+        margin: 0;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+
+        &:hover {
+            color: $light;
+        }
+
+        &:focus {
+            box-shadow: 0 0 0 .25rem $focused-glow;
+        }
+
+    }
+
+    h2 {
+        margin: 0;
+        position: absolute;
+        font-size: 2.5rem;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+}
+
+.coming-soon-overlay {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: 0px;
+    background-color: #00000096;
+    text-align: center;
+    overflow: hidden;
+
+    .coming-soon-message {
+        font-size: 1.5rem;
+        background-color: $primary;
+        color: $dark;
+        text-shadow: none;
+        position: relative;
+        width: 150%;
+        top: 40%;
+        left: -25%;
+        padding: 0;
+        rotate: -30deg;
     }
 }

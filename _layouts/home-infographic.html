@@ -6,9 +6,11 @@ layout: page
 
   <div class="col-12 col-md-8 my-4">
 
-    <img src="{{ '/assets/img/pta-logo-bone.svg' | relative_url }}" alt="{{ site.title }}">
+    <div id="home-title"><h2 class="d-none">{{ site.title }}</h2><img src="{{ '/assets/img/pta-logo-bone.svg' | relative_url }}" alt="" class="full-logo"><img src="{{ '/assets/img/pta-logo-narrow-bone.svg' | relative_url }}" alt="" class="narrow-logo"></div>
 
     {% include index/description.html %}
+
+    {% include index/films.html %}
     
     {% comment %}
     {% include index/carousel.html %}

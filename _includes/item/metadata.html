@@ -19,7 +19,7 @@
             <a href="{{ page[f.field] }}">{{ page[f.field] }}</a>
             {% elsif f.field == "film" %}
             {% assign this-film = site.data.config-films | where: 'full_name', page[f.field] | first %}
-            <a href="{{ this-film.code | downcase | append: '.html' | relative_url }}">{{ page[f.field] }}</a>
+            <a href="{{ this-film.full_name | slugify | append: '.html' | relative_url }}">{{ page[f.field] }}</a>
             {% else %}
             {{ page[f.field] | replace: '""','"' }}{% endif %}
         </dd>
