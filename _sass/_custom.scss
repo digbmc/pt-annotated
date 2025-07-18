@@ -71,24 +71,32 @@ body {
 
 .item {
     transition: all 0.3s ease-in-out;
+    position: relative;
 
-    .card-title-container {
-        position: relative;
-        top: -50px;
-        height: 0px;
+    .card-text-container {
+        position: absolute;
+        margin: 0;
+        // top: 50%;
+        // left: 50%;
+        bottom: .5rem;
+        width: 100%;
+        // padding: 0.5rem 0;
+        // background-color: #00000093;
+        // -ms-transform: translate(-50%, -50%);
+        // transform: translate(-50%, -50%);
         display: none;
 
-        a {
+        .card-title, .card-text {
             color: $light !important;
-            text-shadow: 1px 1px 3px #000000;
+            text-shadow: 2px 2px 2px #000000;
         }
     }
 }
 
 .item:hover {
-    /* transform: scale(1.1); */
+    transform: scale(1.1);
 
-    .card-title-container {
+    .card-text-container {
         display: block;
     }
 }
