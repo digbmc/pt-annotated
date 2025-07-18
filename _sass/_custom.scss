@@ -132,21 +132,11 @@ body {
     Header
    -------- */
 
-/*
-#site-title h1, #home-title-box h1 {
-    font-family: "helvetica-lt-pro", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    text-transform: none;
-}
-*/
-
 #site-title img {
     &:hover {
         filter: opacity(80%);
     }
 }
-
 
 /* ------------
     Navigation
@@ -298,6 +288,30 @@ body {
 /* -------------------
     Homepage Elements
    ------------------- */
+
+#home-title {
+    h2 {
+        margin: 0;
+    }
+
+    .full-logo {
+        display: block;
+    }
+
+    .narrow-logo {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #home-title .full-logo {
+        display: none;
+    }
+
+    #home-title .narrow-logo {
+        display: block;
+    }
+}
 
 .film-btn {
     position: relative;
