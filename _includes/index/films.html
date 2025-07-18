@@ -1,0 +1,11 @@
+<div class="row">
+    {%- assign films = site.data.config-films | sort: "deployed" | reverse -%}
+    {% for film in films %}
+        <div class="col-6 col-lg-4 mb-4 ">
+            <div class="btn w-100 film-btn{% if film.deployed == 'false' %} disabled opacity-100" aria-disabled="true"{% else %}"{% endif %}" style="background-image: url({{ film.featured_image }});">
+            <a href="{% if film.deployed == 'false' %}#{% else %}{{ film.full_name | slugify | append: '.html' | relative_url }}{% endif %}"><h2 class="font-{{ film.code | slugify }}">{{ film.full_name }}</h2></a>
+            {% if film.deployed == 'false' %}<div class="coming-soon-overlay"><div class="coming-soon-message">Coming soon!</div></div>{% endif %}
+            </div>
+        </div>
+    {% endfor %}
+</div>

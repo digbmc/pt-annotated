@@ -4,13 +4,13 @@
 {% assign first-half = sample-items | slice: 0, 80 %}
 {% assign last-half = sample-items | slice: 80, 159 %}
 
-<div class="gallery-container">
+<div class="gallery-container" aria-hidden="true">
     <div id="animated-gallery">
         {%- for item in first-half -%}
         <div class="flip-item">
             <div class="flip-item-inner">
-                <div class="flip-item-front"><img class="flip-image" src="{{ item.image_thumb }}" alt="{{ item.image_alt_text }}"></div>
-                <div class="flip-item-back"><img class="flip-image" src="{{ last-half[forloop.index0].image_thumb }}" alt="{{ last-half[forloop.index0].image_alt_text }}"></div>
+                <div class="flip-item-front" style="background-image: url('{{ item.image_thumb }}');"></div>
+                <div class="flip-item-back" style="background-image: url('{{ last-half[forloop.index0].image_thumb }}');"></div>
             </div>
         </div>
         {%- endfor -%}
@@ -58,6 +58,7 @@
         position: absolute;
         width: 100%;
         height: 100%;
+        background-position: center;
         -webkit-backface-visibility: hidden; /* Safari */
         backface-visibility: hidden;
     }
@@ -71,15 +72,6 @@
     .flip-item-back {
         background-color: #193f64;
         transform: rotateY(180deg);
-    }
-
-    .flip-image {
-        position: absolute;
-        top: -25%;
-        left: -25%;
-        height: 169px;
-        width: 169px;
-        object-fit: cover;
     }
 </style>
 

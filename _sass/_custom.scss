@@ -31,14 +31,14 @@ $focused-glow: #f6764f58;
    ------- */
 
    .font-phan {
-        font-family: "baskerville-display-pt", serif;
+        font-family: "castoro-titling", serif;
         font-weight: 400;
-        font-style: italic;
+        font-style: normal;
    }
 
    .font-punc {
         font-family: "amatic-sc", sans-serif;
-        font-weight: 400;
+        font-weight: 700;
         font-style: normal;
    }
 
@@ -284,5 +284,85 @@ body {
                 transform: scale(10) translateY(-10px);
             }
         }
+    }
+}
+
+/* -------------------
+    Homepage Elements
+   ------------------- */
+
+.film-btn {
+    position: relative;
+    height: 250px;
+    padding: 0;
+    background-size: 736px 414px;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: $light;
+    text-shadow: 2px 2px 2px #000000;;
+    background-color: $secondary;
+    border: none;
+    transition: all .2s ease-in-out;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+
+    &.disabled:hover {
+        transform: none;
+    }
+
+    a {
+        color: $light;
+        margin: 0;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+
+        &:hover {
+            color: $light;
+        }
+
+        &:focus {
+            box-shadow: 0 0 0 .25rem $focused-glow;
+        }
+
+    }
+
+    h2 {
+        margin: 0;
+        position: absolute;
+        font-size: 2.5rem;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+}
+
+.coming-soon-overlay {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: 0px;
+    background-color: #00000096;
+    text-align: center;
+    overflow: hidden;
+
+    .coming-soon-message {
+        font-size: 1.5rem;
+        background-color: $primary;
+        color: $dark;
+        text-shadow: none;
+        position: relative;
+        width: 150%;
+        top: 40%;
+        left: -25%;
+        padding: 0;
+        rotate: -30deg;
     }
 }
