@@ -4,7 +4,7 @@
 {% assign first-half = sample-items | slice: 0, 80 %}
 {% assign last-half = sample-items | slice: 80, 159 %}
 
-<div class="gallery-container" aria-hidden="true">
+<div class="gallery-container">
     <div id="animated-gallery">
         {%- for item in first-half -%}
         <div class="flip-item">
@@ -15,12 +15,21 @@
         </div>
         {%- endfor -%}
     </div>
+    <button id="gallery-animation-control" class="btn btn-secondary m-1 playing" data-action="stop" onclick="toggleAnimation('gallery-animation-control')"><span class="visually-hidden">Stop Animation </span>￭</button>
 </div>
-
 <style>
     .gallery-container {
+        position: relative;
         width: 100%;
         overflow-x: hidden;
+    }
+
+    #gallery-animation-control {
+        height: 2.5rem;
+        width: 2.5rem;
+        position: absolute;
+        bottom: 0;
+        right: 0;
     }
 
     #animated-gallery {
@@ -85,5 +94,26 @@
     var flipInterval = window.setInterval(function(){
         flipRandom();
     }, 3000);
+
+    function toggleAnimation(target) {
+        var toggle = document.getElementById(target);
+        
+        if (toggle.classList.contains("playing")) {
+            // set flip interval to 0 to stop animation
+            clearInterval(flipInterval);
+            // update data-action and inner HTML of button
+            toggle.setAttribute('data-action', 'start');
+            toggle.innerHTML = '<span class="visually-hidden">Start Animation </span>▶';
+        } else {
+            // set flip interval to 3000 to start animation
+            flipInterval = window.setInterval(function(){
+                flipRandom();
+            }, 3000);
+            // update data-action and inner HTML of button
+            toggle.setAttribute('data-action', 'stop');
+            toggle.innerHTML = '<span class="visually-hidden">Stop Animation </span>￭';
+        }
+        toggle.classList.toggle("playing");
+    }
 
 </script>

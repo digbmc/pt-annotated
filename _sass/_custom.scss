@@ -134,6 +134,25 @@ body {
     color: $primary;
 }
 
+.darkened-overlay {
+    height: 100%;
+    width: 100%;
+    background-color: $dark;
+    opacity: .5;
+}
+
+/* Accessibility Utility */
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
 /* --------
     Header
    -------- */
@@ -319,7 +338,7 @@ body {
     }
 }
 
-.film-btn {
+.image-btn {
     position: relative;
     height: 250px;
     padding: 0;
@@ -369,6 +388,12 @@ body {
         left: 50%;
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .image-btn {
+        height: 200px;
     }
 }
 
