@@ -56,6 +56,14 @@ organization-link: "https://digitalscholarship.blogs.brynmawr.edu/"
 # organization-logo-nav:
 
 ##########
+# Essays Collection for PTA
+#
+collections:
+  essays:
+    output: true
+
+
+##########
 # ROBOTS EXCLUDE
 #
 # set noindex to true if you do NOT want Google to index your site
