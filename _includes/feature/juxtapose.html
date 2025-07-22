@@ -31,12 +31,14 @@
     {%- capture image_src2 -%}{{ figure.image_small | default: figure.object_location | relative_url }}{% endcapture %}
 {% endif %}
 
-<div class="row my-4">
-    <div class="juxtapose mb-2 w-100">
-        <img src="{{ image_src1 }}"{% if include.label1 %} data-label="{{ include.label1 }}"{% endif %}{% if include.credit1 %} data-credit="{{ include.credit1 }}"{% endif %}/>
-        <img src="{{ image_src2 }}"{% if include.label1 %} data-label="{{ include.label2 }}"{% endif %}{% if include.credit1 %} data-credit="{{ include.credit2 }}"{% endif %}/>
+<div class="row justify-content-center my-4">
+    <div class="{% if include.width %}feature-w-{{ include.width }}{% endif %}">
+        <div class="juxtapose mb-2 w-100">
+            <img src="{{ image_src1 }}"{% if include.label1 %} data-label="{{ include.label1 }}"{% endif %}{% if include.credit1 %} data-credit="{{ include.credit1 }}"{% endif %}/>
+            <img src="{{ image_src2 }}"{% if include.label1 %} data-label="{{ include.label2 }}"{% endif %}{% if include.credit1 %} data-credit="{{ include.credit2 }}"{% endif %}/>
+        </div>
+        {% if include.caption %}<figcaption class="figure-caption text-center">{{ include.caption }}</figcaption>{% endif %}
     </div>
-    {% if include.caption %}<figcaption class="figure-caption text-center">{{ include.caption }}</figcaption>{% endif %}
 </div>
 <script src="https://cdn.knightlab.com/libs/juxtapose/latest/js/juxtapose.min.js"></script>
 <link rel="stylesheet" href="https://cdn.knightlab.com/libs/juxtapose/latest/css/juxtapose.css">
