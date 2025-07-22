@@ -1,0 +1,41 @@
+{% comment %}
+
+    Embed a KnightLab Juxtapose figure.
+
+    It requires an "objectid" with the include, which is used to find the object title and image (for collection items). If multiple collection objectids are included (separated by ; ), they will be added to a "col-md" in a row which will automatically divided equally. 
+    Alternatively, a URL to an external image can be used in "objectid".
+
+    E.G. --> {% include feature/juxtapose.html figure1="punc-05359" figure2="punc-10639" %}
+
+    Options: 
+    - "figure1" and "figure2" = two options below (required)
+        1. an objectid from this collection or full URLs
+        2. a full URL to an external image file, e.g. "https://www.lib.uidaho.edu/digital/images/fluffyclouds.jpg"
+    - "label1" and "label2" = labels for both images, separated by a semicolon (optional)
+    - "credit1" and "credit2" = credits for both images, separated by a semicolon (optional)
+    - "caption" = will appear below the figure (optional)
+    - "width" = will use responsive sizing to set the % size on desktop (will be 100% on mobile), choose from "25", "50", "75", or "100" (optional)  
+{%- endcomment -%}
+
+{% if include.figure1 contains "/" %}
+    {%- capture image_src1 -%}{{ include.figure1 | relative_url }}{%- endcapture -%}
+{% else %}
+    {%- assign figure = site.data[site.metadata] | where: "objectid", include.figure1 | first -%}
+    {%- capture image_src1 -%}{{ figure.image_small | default: figure.object_location | relative_url }}{% endcapture %}
+{% endif %}
+{% if include.figure2 contains "/" %}
+    {%- capture image_src2 -%}{{ include.figure2 | relative_url }}{%- endcapture -%}
+{% else %}
+    {%- assign figure = site.data[site.metadata] | where: "objectid", include.figure2 | first -%}
+    {%- capture image_src2 -%}{{ figure.image_small | default: figure.object_location | relative_url }}{% endcapture %}
+{% endif %}
+
+<div class="row my-4">
+    <div class="juxtapose mb-2 w-100">
+        <img src="{{ image_src1 }}"{% if include.label1 %} data-label="{{ include.label1 }}"{% endif %}{% if include.credit1 %} data-credit="{{ include.credit1 }}"{% endif %}/>
+        <img src="{{ image_src2 }}"{% if include.label1 %} data-label="{{ include.label2 }}"{% endif %}{% if include.credit1 %} data-credit="{{ include.credit2 }}"{% endif %}/>
+    </div>
+    {% if include.caption %}<figcaption class="figure-caption text-center">{{ include.caption }}</figcaption>{% endif %}
+</div>
+<script src="https://cdn.knightlab.com/libs/juxtapose/latest/js/juxtapose.min.js"></script>
+<link rel="stylesheet" href="https://cdn.knightlab.com/libs/juxtapose/latest/css/juxtapose.css">
