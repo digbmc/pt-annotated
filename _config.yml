@@ -56,12 +56,26 @@ organization-link: "https://digitalscholarship.blogs.brynmawr.edu/"
 # organization-logo-nav:
 
 ##########
-# Essays Collection for PTA
-#
+# Films and Essays Collections for PTA
+# 
 collections:
+  films:
+    output: true
+    permalink: /:name
   essays:
     output: true
-
+# Set defaults for layouts
+defaults:
+  - scope:
+      path: ""
+      type: "films"
+    values:
+      layout: "film"
+  - scope:
+      path: ""
+      type: "essays"
+    values:
+      layout: "essay"
 
 ##########
 # ROBOTS EXCLUDE

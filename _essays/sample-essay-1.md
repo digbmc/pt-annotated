@@ -1,5 +1,4 @@
 ---
-layout: essay
 title: Sample Essay 1
 author:
 featured_image: punc-01347
