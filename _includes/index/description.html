@@ -11,10 +11,8 @@
     - "heading_level" = customize the level of the heading if necessary for accessibility, choose "h1", "h2", "h3", etc (optional, default "h2")
 
 {%- endcomment -%}
-<div class="my-3">
+<div class="mt-4 mb-5">
     <div>
-        <p>{{ site.description }}</p>
-        {%- assign about = site.data.config-nav | where: "stub","/about.html" | size -%}{% if about > 0 %}
-        <a class="btn btn-{{ include.btn-color | default: 'primary' }}" href="{{ '/about.html' | relative_url }}" >Learn More &raquo;</a>{% endif %}
+        <p>{{ site.description }} <a href="{{ '/about.html' | relative_url }}">Learn More &raquo;</a></p>
     </div>
 </div>

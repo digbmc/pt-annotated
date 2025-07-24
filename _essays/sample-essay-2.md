@@ -1,5 +1,4 @@
 ---
-layout: essay
 title: Sample Essay 2
 author: Cameron Boucher
 featured_image: phan-11125

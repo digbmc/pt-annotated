@@ -18,8 +18,8 @@
             {% elsif f.external_link == "true" %}
             <a href="{{ page[f.field] }}">{{ page[f.field] }}</a>
             {% elsif f.field == "film" %}
-            {% assign this-film = site.data.config-films | where: 'full_name', page[f.field] | first %}
-            <a href="{{ this-film.full_name | slugify | append: '.html' | relative_url }}">{{ page[f.field] }}</a>
+            {% assign this-film = site.films | where: 'title', page[f.field] | first %}
+            <a href="{{ this-film.title | slugify | append: '.html' | relative_url }}">{{ page[f.field] }}</a>
             {% else %}
             {{ page[f.field] | replace: '""','"' }}{% endif %}
         </dd>
