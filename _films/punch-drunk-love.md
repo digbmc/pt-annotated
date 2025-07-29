@@ -2,10 +2,10 @@
 title: Punch-Drunk Love
 code: PUNC
 thumbnail-image: https://digitalscholarship.brynmawr.edu/pta/punc/punc-12723/tiles/full/1920,1080/0/default.jpg # full url or relative path to the image for the card on the home page
-featured-image: /assets/img/punc-banner.jpg  # full url or relative path to the image for the top of the film page
+featured-image: https://digitalscholarship.brynmawr.edu/pta/punc/punc-10716/tiles/full/1920,1080/0/default.jpg # full url or relative path to the image for the top of the film page
 deployed: true
 ---
 
-This page is about *Punch-Drunk Love*. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis elit at augue ornare interdum vitae pretium enim. Curabitur feugiat, neque quis tristique dignissim, nibh augue molestie odio, in placerat massa risus a lacus. In mi ante, aliquam volutpat lacinia vitae, lacinia et elit. Phasellus sed consequat turpis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed vel consectetur felis. Nullam non facilisis mauris. Donec ut consectetur metus. Pellentesque gravida enim quam, ut lacinia est commodo vel. Etiam eleifend sodales mi, vehicula vulputate tortor tincidunt eget. Aliquam lobortis aliquam placerat. Mauris facilisis arcu convallis magna bibendum posuere. Fusce commodo nisi risus, vel ullamcorper augue porta a. Phasellus feugiat mi lacus, non sollicitudin ex ultricies nec.
+*Punch-Drunk Love* (2002), PTA’s first romantic comedy, combines familial conflict, unexpected elements from mid-century Technicolor musicals, the true story of a man’s quest to gain over a million airline miles by bulk-buying pudding, and a plotline involving a phone sex line scam.
 
-Cras convallis dignissim diam. Phasellus eu lorem imperdiet, vulputate ligula a, efficitur lorem. Nullam et leo luctus, tristique mauris id, elementum urna. Vestibulum vulputate enim non ligula consequat, at ornare dolor interdum. Cras dolor sapien, sollicitudin non tincidunt non, facilisis nec justo. Sed convallis est eros, vel condimentum nunc imperdiet ac. Nulla a nunc nisi. Aliquam molestie suscipit libero quis commodo. Pellentesque efficitur auctor elit, nec rutrum nibh ultricies ac. Donec a augue et justo consectetur tempor.
+Barry Egan (Adam Sandler) is a lonely, socially awkward small business owner who leads a careful, simple existence. Between managing his plunger enterprise and meekly accepting his seven sisters’ verbal abuse, he retreats into the margins of his life and, often, the camera’s frame. He meets the enigmatic Lena Leonard (Emily Watson) when she drops off her car for repair at the mechanic next to Barry’s warehouse in Los Angeles’s San Fernando Valley. If it’s not love at first sight, it’s something very close.
