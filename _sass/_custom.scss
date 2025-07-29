@@ -36,6 +36,12 @@ $focused-glow: #f6764f58;
         font-style: normal;
    }
 
+   .font-lico {
+        font-family: "lint-mccree", sans-serif;
+        font-weight: 700;
+        font-style: italic;
+   }
+
    .font-phan {
         font-family: "castoro-titling", serif;
         font-weight: 400;
@@ -195,6 +201,7 @@ body {
     
     &.active {
         color: $light;
+        background-color: $secondary;
     }
 
     &:hover {

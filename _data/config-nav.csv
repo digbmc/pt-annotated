@@ -1,9 +1,7 @@
-display_name,stub,dropdown_parent,font
-Home,/,,
-Films,,,
-Phantom Thread,phantom-thread.html,Films,true
-Punch-Drunk Love,punch-drunk-love.html,Films,true
-Essays,/essays.html,,
-Browse,/browse.html,,
-Subjects,/subjects.html,,
-About,/about.html,,
+display_name,stub,dropdown_parent
+Home,/,
+Films,,
+Essays,/essays.html,
+Browse,/browse.html,
+Subjects,/subjects.html,
+About,/about.html,
