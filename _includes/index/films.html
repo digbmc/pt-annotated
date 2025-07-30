@@ -5,6 +5,7 @@
     {% for film in films %}
         <div class="col-6 col-lg-4 mb-4 ">
             <div class="btn text-wrap w-100 image-btn{% if film.deployed == false %} disabled opacity-100" aria-disabled="true"{% else %}"{% endif %}" style="background-image: url({{ film.thumbnail-image }});">
+                <div class="darkened-overlay"></div>
                 <a href="{% if film.deployed == false %}#{% else %}{{ film.url | append: '.html' | relative_url }}{% endif %}"><h2 class="w-100 fs-2 p-1 font-{{ film.code | slugify }}">{{ film.title }}</h2></a>
                 {% if film.deployed == false %}<div class="coming-soon-overlay"><div class="coming-soon-message">Coming soon!</div></div>{% endif %}
             </div>
