@@ -156,7 +156,7 @@ body {
     height: 100%;
     width: 100%;
     background-color: $dark;
-    opacity: .5;
+    opacity: .15;
 }
 
 /* Accessibility Utility */
@@ -365,7 +365,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     color: $light;
-    text-shadow: 2px 2px 2px #000000;;
+    text-shadow: 2px 2px 2px $dark;
     background-color: $secondary;
     border: none;
     transition: all .2s ease-in-out;
@@ -419,9 +419,9 @@ body {
 .coming-soon-overlay {
     height: 100%;
     width: 100%;
-    position: relative;
+    position: absolute;
     top: 0px;
-    background-color: #00000096;
+    background-color: #0000005e;
     text-align: center;
     overflow: hidden;
 
@@ -430,7 +430,7 @@ body {
         background-color: $primary;
         color: $dark;
         text-shadow: none;
-        position: relative;
+        position: absolute;
         width: 150%;
         top: 40%;
         left: -25%;
