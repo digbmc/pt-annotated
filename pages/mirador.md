@@ -3,13 +3,8 @@ layout: default
 permalink: mirador.html
 ---
 
-<!-- Include the CJS version from a CDN or from a local web server -->
+<!-- Include the CJS version from a CDN or from a local web server, pinned to Mirador v3 -->
 <script src="https://unpkg.com/mirador@^3/dist/mirador.min.js"></script>
-<!--
-  N.B.: The above line will always use the latest version. If a new major version is released,
-  your Mirador instance might break. Consider pinning it to a specific major version:
-  <script src="https://unpkg.com/mirador@^3/dist/mirador.min.js"></script>
--->
 <!-- By default uses Roboto font. Be sure to load this or change the font -->
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500">
 <!-- Container element of Mirador whose id should be passed to the instantiating call as "id" -->
