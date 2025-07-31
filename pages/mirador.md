@@ -24,41 +24,38 @@ permalink: mirador.html
         "selectedTheme": 'pta',
         themes: {
             pta:{
-            palette: {
-                type: 'dark',
-                primary: {
-                    main: '#f6754f',
-                    dark: '#f6754f',
-                },
-                secondary: {
-                    main: '#7fff00',
-                },
-                shades: {
-                    dark: '#000000',
-                    main: '#252525',
-                    light: '#252525',     
-                },
-            },
-            typography:{
-                fontFamily: ['Helvetica'],
-            },
+                palette: {
+                    type: 'dark',
+                    primary: {
+                        main: '#f6754f',
+                        dark: '#f6754f',
+                    },
+                    secondary: {
+                        main: '#f8c667',
+                    },
+                    shades: {
+                        dark: '#000000',
+                        main: '#252525',
+                        light: '#252525',     
+                    }
+                }
             },
             dark: {
-            palette: {
-                type: 'dark',
-                primary: {
-                main: '#ba55d3',
-                },
-            },
+                palette: {
+                    type: 'dark',
+                    primary: {
+                    main: '#ba55d3',
+                    }
+                }
             },
             light: {
-            palette: {
-                type: 'light',
-                primary: {
-                main: '#ba55d3 ',
-                },
-            },
-            },
+                palette: {
+                    type: 'light',
+                    primary: {
+                    main: '#ba55d3 ',
+                    }
+                }
+            }
         },
         "manifests": {
             "https://digbmc.github.io/pta-manifests/index.json": {
@@ -80,7 +77,7 @@ permalink: mirador.html
             hideWindowTitle: true, // Configure if the window title is shown in the window title bar or not
             defaultSideBarPanel: 'annotations',
             sideBarOpenByDefault: true,
-            defaultSidebarPanelWidth: 250, // Configure default sidebar width in pixels
+            defaultSidebarPanelWidth: 200, // Configure default sidebar width in pixels
             highlightAllAnnotations: true,
             panels: { // Configure which panels are visible in WindowSideBarButtons
                 info: false,
