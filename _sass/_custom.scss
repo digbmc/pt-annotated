@@ -3,6 +3,10 @@
     This allows you to override any CollectionBuilder or Bootstrap CSS without modifying the base theme files directly.
 */
 
+/* -----------------------------------------
+    Custom styles for Paul Thomas Annotated
+   ----------------------------------------- */
+
 /* ---------------------------------------------------------------------
     Colors
     ------
@@ -97,9 +101,20 @@ $focused-glow: #f6764f58;
         font-style: normal;
    }
 
-/* ---------
-    General
-   --------- */
+/* Accessibility Utility */
+    .visually-hidden {
+        clip: rect(0 0 0 0);
+        clip-path: inset(50%);
+        height: 1px;
+        overflow: hidden;
+        position: absolute;
+        white-space: nowrap;
+        width: 1px;
+    }
+
+/* --------------------------------
+    General Overrides and Utilities
+   -------------------------------- */
 
 body {
     background-color: $dark;
@@ -184,18 +199,6 @@ body {
     opacity: .15;
 }
 
-/* Accessibility Utility */
-
-.visually-hidden {
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  height: 1px;
-  overflow: hidden;
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-}
-
 /* --------
     Header
    -------- */
@@ -249,108 +252,6 @@ body {
     &:focus {
         background-color: $dark;
         border: none;
-    }
-}
-
-/* -----------------
-    Browse Settings
-   ----------------- */
-
-.browse-sort-menu {
-    background-color: $dark;
-    border: 1px solid $secondary;
-}
-
-.browse-sort-item {
-    color: $light;
-    
-    &:hover {
-        background-color: $focused-glow;
-        color: $light;
-    }
-
-    &.active {
-        background-color: $primary;
-        color: $dark;
-    }
-}
-
-.facet-options .dropdown-menu {
-    color: $light;
-    background-color: $dark;
-    border: 1px solid $secondary;
-}
-
-.form-check-input {
-    background-color: $light;
-    border: 1px solid $dark-border;
-
-    &:checked {
-        background-color: $primary;
-        border: 1px solid $primary;
-    }
-
-    &:focus {
-        border: 1px solid $primary;
-        box-shadow: 0 0 0 .25rem $focused-glow;
-    }
-}
-
-/* ------------------------------
-    Responsive Mirador Container
-   ------------------------------ */
-
-.mirador-container {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
-
-    iframe {
-        position: absolute;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
-        width: 100%;
-        height: 100%;
-    }
-}
-
-@media only screen and (max-width: 576px) {
-    .mirador-container {
-        padding-top: 100%; /* 1:1 Aspect Ratio */
-    }
-}
-
-/* ----------------------
-    Mosaic Visualization
-   ---------------------- */
-
-.mosaic {
-    width: 100%;
-    font-size: 15px;
-}
-
-.mosaic-item {
-    display: inline-block;
-
-    a {
-
-        img {
-            height: 15px;
-            margin: 0;
-            padding: 0;
-            /* transition: all .25s ease-in-out; */
-        }
-
-        &:hover, &:focus {
-            background-color: #f6754f;
-
-            img {
-                transform: scale(10) translateY(-10px);
-            }
-        }
     }
 }
 
@@ -461,5 +362,129 @@ body {
         left: -25%;
         padding: 0;
         rotate: -30deg;
+    }
+}
+
+/* --------------------
+    Film Page Elements
+   -------------------- */
+
+#film-banner {
+    width: 100%;
+    overflow-x: clip;
+
+    img {
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #film-banner img {
+        height: 300px;
+    }
+}
+
+
+/* ----------------------
+    Mosaic Visualization
+   ---------------------- */
+
+.mosaic {
+    width: 100%;
+    font-size: 15px;
+}
+
+.mosaic-item {
+    display: inline-block;
+
+    a {
+
+        img {
+            height: 15px;
+            margin: 0;
+            padding: 0;
+            /* transition: all .25s ease-in-out; */
+        }
+
+        &:hover, &:focus {
+            background-color: #f6754f;
+
+            img {
+                transform: scale(10) translateY(-10px);
+            }
+        }
+    }
+}
+
+/* -----------------
+    Browse Settings
+   ----------------- */
+
+.browse-sort-menu {
+    background-color: $dark;
+    border: 1px solid $secondary;
+}
+
+.browse-sort-item {
+    color: $light;
+    
+    &:hover {
+        background-color: $focused-glow;
+        color: $light;
+    }
+
+    &.active {
+        background-color: $primary;
+        color: $dark;
+    }
+}
+
+.facet-options .dropdown-menu {
+    color: $light;
+    background-color: $dark;
+    border: 1px solid $secondary;
+}
+
+.form-check-input {
+    background-color: $light;
+    border: 1px solid $dark-border;
+
+    &:checked {
+        background-color: $primary;
+        border: 1px solid $primary;
+    }
+
+    &:focus {
+        border: 1px solid $primary;
+        box-shadow: 0 0 0 .25rem $focused-glow;
+    }
+}
+
+/* ------------------------------
+    Responsive Mirador Container
+   ------------------------------ */
+
+.mirador-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+
+    iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .mirador-container {
+        padding-top: 100%; /* 1:1 Aspect Ratio */
     }
 }
