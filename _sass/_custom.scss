@@ -462,6 +462,16 @@ body {
     }
 }
 
+.info-button {
+    height: 2rem;
+    width: 2rem;
+    line-height: 0;
+    transform: scale(.75);
+    position: relative;
+    top: -2px;
+    font-weight: 700;
+}
+
 /* ------------------------------
     Responsive Mirador Container
    ------------------------------ */
