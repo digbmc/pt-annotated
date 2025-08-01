@@ -2,36 +2,14 @@
 # film page layout
 layout: default
 ---
-<style>
-#film-banner {
-    background-image: url('{% assign check-path = page.featured-image | slice: 0 %}{% if check-path == "/" %}{{ page.featured-image | relative_url }}{% else %}{{ page.featured-image }}{% endif %}');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: {{ site.data.theme.home-banner-image-position | default: 'center' }};
-    width: 100%;
-    overflow-x: clip;
-}
-#film-title-box {
-    padding-top: {{ site.data.theme.home-title-y-padding | default: '5em' }};
-    padding-bottom: {{ site.data.theme.home-title-y-padding | default: '5em' }};
-}
-@media screen and (max-width: 576px) {
-    #film-title-box {
-        max-height: 500px;
-    }
-}
-</style>
 <div class="row justify-content-center">
     <div id="film-banner" class="container-fluid mb-0 p-0 col-12">
-        <div id="film-title-box" class="position-relative" >
-            <div class="p-2 text-center text-light bg-black bg-opacity-75">
-                <h2 class="display-4 text-light font-{{ page.name | slice: 0, 4 }}">{{ page.title }}</h2>
-            </div>
-        </div>
+        <img src="{{ page.featured-image | relative_url }}" alt="{{ page.featured-image-alt }}">
     </div>
 </div>
 <div class="row justify-content-center my-4">
     <div class="col-10 col-md-8">
+        <h2 class="display-4 text-center font-{{ page.code | downcase }}">{{ page.title }}</h2>
         {{ content }}
     </div>
 </div>

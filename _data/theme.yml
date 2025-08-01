@@ -60,9 +60,9 @@ year-nav-increment: 5 # set increments to auto gen nav years
 # 
 # add metadata fields for export in data downloads (tip: paste in first row of csv)
 # comma delimited list, reference url is automatic
-metadata-export-fields: "title,film,creator,source,date,description,subject,angle,distance,location,movement,lighting,composition,duration,identifier,type,format,language,rights,rightsstatement"
+metadata-export-fields: "title,film,creator,source,date,description,subject,angle,distance,location,movement,lighting,composition,duration,themes,identifier,type,format,language,rights,rightsstatement"
 # generate a facets list for given fields, comma delimited
-metadata-facets-fields: "subject,angle,distance,location,movement,lighting,composition,duration"
+metadata-facets-fields: "subject,angle,distance,location,movement,lighting,composition,duration,themes"
 
 ##########
 # Compound Objects 

@@ -3,6 +3,7 @@ title: Phantom Thread
 code: PHAN
 thumbnail-image: https://digitalscholarship.brynmawr.edu/pta/phan/phan-04026/tiles/full/1920,1080/0/default.jpg # full url or relative path to the image for the card on the home page
 featured-image: https://digitalscholarship.brynmawr.edu/pta/phan/phan-04026/tiles/full/1920,1080/0/default.jpg # full url or relative path to the image for the top of the film page
+featured-image-alt: A man in a suit stands in a doorway, gazing at a woman who wears a pale purple gown and is facing away from the camera. # alt text for the banner image on the film page
 deployed: true
 ---
 
