@@ -36,6 +36,18 @@ $focused-glow: #f6764f58;
         font-style: normal;
    }
 
+   .font-hard {
+        /*
+        font-family: "bebas-neue-by-fontfabric", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        */
+        font-family: "courier-prime", monospace;
+        font-weight: 400;
+        font-style: italic;
+        text-transform: uppercase;
+   }
+
    .font-inhe {
         font-family: "acier-bat-outline", sans-serif;
         font-weight: 400;
@@ -48,9 +60,22 @@ $focused-glow: #f6764f58;
         font-style: italic;
    }
 
+   .font-magn {
+        font-family: "bembo-book-mt-pro", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        text-transform: lowercase;
+   }
+
    .font-mast {
         font-family: "berthold-baskerville-pro", serif;
         font-weight: 400;
+        font-style: normal;
+   }
+
+   .font-obaa {
+        font-family: "octin-college", sans-serif;
+        font-weight: 900;
         font-style: normal;
    }
 
