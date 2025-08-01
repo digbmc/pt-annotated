@@ -1,5 +1,5 @@
 {% assign this-film = site.data[site.metadata] | where: "film", include.film %}
 
 <div class="mosaic text-center">
-    {% for item in this-film %}<div class="mosaic-tile"><a href="{{ '/items/' | append: item.objectid | append: '.html' | relative_url }}"><img src="{{ item.image_thumb }}" alt="{{ item.image_alt_text }}"></a></div>{% endfor %}
+    {% for item in this-film %}<div class="mosaic-item"><a href="{{ '/items/' | append: item.objectid | append: '.html' | relative_url }}"><img src="{{ item.image_thumb }}" alt="{{ item.image_alt_text }}"></a></div>{% endfor %}
 </div>
