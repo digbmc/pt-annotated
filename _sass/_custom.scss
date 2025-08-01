@@ -488,3 +488,13 @@ body {
         padding-top: 100%; /* 1:1 Aspect Ratio */
     }
 }
+
+/* ------------
+    Cloud Page
+   ------------ */
+.cloud-container {
+    border: 1px solid $light;
+    border-radius: .25rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
