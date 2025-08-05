@@ -2,8 +2,26 @@
 title: Essays
 layout: page
 permalink: /essays.html
+tags:
+
 ---
 
+<h2 id="page-title">{{ page.title }}</h2>
+<p>
+<a class="btn btn-small btn-outline-light rounded-pill mb-1 tag-btn" href="#">all</a>
+<!--
+{% for film in site.films %}
+    <a class="btn btn-small btn-outline-light rounded-pill mb-1 tag-btn" href="#{{ film.title | slugify }}">{{ film.title | slugify }}</a>
+{% endfor %}
+{% assign themes = site.data.config-facets | where: "name", "themes" | first %}
+{% assign theme-tags = themes.values | split: "|" %}
+{% for tag in theme-tags %}
+    <a class="btn btn-small btn-outline-light rounded-pill mb-1 tag-btn" href="#{{ tag | slugify }}">{{ tag | slugify }}</a>
+{% endfor %}
+</p>
+-->
+
+<!--
 <div class="row">
     {% for essay in site.essays %}
     {% assign item = site.data[site.metadata] | where: "objectid", essay.featured_image | first %}
@@ -16,3 +34,47 @@ permalink: /essays.html
         </div>
     {% endfor %}
 </div>
+-->
+{% for essay in site.essays %}
+{% assign item = site.data[site.metadata] | where: "objectid", essay.featured_image | first %}
+{% capture imageSrc %}{{ item.image_small | relative_url }}{% endcapture %}
+<div class="essay row mb-4{% for tag in essay.tags %} {{ tag | slugify }}{% endfor %}{% unless forloop.last %} border-bottom border-secondary{% endunless %}">
+    <div class="col-md-6 col-lg-3 mb-2">
+        <a href="{{ essay.url | relative_url }}"><img class="rounded me-2 w-100" src="{{ imageSrc }}" alt=""><span class="visually-hidden">{{ essay.title }}</span></a>
+    </div>
+    <div class="col-md-6 col-lg-9 mb-2">
+        <h3><a href="{{ essay.url | relative_url }}">{{ essay.title }}</a></h3>
+        {% if essay.author %}<p class="by-line">By {{ essay.author }}</p>{% endif %}
+        {% if essay.tags %}<p class="essay-tags">
+        {% for tag in essay.tags %}
+            <a class="btn btn-small btn-outline-light rounded-pill mb-1 tag-btn" href="#{{ tag | slugify }}">{{ tag | slugify }}</a>
+        {% endfor %}
+        </p>{% endif %}
+    </div>
+</div>
+{% endfor %}
+
+<script>
+    function filterEssays(){
+        // iterate through essays
+        var essays = document.getElementsByClassName("essay");
+        for (let i = 0; i < essays.length; i++) {
+            if (location.hash == "") {
+                essays[i].classList.remove("d-none");
+                essays[i].setAttribute("aria-hidden", "false");
+            } else {
+                // hide every essay to start
+                essays[i].classList.add("d-none");
+                essays[i].setAttribute("aria-hidden", "true");
+                // unhide essays with the tag that matches the hash
+                if (essays[i].classList.contains(location.hash.slice(1))) {
+                    essays[i].classList.remove("d-none");
+                    essays[i].setAttribute("aria-hidden", "false");
+                }
+            }
+        }
+        console.log("Filter applied")
+    }
+    // add event listener to filter essays on hash change
+    window.addEventListener("hashchange", filterEssays);
+</script>

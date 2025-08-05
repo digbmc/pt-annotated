@@ -3,7 +3,7 @@
   <head prefix="og: http://ogp.me/ns#">
     {% include head/head.html %}
   </head>
-  <body class="d-flex flex-column h-100">
+  <body class="d-flex flex-column h-100" {% if page.title == 'Essays' %}onload="filterEssays()"{% endif %}>
     {% unless page.permalink == "mirador.html" %}
     <div id="skip-to-content"><a href="#maincontent">Skip to main content</a></div>
     {% include collection-banner.html %}
