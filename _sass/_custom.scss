@@ -508,3 +508,26 @@ body {
     padding: 1rem;
     margin-bottom: 1rem;
 }
+
+.tagcloud1, .tagcloud2, .tagcloud3, .tagcloud4, .tagcloud5,
+.tagcloud6, .tagcloud7, .tagcloud8, .tagcloud9, .tagcloud10 {
+    transition: all .2s ease-in-out;
+    &:hover, &:focus {
+        transform: scale(1.1);
+    }
+}
+
+/* scale down tagcloud buttons on smaller screens to prevent overflow */
+@media only screen and (max-width: 576px) {
+    .tagcloud0{font-size:0.4em;}
+    .tagcloud1{font-size:0.5em;}
+    .tagcloud2{font-size:0.6em;}
+    .tagcloud3{font-size:0.8em;}
+    .tagcloud4{font-size:1.0em;}
+    .tagcloud5{font-size:1.2em;}
+    .tagcloud6{font-size:1.4em;}
+    .tagcloud7{font-size:1.6em;}
+    .tagcloud8{font-size:1.8em;}
+    .tagcloud9{font-size:2.0em;}
+    .tagcloud10{font-size:2.2em;}
+}
