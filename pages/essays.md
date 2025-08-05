@@ -7,9 +7,10 @@ tags:
 ---
 
 <h2 id="page-title">{{ page.title }}</h2>
-<p>
+<a id="return-to-all" class="d-none" aria-hidden="true" href="#">Return to all essays</a>
+
+<!--<p>
 <a class="btn btn-small btn-outline-light rounded-pill mb-1 tag-btn" href="#">all</a>
-<!--
 {% for film in site.films %}
     <a class="btn btn-small btn-outline-light rounded-pill mb-1 tag-btn" href="#{{ film.title | slugify }}">{{ film.title | slugify }}</a>
 {% endfor %}
@@ -18,8 +19,7 @@ tags:
 {% for tag in theme-tags %}
     <a class="btn btn-small btn-outline-light rounded-pill mb-1 tag-btn" href="#{{ tag | slugify }}">{{ tag | slugify }}</a>
 {% endfor %}
-</p>
--->
+</p>-->
 
 <!--
 <div class="row">
@@ -56,12 +56,21 @@ tags:
 
 <script>
     function filterEssays(){
+        var pageTitle = document.getElementById("page-title");
+        var returnToAll = document.getElementById("return-to-all");
         // iterate through essays
         var essays = document.getElementsByClassName("essay");
         for (let i = 0; i < essays.length; i++) {
             if (location.hash == "") {
+                // show all essays
                 essays[i].classList.remove("d-none");
                 essays[i].setAttribute("aria-hidden", "false");
+                // hide link to return to all essays and remove focus
+                returnToAll.classList.add("d-none");
+                returnToAll.setAttribute("aria-hidden", "true");
+                returnToAll.blur();
+                // update page title
+                pageTitle.innerHTML = "Essays";
             } else {
                 // hide every essay to start
                 essays[i].classList.add("d-none");
@@ -71,6 +80,12 @@ tags:
                     essays[i].classList.remove("d-none");
                     essays[i].setAttribute("aria-hidden", "false");
                 }
+                // reveal and focus link to return to all essays
+                returnToAll.classList.remove("d-none");
+                returnToAll.setAttribute("aria-hidden", "false");
+                returnToAll.focus();
+                // update page title
+                pageTitle.innerHTML = "Essays: " + location.hash.slice(1);
             }
         }
         console.log("Filter applied")
