@@ -1,0 +1,10 @@
+{% comment %}
+
+    Embed Glycerine IIIF viewer to load item from an IIIF manifest.
+    This include assumes that Item's object_location field is a relative link or direct url to a IIIF manifest json file. e.g. https://wellcomelibrary.org/iiif/b18035723/manifest 
+
+{% endcomment %}
+
+<div class="iiif-container">
+    <iframe src="{{ '/glycerine.html' | relative_url }}#{{ page.object_location }}"></iframe>
+</div>

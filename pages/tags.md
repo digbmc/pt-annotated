@@ -38,8 +38,8 @@ Use these word cloud visualizations to browse the cinematographic techniques and
 - **establishing shot**: a long shot of a location that informs the spectator where the next scene is about to take place
 
 #### Location
-- **interior**
-- **exterior**
+- **interior**: the camera and/or the setting of the shot is indoors
+- **exterior**: the camera and/or the setting of the shot is outside
 
 #### Movement
 - **fixed**: camera does not move
@@ -47,8 +47,8 @@ Use these word cloud visualizations to browse the cinematographic techniques and
 - **pan**: camera swivels on its horizontal axis without changing its position on the ground
 - **tilt**: camera tilts on its vertical axis without changing its position on the ground
 - **tracking**: camera moves in any horizontal direction regardless of whether actual track was used during production to create the shot
-- **zoom**: shot achieves the same effect as a tracking shot towards or away from an object, but using a special lens instead of moving the camera; NB: for differences between tracking: also called dolly & zoom, please see this [video](https://www.youtube.com/watch?v=AKOxbCx1LNc). 
-- **crane**: camera as a whole moves vertically up or down, or may move around in 360-degree space regardless of whether an actual crane was used in production. Please tag drone shots under this as well
+- **zoom**: shot achieves the same effect as a tracking shot towards or away from an object, but using a special lens instead of moving the camera; NB: for differences between tracking, also called dolly & zoom, please see this [video](https://www.youtube.com/watch?v=AKOxbCx1LNc). 
+- **crane**: camera as a whole moves vertically up or down, or may move around in 360-degree space regardless of whether an actual crane was used in production. This tag also applies to shots captured with a drone.
 - **handheld**: camera that usually gives the impression of perspective, as if someone were holding the camera—sometimes it’s a bit shaky or unstable
 
 #### Lighting

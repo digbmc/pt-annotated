@@ -127,6 +127,17 @@ body {
     }
 }
 
+a svg {
+    height: 1rem;
+    fill: $primary;
+    position: relative;
+    top: -2px;
+}
+
+a:hover svg {
+    fill: $light;
+}
+
 .card {
     background-color: $dark;
     color: #F8F9FA;
@@ -225,7 +236,7 @@ body {
 
 .navbar .dropdown-menu {
     background-color: $dark;
-    border: 1px solid $secondary;
+    border: 1px solid $dark-border;
     font-size: 1.25rem;
 }
 
@@ -418,6 +429,31 @@ body {
     }
 }
 
+/* ------------
+    Essays Page
+   ------------ */
+.tag-btn {
+    font-size: .75em;
+    padding: .25em .75em;
+}
+
+/* -------------
+    Essay Pages
+   ------------- */
+
+.essay-page-narrow {
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    /*
+    p, a, h2, h3, h4, h5, h6, blockquote, .footnotes, .by-line {
+        max-width: 750px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    */
+}
+
 /* -----------------
     Browse Settings
    ----------------- */
@@ -444,7 +480,7 @@ body {
 .facet-options .dropdown-menu {
     color: $light;
     background-color: $dark;
-    border: 1px solid $secondary;
+    border: 1px solid $dark-border;
 }
 
 .form-check-input {
@@ -462,15 +498,130 @@ body {
     }
 }
 
+.info-button {
+    height: 2rem;
+    width: 2rem;
+    line-height: 0;
+    transform: scale(.75);
+    position: relative;
+    top: -2px;
+    font-weight: 700;
+}
+
+/* ---------------------------
+    Glycerine Style Overrides
+   --------------------------- */
+
+/* border for annotation dialog */
+.p-dialog.p-component {
+    border: 1px solid $dark-border;
+}
+
+/* recolor annotation dialog and panel to match site theme */
+.p-dialog .p-dialog-header, 
+.p-dialog .p-dialog-content, 
+.p-dialog .p-dialog-footer,
+.p-datatable .p-datatable-thead>tr>th,
+.p-datatable .p-datatable-tbody>tr,
+.p-datatable .p-datatable-tbody>tr>td,
+.p-paginator {
+    background: $dark;
+    color: $light;
+    border-color: $dark-border;
+}
+
+.p-paginator .p-paginator-pages .p-paginator-page.p-highlight {
+    background: $secondary;
+    color: $light;
+    border-color: $dark-border;
+}
+
+.p-tabview .p-tabview-panels {
+    background: $secondary;
+    color: $light;
+    border-radius: .25rem;
+}
+
+.p-tabview-title {
+    color: $light;
+}
+
+.p-tabview .p-tabview-nav li.p-highlight .p-tabview-nav-link {
+    background: $secondary;
+    border-color: $primary;
+    color: $light;
+}
+
+ /* style buttons to match site theme */
+.p-button {
+    color: $dark;
+    background: $primary;
+    border: 1px solid $primary;
+
+    &:enabled:hover {
+        color: $dark;
+        background: $light;
+        border: 1px solid $light;
+    }
+
+    &:focus {
+        box-shadow: 0 0 0 2px #fff,0 0 0 4px $focused-glow,0 1px 2px #000
+    }
+
+    &.p-button-outlined {
+        color: $primary;
+        border: 1px solid $primary;
+
+        &:enabled:hover {
+            color: $dark;
+            background-color: $primary;
+            border: 1px solid $primary;
+        }
+    }
+}
+
+.p-dialog .p-dialog-header .p-dialog-header-icon:focus {
+    outline: 0 none;
+    outline-offset: 0;
+    box-shadow: 0 0 0 .2rem $focused-glow;
+}
+
+/* hide tabview nav */
+.p-tabview .p-tabview-nav {
+    display: none;
+}
+
+/* give dialog and panel elements rounded corners */
+.p-datatable-wrapper {
+    border-radius: .25rem;
+}
+
+.p-paginator {
+    border-radius: 0 0 .25rem .25rem;
+}
+
+.p-datatable .p-datatable-thead {
+    border-radius: .25rem .25rem 0 0;
+}
+
+/* hide second "Close" button on annotation dialog */
+.p-dialog .p-dialog-footer button {
+    margin: .5rem .5rem 0 0;
+    display: none;
+}
+
 /* ------------------------------
-    Responsive Mirador Container
+    Responsive IIIF iframe Container
    ------------------------------ */
 
-.mirador-container {
+.iiif-container {
     position: relative;
     overflow: hidden;
     width: 100%;
-    padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+    height: 600px;
+    // padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+    border: 1px solid $dark-border;
+    border-radius: .25rem;
 
     iframe {
         position: absolute;
@@ -484,8 +635,13 @@ body {
 }
 
 @media only screen and (max-width: 576px) {
-    .mirador-container {
-        padding-top: 100%; /* 1:1 Aspect Ratio */
+    .iiif-container {
+        height: 300px;
+        // padding-top: 100%; /* 1:1 Aspect Ratio */
+
+        #viewer {
+            height: 300px;
+        }
     }
 }
 
@@ -497,4 +653,27 @@ body {
     border-radius: .25rem;
     padding: 1rem;
     margin-bottom: 1rem;
+}
+
+.tagcloud1, .tagcloud2, .tagcloud3, .tagcloud4, .tagcloud5,
+.tagcloud6, .tagcloud7, .tagcloud8, .tagcloud9, .tagcloud10 {
+    transition: all .2s ease-in-out;
+    &:hover, &:focus {
+        transform: scale(1.1);
+    }
+}
+
+/* scale down tagcloud buttons on smaller screens to prevent overflow */
+@media only screen and (max-width: 576px) {
+    .tagcloud0{font-size:0.4em;}
+    .tagcloud1{font-size:0.5em;}
+    .tagcloud2{font-size:0.6em;}
+    .tagcloud3{font-size:0.8em;}
+    .tagcloud4{font-size:1.0em;}
+    .tagcloud5{font-size:1.2em;}
+    .tagcloud6{font-size:1.4em;}
+    .tagcloud7{font-size:1.6em;}
+    .tagcloud8{font-size:1.8em;}
+    .tagcloud9{font-size:2.0em;}
+    .tagcloud10{font-size:2.2em;}
 }
