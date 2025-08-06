@@ -23,6 +23,7 @@
 {% else %}
 {% assign jumboItem = site.data[site.metadata] | where: "objectid", jumboId | first %}
 {% capture jumboSrc %}{{ jumboItem.image_small | relative_url }}{% endcapture %}
+{% capture itemPageUrl %}{{ jumboId | prepend: "items/" | relative_url }}{% endcapture %}
 {%- endif -%}
 
 <style>
@@ -31,7 +32,17 @@
     margin-bottom: 2rem;
     background-color: #e9ecef;
     border-radius: 0.3rem;
+    position: relative;
 }  
+.jumbo-link {
+    position: absolute;
+    font-size: .9rem;
+    bottom: 0;
+    right: 0;
+    background-color: #000000b8;
+    padding: .1rem .4rem;
+    border-top-left-radius: .25rem;
+}
 #{{ jumbo_div_id }} {
     background-image: url({{ jumboSrc }});
     background-size: cover;
@@ -59,5 +70,6 @@
             {% unless include.text == false %}<p class="jumbo-tagline text-light">{{ include.text | default: site.tagline }}</p>{% endunless %}
         </div>
         {% endunless %}
+        <div class="jumbo-link"><a href="{% if jumboId contains '/' %}{{ jumboSrc }}{% else %}{{ itemPageUrl }}{% endif %}">Full Image</a></div>
     </div>
 </div>

@@ -430,13 +430,29 @@ a:hover svg {
 }
 
 /* ------------
-    Essay Page
+    Essays Page
    ------------ */
 .tag-btn {
     font-size: .75em;
     padding: .25em .75em;
 }
 
+/* -------------
+    Essay Pages
+   ------------- */
+
+.essay-page-narrow {
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    /*
+    p, a, h2, h3, h4, h5, h6, blockquote, .footnotes, .by-line {
+        max-width: 750px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    */
+}
 
 /* -----------------
     Browse Settings
