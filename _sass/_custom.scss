@@ -508,6 +508,70 @@ a:hover svg {
     font-weight: 700;
 }
 
+/* ---------------------------
+    Glycerine Style Overrides
+   --------------------------- */
+.p-button {
+    color: $dark;
+    background: $primary;
+    border: 1px solid $primary;
+
+    &:enabled:hover {
+        color: $dark;
+        background: $light;
+        border: 1px solid $light;
+    }
+
+    &:focus {
+        box-shadow: 0 0 0 2px #fff,0 0 0 4px $focused-glow,0 1px 2px #000
+    }
+
+    &.p-button-outlined {
+        color: $primary;
+        border: 1px solid $primary;
+
+        &:enabled:hover {
+            color: $dark;
+            background-color: $primary;
+            border: 1px solid $primary;
+        }
+    }
+}
+
+.p-dialog.p-component {
+    border: 1px solid $secondary;
+}
+
+.p-dialog .p-dialog-header, 
+.p-dialog .p-dialog-content, 
+.p-dialog .p-dialog-footer,
+.p-tabview .p-tabview-nav {
+    background: $dark;
+    color: $light;
+    border-color: $dark-border;
+}
+
+.p-tabview .p-tabview-panels {
+    background: $secondary;
+    color: $light;
+}
+
+.p-tabview-title {
+    color: $light;
+}
+
+.p-tabview .p-tabview-nav li.p-highlight .p-tabview-nav-link {
+    background: $secondary;
+    border-color: $primary;
+    color: $light;
+}
+
+.p-dialog .p-dialog-header .p-dialog-header-icon:focus {
+    outline: 0 none;
+    outline-offset: 0;
+    box-shadow: 0 0 0 .2rem $focused-glow;
+}
+
 /* ------------------------------
     Responsive Mirador Container
    ------------------------------ */
