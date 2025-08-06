@@ -572,10 +572,10 @@ a:hover svg {
     box-shadow: 0 0 0 .2rem $focused-glow;
 }
 
-@media only screen and (max-width: 576px) {
-    .p-button.p-button-outlined {
-        display: none;
-    }
+/* hide second "Close" button on annotation dialog */
+.p-dialog .p-dialog-footer button {
+    margin: .5rem .5rem 0 0;
+    display: none;
 }
 
 /* ------------------------------
