@@ -511,6 +511,48 @@ a:hover svg {
 /* ---------------------------
     Glycerine Style Overrides
    --------------------------- */
+
+/* border for annotation dialog */
+.p-dialog.p-component {
+    border: 1px solid $dark-border;
+}
+
+/* recolor annotation dialog and panel to match site theme */
+.p-dialog .p-dialog-header, 
+.p-dialog .p-dialog-content, 
+.p-dialog .p-dialog-footer,
+.p-datatable .p-datatable-thead>tr>th,
+.p-datatable .p-datatable-tbody>tr,
+.p-datatable .p-datatable-tbody>tr>td,
+.p-paginator {
+    background: $dark;
+    color: $light;
+    border-color: $dark-border;
+}
+
+.p-paginator .p-paginator-pages .p-paginator-page.p-highlight {
+    background: $secondary;
+    color: $light;
+    border-color: $dark-border;
+}
+
+.p-tabview .p-tabview-panels {
+    background: $secondary;
+    color: $light;
+    border-radius: .25rem;
+}
+
+.p-tabview-title {
+    color: $light;
+}
+
+.p-tabview .p-tabview-nav li.p-highlight .p-tabview-nav-link {
+    background: $secondary;
+    border-color: $primary;
+    color: $light;
+}
+
+ /* style buttons to match site theme */
 .p-button {
     color: $dark;
     background: $primary;
@@ -538,38 +580,28 @@ a:hover svg {
     }
 }
 
-.p-dialog.p-component {
-    border: 1px solid $dark-border;
-}
-
-.p-dialog .p-dialog-header, 
-.p-dialog .p-dialog-content, 
-.p-dialog .p-dialog-footer,
-.p-tabview .p-tabview-nav {
-    background: $dark;
-    color: $light;
-    border-color: $dark-border;
-}
-
-.p-tabview .p-tabview-panels {
-    background: $secondary;
-    color: $light;
-}
-
-.p-tabview-title {
-    color: $light;
-}
-
-.p-tabview .p-tabview-nav li.p-highlight .p-tabview-nav-link {
-    background: $secondary;
-    border-color: $primary;
-    color: $light;
-}
-
 .p-dialog .p-dialog-header .p-dialog-header-icon:focus {
     outline: 0 none;
     outline-offset: 0;
     box-shadow: 0 0 0 .2rem $focused-glow;
+}
+
+/* hide tabview nav */
+.p-tabview .p-tabview-nav {
+    display: none;
+}
+
+/* give dialog and panel elements rounded corners */
+.p-datatable-wrapper {
+    border-radius: .25rem;
+}
+
+.p-paginator {
+    border-radius: 0 0 .25rem .25rem;
+}
+
+.p-datatable .p-datatable-thead {
+    border-radius: .25rem .25rem 0 0;
 }
 
 /* hide second "Close" button on annotation dialog */

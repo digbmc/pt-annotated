@@ -7,7 +7,7 @@ permalink: glycerine.html
 <div id="viewer"></div>
 
 <!-- Include the Glycerine Viewer script -->
-<script src="https://unpkg.com/glycerine-viewer@latest/jslib/glycerine-viewer.umd.cjs"></script>
+<script src="https://unpkg.com/glycerine-viewer@^1/jslib/glycerine-viewer.umd.cjs"></script>
 
 <script>
     // Get the container element for the viewer.
@@ -21,7 +21,7 @@ permalink: glycerine.html
         defaultInfoPanel: false,
         showIndexButton: false,
         showAboutPaneButton: false,
-        showAnnotationViewButton: false,
+        showAnnotationViewButton: true,
         showSettingPaneButton: false,
         enableDropManifest: false,
     });
