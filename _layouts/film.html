@@ -9,18 +9,24 @@ layout: default
 </div>
 <div class="row justify-content-center my-4">
     <div class="col-10 col-md-8">
-        <h2 class="display-4 text-center font-{{ page.code | downcase }}">{{ page.title }}</h2>
-        {{ content }}
+        <div class="essay-page-narrow">
+            <h2 class="display-4 text-center font-{{ page.code | downcase }}">{{ page.title }}</h2>
+            {{ content }}
+        </div>
     </div>
 </div>
 <div class="row justify-content-center text-center mb-4">
     <div class="col-10 col-md-8">
-        <a class="btn mx-2 btn-lg btn-primary" href="{{ '/browse.html' | relative_url }}#{{ page.title }}">Browse screenshots</a>
-        <a class="btn mx-2 btn-lg btn-primary" href="{{ '/essays.html' | relative_url }}#{{ page.title | slugify }}">See related essays</a>
+        <div class="essay-page-narrow">
+            <a class="btn mx-2 btn-lg btn-primary" href="{{ '/browse.html' | relative_url }}#{{ page.title }}">Browse screenshots</a>
+            <a class="btn mx-2 btn-lg btn-primary" href="{{ '/essays.html' | relative_url }}#{{ page.title | slugify }}">See related essays</a>
+        </div>
     </div>
 </div>
 <div class="row justify-content-center text-center mb-4">
     <div class="col-10 col-md-8">
-        {% include mosaic.html film=page.title %}
+        <div class="essay-page-narrow">
+            {% include mosaic.html film=page.title %}
+        </div>
     </div>
 </div>
