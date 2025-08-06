@@ -236,7 +236,7 @@ a:hover svg {
 
 .navbar .dropdown-menu {
     background-color: $dark;
-    border: 1px solid $secondary;
+    border: 1px solid $dark-border;
     font-size: 1.25rem;
 }
 
@@ -480,7 +480,7 @@ a:hover svg {
 .facet-options .dropdown-menu {
     color: $light;
     background-color: $dark;
-    border: 1px solid $secondary;
+    border: 1px solid $dark-border;
 }
 
 .form-check-input {
@@ -539,7 +539,7 @@ a:hover svg {
 }
 
 .p-dialog.p-component {
-    border: 1px solid $secondary;
+    border: 1px solid $dark-border;
 }
 
 .p-dialog .p-dialog-header, 
@@ -572,15 +572,24 @@ a:hover svg {
     box-shadow: 0 0 0 .2rem $focused-glow;
 }
 
+@media only screen and (max-width: 576px) {
+    .p-button.p-button-outlined {
+        display: none;
+    }
+}
+
 /* ------------------------------
-    Responsive Mirador Container
+    Responsive IIIF iframe Container
    ------------------------------ */
 
-.mirador-container {
+.iiif-container {
     position: relative;
     overflow: hidden;
     width: 100%;
-    padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+    height: 600px;
+    // padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+    border: 1px solid $dark-border;
+    border-radius: .25rem;
 
     iframe {
         position: absolute;
@@ -594,8 +603,13 @@ a:hover svg {
 }
 
 @media only screen and (max-width: 576px) {
-    .mirador-container {
-        padding-top: 100%; /* 1:1 Aspect Ratio */
+    .iiif-container {
+        height: 300px;
+        // padding-top: 100%; /* 1:1 Aspect Ratio */
+
+        #viewer {
+            height: 300px;
+        }
     }
 }
 

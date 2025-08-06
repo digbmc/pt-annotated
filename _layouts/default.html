@@ -4,7 +4,7 @@
     {% include head/head.html %}
   </head>
   <body class="d-flex flex-column h-100" {% if page.title == 'Essays' %}onload="filterEssays()"{% endif %}>
-    {% unless page.permalink == "mirador.html" %}
+    {% unless page.permalink == "mirador.html" or page.permalink == "glycerine.html" %}
     <div id="skip-to-content"><a href="#maincontent">Skip to main content</a></div>
     {% include collection-banner.html %}
     {% include collection-nav.html %}
@@ -13,7 +13,7 @@
       {% if page.title == "Home" %}{% include index/animated-gallery.html %}{% endif %}
       {{ content }}
     </main>
-    {% unless page.permalink == "mirador.html" %}{% include footer.html %}{% endunless %}
+    {% unless page.permalink == "mirador.html" or page.permalink == "glycerine.html" %}{% include footer.html %}{% endunless %}
     {% include foot.html %}
     {% include scroll-to-top.html %}
   </body>

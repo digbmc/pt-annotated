@@ -1,26 +1,10 @@
-<!-- Create a container for the Glycerine Viewer -->
-<div id="viewer"></div>
+{% comment %}
 
-<!-- Include the Glycerine Viewer script -->
-<script src="https://unpkg.com/glycerine-viewer@latest/jslib/glycerine-viewer.umd.cjs"></script>
+    Embed Glycerine IIIF viewer to load item from an IIIF manifest.
+    This include assumes that Item's object_location field is a relative link or direct url to a IIIF manifest json file. e.g. https://wellcomelibrary.org/iiif/b18035723/manifest 
 
-<script>
-    // Get the container element for the viewer.
-    const ele = document.getElementById('viewer')
+{% endcomment %}
 
-    // Create a new GlycerineViewer instance.
-    const viewer = new GlycerineViewer(ele, {
-        width: '100%',
-        height: '700px',
-        manifest: '{{ page.object_location }}',
-        defaultInfoPanel: false,
-        showIndexButton: false,
-        showAboutPaneButton: false,
-        showAnnotationViewButton: false,
-        showSettingPaneButton: false,
-        enableDropManifest: false,
-    });
-    
-    // Initialize the viewer.
-    viewer.init();
-</script>
+<div class="iiif-container">
+    <iframe src="{{ '/glycerine.html' | relative_url }}#{{ page.object_location }}"></iframe>
+</div>
