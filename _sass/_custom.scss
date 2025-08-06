@@ -127,6 +127,17 @@ body {
     }
 }
 
+a svg {
+    height: 1rem;
+    fill: $primary;
+    position: relative;
+    top: -2px;
+}
+
+a:hover svg {
+    fill: $light;
+}
+
 .card {
     background-color: $dark;
     color: #F8F9FA;

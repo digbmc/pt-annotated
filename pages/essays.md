@@ -7,7 +7,7 @@ tags:
 ---
 
 <h2 id="page-title">{{ page.title }}</h2>
-<a id="return-to-all" class="d-none" aria-hidden="true" href="#">Return to all essays</a>
+<a id="return-to-all" class="d-none" aria-hidden="true" href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M73.4 297.4C60.9 309.9 60.9 330.2 73.4 342.7L233.4 502.7C245.9 515.2 266.2 515.2 278.7 502.7C291.2 490.2 291.2 469.9 278.7 457.4L173.3 352L544 352C561.7 352 576 337.7 576 320C576 302.3 561.7 288 544 288L173.3 288L278.7 182.6C291.2 170.1 291.2 149.8 278.7 137.3C266.2 124.8 245.9 124.8 233.4 137.3L73.4 297.3z"/></svg> Return to all essays</a>
 
 <!--<p>
 <a class="btn btn-small btn-outline-light rounded-pill mb-1 tag-btn" href="#">all</a>
@@ -38,7 +38,7 @@ tags:
 {% for essay in site.essays %}
 {% assign item = site.data[site.metadata] | where: "objectid", essay.featured_image | first %}
 {% capture imageSrc %}{{ item.image_small | relative_url }}{% endcapture %}
-<div class="essay row mb-4{% for tag in essay.tags %} {{ tag | slugify }}{% endfor %}{% unless forloop.last %} border-bottom border-secondary{% endunless %}">
+<div class="essay row mb-4{% for tag in essay.tags %} {{ tag | slugify }}{% endfor %}">
     <div class="col-md-6 col-lg-3 mb-2">
         <a href="{{ essay.url | relative_url }}"><img class="rounded me-2 w-100" src="{{ imageSrc }}" alt=""><span class="visually-hidden">{{ essay.title }}</span></a>
     </div>
