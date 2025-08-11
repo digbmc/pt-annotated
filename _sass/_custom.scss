@@ -28,7 +28,7 @@ $disabled: #5E6568;
 
 $nav-text-inactive: #ffffff8c;
 $nav-text-hover: #ffffffbf;
-$focused-glow: #f6764f58;
+$primary-glow: #f6764f58;
 
 /* -------
     Fonts
@@ -183,7 +183,7 @@ a:hover svg {
         border: 1px solid $dark-border;
 
         &:focus {
-            box-shadow: 0 0 0 .25rem $focused-glow;
+            box-shadow: 0 0 0 .25rem $primary-glow;
         }
     }
 
@@ -331,7 +331,7 @@ a:hover svg {
         }
 
         &:focus {
-            box-shadow: 0 0 0 .25rem $focused-glow;
+            box-shadow: 0 0 0 .25rem $primary-glow;
         }
 
     }
@@ -467,7 +467,7 @@ a:hover svg {
     color: $light;
     
     &:hover {
-        background-color: $focused-glow;
+        background-color: $primary-glow;
         color: $light;
     }
 
@@ -494,7 +494,7 @@ a:hover svg {
 
     &:focus {
         border: 1px solid $primary;
-        box-shadow: 0 0 0 .25rem $focused-glow;
+        box-shadow: 0 0 0 .25rem $primary-glow;
     }
 }
 
@@ -506,108 +506,6 @@ a:hover svg {
     position: relative;
     top: -2px;
     font-weight: 700;
-}
-
-/* ---------------------------
-    Glycerine Style Overrides
-   --------------------------- */
-
-/* border for annotation dialog */
-.p-dialog.p-component {
-    border: 1px solid $dark-border;
-}
-
-/* recolor annotation dialog and panel to match site theme */
-.p-dialog .p-dialog-header, 
-.p-dialog .p-dialog-content, 
-.p-dialog .p-dialog-footer,
-.p-datatable .p-datatable-thead>tr>th,
-.p-datatable .p-datatable-tbody>tr,
-.p-datatable .p-datatable-tbody>tr>td,
-.p-paginator {
-    background: $dark;
-    color: $light;
-    border-color: $dark-border;
-}
-
-.p-paginator .p-paginator-pages .p-paginator-page.p-highlight {
-    background: $secondary;
-    color: $light;
-    border-color: $dark-border;
-}
-
-.p-tabview .p-tabview-panels {
-    background: $secondary;
-    color: $light;
-    border-radius: .25rem;
-}
-
-.p-tabview-title {
-    color: $light;
-}
-
-.p-tabview .p-tabview-nav li.p-highlight .p-tabview-nav-link {
-    background: $secondary;
-    border-color: $primary;
-    color: $light;
-}
-
- /* style buttons to match site theme */
-.p-button {
-    color: $dark;
-    background: $primary;
-    border: 1px solid $primary;
-
-    &:enabled:hover {
-        color: $dark;
-        background: $light;
-        border: 1px solid $light;
-    }
-
-    &:focus {
-        box-shadow: 0 0 0 2px #fff,0 0 0 4px $focused-glow,0 1px 2px #000
-    }
-
-    &.p-button-outlined {
-        color: $primary;
-        border: 1px solid $primary;
-
-        &:enabled:hover {
-            color: $dark;
-            background-color: $primary;
-            border: 1px solid $primary;
-        }
-    }
-}
-
-.p-dialog .p-dialog-header .p-dialog-header-icon:focus {
-    outline: 0 none;
-    outline-offset: 0;
-    box-shadow: 0 0 0 .2rem $focused-glow;
-}
-
-/* hide tabview nav */
-.p-tabview .p-tabview-nav {
-    display: none;
-}
-
-/* give dialog and panel elements rounded corners */
-.p-datatable-wrapper {
-    border-radius: .25rem;
-}
-
-.p-paginator {
-    border-radius: 0 0 .25rem .25rem;
-}
-
-.p-datatable .p-datatable-thead {
-    border-radius: .25rem .25rem 0 0;
-}
-
-/* hide second "Close" button on annotation dialog */
-.p-dialog .p-dialog-footer button {
-    margin: .5rem .5rem 0 0;
-    display: none;
 }
 
 /* ------------------------------
