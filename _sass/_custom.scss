@@ -34,83 +34,83 @@ $focused-glow: #f6764f58;
     Fonts
    ------- */
 
-   .font-boog {
-        font-family: "cheesecake", sans-serif;
-        font-weight: 900;
-        font-style: normal;
-   }
+.font-boog {
+    font-family: "cheesecake", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
 
-   .font-hard {
-        /*
+.font-hard {
+    /*
         font-family: "bebas-neue-by-fontfabric", sans-serif;
         font-weight: 400;
         font-style: normal;
         */
-        font-family: "courier-prime", monospace;
-        font-weight: 400;
-        font-style: italic;
-        text-transform: uppercase;
-   }
+    font-family: "courier-prime", monospace;
+    font-weight: 400;
+    font-style: italic;
+    text-transform: uppercase;
+}
 
-   .font-inhe {
-        font-family: "acier-bat-outline", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-   }
+.font-inhe {
+    font-family: "acier-bat-outline", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
 
-   .font-lico {
-        font-family: "lint-mccree", sans-serif;
-        font-weight: 700;
-        font-style: italic;
-   }
+.font-lico {
+    font-family: "lint-mccree", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
 
-   .font-magn {
-        font-family: "bembo-book-mt-pro", sans-serif;
-        font-weight: 700;
-        font-style: normal;
-        text-transform: lowercase;
-   }
+.font-magn {
+    font-family: "bembo-book-mt-pro", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: lowercase;
+}
 
-   .font-mast {
-        font-family: "berthold-baskerville-pro", serif;
-        font-weight: 400;
-        font-style: normal;
-   }
+.font-mast {
+    font-family: "berthold-baskerville-pro", serif;
+    font-weight: 400;
+    font-style: normal;
+}
 
-   .font-obaa {
-        font-family: "octin-college", sans-serif;
-        font-weight: 900;
-        font-style: normal;
-   }
+.font-obaa {
+    font-family: "octin-college", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
 
-   .font-phan {
-        font-family: "castoro-titling", serif;
-        font-weight: 400;
-        font-style: normal;
-   }
+.font-phan {
+    font-family: "castoro-titling", serif;
+    font-weight: 400;
+    font-style: normal;
+}
 
-   .font-punc {
-        font-family: "amatic-sc", sans-serif;
-        font-weight: 700;
-        font-style: normal;
-   }
+.font-punc {
+    font-family: "amatic-sc", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
 
-   .font-twbb {
-        font-family: "sabbath-black", serif;
-        font-weight: 400;
-        font-style: normal;
-   }
+.font-twbb {
+    font-family: "sabbath-black", serif;
+    font-weight: 400;
+    font-style: normal;
+}
 
 /* Accessibility Utility */
-    .visually-hidden {
-        clip: rect(0 0 0 0);
-        clip-path: inset(50%);
-        height: 1px;
-        overflow: hidden;
-        position: absolute;
-        white-space: nowrap;
-        width: 1px;
-    }
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
 
 /* --------------------------------
     General Overrides and Utilities
@@ -161,7 +161,8 @@ a:hover svg {
         // transform: translate(-50%, -50%);
         display: none;
 
-        .card-title, .card-text {
+        .card-title,
+        .card-text {
             color: $light !important;
             text-shadow: 2px 2px 2px #000000;
         }
@@ -241,7 +242,7 @@ a:hover svg {
 }
 
 .nav-item {
-     &:focus {
+    &:focus {
         border: none;
     }
 }
@@ -249,7 +250,7 @@ a:hover svg {
 .navbar .dropdown-menu .dropdown-item {
     color: $nav-text-inactive;
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
-    
+
     &.active {
         color: $light;
         background-color: $secondary;
@@ -419,7 +420,8 @@ a:hover svg {
             /* transition: all .25s ease-in-out; */
         }
 
-        &:hover, &:focus {
+        &:hover,
+        &:focus {
             background-color: #f6754f;
 
             img {
@@ -465,7 +467,7 @@ a:hover svg {
 
 .browse-sort-item {
     color: $light;
-    
+
     &:hover {
         background-color: $focused-glow;
         color: $light;
@@ -518,8 +520,8 @@ a:hover svg {
 }
 
 /* recolor annotation dialog and panel to match site theme */
-.p-dialog .p-dialog-header, 
-.p-dialog .p-dialog-content, 
+.p-dialog .p-dialog-header,
+.p-dialog .p-dialog-content,
 .p-dialog .p-dialog-footer,
 .p-datatable .p-datatable-thead>tr>th,
 .p-datatable .p-datatable-tbody>tr,
@@ -536,12 +538,6 @@ a:hover svg {
     border-color: $dark-border;
 }
 
-.p-tabview .p-tabview-panels {
-    background: $secondary;
-    color: $light;
-    border-radius: .25rem;
-}
-
 .p-tabview-title {
     color: $light;
 }
@@ -552,7 +548,7 @@ a:hover svg {
     color: $light;
 }
 
- /* style buttons to match site theme */
+/* style buttons to match site theme */
 .p-button {
     color: $dark;
     background: $primary;
@@ -565,7 +561,7 @@ a:hover svg {
     }
 
     &:focus {
-        box-shadow: 0 0 0 2px #fff,0 0 0 4px $focused-glow,0 1px 2px #000
+        box-shadow: 0 0 0 2px #fff, 0 0 0 4px $focused-glow, 0 1px 2px #000
     }
 
     &.p-button-outlined {
@@ -585,6 +581,8 @@ a:hover svg {
     outline-offset: 0;
     box-shadow: 0 0 0 .2rem $focused-glow;
 }
+
+
 
 /* hide tabview nav */
 .p-tabview .p-tabview-nav {
@@ -608,6 +606,30 @@ a:hover svg {
 .p-dialog .p-dialog-footer button {
     margin: .5rem .5rem 0 0;
     display: none;
+}
+
+/* hide dialog title and footer */
+.p-dialog-title,
+.p-dialog-footer {
+    display: none;
+}
+
+/* adjust tabview panel */
+.p-tabview .p-tabview-panels {
+    padding: 0;
+    background: $dark;
+    color: $light;
+}
+
+/* adjust padding of dialog elements and move close button to upper right corner */
+.p-dialog .p-dialog-header {
+    padding: .5rem;
+    justify-content: flex-end;
+}
+
+.p-dialog .p-dialog-content {
+    padding: 0 1rem;
+    border-radius: 0 0 6px 6px;
 }
 
 /* ------------------------------
@@ -655,25 +677,67 @@ a:hover svg {
     margin-bottom: 1rem;
 }
 
-.tagcloud1, .tagcloud2, .tagcloud3, .tagcloud4, .tagcloud5,
-.tagcloud6, .tagcloud7, .tagcloud8, .tagcloud9, .tagcloud10 {
+.tagcloud1,
+.tagcloud2,
+.tagcloud3,
+.tagcloud4,
+.tagcloud5,
+.tagcloud6,
+.tagcloud7,
+.tagcloud8,
+.tagcloud9,
+.tagcloud10 {
     transition: all .2s ease-in-out;
-    &:hover, &:focus {
+
+    &:hover,
+    &:focus {
         transform: scale(1.1);
     }
 }
 
 /* scale down tagcloud buttons on smaller screens to prevent overflow */
 @media only screen and (max-width: 576px) {
-    .tagcloud0{font-size:0.4em;}
-    .tagcloud1{font-size:0.5em;}
-    .tagcloud2{font-size:0.6em;}
-    .tagcloud3{font-size:0.8em;}
-    .tagcloud4{font-size:1.0em;}
-    .tagcloud5{font-size:1.2em;}
-    .tagcloud6{font-size:1.4em;}
-    .tagcloud7{font-size:1.6em;}
-    .tagcloud8{font-size:1.8em;}
-    .tagcloud9{font-size:2.0em;}
-    .tagcloud10{font-size:2.2em;}
+    .tagcloud0 {
+        font-size: 0.4em;
+    }
+
+    .tagcloud1 {
+        font-size: 0.5em;
+    }
+
+    .tagcloud2 {
+        font-size: 0.6em;
+    }
+
+    .tagcloud3 {
+        font-size: 0.8em;
+    }
+
+    .tagcloud4 {
+        font-size: 1.0em;
+    }
+
+    .tagcloud5 {
+        font-size: 1.2em;
+    }
+
+    .tagcloud6 {
+        font-size: 1.4em;
+    }
+
+    .tagcloud7 {
+        font-size: 1.6em;
+    }
+
+    .tagcloud8 {
+        font-size: 1.8em;
+    }
+
+    .tagcloud9 {
+        font-size: 2.0em;
+    }
+
+    .tagcloud10 {
+        font-size: 2.2em;
+    }
 }
