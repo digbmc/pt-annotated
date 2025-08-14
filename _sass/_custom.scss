@@ -28,7 +28,15 @@ $disabled: #5E6568;
 
 $nav-text-inactive: #ffffff8c;
 $nav-text-hover: #ffffffbf;
-$focused-glow: #f6764f58;
+
+$primary-glow: rgba($primary, 30%);
+$secondary-glow: rgba($secondary, 30%);
+$success-glow: rgba($success, 30%);
+$info-glow: rgba($info, 30%);
+$warning-glow: rgba($warning, 30%);
+$danger-glow: rgba($danger, 30%);
+$light-glow: rgba($light, 30%);
+$dark-glow: rgba($dark, 30%);
 
 /* -------
     Fonts
@@ -184,7 +192,7 @@ a:hover svg {
         border: 1px solid $dark-border;
 
         &:focus {
-            box-shadow: 0 0 0 .25rem $focused-glow;
+            box-shadow: 0 0 0 .25rem $primary-glow;
         }
     }
 
@@ -233,6 +241,10 @@ a:hover svg {
 .navbar-nav .nav-link:first-child {
     padding-left: 0;
     padding-right: 1.5rem;
+}
+
+.navbar-nav .nav-item .nav-link.active {
+    color: $light;
 }
 
 .navbar .dropdown-menu {
@@ -332,7 +344,7 @@ a:hover svg {
         }
 
         &:focus {
-            box-shadow: 0 0 0 .25rem $focused-glow;
+            box-shadow: 0 0 0 .25rem $primary-glow;
         }
 
     }
@@ -469,7 +481,7 @@ a:hover svg {
     color: $light;
 
     &:hover {
-        background-color: $focused-glow;
+        background-color: $primary-glow;
         color: $light;
     }
 
@@ -496,7 +508,7 @@ a:hover svg {
 
     &:focus {
         border: 1px solid $primary;
-        box-shadow: 0 0 0 .25rem $focused-glow;
+        box-shadow: 0 0 0 .25rem $primary-glow;
     }
 }
 
@@ -561,7 +573,7 @@ a:hover svg {
     }
 
     &:focus {
-        box-shadow: 0 0 0 2px #fff, 0 0 0 4px $focused-glow, 0 1px 2px #000
+        box-shadow: 0 0 0 2px #fff, 0 0 0 4px $primary-glow, 0 1px 2px #000
     }
 
     &.p-button-outlined {
@@ -576,13 +588,15 @@ a:hover svg {
     }
 }
 
+.p-dialog .p-dialog-header .p-dialog-header-icon {
+    color: $light-glow;
+}
+
 .p-dialog .p-dialog-header .p-dialog-header-icon:focus {
     outline: 0 none;
     outline-offset: 0;
-    box-shadow: 0 0 0 .2rem $focused-glow;
+    box-shadow: 0 0 0 .2rem $light-glow;
 }
-
-
 
 /* hide tabview nav */
 .p-tabview .p-tabview-nav {
