@@ -149,32 +149,12 @@ a:hover svg {
 .card {
     background-color: $dark;
     color: #F8F9FA;
-    border: none;
+    border: 1px solid $dark-border;
 }
 
 .item {
     transition: all 0.3s ease-in-out;
     position: relative;
-
-    .card-text-container {
-        position: absolute;
-        margin: 0;
-        // top: 50%;
-        // left: 50%;
-        bottom: .5rem;
-        width: 100%;
-        // padding: 0.5rem 0;
-        // background-color: #00000093;
-        // -ms-transform: translate(-50%, -50%);
-        // transform: translate(-50%, -50%);
-        display: none;
-
-        .card-title,
-        .card-text {
-            color: $light !important;
-            text-shadow: 2px 2px 2px #000000;
-        }
-    }
 }
 
 .item:hover {
