@@ -37,5 +37,8 @@ $theme-link-color: {{ site.data.theme.link-color | default: '""' }};
 );
 {% endif %}
 
+/* pull in styles for Glycerine Viewer */
+@use "glycerine";
+
 /* pull in custom styles to override everything else */
 @use "custom";

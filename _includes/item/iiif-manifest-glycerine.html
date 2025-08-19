@@ -6,5 +6,30 @@
 {% endcomment %}
 
 <div class="iiif-container">
-    <iframe src="{{ '/glycerine.html' | relative_url }}#{{ page.object_location }}"></iframe>
+    <!-- Create a container for the Glycerine Viewer -->
+    <div id="viewer"></div>
 </div>
+
+<!-- Include the Glycerine Viewer script -->
+<script src="https://unpkg.com/glycerine-viewer@^1/jslib/glycerine-viewer.umd.cjs"></script>
+
+<script>
+    // Get the container element for the viewer.
+    const ele = document.getElementById('viewer')
+
+    // Create a new GlycerineViewer instance.
+    const viewer = new GlycerineViewer(ele, {
+        width: '100%',
+        height: '100%',
+        manifest: '{{ include.manifest }}',
+        defaultInfoPanel: false,
+        showIndexButton: false,
+        showAboutPaneButton: false,
+        showAnnotationViewButton: true,
+        showSettingPaneButton: false,
+        enableDropManifest: false
+    });
+    
+    // Initialize the viewer.
+    viewer.init();
+</script>

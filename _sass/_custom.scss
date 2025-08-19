@@ -530,6 +530,13 @@ a:hover svg {
     border-color: $dark-border;
 }
 
+.p-paginator .p-paginator-first,
+.p-paginator .p-paginator-prev,
+.p-paginator .p-paginator-next,
+.p-paginator .p-paginator-last {
+    background-color: $secondary;
+}
+
 .p-tabview-title {
     color: $light;
 }
@@ -569,13 +576,20 @@ a:hover svg {
 }
 
 .p-dialog .p-dialog-header .p-dialog-header-icon {
-    color: $light-glow;
-}
+    filter: invert(100%);
 
-.p-dialog .p-dialog-header .p-dialog-header-icon:focus {
-    outline: 0 none;
-    outline-offset: 0;
-    box-shadow: 0 0 0 .2rem $light-glow;
+    &:hover {
+        background: $light;
+        filter: invert(0%);
+    }
+
+    &:focus {
+        outline: 0 none;
+        outline-offset: 0;
+        box-shadow: 0 0 0 .2rem $light-glow;
+        background: $light;
+        filter: invert(0%);
+    }
 }
 
 /* hide tabview nav */
