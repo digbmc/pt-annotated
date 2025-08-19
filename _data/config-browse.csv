@@ -1,13 +1,15 @@
-field,display_name,btn,hidden,sort_name
-title,Title,,true,Film
-film, Film,,true,Film
-description,Description,,true,
-subject,Subjects,,true,
-description,Description,,true,
-angle,Camera Angle,,true,Camera Angle
-distance,Camera Distance,,true,Camera Distance
-location,Shot Location,,true,Shot Location
-movement,Camera Movement,,true,Camera Movement
-lighting,Lighting,,true,Lighting
-composition,Shot Composition,,true,Shot Composition
-duration,Shot Duration,,true,Shot Duration
+field,display_name,btn,hidden,sort_name,facet_name
+title,Title,,true,,
+film,Film,,,Film,Film
+timestamp,Timestamp,,,,
+description,Description,,true,,
+subject,Subjects,,true,,
+description,Description,,true,,
+angle,Camera Angle,,true,,Camera Angle
+distance,Camera Distance,,true,,Camera Distance
+location,Shot Location,,true,,Shot Location
+movement,Camera Movement,,true,,Camera Movement
+lighting,Lighting,,true,,Lighting
+composition,Shot Composition,,true,,Shot Composition
+duration,Shot Duration,,true,,Shot Duration
+theme,Theme,,true,,Theme
