@@ -46,7 +46,7 @@
             <div class="col-5 col-md-3">
                 <select class="form-select form-select-sm field-select">
                     <option value="all">All Fields</option>
-                    <option value="title">Title</option>
+                    <!--<option value="title">Title</option>-->
                     {% for f in site.data.config-browse %}{% assign cap-field = f.field | capitalize %}
                     <option value="{{ f.field }}">{{ f.facet_name | default: f.display_name | default: cap-field }}</option>
                     {% endfor %}
