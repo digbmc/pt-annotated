@@ -23,7 +23,7 @@ custom-foot: js/browse-js.html
                     {% assign cap-field = f.field | capitalize %}
                     <option value="{{ f.field }}">{{ f.facet_name | default: f.display_name | default: cap-field }}</option>
                     {% endfor %}
-                    <option value="display_template">Content Type</option>
+                    <!--<option value="display_template">Content Type</option>-->
                     {% if site.data.theme.advanced-search == true %}
                     <option value="" disabled>─────────────</option>
                     <option value="advanced">Advanced Search...</option>{% endif %}
@@ -38,12 +38,12 @@ custom-foot: js/browse-js.html
                     </button>
                     <div class="dropdown-menu">
                         <button class="dropdown-item" type="button" data-field="all">All Fields</button>
-                        <button class="dropdown-item" type="button" data-field="title">Title</button>
+                        <!--<button class="dropdown-item" type="button" data-field="title">Title</button>-->
                         {% for f in fields %}
                         {% assign cap-field = f.field | capitalize %}
                         <button class="dropdown-item" type="button" data-field="{{ f.field }}">{{ f.facet_name | default: f.display_name | default: cap-field }}</button>
                         {% endfor %}
-                        <button class="dropdown-item" type="button" data-field="display_template">Content Type</button>
+                        <!--<button class="dropdown-item" type="button" data-field="display_template">Content Type</button>-->
                         {% if site.data.theme.advanced-search == true %}
                         <div class="dropdown-divider"></div>
                         <button class="dropdown-item" type="button" data-field="advanced">Advanced Search...</button>
@@ -95,9 +95,19 @@ custom-foot: js/browse-js.html
                 <ul class="facet-values dropdown-menu p-2">
                     {% assign values = facet.values | split: "|" %}
                     {% for value in values %}
-                    <li class="form-check">
-                        <input class="facet-checkbox form-check-input" type="checkbox" id="{{ value | slugify }}" name="{{ value | slugify}}" value="{{ facet.name }}-{{ value | slugify }}">
-                        <label class="form-check-label" for="{{ value | slugify }}">{{ value }}</label>
+                    <li class="mb-1">
+                        <div id="{{ facet.name | slugify }}-{{ value | slugify }}">
+                            <div class="d-inline">
+                                <select id="{{ facet.name | slugify }}-{{ value | slugify }}-boolean" class="form-select form-select-sm boolean-operator d-inline">
+                                    <option value="AND">AND</option>
+                                    <option value="OR">OR</option>
+                                    <option value="NOT">NOT</option>
+                                </select>
+                            </div>
+                            <div class="d-inline">
+                                <button class="btn btn-sm btn-outline-light" onClick="addQuery('{{ facet.name }}', '{{ value }}');">{{ value }} +</button>
+                            </div>
+                        </div>
                     </li>
                     {% endfor %}
                 </ul>
@@ -106,10 +116,6 @@ custom-foot: js/browse-js.html
         </ul>
     </div>
     <div class="col-12 col-lg-4 mb-1 text-end">
-        <div class="btn-group mb-1" role="group" aria-label="Apply and Remove Filters">
-            <button class="btn btn-success mx-0" type="button" onclick="applyFilters()">Apply Filters</button>
-            <button class="btn btn-danger mx-0" type="button" onclick="removeFilters(); filterItems(items,query);">Remove Filters</button>
-        </div>
         <div class="dropdown">
             <button class="btn btn-warning mt-1 dropdown-toggle" type="button" id="browseSortButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Sort by <span id="sortFilter">Random</span>

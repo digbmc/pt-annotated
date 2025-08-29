@@ -472,6 +472,11 @@ a:hover svg {
     color: $light;
     background-color: $dark;
     border: 1px solid $dark-border;
+    min-width: 18rem;
+}
+
+.facet-options .boolean-operator {
+    width: 30%;
 }
 
 .form-check-input {

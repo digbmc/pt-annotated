@@ -40,6 +40,17 @@ var items = [
 // Valid field names for URL-based searches
 const validFields = [{% for f in fields %}"{{ f.field }}",{% endfor %}"title","display_template"];
 
+// Valid values for fields with controlled vocabulary
+{% capture valuesObject %}
+    { {% for f in fields %}
+    {% capture values %}"{{ f.values | split: '|' | join: '","'}}"{% endcapture %}
+    "{{ f.field }}":[{{ values }}]{% unless forloop.last %},{% endunless %}
+    {% endfor %} }
+{% endcapture %}
+
+var validValues = {{ valuesObject }};
+// console.log(typeof validValues);
+
 // Date field names - add your date fields here
 const dateFields = ['date', 'created', 'published', 'modified', 'issued', 'date_created', 'date_published'];
 
@@ -1047,5 +1058,47 @@ function setupEventHandlers() {
         });
     }
 }
+
+// =============================================================================
+// CUSTOM PTA FEATURES
+// =============================================================================
+
+// function to support buttons in Filters menu
+    function addQuery(field, value){ 
+        // get page url
+        let currentUrl = window.location.href;
+        let fixedUrl = currentUrl.replace('http://127.0.0.1:4000/', '');
+        // get string that needs to be appended to url based on button clicked 
+        // find what the number of the new query should be
+        for (let i = 0; i < 99; i++) {
+            if (fixedUrl.includes(i.toString())) {
+                continue;
+            } else {
+                var queryNum = i.toString();
+                break;
+            }
+        }
+        // check if this is the first query
+        let stringStart = '';
+        if (queryNum == '0'){
+            stringStart = '?';
+        } else {
+            stringStart = '&';
+        }
+        // get the value of the boolean operator for this query
+        let boolId = field.toLowerCase().replaceAll(' ', '-') + '-' + value.toLowerCase().replaceAll(' ', '-') + '-boolean';
+        console.log(boolId);
+        let boolValue = document.getElementById(boolId).value;
+        // assemble the parts of the query string
+        let boolString = 'b' + queryNum + '=' + boolValue;
+        let fieldString = 'f' + queryNum + '=' + field;
+        let valueString = 'v' + queryNum + '=' + value;
+        let newQuery =  stringStart + boolString + '&' + fieldString + '&' + valueString.replaceAll(' ','+');
+        // append the query string to the url
+        let newUrl = currentUrl + newQuery;
+        // fix double ??, in case the original url had a ? at the end already
+        newUrl = newUrl.replace('??', '?');
+        window.location.href = newUrl;
+    }
 </script>
 {% endunless %}
