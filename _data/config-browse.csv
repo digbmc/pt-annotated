@@ -1,16 +1,15 @@
-field,display_name,btn,hidden,sort_name,facet_name
-title,Title,,true,,
-film,,,,Film,Film
-timestamp,,,,,
-description,Description,,true,,
-subject,Subjects,,true,,
-description,Description,,true,,
-angle,,,true,,Camera Angle
-distance,,,true,,Camera Distance
-location,,,true,,Shot Location
-movement,,,true,,Camera Movement
-lighting,,,true,,Lighting
-composition,,,true,,Shot Composition
-duration,,,true,,Shot Duration
-theme,,,true,,Theme
-type,,true,,Type,Type
+field,display_name,btn,hidden,sort_name,facet_name,values
+title,Title,,true,,,
+subject,Subjects,,true,,,
+description,Description,,true,,,
+film,,,,Film,Film,Licorice Pizza|Phantom Thread|Punch-Drunk Love
+timestamp,,,,,,
+angle,,,true,,Camera Angle,overhead|high|low|eye-level|dutch|point of view
+distance,,,true,,Camera Distance,extreme close-up|close-up|medium shot|plan américain|full shot|long shot|extreme long shot|establishing shot
+location,,,true,,Shot Location,interior|exterior
+movement,,,true,,Camera Movement,fixed|mobile|pan|tilt|tracking|zoom|crane|handheld|roll
+lighting,,,true,,Lighting,low key|high key|backlighting
+composition,,,true,,Shot Composition,single shot|dirty single|two shot|three shot|group shot
+duration,,,true,,Shot Duration,long take
+themes,,,true,,Themes,crime|doubles|family|gender|histories|intertextualities|intimacies|location|marginality|media|PTA|religion|systems|violence
+type,,true,,Type,Type,

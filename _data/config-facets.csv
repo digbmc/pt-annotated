@@ -1,10 +1,10 @@
-name,display_name,values,selector
-film,Film,Licorice Pizza|Phantom Thread|Punch-Drunk Love,radio
-angle,Camera Angle,overhead|high|low|eye-level|dutch|point of view,checkbox
-distance,Camera Distance,extreme close-up|close-up|medium shot|plan américain|full shot|long shot|extreme long shot|establishing shot,radio
-location,Shot Location,interior|exterior,radio
-movement,Camera Movement,fixed|mobile|pan|tilt|tracking|zoom|crane|handheld|roll,checkbox
-lighting,Lighting,low key|high key|backlighting,checkbox
-composition,Shot Composition,single shot|dirty single|two shot|three shot|group shot,radio
-duration,Shot Duration,long take,radio
-themes,Themes,crime|doubles|family|gender|histories|intertextualities|intimacies|location|marginality|media|PTA|religion|systems|violence,checkbox
+name,display_name,values
+film,Film,Licorice Pizza|Phantom Thread|Punch-Drunk Love
+angle,Camera Angle,overhead|high|low|eye-level|dutch|point of view
+distance,Camera Distance,extreme close-up|close-up|medium shot|plan américain|full shot|long shot|extreme long shot|establishing shot
+location,Shot Location,interior|exterior
+movement,Camera Movement,fixed|mobile|pan|tilt|tracking|zoom|crane|handheld|roll
+lighting,Lighting,low key|high key|backlighting
+composition,Shot Composition,single shot|dirty single|two shot|three shot|group shot
+duration,Shot Duration,long take
+themes,Themes,crime|doubles|family|gender|histories|intertextualities|intimacies|location|marginality|media|PTA|religion|systems|violence

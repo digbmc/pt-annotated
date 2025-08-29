@@ -40,6 +40,17 @@ var items = [
 // Valid field names for URL-based searches
 const validFields = [{% for f in fields %}"{{ f.field }}",{% endfor %}"title","display_template"];
 
+// Valid values for fields with controlled vocabulary
+{% capture valuesObject %}
+    { {% for f in fields %}
+    {% capture values %}"{{ f.values | split: '|' | join: '","'}}"{% endcapture %}
+    "{{ f.field }}":[{{ values }}]{% unless forloop.last %},{% endunless %}
+    {% endfor %} }
+{% endcapture %}
+
+var validValues = {{ valuesObject }};
+// console.log(typeof validValues);
+
 // Date field names - add your date fields here
 const dateFields = ['date', 'created', 'published', 'modified', 'issued', 'date_created', 'date_published'];
 
