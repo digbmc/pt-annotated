@@ -139,7 +139,7 @@ a svg {
     height: 1rem;
     fill: $primary;
     position: relative;
-    top: -2px;
+    top: 3px;
 }
 
 a:hover svg {
@@ -635,6 +635,19 @@ a:hover svg {
 .p-dialog .p-dialog-content {
     padding: 0 1rem;
     border-radius: 0 0 6px 6px;
+}
+
+/* adjust color and stroke width of annotation rectangle outlines */
+
+.a9s-annotation .a9s-inner, 
+.a9s-selection .a9s-inner {
+    stroke: $info !important;
+    stroke-width: 2px !important;
+}
+
+.a9s-annotation .a9s-inner:hover, 
+.a9s-selection .a9s-inner:hover {
+    stroke: $warning !important;
 }
 
 /* ------------------------------
