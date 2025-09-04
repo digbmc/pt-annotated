@@ -494,6 +494,24 @@ a:hover svg {
     }
 }
 
+.form-select, .form-select:focus {
+    background-color: #000;
+    color: $light;
+    border: 1px solid $light;
+    background-image: url(icons/chevron-down-light.svg);
+}
+
+.facet-select {
+    position: relative;
+    top: 2px;
+}
+
+#fieldSelect, #fieldSelect:focus {
+    background-color: $secondary;
+    color: $light;
+    border: none;
+}
+
 .info-button {
     height: 2rem;
     width: 2rem;
