@@ -98,7 +98,7 @@ custom-foot: js/browse-js.html
                     <li class="mb-1">
                         <div id="{{ facet.name | slugify }}-{{ value | slugify }}">
                             <div class="d-inline">
-                                <select id="{{ facet.name | slugify }}-{{ value | slugify }}-boolean" class="form-select form-select-sm boolean-operator d-inline">
+                                <select id="{{ facet.name | slugify }}-{{ value | slugify }}-boolean" class="form-select form-select-sm boolean-operator d-inline facet-select">
                                     <option value="AND">AND</option>
                                     <option value="OR">OR</option>
                                     <option value="NOT">NOT</option>
