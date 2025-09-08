@@ -72,15 +72,33 @@ custom-foot: js/browse-js.html
             <div class="modal-content bg-dark">
                 <div class="modal-header">
                     <h5 class="modal-title" id="modalLabel">Filters</h5>
-                    <button type="button" class="btn-close bg-danger" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <button type="button" class="btn-close btn-light" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                     <p>
-                        Each screenshot in the collection has been tagged with applicable technical
-                        and thematic terms, which you can use to search this collection. Use the dropdown menus below
-                        to select tags...
+                        Each screenshot in this collection has been tagged with applicable technical
+                        and thematic terms, which you can use to search the collection. See the 
+                        <a href="{{ '/tags.html#glossary' | relative_url }}">glossary</a> for more 
+                        information about each tag.
+                    </p>    
+                    <p>
+                        Use the dropdown menus below to add filters to your search. Open a category dropdown to 
+                        see the available tags under that category, and click on the tag name to add it as a filter. 
                     </p>
-                    <p>See the <a href="{{ '/tags.html#glossary' | relative_url }}">glossary</a> for more information about each tag.</p> 
+                    <p>
+                        By default, filters are added with the <span class="text-success text-uppercase">and</span> selector, meaning 
+                        the search will return only items for which every filter is "true." You can change the selector 
+                        next to the tag button to switch it to <span class="text-warning text-uppercase">or</span> or 
+                        <span class="text-danger text-uppercase">not</span>. This allows for a more advanced search.
+                        
+                        For example, you can search for all extreme close-ups from <em>Phantom Thread</em> or <em>Punch-Drunk Love</em> by 
+                        applying the following filters:
+                    </p>
+                    <ul>
+                        <li><span class="text-success text-uppercase">and</span> Phantom Thread</li>
+                        <li><span class="text-warning text-uppercase">or</span> Punch-Drunk Love</li>
+                        <li><span class="text-success text-uppercase">and</span> extreme close-up.</li>
+                    </ul>
                 </div>
             </div>
         </div>
