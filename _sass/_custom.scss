@@ -200,6 +200,36 @@ a:hover svg {
     border: 1px solid $dark-border;
 }
 
+.alert-primary {
+    color: $primary;
+    background-color: $primary-glow;
+    border-color: $primary;
+}
+
+.alert-success {
+    color: $success;
+    background-color: $success-glow;
+    border-color: $success;
+}
+
+.alert-info {
+    color: $info;
+    background-color: $info-glow;
+    border-color: $info;
+}
+
+.alert-warning {
+    color: $warning;
+    background-color: $warning-glow;
+    border-color: $warning;
+}
+
+.alert-danger {
+    color: $danger;
+    background-color: $danger-glow;
+    border-color: $danger;
+}
+
 /* --------
     Header
    -------- */
