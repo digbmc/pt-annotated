@@ -421,6 +421,19 @@ a:hover svg {
     }
 }
 
+.status-button {
+    height: 2rem;
+    width: 2rem;
+    line-height: 0;
+    position: relative;
+    top: -2px;
+    font-weight: 700;
+
+    svg {
+        position: relative;
+        left: -6px;
+    }
+}
 
 /* ----------------------
     Mosaic Visualization

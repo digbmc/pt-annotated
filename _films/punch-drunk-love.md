@@ -5,6 +5,7 @@ thumbnail-image: https://digitalscholarship.brynmawr.edu/pta/punc/punc-12723/til
 featured-image: https://digitalscholarship.brynmawr.edu/pta/punc/punc-10716/tiles/full/1920,1080/0/default.jpg # full url or relative path to the image for the top of the film page
 featured-image-alt: # alt text for the banner image on the film page
 deployed: true
+annotated: true
 ---
 
 *Punch-Drunk Love* (2002), PTA’s first romantic comedy, combines familial conflict, unexpected elements from mid-century Technicolor musicals, the true story of a man’s quest to gain over a million airline miles by bulk-buying pudding, and a plotline involving a phone sex line scam.

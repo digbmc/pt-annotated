@@ -5,6 +5,7 @@ thumbnail-image: https://digitalscholarship.brynmawr.edu/pta/lico/lico-20606/til
 featured-image: https://digitalscholarship.brynmawr.edu/pta/lico/lico-20606/tiles/full/1920,1080/0/default.jpg # full url or relative path to the image for the top of the film page
 featured-image-alt: # alt text for the banner image on the film page
 deployed: true
+annotated: false
 ---
 
 Perhaps PTA’s most charming film, *Licorice Pizza* (2021) found the director returning to his roots—the 1970s San Fernando Valley—for a romp with a precocious actor-turned-impresario, Gary Valentine (Cooper Hoffman), and a young woman struggling to launch, Alana Kane (Alana Haim). The plot spins around their curious relationship even as it catches different grooves and subplots involving local politics, the effects of the oil embargo of 1973, and larger-than-life characters based on Hollywood personalities William Holden and Jon Peters.
