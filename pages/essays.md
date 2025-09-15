@@ -7,6 +7,10 @@ tags:
 ---
 
 <h2 id="page-title">{{ page.title }}</h2>
+<div class="alert alert-primary text-center" role="alert">
+  Progress Note: The sample essays currently available here are placeholders designed to showcase the features
+  that future essays might have.
+</div>
 <a id="return-to-all" class="d-none" aria-hidden="true" href="#"><svg class="bi icon-sprite" aria-hidden="true"><use xlink:href="{{ '/assets/lib/icons/arrow-left.svg' | relative_url }}"/></svg> Return to all essays</a>
 
 <!--<p>

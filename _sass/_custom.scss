@@ -200,6 +200,36 @@ a:hover svg {
     border: 1px solid $dark-border;
 }
 
+.alert-primary {
+    color: $light;
+    background-color: $dark;
+    border-color: $primary;
+}
+
+.alert-success {
+    color: $light;
+    background-color: $dark;
+    border-color: $success;
+}
+
+.alert-info {
+    color: $light;
+    background-color: $dark;
+    border-color: $info;
+}
+
+.alert-warning {
+    color: $light;
+    background-color: $dark;
+    border-color: $warning;
+}
+
+.alert-danger {
+    color: $light;
+    background-color: $dark;
+    border-color: $danger;
+}
+
 /* --------
     Header
    -------- */
@@ -391,6 +421,19 @@ a:hover svg {
     }
 }
 
+.status-button {
+    height: 2rem;
+    width: 2rem;
+    line-height: 0;
+    position: relative;
+    top: -2px;
+    font-weight: 700;
+
+    svg {
+        position: relative;
+        left: -6px;
+    }
+}
 
 /* ----------------------
     Mosaic Visualization
@@ -507,7 +550,7 @@ a:hover svg {
 
 .facet-select {
     position: relative;
-    top: 2px;
+    top: 1px;
 }
 
 #fieldSelect, #fieldSelect:focus {
