@@ -11,3 +11,7 @@ annotated: true
 *Punch-Drunk Love* (2002), PTA’s first romantic comedy, combines familial conflict, unexpected elements from mid-century Technicolor musicals, the true story of a man’s quest to gain over a million airline miles by bulk-buying pudding, and a plotline involving a phone sex line scam.
 
 Barry Egan (Adam Sandler) is a lonely, socially awkward small business owner who leads a careful, simple existence. Between managing his plunger enterprise and meekly accepting his seven sisters’ verbal abuse, he retreats into the margins of his life and, often, the camera’s frame. He meets the enigmatic Lena Leonard (Emily Watson) when she drops off her car for repair at the mechanic next to Barry’s warehouse in Los Angeles’s San Fernando Valley. If it’s not love at first sight, it’s something very close.
+
+<div class="alert alert-primary text-center" role="alert">
+  Progress Note: This film is fully annotated. <em>That’s that!</em>
+</div>

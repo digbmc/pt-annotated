@@ -11,3 +11,7 @@ annotated: false
 Set in the world of London 1950s haute couture (“high dressmaking”), *Phantom Thread* (2017) is PTA's only film shot entirely abroad. It provided the director—and audiences—an opportunity to consider how his prevailing themes of power dynamics in relationships, sexual urges and hunger, and art’s intersections with commerce play out in a setting much different from the San Fernando Valley that was so central to his earlier work.
 
 *Phantom Thread* is also notable as PTA’s second collaboration with the enigmatic Daniel Day-Lewis. Here, he plays Reynolds Woodcock, a fussy fashion designer whose regimented way of life is thrown into disorder when he meets Alma Elson (Vicky Krieps). His new muse both resists his idiosyncratic demands and feeds his innermost desires in unusual ways. Darkly comedic and surprisingly romantic, *Phantom Thread* depicts what happens when two immovable personalities collide.
+
+<div class="alert alert-primary text-center" role="alert">
+  Progress Note: This film is not yet annotated!
+</div>
