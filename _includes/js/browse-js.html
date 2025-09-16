@@ -702,7 +702,7 @@ function displayActiveFilters(searchCriteria) {
         if (!criteria.value) return;
         
         const button = document.createElement('button');
-        button.className = `btn btn-sm btn-outline-${criteria.boolean === 'NOT' ? 'danger' : criteria.boolean === 'OR' ? 'warning' : 'success'} me-2 mb-1`;
+        button.className = `btn btn-sm btn-outline-${criteria.boolean === 'NOT' ? 'danger' : criteria.boolean === 'OR' ? 'warning' : 'success'} rounded-pill px-2 me-2 mb-1`;
         button.type = 'button';
         
         // Get field display name
@@ -745,7 +745,7 @@ function displayActiveFilters(searchCriteria) {
     // Add "Add Field" button
     const addButton = document.createElement('button');
     addButton.type = 'button';
-    addButton.className = 'btn btn-outline-secondary btn-sm mb-1{% if site.data.theme.advanced-search == false %} d-none{% endif %}';
+    addButton.className = 'btn btn-outline-light btn-sm rounded-pill px-2 mb-1{% if site.data.theme.advanced-search == false %} d-none{% endif %}';
     addButton.innerHTML = `
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
             <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"></path>
