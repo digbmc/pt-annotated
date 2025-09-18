@@ -1071,14 +1071,14 @@ function setupEventHandlers() {
         // check if a filter with this value has already been applied and remove it
         if (startQuery.includes(value.replaceAll(' ','+'))) {
             // search current url for full query string
-            let pattern = new RegExp(String.raw`\Wb\d?=\w{2,3}\Wf\d?=${field.replaceAll(' ','\\+')}\Wv\d?=${value.replaceAll(' ','\\+')}`);
-            console.log(pattern);
+            let pattern = new RegExp(String.raw`\Wb\d?=\w{2,3}\Wf\d?=${field.replaceAll(' ','\\+').replaceAll('-','\\-')}\Wv\d?=${value.replaceAll(' ','\\+').replaceAll('-','\\-')}`);
+            // console.log(pattern);
             let oldQuery = startQuery.match(pattern)[0];
             // remove old query from the url
             startQuery = startQuery.replace(oldQuery, '');
             // fix numbers on other queries
             let deletedQueryNum = oldQuery.match(/\d/)[0];
-            for (let i = deletedQueryNum; i < 99; i++) {
+            for (let i = Number(deletedQueryNum) + 1; i < 99; i++) {
                 if (startQuery.includes(i.toString())) {
                     let newNum = i - 1;
                     startQuery = startQuery.replaceAll(i.toString(), newNum.toString());
@@ -1121,8 +1121,8 @@ function setupEventHandlers() {
         // fix double ?? at start of query
         newQuery = newQuery.replace('??', '?');
         var newUrl = '{{ site.url | append: site.baseurl | append: page.url }}' + newQuery;
-        console.log(newUrl);
-        window.location.href = newUrl;
+        // console.log(newUrl);
+        // window.location.href = newUrl;
     }
 </script>
 {% endunless %}
