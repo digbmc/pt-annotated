@@ -1,7 +1,5 @@
 field,display_name,btn,hidden,sort_name,facet_name,values
 title,Title,,true,,,
-subject,Subjects,,true,,,
-description,Description,,true,,,
 film,,,,Film,Film,Licorice Pizza|Phantom Thread|Punch-Drunk Love
 timestamp,,,,,,
 angle,,,true,,Camera Angle,overhead|high|low|eye-level|dutch|point of view
