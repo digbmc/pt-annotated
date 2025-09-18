@@ -1122,7 +1122,7 @@ function setupEventHandlers() {
         newQuery = newQuery.replace('??', '?');
         var newUrl = '{{ site.url | append: site.baseurl | append: page.url }}' + newQuery;
         // console.log(newUrl);
-        // window.location.href = newUrl;
+        window.location.href = newUrl;
     }
 </script>
 {% endunless %}
