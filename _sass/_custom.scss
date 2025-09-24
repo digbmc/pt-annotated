@@ -234,6 +234,11 @@ a:hover svg {
     border-color: $dark-border !important;
 }
 
+.external-link-icon {
+    transform: scale(0.8);
+    vertical-align: 0;
+}
+
 /* --------
     Header
    -------- */
