@@ -22,6 +22,10 @@ credits: false
     </li>
 </ul>
 
+Welcome to the beta version of *Paul Thomas Annotated: In the Margins*! This website
+is under development, and we welcome user feedback. If you have feedback to share
+or if you notice a bug, please fill out our <a href="https://docs.google.com/forms/d/e/1FAIpQLSdEWojQpxRp1vWhzNjGnI-mGC8bGztAyWR1wsA27lcoSvZe3Q/viewform?usp=sharing&ouid=105265580496044254580" target="_blank">Contact Form</a>.
+
 *Paul Thomas Annotated: In the Margins* is an open access resource devoted to the filmography of Paul Thomas Anderson. Our project involves annotating, scene by scene, screenshots from each of his ten narrative films to date (*Hard Eight*, *Boogie Nights*, *Magnolia*, *Punch-Drunk Love*, *There Will Be Blood*, *The Master*, *Inherent Vice*, *Phantom Thread*, *Licorice Pizza*, *One Battle After Another)*.
 
 We aim to make PTA’s films more accessible to audiences including scholars, students, filmmakers, fans, and casual viewers. We provide commentary via annotations that address the many parts of these films: mise-en-scène, dialogue, camerawork, character, intertextuality, intratextuality, narrative, and other analytical and aesthetic elements. Each image includes alt-text, as well as metadata that allows readers to sort images through technical filters related to the visual aspects of each shot or thematic tags that facilitate connections among the films.
@@ -30,11 +34,11 @@ Our approach is rooted in the concept of margins. PTA’s protagonists—whether
 
 We hope that this site’s innovative and community-oriented body of knowledge can generate novel methodologies for the analysis and appreciation of film. We envision *Paul Thomas Annotated: In the Margins* as a teaching tool for other instructors as well as an interlocutor for both PTA fans and those new to his films. Moving beyond the margins, perhaps this digital annotation project can become a portable model for other subjects and purposes.
 
-Technical note: Our project website is built with [CollectionBuilder](https://collectionbuilder.github.io/). The images from the films are made available in [International Image Interability Framework (IIIF)](https://iiif.io/) format through a static (level 0) implementation and are compatible with the Presentation API 3.0. Annotations are added to the IIIF manifests with [liiive](https://liiive.now/), and the images along with their annotations are displayed on the site in an embedded [Glycerine Viewer](https://demo.viewer.glycerine.io/). The collection metadata is available for download in CSV and JSON formats. For reference purposes, each image from the film has been assigned a unique ID based on its film of origin, represented as a four-letter code, and its timestamp, minus the colons. For example, the first image from Punch-Drunk Love has the timestamp 0:00:39, and its ID is PUNC-00039.
+Technical note: Our project website is built with <a href="https://collectionbuilder.github.io/" target="_blank">CollectionBuilder</a>. The images from the films are made available in <a href="https://iiif.io/" target="_blank">International Image Interability Framework (IIIF)</a> format through a static (level 0) implementation and are compatible with the Presentation API 3.0. Annotations are added to the IIIF manifests with <a href="https://liiive.now/" target="_blank">liiive</a>, and the images along with their annotations are displayed on the site in an embedded <a href="https://demo.viewer.glycerine.io/" target="_blank">Glycerine Viewer</a>. The collection metadata is available for download in CSV and JSON formats. For reference purposes, each image from the film has been assigned a unique ID based on its film of origin, represented as a four-letter code, and its timestamp, minus the colons. For example, the first image from Punch-Drunk Love has the timestamp 0:00:39, and its ID is PUNC-00039.
 
 ### Bibliography
 
-See our <a href="https://www.zotero.org/groups/5918526/paul_thomas_annotated/library" target="_blank" rel="noopener">Zotero Library <svg class="bi icon-sprite" aria-hidden="true"><use xlink:href="{{ '/assets/lib/icons/box-arrow-up-right.svg' | relative_url }}"/></svg><span class="visually-hidden">(opens in a new tab)</span></a> for bibliographic information on the works cited in our commentary.
+See our <a href="https://www.zotero.org/groups/5918526/paul_thomas_annotated/library" target="_blank">Zotero Library</a> for bibliographic information on the works cited in our commentary.
 
 ### Project Team
 
@@ -52,15 +56,15 @@ See our <a href="https://www.zotero.org/groups/5918526/paul_thomas_annotated/lib
 ### Acknowledgements
 
 We would like to thank the following individuals, groups, and institutions for their help and support as we build *Paul Thomas Annotated: In the Margins*.
-- Alex at [Miss Donuts](https://www.yelp.com/biz/miss-donuts-los-angeles)
+- Alex at <a href="https://www.yelp.com/biz/miss-donuts-los-angeles" target="_blank">Miss Donuts</a>
 - Ashlyn Stewart
 - Bryn Mawr College
 - Camilla MacKay
-- [Digital Scholarship @ Bryn Mawr College](https://digitalscholarship.blogs.brynmawr.edu/)
-- The friendly bartenders at the [Foxfire Room](https://www.instagram.com/foxfireroom/?hl=en)
-- The librarians and staff at the [Margaret Herrick Library](https://www.oscars.org/library) (Academy Library)
-- The organizers and participants of [ILiADS](https://iliads.org/) 2025
+- <a href="https://digitalscholarship.blogs.brynmawr.edu/" target="_blank">Digital Scholarship @ Bryn Mawr College</a>
+- The friendly bartenders at the <a href="https://www.instagram.com/foxfireroom/?hl=en" target="_blank">Foxfire Room</a>
+- The librarians and staff at the <a href="https://www.oscars.org/library" target="_blank">Margaret Herrick Library</a> (Academy Library)
+- The organizers and participants of <a href="https://iliads.org/" target="_blank">ILiADS</a> 2025
 
 ### Contact Us
 
-Please use this <a href="https://docs.google.com/forms/d/e/1FAIpQLSdEWojQpxRp1vWhzNjGnI-mGC8bGztAyWR1wsA27lcoSvZe3Q/viewform?usp=sharing&ouid=105265580496044254580" target="_blank" rel="noopener">Google Form <svg class="bi icon-sprite" aria-hidden="true"><use xlink:href="{{ '/assets/lib/icons/box-arrow-up-right.svg' | relative_url }}"/></svg><span class="visually-hidden">(opens in a new tab)</span></a> to share questions, comments, or other feedback concerning the *Paul Thomas Annotated* website.
+Please use this <a href="https://docs.google.com/forms/d/e/1FAIpQLSdEWojQpxRp1vWhzNjGnI-mGC8bGztAyWR1wsA27lcoSvZe3Q/viewform?usp=sharing&ouid=105265580496044254580" target="_blank">Google Form</a> to share questions, comments, or other feedback concerning the *Paul Thomas Annotated* website.
