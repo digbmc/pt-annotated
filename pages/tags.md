@@ -68,7 +68,7 @@ Use these word cloud visualizations to browse the cinematographic techniques and
 - **crime**
 - **doubles**
 - **family**
-- **gender**
+- **masculinity**
 - **histories**
 - **intertextualities**
 - **intimacies**

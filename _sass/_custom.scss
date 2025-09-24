@@ -230,6 +230,10 @@ a:hover svg {
     border-color: $danger;
 }
 
+.border-secondary {
+    border-color: $dark-border !important;
+}
+
 /* --------
     Header
    -------- */
@@ -287,6 +291,14 @@ a:hover svg {
     &:focus {
         background-color: $dark;
         border: none;
+    }
+}
+
+.footer-nav {
+    font-size: 1rem;
+
+    .nav-link {
+        padding: 0 0 .5rem 0;
     }
 }
 
