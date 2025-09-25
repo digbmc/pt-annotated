@@ -43,8 +43,8 @@ See our <a href="https://www.zotero.org/groups/5918526/paul_thomas_annotated/lib
 ### Project Team
 
 - Jennifer Alpert, Project Co-Director, Editor, Annotator
-- Cameron Boucher, Project Manager and Front-end Developer
--  Naveah Díaz, Digital Scholarship Project Assistant and Annotator
+- Cameron Boucher, Project Manager and Web Developer
+- Naveah Díaz, Digital Scholarship Project Assistant and Annotator
 - Olivia Flores, Digital Scholarship Project Assistant and Annotator
 - Pat Ganley, Consultant
 - Judie Johnson, Digital Scholarship Project Assistant and Annotator
