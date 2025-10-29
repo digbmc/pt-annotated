@@ -59,9 +59,12 @@ We would like to thank the following individuals, groups, and institutions for t
 - Alex at <a href="https://www.yelp.com/biz/miss-donuts-los-angeles" target="_blank">Miss Donuts</a>
 - Ashlyn Stewart
 - Bryn Mawr College
+- Bryn Mawr Film Institute
 - Camilla MacKay
 - <a href="https://digitalscholarship.blogs.brynmawr.edu/" target="_blank">Digital Scholarship @ Bryn Mawr College</a>
 - The friendly bartenders at the <a href="https://www.instagram.com/foxfireroom/?hl=en" target="_blank">Foxfire Room</a>
+- Jacob Mazer
+- Jill Malcolm
 - The librarians and staff at the <a href="https://www.oscars.org/library" target="_blank">Margaret Herrick Library</a> (Academy Library)
 - The organizers and participants of <a href="https://iliads.org/" target="_blank">ILiADS</a> 2025
 
