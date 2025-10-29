@@ -12,6 +12,7 @@ layout: default
         <div class="essay-page-narrow">
             <h2 class="display-4 text-center font-{{ page.code | downcase }}">{{ page.title }}</h2>
             {{ content }}
+            {% include progress-note.html %}
         </div>
     </div>
 </div>
