@@ -12,6 +12,3 @@ Perhaps PTA’s most charming film, *Licorice Pizza* (2021) found the director
 
 Similar to *Inherent Vice*, *Licorice Pizza*’s "hangout film" facade and perfectly calibrated needle drops belie its interests in the tense political, sexual, and social dynamics of the era. Likewise, Gary and Alana’s enigmatic partnership—a whirlwind that finds them struggling to match each other’s rhythm until the film’s brilliantly edited finale—finds them moving from one scheme to another, as the unusual pair comes to embody another version of one of PTA’s archetypical characters: the lonely outsider seeking validation in financial success.
 
-<div class="alert alert-primary text-center" role="alert">
-  Progress Note: This film is not yet annotated!
-</div>
