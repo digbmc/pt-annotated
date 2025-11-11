@@ -1,0 +1,83 @@
+{% comment %}
+
+    Annona Storyboard Viewer
+    
+{% endcomment %}
+
+<script src="https://ncsu-libraries.github.io/annona/dist/annona.js"></script>
+<link rel="stylesheet" type="text/css" href="https://ncsu-libraries.github.io/annona/dist/annona.css">
+
+<script id="config" type="application/json">
+    { 
+        "hide_toolbar": false, 
+        "fullpage": false, 
+        "annoview": "sidebyside",
+        "hide_autorunbutton": true,
+        "hide_annocontrols": false, 
+        "hide_infobutton": true,
+        "fit": "horizontal", 
+        "panorzoom": "zoom", 
+        "toggleoverlay": true
+    }
+</script> 
+
+<iiif-storyboard class="text-dark" url="{{ include.manifest }}"></iiif-storyboard>
+
+<style>
+    /*
+    .rangestoryboard, .rangestoryboard .storyboard_viewer, .seadragonbox, canvas, .sidebyside .annotation:not(.no_toolbar_annotation) {
+        height: 600px;
+    }
+    */
+    @media only screen and (max-width: 992px) {
+        .rangestoryboard, .rangestoryboard .storyboard_viewer, .seadragonbox, canvas, .sidebyside .annotation:not(.no_toolbar_annotation) {
+            height: 400px;
+        }
+    }
+
+    @media only screen and (max-width: 768px) {
+        .rangestoryboard, .rangestoryboard .storyboard_viewer, .seadragonbox, canvas, .sidebyside .annotation:not(.no_toolbar_annotation) {
+            height: 300px;
+        }
+    }
+    
+    @media only screen and (max-width: 576px) {
+        .rangestoryboard, .rangestoryboard .storyboard_viewer, .seadragonbox, canvas, .sidebyside .annotation:not(.no_toolbar_annotation) {
+            height: 250px;
+        }
+    }
+
+    .sidebyside .seadragonbox, .sidebyside .seadragonboxfull {
+        width: 60%;
+    }
+
+    .sidebyside .annotation {
+        width: 40%;
+        left: 60%;
+        padding: 0 1rem;
+        color: #FFFFFF;
+        background-color: #000000;
+    }
+
+    .toolbarButton .fas,
+    .toolbarButton .fa {
+        position: relative;
+        top: -3px;
+    }
+
+    #annotation_controls {
+        top: -1px;
+    }
+
+    #hide_button, #settings_button, #settingsButton, #keyboardButton {
+        display: none;
+    }
+
+    .annotation>div {
+        font-size: 1rem;
+    }
+
+    .authorship {
+        display: none;
+    }
+</style>
