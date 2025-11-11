@@ -94,3 +94,22 @@ permalink: mirador.html
         },
         });
 </script>
+
+<style>
+    .mirador33, .mirador37 {
+        left: 100%;
+        width: auto;
+        border: 1px solid #000000;
+        height: 48px;
+        padding: 0;
+        z-index: 1200;
+        position: absolute;
+        margin-top: 1rem;
+        border-radius: 0 5px 5px 0;
+        background-color: #424242;
+    }
+
+    .mirador63 {
+        display: none;
+    }
+</style>

@@ -5,6 +5,6 @@
 
 {% endcomment %}
 
-<div class="mirador-container">
-    <iframe src="{{ '/mirador' | relative_url }}#{{ page.object_location }}"></iframe>
+<div class="iiif-container">
+    <iframe src="{{ '/mirador' | relative_url }}#{{ include.manifest }}"></iframe>
 </div>

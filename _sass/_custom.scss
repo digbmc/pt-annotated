@@ -737,6 +737,11 @@ a:hover svg {
     stroke: $warning !important;
 }
 
+/* hide annotation language toggle */
+#anoLanguage {
+    display: none;
+}
+
 /* ------------------------------
     Responsive IIIF iframe Container
    ------------------------------ */
