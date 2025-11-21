@@ -14,6 +14,6 @@ permalink: /
     </div>
     <div class="alert alert-primary text-center" role="alert">
       Progress Note: <em>Punch-Drunk Love</em> is fully annotated. Screenshots and metadata are
-      available for <em>Licorice Pizza</em>, <em>Phantom Thread</em>, <em>Punch-Drunk Love</em>, and <em>There Will Be Blood</em>.
+      available for <em>Inherent Vice</em>, <em>Licorice Pizza</em>, <em>Phantom Thread</em>, <em>Punch-Drunk Love</em>, and <em>There Will Be Blood</em>.
     </div>
 </div>
