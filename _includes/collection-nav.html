@@ -24,7 +24,7 @@
                     <a class="nav-link  dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">{{ nav.display_name }}</a>
                     <div class="dropdown-menu">
                         {% for f in films %}
-                        <a class="dropdown-item nav-item fs-6{% if page.url == f.url %} active{% endif %}" href="{{ f.url | relative_url }}">{{ f.title }}</a>
+                        <a class="dropdown-item nav-item fs-6{% if page.url == f.url %} active{% endif %}" href="{{ f.url | relative_url | append: '.html' }}">{{ f.title }}</a>
                         {% endfor %}
                     </div>
                 </li>
