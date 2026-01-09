@@ -1,7 +1,7 @@
 field,display_name
 title,Title
-timestamp, Timestamp
-film, Film
+timestamp,Timestamp
+film,Film
 distance,Camera Distance
 location,Shot Location
 movement,Camera Movement
