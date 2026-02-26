@@ -63,6 +63,7 @@ We would like to thank the following individuals, groups, and institutions for t
 - Camilla MacKay
 - <a href="https://digitalscholarship.blogs.brynmawr.edu/" target="_blank">Digital Scholarship @ Bryn Mawr College</a>
 - The friendly bartenders at the <a href="https://www.instagram.com/foxfireroom/?hl=en" target="_blank">Foxfire Room</a>
+- Glen Robson
 - Jacob Mazer
 - Jill Malcolm
 - The librarians and staff at the <a href="https://www.oscars.org/library" target="_blank">Margaret Herrick Library</a> (Academy Library)
