@@ -742,6 +742,13 @@ a:hover svg {
     display: none;
 }
 
+/* --------------------------
+    Annona Storyboard Viewer
+   -------------------------- */
+.storyboard_viewer a {
+    color: $primary !important;
+}
+
 /* ------------------------------
     Responsive IIIF iframe Container
    ------------------------------ */
