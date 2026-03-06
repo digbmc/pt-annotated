@@ -2,6 +2,8 @@ display_name,stub,dropdown_parent
 Home,/,
 Films,,
 Essays,/essays.html,
-Browse,/browse.html,
+Browse,,
+Screenshots,/browse.html,Browse
+Other,/other.html,Browse
 Tags,/tags.html,
 About,/about.html,

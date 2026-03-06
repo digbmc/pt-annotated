@@ -1,7 +1,26 @@
+{% comment %}
+ * Modified for PTA.
+ * 
+ * PTA has two Browse pages, one for Screenshots and one for Other items.
+ * Added a check, to determine which objects to include on this page.
+{% endcomment %}
+
 {% if site.data.theme.browse-child-objects == true %}
-{%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid' -%}
-{% else %}
-{%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid and item.parentid == nil' -%}
+    {% if page.collection == "Screenshots" %}
+        {%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid and item.type == "Image;IIIF;Screenshot"' -%}
+    {% elsif page.collection == "Other" %}
+        {%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid and item.type != "Image;IIIF;Screenshot"' -%}
+    {% else %}
+        {%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid' -%}
+    {% endif %}
+{% else %}       
+    {% if page.collection == "Screenshots" %}
+        {%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid and item.parentid == nil and item.type == "Image;IIIF;Screenshot"' -%}    
+    {% elsif page.collection == "Other" %}
+        {%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid and item.parentid == nil and item.type != "Image;IIIF;Screenshot"' -%}
+    {% else %}
+        {%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid and item.parentid == nil' -%}
+    {% endif %}
 {% endif %}
 {%- assign fields = site.data.config-browse -%}
 {% unless site.data.theme.faceted-search or site.data.theme.advanced-search %}

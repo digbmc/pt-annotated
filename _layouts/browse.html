@@ -60,6 +60,7 @@ custom-foot: js/browse-js.html
         <button class="btn btn-danger filter p-1 d-lg-none float-end" onclick="resetFilter(); return false;" data-filter="">Reset</button>
     </div>
 </div>
+{% if page.collection == "Screenshots" %}
 <div class="row">
     <div class="col mb-1">
         <h3 class="d-inline">Filters</h3>
@@ -104,7 +105,9 @@ custom-foot: js/browse-js.html
         </div>
     </div>
 </div>
-<div class="row mb-3 justify-content-center">
+{% endif %}
+<div class="row mb-3 justify-content-{% if page.collection == 'Screenshots' %}center{% else %}end{% endif %}">
+    {% if page.collection == "Screenshots" %}
     <div class="col-12 col-lg-8 mb-1">
         <ul id="facets-menu" class="list-unstyled m-0 p-0">
             {% for facet in facets %}
@@ -137,6 +140,7 @@ custom-foot: js/browse-js.html
             {% endfor %}
         </ul>
     </div>
+    {% endif %}
     <div class="col-12 col-lg-4 mb-1 text-end">
         <div class="dropdown">
             <button class="btn btn-warning mt-1 dropdown-toggle" type="button" id="browseSortButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

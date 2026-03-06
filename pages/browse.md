@@ -1,7 +1,8 @@
 ---
-title: Browse
+title: Browse Screenshots
 layout: browse
+collection: Screenshots
 permalink: /browse.html
 ---
 
-## Browse Items
+## Browse Screenshots
