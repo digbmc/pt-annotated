@@ -146,6 +146,11 @@ a:hover svg {
     fill: $light;
 }
 
+.btn svg {
+    position: relative;
+    left: -1px;
+}
+
 .card {
     background-color: $dark;
     color: #F8F9FA;
