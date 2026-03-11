@@ -7,17 +7,17 @@
 
 {% if site.data.theme.browse-child-objects == true %}
     {% if page.collection == "Screenshots" %}
-        {%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid and item.type == "Image;IIIF;Screenshot"' -%}
+        {%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid and item.collection == "Screenshots"' -%}
     {% elsif page.collection == "Other" %}
-        {%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid and item.type != "Image;IIIF;Screenshot"' -%}
+        {%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid and item.collection != "Screenshots"' -%}
     {% else %}
         {%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid' -%}
     {% endif %}
 {% else %}       
     {% if page.collection == "Screenshots" %}
-        {%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid and item.parentid == nil and item.type == "Image;IIIF;Screenshot"' -%}    
+        {%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid and item.parentid == nil and item.collection == "Screenshots"' -%}    
     {% elsif page.collection == "Other" %}
-        {%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid and item.parentid == nil and item.type != "Image;IIIF;Screenshot"' -%}
+        {%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid and item.parentid == nil and item.collection != "Screenshots"' -%}
     {% else %}
         {%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid and item.parentid == nil' -%}
     {% endif %}

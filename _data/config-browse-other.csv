@@ -1,5 +1,5 @@
 field,display_name,btn,hidden,sort_name,facet_name
 title,Title,,true,,
-creator,Creator,,,Creator,Creator
+creator,,,true,Creator,Creator
 film,,,,Film,Film
 type,,true,,Type,Type

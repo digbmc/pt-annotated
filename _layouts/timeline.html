@@ -37,12 +37,12 @@ custom-foot: js/timeline-js.html
 
 <h3><a href="#y{{ uniqueYears | first }}">{{ uniqueYears | first }}</a> to <a href="#y{{ uniqueYears | last }}">{{ uniqueYears | last }}</a></h3>
 
-<table id="timeline" class="table table-striped">
+<table id="timeline" class="table">
     <tbody>
         {% for year in uniqueYears %}
         <tr id="y{{ year }}">
             <th>
-                <h3>{{ year }}</h3>
+                <h3 class="text-light">{{ year }}</h3>
             </th>
             <td>
                 <div class="row">
@@ -55,7 +55,7 @@ custom-foot: js/timeline-js.html
                             {% else %}
                             <div class="card"> 
                                 <div class="card-body text-center">
-                                    <div class="h5 text-dark">{{ item.title }}</div>
+                                    <div class="h5 text-light">{{ item.title }}</div>
                                     <svg class="bi timeline-thumb text-body" fill="currentColor" aria-hidden="true">
                                         {%- assign icon_template = item.display_template | default: item.format -%}
                                         <use xlink:href="{{ '/assets/lib/cb-icons.svg' | relative_url }}#{% if icon_template contains 'image' %}icon-image{% elsif icon_template contains 'pdf' %}icon-pdf{% elsif icon_template contains 'audio' %}icon-audio{% elsif icon_template contains 'video' %}icon-video{% elsif icon_template contains 'panorama' %}icon-panorama{% elsif icon_template contains 'compound' %}icon-compound-object{% elsif icon_template contains 'multiple' %}icon-multiple{% else %}icon-default{% endif %}"/>
