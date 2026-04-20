@@ -1,8 +1,8 @@
 ---
-title: Browse Screenshots
+title: Browse All
 layout: browse
-collection: Screenshots
 permalink: /browse.html
+published: false
 ---
 
-## Browse Screenshots
+## Browse All

@@ -152,8 +152,10 @@ custom-foot: js/browse-js.html
                 <!--<button class="dropdown-item browse-sort-item" data-filter="title">Title</button>-->
                 {% if page.collection == "Screenshots" %}
                     {% assign sort_options = site.data.config-browse-screenshots | where_exp: 'i','i.sort_name != nil' %}
+                {% elsif page.collection == "Supporting Materials" %}
+                    {% assign sort_options = site.data.config-browse-supporting-materials | where_exp: 'i','i.sort_name != nil' %}
                 {% else %}
-                    {% assign sort_options = site.data.config-browse-other | where_exp: 'i','i.sort_name != nil' %}
+                    {% assign sort_options = site.data.config-browse | where_exp: 'i','i.sort_name != nil' %}
                 {% endif %}
                 {% for o in sort_options %}
                 <button class="dropdown-item browse-sort-item" data-filter="{{ o.field | escape }}">{{ o.sort_name }}</button>

@@ -72,3 +72,6 @@ We would like to thank the following individuals, groups, and institutions for t
 ### Contact Us
 
 Please use this <a href="https://docs.google.com/forms/d/e/1FAIpQLSdEWojQpxRp1vWhzNjGnI-mGC8bGztAyWR1wsA27lcoSvZe3Q/viewform?usp=sharing&ouid=105265580496044254580" target="_blank">Google Form</a> to share questions, comments, or other feedback concerning the *Paul Thomas Annotated* website.
+
+
+<div class="text-center"><img style="height: 6rem;" src="{{ 'favicon/favicon.svg' | relative_url }}" alt="PTA Milkshake Logo"></div>

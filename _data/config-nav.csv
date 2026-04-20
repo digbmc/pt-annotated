@@ -1,9 +1,10 @@
 display_name,stub,dropdown_parent
 Home,/,
 Films,,
-Essays,/essays.html,
-Browse,,
-Screenshots,/browse.html,Browse
-Other,/other.html,Browse
-Tags,/tags.html,
+Collections,,
+Screenshots,/screenshots.html,Collections
+Supporting Materials,/supporting-materials.html,Collections
+Special Features,,
+Essays,/essays.html,Special Features
+Tags,/tags.html,Special Features
 About,/about.html,

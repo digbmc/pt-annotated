@@ -51,8 +51,10 @@
                     <!--<option value="title">Title</option>-->
                     {% if page.collection == "Screenshots" %}
                         {%- assign fields = site.data.config-browse-screenshots -%}
+                    {% elsif page.collection == "Supporting Materials" %}
+                        {%- assign fields = site.data.config-browse-supporting-materials -%}
                     {% else %}
-                        {%- assign fields = site.data.config-browse-other -%}
+                        {%- assign fields = site.data.config-browse -%}
                     {% endif %}
                     {% for f in fields %}{% assign cap-field = f.field | capitalize %}
                     <option value="{{ f.field }}">{{ f.facet_name | default: f.display_name | default: cap-field }}</option>

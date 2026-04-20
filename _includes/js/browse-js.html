@@ -8,24 +8,26 @@
 {% if site.data.theme.browse-child-objects == true %}
     {% if page.collection == "Screenshots" %}
         {%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid and item.collection == "Screenshots"' -%}
-    {% elsif page.collection == "Other" %}
-        {%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid and item.collection != "Screenshots"' -%}
+    {% elsif page.collection == "Supporting Materials" %}
+        {%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid and item.collection == "Supporting Materials"' -%}
     {% else %}
         {%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid' -%}
     {% endif %}
 {% else %}       
     {% if page.collection == "Screenshots" %}
         {%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid and item.parentid == nil and item.collection == "Screenshots"' -%}    
-    {% elsif page.collection == "Other" %}
-        {%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid and item.parentid == nil and item.collection != "Screenshots"' -%}
+    {% elsif page.collection == "Supporting Materials" %}
+        {%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid and item.parentid == nil and item.collection == "Supporting Materials"' -%}
     {% else %}
         {%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid and item.parentid == nil' -%}
     {% endif %}
 {% endif %}
 {% if page.collection == "Screenshots" %}
     {%- assign fields = site.data.config-browse-screenshots -%}
+{% elsif page.collection == "Supporting Materials" %}
+    {%- assign fields = site.data.config-browse-supporting-materials -%}
 {% else %}
-    {%- assign fields = site.data.config-browse-other -%}
+    {%- assign fields = site.data.config-browse -%}
 {% endif %}
 {% unless site.data.theme.faceted-search or site.data.theme.advanced-search %}
 {% include js/browse-simple-js.html %}

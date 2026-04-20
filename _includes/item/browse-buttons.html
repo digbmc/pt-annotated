@@ -7,7 +7,7 @@
 {%- endcomment -%}
 <div class="text-center">
   <a class="btn btn-dark" href="{{ page.previous_item | relative_url }}" id="prev-page-button">&laquo; Previous</a>
-  <a class="btn btn-dark" href="{% if page.collection == 'Screenshots' %}{{ '/browse.html' | relative_url }}{% else %}{{ '/other.html' | relative_url }}{% endif %}">Back to Browse</a>
+  <a class="btn btn-dark" href="{% if page.collection == 'Screenshots' %}{{ '/screenshots.html' | relative_url }}{% elsif page.collection == 'Supporting Materials' %}{{ '/supporting-materials.html' | relative_url }}{% else %}{{ '/browse.html' | relative_url }}{% endif %}">Back to Browse</a>
   <a class="btn btn-dark" href="{{ page.next_item | relative_url }}" id="next-page-button">Next &raquo;</a>
 </div>
 <div id="item-nav">
