@@ -61,7 +61,7 @@
         for (let i = 0; i < array.length; i++) {
             size = mapSize(array[i][1]);
             var randomColor = colors[Math.floor(Math.random() * colors.length)];
-            items += '<a class="btn btn-' + randomColor + ' m-2 tagcloud' + size + '" href="{{ "/browse.html" | relative_url }}' + '?b0=AND&f0=' + array[i][2] + '&v0=' + encodeURIComponent(array[i][0]) + '" >' + array[i][0] + '</a>';
+            items += '<a class="btn btn-' + randomColor + ' m-2 tagcloud' + size + '" href="{{ "/screenshots.html" | relative_url }}' + '?b0=AND&f0=' + array[i][2] + '&v0=' + encodeURIComponent(array[i][0]) + '" >' + array[i][0] + '</a>';
         }
         cloud.innerHTML = items;
     }
