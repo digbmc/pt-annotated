@@ -14,6 +14,7 @@ movement,Camera Movement,,,,
 lighting,Lighting,,,,
 composition,Shot Composition,,,,
 duration,Shot Duration,,,,
+themes,Themes,,,,
 identifier,Source Identifier,,,,
 type,,,,DCTERMS.type,
 format,Format,,,,encodingFormat
