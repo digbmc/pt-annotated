@@ -268,14 +268,27 @@ a:hover svg {
     padding-right: 1.5rem;
 }
 
+.navbar-nav .nav-item .nav-link, 
 .navbar-nav .nav-item .nav-link.active {
     color: $light;
-}
 
+    &:hover, &:focus {
+        color: $primary;
+    }
+}
+/*
+.navbar-nav .nav-item .nav-link.active {
+    background: url(ul.svg) no-repeat left bottom/80% 4em;
+}
+*/
 .navbar .dropdown-menu {
     background-color: $dark;
     border: 1px solid $dark-border;
     font-size: 1.25rem;
+}
+
+.dropdown-menu-wide {
+    min-width: 14rem;
 }
 
 .nav-item {
@@ -285,22 +298,25 @@ a:hover svg {
 }
 
 .navbar .dropdown-menu .dropdown-item {
-    color: $nav-text-inactive;
+    color: $light;
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+    img {
+        transition: filter .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+    }
 
     &.active {
         color: $light;
-        background-color: $secondary;
+        background-color: $dark;
+        /* background: url(ul.svg) no-repeat left bottom/80% 4em; */
     }
 
-    &:hover {
+    &:hover, &:focus {
         background-color: $dark;
-        color: $nav-text-hover;
-    }
-
-    &:focus {
-        background-color: $dark;
-        border: none;
+        color: $primary;
+        img {
+            -webkit-filter: saturate(2500%) brightness(68%) hue-rotate(312deg);
+            filter: saturate(2500%) brightness(68%) hue-rotate(-48deg);
+        }
     }
 }
 

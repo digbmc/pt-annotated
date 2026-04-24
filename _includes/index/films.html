@@ -3,12 +3,22 @@
     {%- assign undeployed-films = site.films | where: "deployed", false -%}
     {%- assign films = deployed-films | concat: undeployed-films -%}
     {% for film in films %}
+        {% capture default-logo-path %}/assets/img/title-logos/title-{{ film.code | slugify }}.svg{% endcapture %}
+        {% capture narrow-logo-path %}/assets/img/title-logos/title-{{ film.code | slugify }}-narrow.svg{% endcapture %}
         <div class="col-6 col-lg-4 mb-4 ">
             <div class="btn text-wrap w-100 image-btn{% if film.deployed == false %} disabled opacity-100" aria-disabled="true"{% else %}"{% endif %}" style="background-image: url({{ film.thumbnail-image }});">
                 <div class="darkened-overlay"></div>
-                <a href="{% if film.deployed == false %}#{% else %}{{ film.url | append: '.html' | relative_url }}{% endif %}"><h2 class="w-100 fs-2 p-1 font-{{ film.code | slugify }}">{{ film.title }}</h2></a>
+                <a href="{% if film.deployed == false %}#{% else %}{{ film.url | append: '.html' | relative_url }}{% endif %}"><h2 class="w-100 fs-2 px-4 font-{{ film.code | slugify }}"><img class="svg-with-shadow" src="{% if film.has-narrow-title-svg %}{{ narrow-logo-path | relative_url }}{% else %}{{ default-logo-path | relative_url }}{% endif %}" alt="{{ film.title }}"></h2></a>
                 {% if film.deployed == false %}<div class="coming-soon-overlay"><div class="coming-soon-message">Coming soon!</div></div>{% endif %}
             </div>
         </div>
     {% endfor %}
 </div>
+
+<style>
+    .svg-with-shadow {
+        -webkit-filter: drop-shadow( 2px 2px 2px rgba(0, 0, 0, .7));
+        filter: drop-shadow( 2px 2px 2px rgba(0, 0, 0, .7));
+    }
+
+</style>

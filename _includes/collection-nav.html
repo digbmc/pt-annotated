@@ -22,9 +22,10 @@
                 <li class="nav-item dropdown">
                     {%- assign films = site.films | where: "deployed", true -%}
                     <a class="nav-link  dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">{{ nav.display_name }}</a>
-                    <div class="dropdown-menu">
+                    <div class="dropdown-menu dropdown-menu-wide">
                         {% for f in films %}
-                        <a class="dropdown-item nav-item fs-6{% if page.url == f.url %} active{% endif %}" href="{{ f.url | relative_url | append: '.html' }}">{{ f.title }}</a>
+                        {% capture default-logo-path %}/assets/img/title-logos/title-{{ f.code | slugify }}.svg{% endcapture %}
+                        <a class="dropdown-item nav-item fs-4{% if page.url == f.url %} active{% endif %}" href="{{ f.url | relative_url | append: '.html' }}"><img src="{{ default-logo-path | relative_url }}" alt="{{ f.title }}"></a>
                         {% endfor %}
                     </div>
                 </li>
