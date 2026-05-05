@@ -285,6 +285,10 @@ a:hover svg {
     background-color: $dark;
     border: 1px solid $dark-border;
     font-size: 1.25rem;
+    margin-top: 0;
+    @media only screen and (max-width: 768px) {
+        border: none;
+    }
 }
 
 .dropdown-menu-wide {
@@ -301,6 +305,7 @@ a:hover svg {
     color: $light;
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
     img {
+        max-height: 1.5rem;
         transition: filter .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
     }
 
