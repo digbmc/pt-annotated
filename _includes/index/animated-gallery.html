@@ -86,34 +86,54 @@
 
 <script>
     function flipRandom() {
-        var flipItems = document.getElementsByClassName("flip-item");
-        var randomFlipItem = flipItems[Math.floor(Math.random() * flipItems.length)];
+        let flipItems = document.getElementsByClassName("flip-item");
+        let randomFlipItem = flipItems[Math.floor(Math.random() * flipItems.length)];
         randomFlipItem.classList.toggle("flipped");
     }
+        
+    let flipInterval;
+    let flipIsPaused = false;
 
-    var flipInterval = window.setInterval(function(){
-        flipRandom();
-    }, 3000);
+    function startFlip() {
+        flipInterval = window.setInterval(function(){
+            flipRandom();
+        }, 3000);
+    }
 
+    function stopFlip() {
+        clearInterval(flipInterval);
+    }
+
+    // support pause/play button for animation
     function toggleAnimation(target) {
-        var toggle = document.getElementById(target);
+        let toggle = document.getElementById(target);
         
         if (toggle.classList.contains("playing")) {
-            // set flip interval to 0 to stop animation
-            clearInterval(flipInterval);
+            stopFlip();
             // update data-action and inner HTML of button
             toggle.setAttribute('data-action', 'start');
             toggle.innerHTML = '<span class="visually-hidden">Start Animation </span><svg class="bi icon-sprite" aria-hidden="true"><use xlink:href="{{ '/assets/lib/icons/play-fill.svg' | relative_url }}"/></svg>';
+            flipIsPaused = true;
         } else {
-            // set flip interval to 3000 to start animation
-            flipInterval = window.setInterval(function(){
-                flipRandom();
-            }, 3000);
+            startFlip();
             // update data-action and inner HTML of button
             toggle.setAttribute('data-action', 'stop');
             toggle.innerHTML = '<span class="visually-hidden">Stop Animation </span><svg class="bi icon-sprite" aria-hidden="true"><use xlink:href="{{ '/assets/lib/icons/pause-fill.svg' | relative_url }}"/></svg>';
+            flipIsPaused = false;
         }
+        
         toggle.classList.toggle("playing");
     }
+
+    // start flip on page load
+    window.onload = startFlip;
+    // stop flip on blur
+    window.onblur = stopFlip;
+    // check if animation is manually paused before restarting flip on focus
+    window.onfocus = function(){
+        if (flipIsPaused == false) {
+            startFlip();
+        }
+    };
 
 </script>

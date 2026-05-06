@@ -34,7 +34,7 @@ Our approach is rooted in the concept of margins. PTA’s protagonists—whether
 
 We hope that this site’s innovative and community-oriented body of knowledge can generate novel methodologies for the analysis and appreciation of film. We envision *Paul Thomas Annotated: In the Margins* as a teaching tool for other instructors as well as an interlocutor for both PTA fans and those new to his films. Moving beyond the margins, perhaps this digital annotation project can become a portable model for other subjects and purposes.
 
-Technical note: Our project website is built with <a href="https://collectionbuilder.github.io/" target="_blank">CollectionBuilder</a>. The images from the films are made available in <a href="https://iiif.io/" target="_blank">International Image Interability Framework (IIIF)</a> format through a static (level 0) implementation and are compatible with the Presentation API 3.0. Annotations are added to the IIIF manifests with <a href="https://liiive.now/" target="_blank">liiive</a>, and the images along with their annotations are displayed on the site in an embedded <a href="https://demo.viewer.glycerine.io/" target="_blank">Glycerine Viewer</a>. The collection metadata is available for download in CSV and JSON formats. For reference purposes, each image from the film has been assigned a unique ID based on its film of origin, represented as a four-letter code, and its timestamp, minus the colons. For example, the first image from Punch-Drunk Love has the timestamp 0:00:39, and its ID is PUNC-00039.
+Technical note: Our project website is built with <a href="https://collectionbuilder.github.io/" target="_blank">CollectionBuilder</a>. The images from the films are made available in <a href="https://iiif.io/" target="_blank">International Image Interability Framework (IIIF)</a> format through a static (level 0) implementation and are compatible with the Presentation API 3.0. Annotations are added to the IIIF manifests with <a href="https://liiive.now/" target="_blank">liiive</a>, and the images along with their annotations are displayed on the site using the <a href="https://ncsu-libraries.github.io/annona/storyboard/" target="_blank">Annona Storyboard Viewer</a>. The collection metadata is available for download in CSV and JSON formats. For reference purposes, each image from the film has been assigned a unique ID based on its film of origin, represented as a four-letter code, and its timestamp, minus the colons. For example, the first image from Punch-Drunk Love has the timestamp 0:00:39, and its ID is PUNC-00039.
 
 ### Bibliography
 
@@ -72,3 +72,6 @@ We would like to thank the following individuals, groups, and institutions for t
 ### Contact Us
 
 Please use this <a href="https://docs.google.com/forms/d/e/1FAIpQLSdEWojQpxRp1vWhzNjGnI-mGC8bGztAyWR1wsA27lcoSvZe3Q/viewform?usp=sharing&ouid=105265580496044254580" target="_blank">Google Form</a> to share questions, comments, or other feedback concerning the *Paul Thomas Annotated* website.
+
+
+<div class="text-center"><img style="height: 6rem;" src="{{ 'favicon/favicon.svg' | relative_url }}" alt="PTA Milkshake Logo"></div>

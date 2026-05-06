@@ -6,7 +6,6 @@ custom-foot: js/browse-js.html
 
 {%- assign fields = site.data.config-browse -%}
 {%- assign facets = site.data.config-facets -%}
-{% include js/facets-js.html %}
 
 <div class="row mb-2">
     <div class="col-7 col-lg-9">{{ content }}</div>
@@ -60,6 +59,7 @@ custom-foot: js/browse-js.html
         <button class="btn btn-danger filter p-1 d-lg-none float-end" onclick="resetFilter(); return false;" data-filter="">Reset</button>
     </div>
 </div>
+{% if page.collection == "Screenshots" %}
 <div class="row">
     <div class="col mb-1">
         <h3 class="d-inline">Filters</h3>
@@ -72,7 +72,9 @@ custom-foot: js/browse-js.html
             <div class="modal-content bg-dark">
                 <div class="modal-header">
                     <h5 class="modal-title" id="modalLabel">Filters</h5>
-                    <button type="button" class="btn-close btn-light" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <button type="button" class="btn btn-sm btn-secondary" data-bs-dismiss="modal" aria-label="Close">
+                        <svg class="bi icon-sprite" aria-hidden="true"><use xlink:href="{{ '/assets/lib/icons/x-lg.svg' | relative_url }}"/>
+                    </button>
                 </div>
                 <div class="modal-body">
                     <p>
@@ -104,7 +106,9 @@ custom-foot: js/browse-js.html
         </div>
     </div>
 </div>
-<div class="row mb-3 justify-content-center">
+{% endif %}
+<div class="row mb-3 justify-content-{% if page.collection == 'Screenshots' %}center{% else %}end{% endif %}">
+    {% if page.collection == "Screenshots" %}
     <div class="col-12 col-lg-8 mb-1">
         <ul id="facets-menu" class="list-unstyled m-0 p-0">
             {% for facet in facets %}
@@ -122,11 +126,11 @@ custom-foot: js/browse-js.html
                                     <option value="NOT">NOT</option>
                                 </select>
                                 <button class="btn btn-sm btn-outline-light rounded-pill px-2" onClick="addQuery('{{ facet.name }}', '{{ value }}');">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
+                                    <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
                                         <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"></path>
                                         <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"></path>
                                     </svg>
-                                    {{ value }}
+                                    <span class="visually-hidden">Add Filter: </span>{{ value }}
                                 </button>
                             </div>
                         </div>
@@ -137,6 +141,7 @@ custom-foot: js/browse-js.html
             {% endfor %}
         </ul>
     </div>
+    {% endif %}
     <div class="col-12 col-lg-4 mb-1 text-end">
         <div class="dropdown">
             <button class="btn btn-warning mt-1 dropdown-toggle" type="button" id="browseSortButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -145,7 +150,13 @@ custom-foot: js/browse-js.html
             <div class="dropdown-menu browse-sort-menu" aria-labelledby="browseSortButton">
                 <button class="dropdown-item browse-sort-item {% if site.data.theme.default-sort-field == '' %}active{% endif %}" data-filter="random">Random</button>
                 <!--<button class="dropdown-item browse-sort-item" data-filter="title">Title</button>-->
-                {% assign sort_options = site.data.config-browse | where_exp: 'i','i.sort_name != nil' %}
+                {% if page.collection == "Screenshots" %}
+                    {% assign sort_options = site.data.config-browse-screenshots | where_exp: 'i','i.sort_name != nil' %}
+                {% elsif page.collection == "Supporting Materials" %}
+                    {% assign sort_options = site.data.config-browse-supporting-materials | where_exp: 'i','i.sort_name != nil' %}
+                {% else %}
+                    {% assign sort_options = site.data.config-browse | where_exp: 'i','i.sort_name != nil' %}
+                {% endif %}
                 {% for o in sort_options %}
                 <button class="dropdown-item browse-sort-item" data-filter="{{ o.field | escape }}">{{ o.sort_name }}</button>
                 {% endfor %}

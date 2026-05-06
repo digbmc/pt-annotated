@@ -48,8 +48,10 @@
                                         <div class="row">
                                             {% capture stopMedia %}{% if child.display_template == 'video' %}{% if child.object_location contains 'vimeo' %}vimeo{% elsif child.object_location contains 'youtu' %}youtube{% else %}video{% endif %}{% elsif child.display_template == 'audio' %}audio{% else %}{% endif %}{% endcapture %}
                                             <div class="col-12 text-end">
-                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
-                                                onclick="{% if stopMedia != '' %}stopMedia('{{ child.objectid }}','{{ stopMedia }}');{% endif %}history.pushState('', '', window.location.pathname)"></button>
+                                                <button type="button" class="btn btn-sm btn-secondary" data-bs-dismiss="modal" aria-label="Close"
+                                                onclick="{% if stopMedia != '' %}stopMedia('{{ child.objectid }}','{{ stopMedia }}');{% endif %}history.pushState('', '', window.location.pathname)">
+                                                    <svg class="bi icon-sprite" aria-hidden="true"><use xlink:href="{{ '/assets/lib/icons/x-lg.svg' | relative_url }}"/>
+                                                </button>
                                             </div>
                                             {% capture next_index %}{% if forloop.index == forloop.length %}0{% else %}{{ forloop.index0 | plus: 1 }}{% endif %}{% endcapture %}
                                             {% assign next_index = next_index | times: 1 %}

@@ -7,10 +7,11 @@ layout: default
         <img src="{{ page.featured-image | relative_url }}" alt="{{ page.featured-image-alt }}">
     </div>
 </div>
+{% capture default-logo-path %}/assets/img/title-logos/title-{{ page.code | slugify }}.svg{% endcapture %}
 <div class="row justify-content-center my-4">
     <div class="col-10 col-md-8">
         <div class="essay-page-narrow">
-            <h2 class="display-4 text-center font-{{ page.code | downcase }}">{{ page.title }}</h2>
+            <h2 class="display-4 text-center mb-4 font-{{ page.code | downcase }}"><img class="svg-with-shadow" src="{{ default-logo-path | relative_url }}" alt="{{ page.title }}"></h2>
             {{ content }}
             {% include progress-note.html %}
         </div>
@@ -19,8 +20,9 @@ layout: default
 <div class="row justify-content-center text-center mb-4">
     <div class="col-10 col-md-8">
         <div class="essay-page-narrow">
-            <a class="btn mx-2 mb-2 btn-lg btn-primary" href="{{ '/browse.html' | relative_url }}?b0=AND&f0=film&v0={{ page.title | replace: ' ', '+' }}&b1=AND&f1=type&v1=Screenshot&sort=film">Browse screenshots</a>
+            <a class="btn mx-2 mb-2 btn-lg btn-primary" href="{{ '/screenshots.html' | relative_url }}?b0=AND&f0=film&v0={{ page.title | replace: ' ', '+' }}&b1=AND&f1=type&v1=Screenshot&sort=film">Browse screenshots</a>
             <a class="btn mx-2 mb-2 btn-lg btn-primary" href="{{ '/essays.html' | relative_url }}#{{ page.title | slugify }}">See related essays</a>
+            <a class="btn mx-2 mb-2 btn-lg btn-primary" href="{{ '/supporting-materials.html' | relative_url }}#{{ page.title }}">View supporting materials</a>
         </div>
     </div>
 </div>

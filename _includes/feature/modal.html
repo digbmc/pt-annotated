@@ -21,7 +21,9 @@
         <div class="modal-content">
             <div class="modal-header">
                 <h1 class="modal-title" id="{{ include.button | slugify }}ModalLabel">{{ include.title }}</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <button type="button" class="btn btn-sm btn-secondary" data-bs-dismiss="modal" aria-label="Close">
+                    <svg class="bi icon-sprite" aria-hidden="true"><use xlink:href="{{ '/assets/lib/icons/x-lg.svg' | relative_url }}"/>
+                </button>
             </div>
             <div class="modal-body" >
             {{ include.text | markdownify }}

@@ -2,7 +2,7 @@
 title: Timeline
 layout: timeline
 permalink: /timeline.html
-published: false
+published: true
 ---
 
 ## Collection Timeline

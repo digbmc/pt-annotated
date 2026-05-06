@@ -1,9 +1,34 @@
+{% comment %}
+ * Modified for PTA.
+ * 
+ * PTA has two Browse pages, one for Screenshots and one for Other items.
+ * Added a check, to determine which objects to include on this page.
+{% endcomment %}
+
 {% if site.data.theme.browse-child-objects == true %}
-{%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid' -%}
-{% else %}
-{%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid and item.parentid == nil' -%}
+    {% if page.collection == "Screenshots" %}
+        {%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid and item.collection == "Screenshots"' -%}
+    {% elsif page.collection == "Supporting Materials" %}
+        {%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid and item.collection == "Supporting Materials"' -%}
+    {% else %}
+        {%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid' -%}
+    {% endif %}
+{% else %}       
+    {% if page.collection == "Screenshots" %}
+        {%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid and item.parentid == nil and item.collection == "Screenshots"' -%}    
+    {% elsif page.collection == "Supporting Materials" %}
+        {%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid and item.parentid == nil and item.collection == "Supporting Materials"' -%}
+    {% else %}
+        {%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid and item.parentid == nil' -%}
+    {% endif %}
 {% endif %}
-{%- assign fields = site.data.config-browse -%}
+{% if page.collection == "Screenshots" %}
+    {%- assign fields = site.data.config-browse-screenshots -%}
+{% elsif page.collection == "Supporting Materials" %}
+    {%- assign fields = site.data.config-browse-supporting-materials -%}
+{% else %}
+    {%- assign fields = site.data.config-browse -%}
+{% endif %}
 {% unless site.data.theme.faceted-search or site.data.theme.advanced-search %}
 {% include js/browse-simple-js.html %}
 {% else %}
@@ -381,7 +406,7 @@ function updateDisplay(filteredItems, query = "", field = "", startDate = "", en
     browseItemsDiv.appendChild(fragment);
     
     // Update count
-    document.querySelector("#numberOf").innerHTML = `${filteredItems.length} of {{ items | size }} items`;
+    document.querySelector("#numberOf").innerHTML = `${filteredItems.length} results`;
     
     // Focus active input (only if needed)
     if (query || startDate || endDate) {

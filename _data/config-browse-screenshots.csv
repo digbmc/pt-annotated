@@ -1,0 +1,13 @@
+field,display_name,btn,hidden,sort_name,facet_name
+title,Title,,true,Title (Film),
+film,,,,,Film
+timestamp,,,,,
+angle,,,true,,Camera Angle
+distance,,,true,,Camera Distance
+location,,,true,,Shot Location
+movement,,,true,,Camera Movement
+lighting,,,true,,Lighting
+composition,,,true,,Shot Composition
+duration,,,true,,Shot Duration
+themes,,,true,,Themes
+type,,,true,,

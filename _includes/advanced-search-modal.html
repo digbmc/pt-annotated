@@ -6,7 +6,9 @@
     <div class="modal-content bg-dark border border-secondary text-light">
       <div class="modal-header">
         <h1 class="modal-title h4" id="advancedSearchModalLabel">Advanced Search</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <button type="button" class="btn btn-sm btn-secondary" data-bs-dismiss="modal" aria-label="Close">
+          <svg class="bi icon-sprite" aria-hidden="true"><use xlink:href="{{ '/assets/lib/icons/x-lg.svg' | relative_url }}"/>
+        </button>
       </div>
       <div class="modal-body bg-secondary">
         <form id="advancedSearchForm">
@@ -47,7 +49,14 @@
                 <select class="form-select form-select-sm field-select">
                     <option value="all">All Fields</option>
                     <!--<option value="title">Title</option>-->
-                    {% for f in site.data.config-browse %}{% assign cap-field = f.field | capitalize %}
+                    {% if page.collection == "Screenshots" %}
+                        {%- assign fields = site.data.config-browse-screenshots -%}
+                    {% elsif page.collection == "Supporting Materials" %}
+                        {%- assign fields = site.data.config-browse-supporting-materials -%}
+                    {% else %}
+                        {%- assign fields = site.data.config-browse -%}
+                    {% endif %}
+                    {% for f in fields %}{% assign cap-field = f.field | capitalize %}
                     <option value="{{ f.field }}">{{ f.facet_name | default: f.display_name | default: cap-field }}</option>
                     {% endfor %}
                 </select>
@@ -56,7 +65,9 @@
                 <input type="text" class="form-control form-control-sm search-input" placeholder="Enter search term">
             </div>
             <div class="col-2 col-md-1">
-                <button type="button" class="btn btn-outline-danger btn-sm remove-row" aria-label="Remove condition">X</button>
+                <button type="button" class="btn btn-outline-danger btn-sm remove-row" aria-label="Remove condition">
+                  <svg class="bi icon-sprite" aria-hidden="true"><use xlink:href="{{ '/assets/lib/icons/x-lg.svg' | relative_url }}"/>
+                </button>
             </div>
         </div>
     </div>
