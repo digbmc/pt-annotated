@@ -109,17 +109,6 @@ $dark-glow: rgba($dark, 30%);
     font-style: normal;
 }
 
-/* Accessibility Utility */
-.visually-hidden {
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    height: 1px;
-    overflow: hidden;
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
-}
-
 /* --------------------------------
     General Overrides and Utilities
    -------------------------------- */
@@ -244,6 +233,17 @@ a:hover svg {
     vertical-align: 0;
 }
 
+/* Accessibility Utility */
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
 /* --------
     Header
    -------- */
@@ -286,7 +286,7 @@ a:hover svg {
     border: 1px solid $dark-border;
     font-size: 1.25rem;
     margin-top: 0;
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 991px) {
         border: none;
     }
 }
