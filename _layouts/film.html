@@ -7,10 +7,11 @@ layout: default
         <img src="{{ page.featured-image | relative_url }}" alt="{{ page.featured-image-alt }}">
     </div>
 </div>
+{% capture default-logo-path %}/assets/img/title-logos/title-{{ page.code | slugify }}.svg{% endcapture %}
 <div class="row justify-content-center my-4">
     <div class="col-10 col-md-8">
         <div class="essay-page-narrow">
-            <h2 class="display-4 text-center font-{{ page.code | downcase }}">{{ page.title }}</h2>
+            <h2 class="display-4 text-center mb-4 font-{{ page.code | downcase }}"><img class="svg-with-shadow" src="{{ default-logo-path | relative_url }}" alt="{{ page.title }}"></h2>
             {{ content }}
             {% include progress-note.html %}
         </div>
