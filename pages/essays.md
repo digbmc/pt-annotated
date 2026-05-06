@@ -3,7 +3,7 @@ title: Essays
 layout: page
 permalink: /essays.html
 tags:
-
+published: false
 ---
 
 <h2 id="page-title">{{ page.title }}</h2>
