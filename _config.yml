@@ -12,7 +12,7 @@ url: https://digbmc.github.io
 # path to location on the domain if necessary e.g. /digital/hjccc
 baseurl: /pt-annotated
 # location of code, the full url to your github repository
-source-code: https://github.com/cboucher01/pt-annotated
+source-code: https://github.com/digbmc/pt-annotated
 
 ##########
 # SITE SETTINGS
