@@ -1,5 +1,5 @@
 ##########
-# config for dev site
+# Config for production site
 # collectionbuilder-csv
 # Jekyll Digital Collection Generator
 # https://github.com/CollectionBuilder/collectionbuilder-csv
@@ -9,9 +9,9 @@
 # URL VARIABLES
 #
 # site domain, full URL to the production location of your collection
-url: https://digbmc.github.io
+url: https://ptannotated.com
 # path to location on the domain if necessary e.g. /digital/hjccc
-baseurl: /pt-annotated
+baseurl:
 # location of code, the full url to your github repository
 source-code: https://github.com/digbmc/pt-annotated
 
@@ -82,7 +82,7 @@ defaults:
 # ROBOTS EXCLUDE
 #
 # set noindex to true if you do NOT want Google to index your site
-noindex: true 
+# noindex: true 
 
 ##########
 # BUILD SETTINGS 
