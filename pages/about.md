@@ -42,14 +42,20 @@ See our <a href="https://www.zotero.org/groups/5918526/paul_thomas_annotated/lib
 
 ### Project Team
 
-- Jennifer Alpert, Project Co-Director, Editor, Annotator
+- Jennifer Alpert, Project Co-Director, Editor, and Annotator
 - Cameron Boucher, Project Manager and Web Developer
 - Naveah Díaz, Digital Scholarship Project Assistant and Annotator
+- Tessa Eisen, Educational and Scholarly Technology Assistant
+- Lucia Engelhardt, Digital Scholarship Summer Fellow and Annotator
 - Olivia Flores, Digital Scholarship Project Assistant and Annotator
 - Pat Ganley, Consultant
+- Ada Griffin, Humanities Summer Research Fellow and Annotator 
 - Judie Johnson, Digital Scholarship Project Assistant and Annotator
 - Alice McGrath, Technical Lead and Annotator
+- Grace Muller, Digital Scholarship Summer Fellow and Annotator
 - Hilde Nelson, Digital Scholarship Graduate Assistant, Copyeditor, and Annotator
+- Clara Smith, Digital Scholarship Summer Fellow and Annotator
+- Tallulah Stallvik, Digital Scholarship Summer Fellow and Annotator
 - José Vergara, Project Co-Director, Editor, and Annotator
 - Arleen Zimmerle, Humanities and Media Librarian Liaison
 
