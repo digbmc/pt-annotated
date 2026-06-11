@@ -13,7 +13,7 @@ url: https://eizent.github.io
 # path to location on the domain if necessary e.g. /digital/hjccc
 baseurl: /pt-annotated-map
 # location of code, the full url to your github repository
-source-code: https://eizent.github.io/pt-annotated-map/
+source-code: https://github.com/eizent/pt-annotated-map/tree/main
 
 ##########
 # SITE SETTINGS
