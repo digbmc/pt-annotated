@@ -9,11 +9,11 @@
 # URL VARIABLES
 #
 # site domain, full URL to the production location of your collection
-url: https://digbmc.github.io
+url: https://eizent.github.io
 # path to location on the domain if necessary e.g. /digital/hjccc
-baseurl: /pt-annotated
+baseurl: /pt-annotated-map
 # location of code, the full url to your github repository
-source-code: https://github.com/digbmc/pt-annotated
+source-code: https://eizent.github.io/pt-annotated-map/
 
 ##########
 # SITE SETTINGS
