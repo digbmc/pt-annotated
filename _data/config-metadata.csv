@@ -20,6 +20,6 @@ type,,,,DCTERMS.type,
 format,Format,,,,encodingFormat
 language,Language,,,DCTERMS.language,
 object_location,IIIF Manifest,,true,,
-rightsstatement,,,,DCTERMS.rights,license,
+rightsstatement,,,,DCTERMS.rights,license
 latitude,Latitude,,,,
 longitude,Longitude,,,,
