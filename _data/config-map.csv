@@ -2,3 +2,4 @@ field,display_name,search
 title,Title,true
 location,Location,true
 description,Description,true
+objectid,ObjectID,false
