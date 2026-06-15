@@ -143,21 +143,21 @@
     /* trying to add a color switcher option for different movies...*/ 
 
     function getMovieColor(movieName) {
-            if (movie.includes('Hard Eight')) {
+            if (film.includes('Hard Eight')) {
                 return 'danger';
             }
-        else if (move.includes('Boogie Nights')){
+        else if (film.includes('Boogie Nights')){
             return 'info'
         }
     }
 
     function objectMarkers(feautre, latlng) {
-        var movieColor = getMoveColor(features.properties.movie);
+        var movieColor = getMovieColor(features.properties.film);
 
         var movieIcon = L.divIcon({
             className: 'bg-' + movieColor,
-            iconSize:,
-            iconAnchor:
+            iconSize:[16. 16] ,
+            iconAnchor: [8, 8]
                 });
         var marker - L.marker(latlng, {
             alt: feature.properties.title, 
