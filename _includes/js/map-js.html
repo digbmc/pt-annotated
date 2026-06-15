@@ -140,7 +140,7 @@
         layer.bindPopup(popupTemplate);
     }
 
-    /* trying to add a color switcher option for different movies...*/ 
+    /* trying to add a color icons for different movies... */
 
     function getMovieColor(movieName) {
             if (film.includes('Hard Eight')) {
@@ -148,24 +148,26 @@
             }
         else if (film.includes('Boogie Nights')){
             return 'info'
-        }
+        } else {
+            return 'success';
     }
+}
 
-    function objectMarkers(feautre, latlng) {
-        var movieColor = getMovieColor(features.properties.film);
 
-        var movieIcon = L.divIcon({
-            className: 'bg-' + movieColor,
-            iconSize:[16. 16] ,
-            iconAnchor: [8, 8]
-                });
-        var marker - L.marker(latlng, {
-            alt: feature.properties.title, 
-            icon: movieIcon
-        });
+
         
      function objectMarkers(feature,latlng) {
-        var marker = L.marker(latlng, {alt: feature.properties.title});
+        var movieData = feature.properties.film;
+         var movieColor = getMovieColor(movieData);
+
+         var movieIcon = L/divIcon({
+             className: 'bg-' + movieColor + ' rounded-circle border border-white shadow-sm', 
+             iconSize: [16. 16],
+             iconAnchor: [8, 8]
+         });
+         var marker = L.marker(latlng, {
+             alt: feature.properties.title,
+         icon:movieIcon});
         {% if site.data.theme.map-cluster == true %}markers.addLayer(marker);{% endif %}
         return marker;
     }
