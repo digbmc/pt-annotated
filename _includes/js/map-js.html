@@ -139,7 +139,32 @@
         popupTemplate += '</p><div class="text-center"><a class="btn btn-light" href="' + itemHref + '" >View Item</a></div>';
         layer.bindPopup(popupTemplate);
     }
-    function objectMarkers(feature,latlng) {
+
+    /* trying to add a color switcher option for different movies...*/ 
+
+    function getMovieColor(movieName) {
+            if (movie.includes('Hard Eight')) {
+                return 'danger';
+            }
+        else if (move.includes('Boogie Nights')){
+            return 'info'
+        }
+    }
+
+    function objectMarkers(feautre, latlng) {
+        var movieColor = getMoveColor(features.properties.movie);
+
+        var movieIcon = L.divIcon({
+            className: 'bg-' + movieColor,
+            iconSize:,
+            iconAnchor:
+                });
+        var marker - L.marker(latlng, {
+            alt: feature.properties.title, 
+            icon: movieIcon
+        });
+        
+     function objectMarkers(feature,latlng) {
         var marker = L.marker(latlng, {alt: feature.properties.title});
         {% if site.data.theme.map-cluster == true %}markers.addLayer(marker);{% endif %}
         return marker;
