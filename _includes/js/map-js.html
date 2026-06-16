@@ -139,8 +139,13 @@
         popupTemplate += '</p><div class="text-center"><a class="btn btn-light" href="' + itemHref + '" >View Item</a></div>';
         layer.bindPopup(popupTemplate);
     }
+    function objectMarkers(feature,latlng) {
+        var marker = L.marker(latlng, {alt: feature.properties.title});
+        {% if site.data.theme.map-cluster == true %}markers.addLayer(marker);{% endif %}
+        return marker;
+    }
 
-    /* trying to add a color icons for different movies... */
+        /* trying to add a color icons for different movies... 
 
     function getMovieColor(movieName) {
             if (film.includes('Hard Eight')) {
@@ -168,6 +173,9 @@
         {% if site.data.theme.map-cluster == true %}markers.addLayer(marker);{% endif %}
         return marker;
     }
+
+    */
+
 
     /* add objects from geoJson features */
     var mapFeatures = L.geoJson(geodata, {
@@ -224,6 +232,6 @@
         {% endif %}
     }
 
-});
+})();
 
 </script>
