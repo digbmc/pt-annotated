@@ -153,16 +153,13 @@
     }
 }
 
-
-
-        
      function objectMarkers(feature,latlng) {
         var movieData = feature.properties.film;
          var movieColor = getMovieColor(movieData);
 
-         var movieIcon = L/divIcon({
+         var movieIcon = L.divIcon({
              className: 'bg-' + movieColor + ' rounded-circle border border-white shadow-sm', 
-             iconSize: [16. 16],
+             iconSize: [16, 16],
              iconAnchor: [8, 8]
          });
          var marker = L.marker(latlng, {
@@ -227,6 +224,6 @@
         {% endif %}
     }
 
-})();
+});
 
 </script>
