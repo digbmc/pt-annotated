@@ -141,12 +141,12 @@
     }
 
     /* establishing colors for movies to be used in markers */
-    const filmColors = {
+    var filmColors = {
     "Hard Eight": "#b4671f",
     "Boogie Nights": "#461ae3"
     };
     /*default color if no movie or doesn't match */
-    const defaultColor = "#888888";
+    var defaultColor = "#888888";
 
     /*establish markers */
     function objectMarkers(feature, latlng) {
@@ -166,18 +166,13 @@
 
     return marker;
 }
-    /* original CollectionBuilder function for markers
+ 
     function objectMarkers(feature,latlng) {
         var marker = L.marker(latlng, {alt: feature.properties.title});
         {% if site.data.theme.map-cluster == true %}markers.addLayer(marker);{% endif %}
         return marker;
-    } */
+    } 
 
-    var mapFeatures = L.geoJson(geodata, {
-        onEachFeature: objectPopups,
-        pointToLayer: objectMarkers
-    }){% if site.data.theme.map-cluster != true %}.addTo(map);{% else %};
-    map.addLayer(markers);{% endif %}
 
     {% if site.data.theme.auto-center-map == true %}
     /* if no location was specified in the URL query parameters, auto center the map */
