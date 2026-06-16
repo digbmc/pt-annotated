@@ -142,8 +142,16 @@
 
     /* establishing colors for movies to be used in markers */
     var filmColors = {
-    "Hard Eight": "#b4671f",
-    "Boogie Nights": "#461ae3"
+        "Hard Eight": "#b4671f",
+        "Boogie Nights": "#461ae3",
+        "Inherent Vice": "#bf2ab3",
+        "Licorice Pizza": "#db5c1d",
+        "Magnolia": "#edca9d",
+        "One Battle After Another": "#96e0c9",
+        "Punch Drunk Love": "#070ae3",
+        "The Master": "#0bba8e",
+        "There Will Be Blood": "#ba0b0b",
+        "Phantom Thread": "#62558a"
     };
     /*default color if no movie or doesn't match */
     var defaultColor = "#888888";
@@ -154,7 +162,7 @@
         var color = filmColors[filmTitle] || defaultColor;
 
         var marker = L.circleMarker(latlng, {
-            radius: 8,
+            radius: 5,
             fillColor: color,
             color: "#ffffff",
             weight: 2,
