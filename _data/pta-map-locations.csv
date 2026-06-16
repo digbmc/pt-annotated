@@ -1,4 +1,4 @@
-object_id,title,address,description,latitude,longitude,film,object_location,image_alt_text,source
+object_id,title,location,description,latitude,longitude,film,object_location,image_alt_text,source
 loc-boog1,Reseda Theatre,18443 Sherman Way,Nightclub opening shot,34.20169602,-118.5354566,Boogie Nights,,,
 loc-boog2,Restauracion Reseda,18419 Sherman Way,Hot Traxx disco,34.20141802,-118.5345712,Boogie Nights,,,
 loc-boog3,Du-par's Restaurant,12036 Ventura Blvd,Eddie's dinner with Jack,34.14358923,-118.3937713,Boogie Nights,,,
