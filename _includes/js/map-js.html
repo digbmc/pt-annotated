@@ -167,12 +167,13 @@
     return marker;
 }
  
+/*
     function objectMarkers(feature,latlng) {
         var marker = L.marker(latlng, {alt: feature.properties.title});
         {% if site.data.theme.map-cluster == true %}markers.addLayer(marker);{% endif %}
         return marker;
     } 
-
+*/
 
     {% if site.data.theme.auto-center-map == true %}
     /* if no location was specified in the URL query parameters, auto center the map */
