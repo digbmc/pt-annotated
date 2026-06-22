@@ -1,7 +1,7 @@
 {% if site.data.theme.map-child-objects == true %}
-{%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid' -%}
+{%- assign items = site.data[site.mapmetadata] | where_exp: 'item','item.objectid' -%}
 {% else %}
-{%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid and item.parentid == nil' -%}
+{%- assign items = site.data[site.mapmetadata] | where_exp: 'item','item.objectid and item.parentid == nil' -%}
 {% endif %}
 {%- assign items = items | where_exp: 'item','item.latitude != nil and item.longitude != nil' -%}
 {%- assign fields = site.data.config-map -%}
@@ -139,13 +139,50 @@
         popupTemplate += '</p><div class="text-center"><a class="btn btn-light" href="' + itemHref + '" >View Item</a></div>';
         layer.bindPopup(popupTemplate);
     }
+
+    /* establishing colors for movies to be used in markers */
+    var filmColors = {
+        "Hard Eight": "#b4671f",
+        "Boogie Nights": "#461ae3",
+        "Inherent Vice": "#bf2ab3",
+        "Licorice Pizza": "#db5c1d",
+        "Magnolia": "#edca9d",
+        "One Battle After Another": "#96e0c9",
+        "Punch Drunk Love": "#070ae3",
+        "The Master": "#0bba8e",
+        "There Will Be Blood": "#ba0b0b",
+        "Phantom Thread": "#62558a"
+    };
+    /*default color if no movie or doesn't match */
+    var defaultColor = "#888888";
+
+    /*establish markers */
+    function objectMarkers(feature, latlng) {
+        var filmTitle = (feature.properties.film || "").trim();
+        var color = filmColors[filmTitle] || defaultColor;
+
+        var marker = L.circleMarker(latlng, {
+            radius: 6,
+            fillColor: color,
+            color: "#ffffff",
+            weight: 2,
+            opacity: 1,
+            fillOpacity: 0.9
+        });
+
+    {% if site.data.theme.map-cluster == true %}markers.addLayer(marker);{% endif %}
+
+    return marker;
+}
+ 
+/*
     function objectMarkers(feature,latlng) {
         var marker = L.marker(latlng, {alt: feature.properties.title});
         {% if site.data.theme.map-cluster == true %}markers.addLayer(marker);{% endif %}
         return marker;
-    }
-
-    /* add objects from geoJson features */
+    } 
+*/
+    /* map the features */
     var mapFeatures = L.geoJson(geodata, {
         onEachFeature: objectPopups,
         pointToLayer: objectMarkers
