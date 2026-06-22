@@ -1,6 +1,6 @@
 ---
 title: Map
 layout: map
-permalink: /map-js.html
+permalink: /map.html
 published: true
 ---
