@@ -7,6 +7,17 @@ tags:
     - Intertextuality
     - History
 ---
+
+# Table of Contents 
+- ##[Edible and Poisonous Mushrooms](#edible-and-poisonous-mushrooms-1902)
+- ##[The London Magazine](#the-london-magazine-july-1954)
+- ##[The Observer's Books](#the-observers-books)
+    - ##[The Observer's Book of Dogs](#of-dogs-1954)
+    - ##[The Observer's Book of British Birds' Eggs](#of-british-birds-eggs-1954)
+    - ##[The Observer's Book of Cacti and Other Succulents](#of-cacti--other-succulents-1958)
+- ##[Vogue](#vogue-october-1954)
+- ##[Splendours and Miseries](#splendours-and-miseries-1943)
+
 On their [first date](https://ptannotated.com/items/phan-01811.html), Reynolds tells Alma that he learned early into his career that you could sew things into the linings of clothes — a lock of hair, a secret message. In his professional sewing, he often stitches pieces of cloth with words or phrases on them into the dresses he makes. While in all likelihood no one will ever open the garment up to see the message, its inclusion still adds something to the dress, imbuing greater meaning into the piece and providing the audience a different perspective on Reynolds and/or his client. The texts featured in the film serve a similar function. With one exception, the texts only in the background of a shot, often for mere seconds. It’s unlikely that anyone not engaging in a depth annotation process would notice them at all. And indeed, I’m sure the filmmakers and set decorators didn’t think most viewers would identify the texts, let alone read them. However, this does not mean they are unimportant. Indeed, Phantom Thread is a film all about small details. As we follow Reynolds and Alma through their romance, we see how much meaning there is in the smallest things: a stitch of fabric, the way someone butters their toast, a secret ingredient added to a meal. 
 For this project, I read through seven sources featured in the film — two magazines and five books — across a vast range of subjects, genres, and purposes. None of them were texts I would have read, or even known existed, were it not for this project. Each text only gets a few moments onscreen, if that, but each one in its own way gave me a new perspective on the film. However small, each detail is what comes together to make up the entire rich text of the film. Through these books, we can get a glimpse into what secrets are written in the lining of Phantom Thread.  
 
