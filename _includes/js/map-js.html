@@ -130,7 +130,7 @@
         }
         // set up popup content
         var popupTemplate = '<h2 class="h4 text-dark">' +
-                feature.properties.title + '</h2> <div class="text-center">' + thumbImg + '</div><p>';
+                feature.properties.title + '</h2>' + thumbImg + '<p>';
         {% for f in fields %}{% if f.display_name %}
         if (feature.properties[{{ f.field | escape | jsonify }}]) {
             popupTemplate += '<strong>{{ f.display_name }}:</strong> ' + feature.properties[{{ f.field | escape | jsonify }}] + '<br>'; 
