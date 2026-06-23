@@ -41,35 +41,6 @@
     /* init map */
     var map = L.map('map');
 
-/* establish legend
-
-    var legend = L.control({position: 'bottomleft'});
-        legend.onAdd = function (map) {
-            var div = L.DomUtil.create('div', 'info-legend');
-            var titleLeg = ['<strong>Film</strong>'];
-            var filmLabel = ['Hard Eight', 'Boogie Nights', 'Inherent Vice', 'Licorice Pizza', 'Magnolia', 'One Battle After Another', 'The Master', 'There Will Be Blood', 'Punch-Drunk Love', 'Phantom Thread'];
-            var colorLabel = ['#417505', '#F47804', '#7ED321', '#F5D323', '#52322C', '#4290EB', '#2D5787', '#A10215', '#BF4983', '#B65CE8'];
-        
-            for (var i=0; i < filmLabel.length; i++){
-                var from = filmLabel[i];
-                var to = filmLabel[i+1];
-
-                labels.push(
-                    '<i style = background:' + colorLabel[i] + '"></i> ' +
-                    from + (to ? '&ndash;' + to : '+')
-        );
-    };
-
-    // Insert all generated labels inside the div wrapper
-        div.innerHTML = labels.join('<br>');
-        return div;
-    };
-
-        /// Append the finalized legend control layer to the map
-        legend.addTo(map);
-        
-*/
-   
 
     /* add map layer options */
     var Esri_WorldStreetMap = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
@@ -148,7 +119,7 @@
         {% if site.data.theme.map-search == true %}/* bind feature for search */
         feature.layer = layer;{% endif %}
         // find item link
-        var itemHref = `{{ '/items/' | relative_url }}${ feature.properties.parent ? feature.properties.parent + ".html#" + feature.properties.id : feature.properties.id + ".html"}`;
+     //   var itemHref = `{{ '/items/' | relative_url }}${ feature.properties.parent ? feature.properties.parent + ".html#" + feature.properties.id : feature.properties.id + ".html"}`;
         // find image
         var imgAlt = feature.properties.alt ? feature.properties.alt : feature.properties.title;
         var thumbImg;
@@ -268,6 +239,36 @@
         });
         {% endif %}
     }
+
+    /* add legend
+
+    var legend = L.control({position: 'bottomleft'});
+        legend.onAdd = function (map) {
+            var div = L.DomUtil.create('div', 'info-legend');
+            var titleLeg = ['<strong>Film</strong>'];
+            var filmLabel = ['Hard Eight', 'Boogie Nights', 'Inherent Vice', 'Licorice Pizza', 'Magnolia', 'One Battle After Another', 'The Master', 'There Will Be Blood', 'Punch-Drunk Love', 'Phantom Thread'];
+            var colorLabel = ['#417505', '#F47804', '#7ED321', '#F5D323', '#52322C', '#4290EB', '#2D5787', '#A10215', '#BF4983', '#B65CE8'];
+        
+            for (var i=0; i < filmLabel.length; i++){
+                var from = filmLabel[i];
+                var to = filmLabel[i+1];
+
+                labels.push(
+                    '<i style = background:' + colorLabel[i] + '"></i> ' +
+                    from + (to ? '&ndash;' + to : '+')
+        );
+    };
+
+    // Insert all generated labels inside the div wrapper
+        div.innerHTML = labels.join('<br>');
+        return div;
+    };
+
+        /// Append the finalized legend control layer to the map
+        legend.addTo(map);
+        
+*/
+   
 
 })();
 
