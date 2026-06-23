@@ -15,7 +15,7 @@
 
 <script>
 (function(){
-    /* add collection map data */
+    /* create map data */
     var geodata = { "type": "FeatureCollection", "features": [ 
     {% for item in items %}
     { "type":"Feature", "geometry":{ "type":"Point", "coordinates":[{{ item.longitude | strip }},{{ item.latitude | strip }}] }, "properties":
@@ -40,6 +40,7 @@
 
     /* init map */
     var map = L.map('map');
+
 
     /* add map layer options */
     var Esri_WorldStreetMap = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
@@ -124,38 +125,39 @@
         var thumbImg;
         if (feature.properties.img) {
             thumbImg = '<img class="map-thumb" src="' + feature.properties.img + '" alt="' + imgAlt + '">';
-        } else {
-            thumbImg = getIcon(feature.properties.template,feature.properties.format,"thumb")
+        }  else { thumbImg = ' '
+          //  thumbImg = getIcon(feature.properties.template,feature.properties.format,"thumb")
         }
         // set up popup content
-        var popupTemplate = '<h2 class="h4"><a class="text-dark" href="' + itemHref + '">' +
-            feature.properties.title + '</a></h2><div class="text-center"><a href="' + itemHref + 
-            '" >' + thumbImg + '</a></div><p>';
+        var popupTemplate = '<h2 class="h4 text-dark">' +
+                feature.properties.title + '</h2>' + thumbImg + '<p>';
         {% for f in fields %}{% if f.display_name %}
         if (feature.properties[{{ f.field | escape | jsonify }}]) {
             popupTemplate += '<strong>{{ f.display_name }}:</strong> ' + feature.properties[{{ f.field | escape | jsonify }}] + '<br>'; 
         }
         {% endif %}{% endfor %}
-        popupTemplate += '</p><div class="text-center"><a class="btn btn-light" href="' + itemHref + '" >View Item</a></div>';
+     //   popupTemplate += '</p><div class="text-center"><a class="btn btn-light" href="' + itemHref + '" >View Item</a></div>';
         layer.bindPopup(popupTemplate);
     }
 
-    /* establishing colors for movies to be used in markers */
+    
+  /* establishing colors for movies to be used in markers */
     var filmColors = {
-        "Hard Eight": "#b4671f",
-        "Boogie Nights": "#461ae3",
-        "Inherent Vice": "#bf2ab3",
-        "Licorice Pizza": "#db5c1d",
-        "Magnolia": "#edca9d",
-        "One Battle After Another": "#96e0c9",
-        "Punch Drunk Love": "#070ae3",
-        "The Master": "#0bba8e",
-        "There Will Be Blood": "#ba0b0b",
-        "Phantom Thread": "#62558a"
+        "Hard Eight": "#417505",
+        "Boogie Nights": "#F47804",
+        "Inherent Vice": "#7ED321",
+        "Licorice Pizza": "#F5D323",
+        "Magnolia": "#52322C",
+        "One Battle After Another": "#4290EB",
+        "Punch-Drunk Love": "#BF4983",
+        "The Master": "#2D5787",
+        "There Will Be Blood": "#A10215",
+        "Phantom Thread": "#B65CE8"
     };
     /*default color if no movie or doesn't match */
     var defaultColor = "#888888";
 
+    
     /*establish markers */
     function objectMarkers(feature, latlng) {
         var filmTitle = (feature.properties.film || "").trim();
@@ -237,6 +239,28 @@
         {% endif %}
     }
 
-})();
+    /* add legend */
+
+    var legend = L.control({position: 'bottomleft'});
+        legend.onAdd = function (map) {
+            var div = L.DomUtil.create('div', 'info legend');
+          
+            var filmLabel = ['Hard Eight', 'Boogie Nights', 'Inherent Vice', 'Licorice Pizza', 'Magnolia', 'One Battle After Another', 'The Master', 'There Will Be Blood', 'Punch-Drunk Love', 'Phantom Thread'];
+            var colorLabel = ['#417505', '#F47804', '#7ED321', '#F5D323', '#52322C', '#4290EB', '#2D5787', '#A10215', '#BF4983', '#B65CE8'];
+        
+            div.innerHTML = '<h4> Map Legend</h4>'
+
+            for (var i = 0; i < filmLabel.length; i++) {
+                 div.innerHTML +=
+                '<i style="background:' + colorLabel[i] + '"></i> ' + filmLabel[i] + '<br>';
+            }
+
+            return div;
+        }; 
+
+        /// Append the finalized legend control layer to the map
+        legend.addTo(map);
+
+})();   
 
 </script>
