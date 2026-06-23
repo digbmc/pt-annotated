@@ -1,4 +1,5 @@
 {% if site.data.theme.map-child-objects == true %}
+/* assigning mapmetadata instead of the collections metadata */
 {%- assign items = site.data[site.mapmetadata] | where_exp: 'item','item.objectid' -%}
 {% else %}
 {%- assign items = site.data[site.mapmetadata] | where_exp: 'item','item.objectid and item.parentid == nil' -%}
@@ -15,7 +16,7 @@
 
 <script>
 (function(){
-    /* add collection map data */
+    /* create map data */
     var geodata = { "type": "FeatureCollection", "features": [ 
     {% for item in items %}
     { "type":"Feature", "geometry":{ "type":"Point", "coordinates":[{{ item.longitude | strip }},{{ item.latitude | strip }}] }, "properties":
@@ -140,18 +141,20 @@
         layer.bindPopup(popupTemplate);
     }
 
+    
+
     /* establishing colors for movies to be used in markers */
     var filmColors = {
-        "Hard Eight": "#b4671f",
-        "Boogie Nights": "#461ae3",
-        "Inherent Vice": "#bf2ab3",
-        "Licorice Pizza": "#db5c1d",
-        "Magnolia": "#edca9d",
-        "One Battle After Another": "#96e0c9",
-        "Punch Drunk Love": "#070ae3",
-        "The Master": "#0bba8e",
-        "There Will Be Blood": "#ba0b0b",
-        "Phantom Thread": "#62558a"
+        "Hard Eight": "#417505",
+        "Boogie Nights": "#F47804",
+        "Inherent Vice": "#7ED321",
+        "Licorice Pizza": "#F5D323",
+        "Magnolia": "#52322C",
+        "One Battle After Another": "#4290EB",
+        "Punch Drunk Love": "#BF4983",
+        "The Master": "#2D5787",
+        "There Will Be Blood": "#A10215",
+        "Phantom Thread": "#B65CE8"
     };
     /*default color if no movie or doesn't match */
     var defaultColor = "#888888";
