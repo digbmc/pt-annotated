@@ -41,23 +41,7 @@
     /* init map */
     var map = L.map('map');
 
-    /* establishing colors for movies to be used in markers */
-    var filmColors = {
-        "Hard Eight": "#417505",
-        "Boogie Nights": "#F47804",
-        "Inherent Vice": "#7ED321",
-        "Licorice Pizza": "#F5D323",
-        "Magnolia": "#52322C",
-        "One Battle After Another": "#4290EB",
-        "Punch-Drunk Love": "#BF4983",
-        "The Master": "#2D5787",
-        "There Will Be Blood": "#A10215",
-        "Phantom Thread": "#B65CE8"
-    };
-    /*default color if no movie or doesn't match */
-    var defaultColor = "#888888";
-
-//establish legend
+/* establish legend
 
     var legend = L.control({position: 'bottomleft'});
         legend.onAdd = function (map) {
@@ -83,10 +67,8 @@
 
         /// Append the finalized legend control layer to the map
         legend.addTo(map);
-                
         
-        
-
+*/
    
 
     /* add map layer options */
@@ -172,9 +154,9 @@
         var thumbImg;
         if (feature.properties.img) {
             thumbImg = '<img class="map-thumb" src="' + feature.properties.img + '" alt="' + imgAlt + '">';
-        } else {
-            thumbImg = getIcon(feature.properties.template,feature.properties.format,"thumb")
-        }
+        } // else {
+          //  thumbImg = getIcon(feature.properties.template,feature.properties.format,"thumb")
+     //   }
         // set up popup content
         var popupTemplate = '<h2 class="h4"><a class="text-dark" href="' + itemHref + '">' +
             feature.properties.title + '</a></h2><div class="text-center"><a href="' + itemHref + 
@@ -184,11 +166,26 @@
             popupTemplate += '<strong>{{ f.display_name }}:</strong> ' + feature.properties[{{ f.field | escape | jsonify }}] + '<br>'; 
         }
         {% endif %}{% endfor %}
-        popupTemplate += '</p><div class="text-center"><a class="btn btn-light" href="' + itemHref + '" >View Item</a></div>';
+     //   popupTemplate += '</p><div class="text-center"><a class="btn btn-light" href="' + itemHref + '" >View Item</a></div>';
         layer.bindPopup(popupTemplate);
     }
 
     
+  /* establishing colors for movies to be used in markers */
+    var filmColors = {
+        "Hard Eight": "#417505",
+        "Boogie Nights": "#F47804",
+        "Inherent Vice": "#7ED321",
+        "Licorice Pizza": "#F5D323",
+        "Magnolia": "#52322C",
+        "One Battle After Another": "#4290EB",
+        "Punch-Drunk Love": "#BF4983",
+        "The Master": "#2D5787",
+        "There Will Be Blood": "#A10215",
+        "Phantom Thread": "#B65CE8"
+    };
+    /*default color if no movie or doesn't match */
+    var defaultColor = "#888888";
 
     
     /*establish markers */
