@@ -7,7 +7,7 @@ tags:
     - Intertextuality
     - History
 ---
-## Table of Contents
+### Table of Contents
 {:.no_toc}
 
 - list
@@ -18,7 +18,7 @@ On their [first date](https://ptannotated.com/items/phan-01811.html), Reynolds t
 For this project, I read through seven sources featured in the film — two magazines and five books — across a vast range of subjects, genres, and purposes. None of them were texts I would have read, or even known existed, were it not for this project. Each text only gets a few moments onscreen, if that, but each one in its own way gave me a new perspective on the film. However small, each detail is what comes together to make up the entire rich text of the film. Through these books, we can get a glimpse into what secrets are written in the lining of Phantom Thread.  
 
 
-## *Edible and Poisonous Mushrooms* (1902) 
+### *Edible and Poisonous Mushrooms* (1902) 
 
 {% include feature/image.html objectid="phan-11115;phan-11115" caption=false %}
 
@@ -26,7 +26,7 @@ For this project, I read through seven sources featured in the film — two maga
 
 This book was published by the Society for Promoting Christian Knowledge, a Christian group founded in 1698 to provide education and Chrisitan knowledge to the world. As part of its mission, the group engaged with political issues of the time, including advocating for penal reform and providing basic education to Caribbean slaves, while also engaging in extensive international missionary work. The group, which remains active today, is England’s third oldest independent publisher and is the nation’s largest publisher of Christian books. At its conception, the organization emphasized the importance of general education as part of their Christian values, which explains the publishing of texts, such as this one, that do not explicitly address Christian topics. The Society for Promoting Christian Knowledge still used the book to promote their more religious texts, including ads for Christian books such as *Lapsed, Not Lost: A Story of Roman Carthage* (1878) by Mrs. Charles Rundle amongst the list of titles from various genres, including historical fiction, children’s literature, and anthropological texts. 
 
-{% include feature/image.html objectid="phan-04714;phan-04714 caption=false %}
+{% include feature/image.html objectid="phan-04714;phan-04714" caption=false %}
 
 *Edible and Poisonous Mushrooms* serves an obvious utility for Reynolds’s household. The book is written in relatively accessible language, focusing on practical tips for identification of various fungi. While Cooke does include the scientific names, beyond that, each entry moves away from specialized language, providing descriptions of the mushroom in layman’s terms, and focusing on color, size, shape, and distinctive features. Some entries include advice for ideal cooking. The book features many detailed, colored illustrations of all of the mushrooms in the book, allowing readers to easily visually compare the mushroom they’ve found to the book. It is perfectly logical that Reynolds’s employees would keep this book in his country home, where wild mushrooms are much more plentiful. When Alma [asks Reynolds’s housekeeper](https://ptannotated.com/items/phan-04733.html), whom she is helping prepare a meal, about identifying a specific mushroom, the woman tells her to consult the book in the kitchen. The book is a reliable source for determining which mushrooms are safe to eat and, for Alma’s purposes, which are not. 
 
@@ -35,7 +35,7 @@ This book was published by the Society for Promoting Christian Knowledge, a Chri
 So that Reynolds will need her, Alma poisons him twice with the same kind of mushroom—once by including it in his tea, once by cooking it into an omelet. Based on the illustration she holds the mushroom against, she appears to use the White Milk Mushroom, described on pages 119–120 in the book. The mushroom has since been reclassified and renamed: while at the time of the book’s publication its scientific name was *Lactarius vellereus*, it is now known as *Lactifluus vellereus*, a change based on genetic makeup rather than visible difference. It’s now most commonly known as a fleecy milkcap. The entry in *Edible and Poisonous Mushrooms* describes it as often “depressed in the centere, and funnel shaped, but with the edges bent over outwards,” (Cooke, 119) a description that certainly applies to the mushroom shown in the film. The gills of the mushroom release a milk when damaged—the origin of its common and scientific names. Cooke writes on the same page that the mushroom is often found in the woods, typically in clusters; Alma [first discovers](https://ptannotated.com/items/phan-04711.html) the fungus while foraging in the woods, growing in a group. When she poisons Reynolds for the second time, she [returns](https://ptannotated.com/items/phan-15215.html) to the same spot in the woods, either remembering having seen more than one before or following the instructions for finding it from the book. While Cooke includes the mushroom in the poisonous section, he does not take measures to confirm it is poisonous for himself:“Tradition affirms that this species is very poisonous, and we have been too well satisfied with tradition to try experiments.” The fungus contains no lethal poisons, technically edible but unpleasant to most, though there are some reports of people in Eastern European countries eating them. Poisonous or not, Reynolds’s English constitution is clearly no match for the mushroom, as he becomes incredibly ill after eating and drinking it, even in small doses. 
 
 
-## *The London Magazine* (July, 1954)
+### *The London Magazine* (July, 1954)
 
 {% include feature/image.html objectid="phan-04558;phan-04558" caption=false %}
 
@@ -72,7 +72,7 @@ Two of the poems featured in the issue bear some relevance to the plot. Vernon W
 “The Prisoners of Love,” a poem by Charles Causely, encapsulates Reynolds and Alma’s relationship. Causely writes that these prisoners of love are “trapped in their tower,” just as Alma and Reynolds are largely confined to the domestic space, in a way trapped with each other. This is especially true of Alma, who has moved to be with Reynolds, and seemingly has no connections outside of him and Cyril, his sister. Much of the middle section references battles and fighting across many different time periods. The “tall martello” is a defensive tower built in the late 1700s to defend from French invasion of Corsica, the “troops of Tyre” are likely a reference to the battles of the Crusades, and the fireship is a method of attack in which a ship is filled with explosives and set on fire, then sent towards enemy boats to destroy them. These trapped lovers seem to be engaged in constant fighting, as is true of Alma and Reynolds’s tumultuous relationship. The poem ends with the line, “But in their jailers’ eyes they meet their own.” These lovers serve as both prisoner and jailer, trapped with one another by their own hand. This is certainly true of Alma and Reynolds. Ostensibly, either one could end their toxic, poisonous (in the literal sense) relationship, but neither seems willing or able. 
 
 
-## The Observer’s Books 
+### The Observer’s Books 
 
 {% include feature/image.html objectid="phan-15235" caption=false %} 
 
@@ -81,7 +81,7 @@ Two of the poems featured in the issue bear some relevance to the plot. Vernon W
 However, the books also serve a more symbolic meaning. They are shown only in one shot, stacked on the shelf alongside *Edible and Poisonous Mushrooms*. The books, each in their own way, represent Reynolds himself. All three books are also focused on caretaking in some form: *Dogs* details how to raise and care for a dog, *Cacti* provides information on how to cultivate succulents, and *Birds' Eggs* takes great care to remind readers not to disturb birds nests, especially endangered species, saying they hope a guide for to allow hobbyists to more quickly identify the eggs, and therefore allowing them to leave the nest more quickly and listing rules for preserving nests while observing them. It is no accident that these books appear as Alma prepares to poison Reynolds, making him sick in order to nurse him back to health. She has learned how best to care for Reynolds, which she has found is only possible when he is incapacitated. It seems she has succeeded; Reynolds realizes she is poisoning him and welcomes it. The books represent her arc as she discovered the best way to truly be a part of Reynolds’s life and family. 
 
 
-## *Of Dogs* (1954)
+#### *Of Dogs* (1954)
 
 {% include feature/image.html objectid="phan-01942;phan-01942" caption=false %}
 
@@ -95,7 +95,7 @@ Shortly afterwards, during the scene in which Reynolds follows Alma to a New Yea
 
 The scene in which the books appear, where Alma poisons Reynolds for the second time, is perhaps a conclusion to the unfulfilled spectre of his disappearing dogs. In poisoning him, Alma seeks to render him even more doglike—obedient and entirely reliant on herShe has learned the proper way to care for him, including nursing him through illness, and realized what he truly needs. 
 
-## *Of British Birds’ Eggs* (1954)
+#### *Of British Birds’ Eggs* (1954)
 
 {% include feature/image.html objectid="phan-15235;phan-15235" caption=false %}
 
@@ -107,7 +107,7 @@ Alma too can be connected to the bird. Through marriage, she herself has become 
 
 In Alma’s fantasy of their future life together, she imagines having a child together, which would make this allegory complete. Having learned how to care for him, she also has found a way to continue his family line, bringing a literal new life to the House of Woodcock along with the metaphorical one. 
 
-## *Of Cacti & Other Succulents* (1958)
+#### *Of Cacti & Other Succulents* (1958)
 
 {% include feature/image.html objectid="phan-15235;phan-15235" caption=false %}
 
@@ -124,7 +124,7 @@ The lack of knowledge of the needs of succulent plants has in the past been the 
 Reynolds, at least initially, comes across as cruel and demanding, holding those around him to nearly impossible standards, and turning most of his complex emotions into aggression toward his loved ones. However, he, like cacti, is capable of producing things of incredible beauty. His fashions are as unique as the flowers of succulents, each one intricate and personal. However, as Scott writes, “The operative words…are ‘right treatment.’” In order for Reynolds to be capable of producing his fashions, his conditions must remain perfectly calibrated to his desires. As we see in his argument with Alma over her method of buttering toast, the sanctity of his routines is something he preserves above all else. Alma must therefore learn how to provide him the conditions he needs as part of her caretaking, training herself to eat her breakfast more quietly, and, eventually, to anticipate his needs and caretake for him. 
 
 
-## *Vogue* (October, 1954)
+### *Vogue* (October, 1954)
 
 {% include feature/image.html objectid="phan-04019;phan-04019;phan-04019" caption=false %}
 
@@ -142,7 +142,7 @@ Reynolds’s designs would certainly not look out of place alongside the ones fe
 
 Comparing the fashions of the women in the film to those in *Vogue* also reveals things about their style and character. During the 1950s, women’s fashion tended toward two quite distinct silhouettes: the straight-cut dress, emphasizing a woman’s natural shape, and the exaggerated, full-skirted dresses, inspired by Dior’s “New Look.” The two most prominent women in the film, Cyril and Alma, tend towards different silhouettes and styles. This defined aesthetic difference serves both to show the range of 1950s fashion and emphasizes the differences between the two women, as they compete for Reynolds’s attention. 
 
-{% include feature/image.html objectid="phan-03729;phan-03729;phan-;phan-04940;phan-03729;phan-13505" caption=false %}
+{% include feature/image.html objectid="phan-03729;phan-03729;phan-04940;phan-03729;phan-13505" caption=false %}
 
 Cyril prefers sleeker, more fitted silhouettes. We often see her in simple, dark dresses or suits, always with a more fitted pencil skirt. Cyril is upper class, and, while she does work, it is in Reynold’s studio, not in a job which requires physical labor or significant movement. Her lifestyle affords her the ability to prioritize aesthetics over practicality, as she does not need to worry that her fitted skirts will limit her range of motion. While her clothing is more subtle than much of what Reynolds designs, it speaks to an attunement with what is considered fashionable for the period. The simplicity of her clothing also differentiates her from the clients and models who come through Reynolds’s salon, and life. She has a distinctive look, almost always seen with an elegant updo, pearl necklace, and red lipstick. Her dark clothing seems perhaps more professional or official, aligning her somewhat with Reynolds, who almost always wears a dark suit. She is an almost equal partner in his business. Her distinctive style also differentiates her from Reynolds’s girlfriends. She is not a passing phase, a temporary muse; Cyril is a permanent fixture in his life, and, at least initially, the closest thing to a partner he ever intends to have. 
 
@@ -156,7 +156,7 @@ While the pages of the magazine are filled with beautiful, smiling models, like 
 
 Most of Reynolds’s clients are older women (Countess Harding, Barbara Rose, Mrs. Vaughn,) a stark contrast with the complete absence of them in the pages of *Vogue*. While high fashion may be bought, sold, and made for older women, representations of it, at least highly public ones, are certainly generally geared toward and centered around young women. The one mention of middle-aged women comes in the back of the magazine, in a column titled “Mrs. Exeter’s List.” The column ran from the late 40s to mid 60s, at which point it was traded for a column titled “Young Idea,” focusing on the preferences of younger women. The voice of the column was an older woman unashamed of her age, offering direct and (forgive me, Reynolds) “chic” fashion tips. The column only ran seasonally, and this edition was not one that featured a feature from Mrs. Exeter herself. However, as the brief article proclaims, “Though this is not one of the issues in which there is a feature specifically titled ‘Mrs Exeter ’...it contains—as always—a number of clothes which would be very good choices for many of the real-life Mrs. Exeters we know.” This section also contains one of the few mentions of women who are not thin, but only in passing. Of the clothing featured in the edition, it says “No matter that they may be photographed on slim girls: very few clothes carry an age label, many Mrs. Exeters have kept their good figures, and those who need larger sizes will often find that the dress they admire is cut in a size to suit them.” Beneath these opening paragraphs, they list pages that feature clothing deemed appropriate for the older woman. Several of these descriptions mention tips for maintaining the appearance of thinness; two suits are “waist minimizers,” another description warns that “pale tweed can be magnifying” and should only be worn by the “truly slim. ” 
 
-{% include feature/image.html objectid="phan-00628;objectid=phan-00628;objectid=phan-00628" caption=false %}
+{% include feature/image.html objectid="phan-00628;phan-00628;objectid=phan-00628" caption=false %}
 
 The older women in the film each take different approaches to their fashion. Neither Cyril nor the Countess betray any visible insecurity about their aging. While Cyril’s fashion certainly follows some of the advice given to the “Mrs. Exeters” of the time—dark colors are famously sliming, and her dresses resemble several of those recommended in the magazine—she carries herself with incredible poise, and has clearly developed a distinct personal style. The same is true of the Countess. From the very first shot of her, she comes across as self-assured and regal. While she clearly makes an effort to maintain her figure—as she puts on the dress Reynolds maid we see she wears a corset and hip padding beneath her clothing—she, at least while wearing her clothes, does not seem to hold any insecurities. The suit she wears when arriving is fashionable for the time; with its structured jacket, tapered waist, and form fitting skirt, it very much resembles the suits seen in the magazine, such as the Fredrick Starke ad on page 4, or those featured on pages 112-113 in the “What to Wear With What in Town” article. The suit also resembles the structure of Reynolds’s grey suit. Whether or not he himself designed the suit she wears, its similarities to his own line speaks to their compatible tastes. Both women have a clear sense of their own individual style, and a taste of their own.
 
@@ -165,7 +165,7 @@ The older women in the film each take different approaches to their fashion. Nei
 In contrast, Barbara Rose seems entirely beholden to the trends of the time, to a greater degree than any other character we see. She sports nearly every seasonal fad reported in the issue of Vogue. In her first appearance, she wears a fur coat, advertised on pages 138-139 as the single largest trend of the year, and a back sliding hat . Her dresses match more with the “New Look” silhouette, unlike those of Cyril and the Countess. The dress Reynolds designs for her is similarly full skirted and short rather than floor length. In a section on eveningwear on page 131 of *Vogue*, they write that while long and short skirts are equally in fashion, the shorter skirt is “clearly for the young.” While the dress Reynolds makes Barbara is perhaps more mature than the one pictured on the opposite page, with longer sleeves, a higher neck, and in satin rather than tulle frills, this association with youth speaks to larger issues within Barbara’s self perception. She is clearly insecure about her appearance. While it is not specifically stated, it’s easy to assume this is related both to her age and body, which were highly stigmatized by the beauty standards of the time. It seems that, rather than seeking out clothing that appeals to her tastes, she blindly follows the trends of the season in hopes it will bring her confidence. By copying the fashions of the young, she may hope to make herself appear more youthful, and therefore more beautiful. However, it seems that, no matter how beautiful her clothing, she cannot overcome her insecurities. During her [dress fitting](https://ptannotated.com/items/phan-05048.html) with Reynolds, she bursts into tears looking at herself, saying “I know you’re doing the best you can…I’m still so ugly,” to which Reynolds responds that he is trying to make her a beautiful dress. The implication is that her love of fashion should supersede her feelings about herself, allowing her to be a canvas for his work. It is her perceived lack of taste and style that seems to bring Reynolds’s contempt. He, and Alma, feels that she does not deserve to wear his clothing, as she cannot fully appreciate it. Barbara drunkenly falls asleep in the dress Reynolds makes her, which he takes great offense to. The implication is that, if she truly appreciated the craftsmanship of the dress, she would have treated it with greater respect, and certainly never slept in it as if it were indistinguishable from her nightgown. Reynolds certainly does not thoughtlessly adopt every passing trend, and he clearly has little respect for those with no eye of their own. 
 
 
-## *Splendours and Miseries* (1943) 
+### *Splendours and Miseries* (1943) 
 
 {% include feature/image.html objectid="phan-12821" caption=false %}
 
@@ -186,7 +186,7 @@ Sitwell writes that everyone hopes to “find redemption in the example of what 
 One myth Splendours and Miseries returns to again and again is the tale of Orpheus and Eurydice, repeatedly referencing that, while he is entering the Underworld to bring someone back – seemingly his mother – the legend says he must not look back at her as he does this. It is the looking that truly condemns her to death. “But we are seeking for someone, and will be brought to her by a crowd of shadows. Then we shall take her by the hand and lead her, but the myth says we must not look back.” It’s notable that the last explicit reference to Reynolds’s mother in the film is his vision of his mother standing before him. He speaks to her silent, still form, but she does not, cannot, reply, simply posing as she did in his photograph of her. She seems to disappear while he is looking at her, there in one shot and gone in the next. It’s right after the loss of this vision of his mother that he proposes to Alma, finally allowing life back into the House of Woodcock. Perhaps he finally accepted that his mother is truly gone. He violated the myth; he could not help but see her. It is the looking that made him lose her; in seeking the image of her, the personification, rather than the person, he condemned her forever to the underworld.
 
 
-## Bibliography 
+### Bibliography 
 
 - Barnebys. “'The Fashion Bible’: A History of Vogue Magazine.” Accessed June 13, 2026. https://www.barnebys.com/blog/the-fashion-bible-a-history-of-vogue-magazine 
 - British Cactus and Succulent Society. “History of Growing Cacti & Succulents in Britain.” Accessed June 11, 2026. https://bcss.org.uk/history/# 
