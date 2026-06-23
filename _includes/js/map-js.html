@@ -125,9 +125,9 @@
         var thumbImg;
         if (feature.properties.img) {
             thumbImg = '<img class="map-thumb" src="' + feature.properties.img + '" alt="' + imgAlt + '">';
-        } // else {
+        }  else { ''
           //  thumbImg = getIcon(feature.properties.template,feature.properties.format,"thumb")
-     //   }
+        }
         // set up popup content
         var popupTemplate = '<h2 class="h4"><a class="text-dark" href="' + '">' +
             feature.properties.title + '</a></h2><div class="text-center"><a>' + thumbImg + '</a></div><p>';
