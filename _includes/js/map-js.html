@@ -239,7 +239,7 @@
         {% endif %}
     }
 
-    /* add legend 
+    /* add legend */
 
     var legend = L.control({position: 'bottomleft'});
         legend.onAdd = function (map) {
@@ -250,9 +250,9 @@
         
             div.innerHTML = '<h4> Map Legend</h4>'
 
-            for (var i=0; i < filmLabel.length; i++){
-                div.innerHTML += 
-                    '<i style="background:"' + colorLabel[i] + '"></i>' + filmLabel[i] + '<br>';
+            for (var i = 0; i < filmLabel.length; i++) {
+                 div.innerHTML +=
+                '<i style="background:' + colorLabel[i] + '"></i> ' + filmLabel[i] + '<br>';
             }
 
             return div;
@@ -261,7 +261,6 @@
         /// Append the finalized legend control layer to the map
         legend.addTo(map);
 
-        */
 })();   
 
 </script>
