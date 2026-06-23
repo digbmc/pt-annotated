@@ -1,5 +1,4 @@
 {% if site.data.theme.map-child-objects == true %}
-/* assigning mapmetadata instead of the collections metadata */
 {%- assign items = site.data[site.mapmetadata] | where_exp: 'item','item.objectid' -%}
 {% else %}
 {%- assign items = site.data[site.mapmetadata] | where_exp: 'item','item.objectid and item.parentid == nil' -%}
@@ -41,6 +40,54 @@
 
     /* init map */
     var map = L.map('map');
+
+    /* establishing colors for movies to be used in markers */
+    var filmColors = {
+        "Hard Eight": "#417505",
+        "Boogie Nights": "#F47804",
+        "Inherent Vice": "#7ED321",
+        "Licorice Pizza": "#F5D323",
+        "Magnolia": "#52322C",
+        "One Battle After Another": "#4290EB",
+        "Punch-Drunk Love": "#BF4983",
+        "The Master": "#2D5787",
+        "There Will Be Blood": "#A10215",
+        "Phantom Thread": "#B65CE8"
+    };
+    /*default color if no movie or doesn't match */
+    var defaultColor = "#888888";
+
+//establish legend
+
+    var legend = L.control({position: 'bottomleft'});
+        legend.onAdd = function (map) {
+            var div = L.DomUtil.create('div', 'info-legend');
+            var titleLeg = ['<strong>Film</strong>'];
+            var filmLabel = ['Hard Eight', 'Boogie Nights', 'Inherent Vice', 'Licorice Pizza', 'Magnolia', 'One Battle After Another', 'The Master', 'There Will Be Blood', 'Punch-Drunk Love', 'Phantom Thread'];
+            var colorLabel = ['#417505', '#F47804', '#7ED321', '#F5D323', '#52322C', '#4290EB', '#2D5787', '#A10215', '#BF4983', '#B65CE8'];
+        
+            for (var i=0, i < filmLabel.length; i++){
+                var from = filmLabel[i];
+                var to = filmLabel[i+1];
+
+                labels.push(
+                    '<i style = background:' + colorLabel[i] + '"></i> ' +
+                    from + (to ? '&ndash;' + to : '+')
+        );
+    }
+
+    // Insert all generated labels inside the div wrapper
+        div.innerHTML = labels.join('<br>');
+        return div;
+    };
+
+        /// Append the finalized legend control layer to the map
+        legend.addTo(map);
+                
+        
+        
+
+   
 
     /* add map layer options */
     var Esri_WorldStreetMap = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
@@ -143,22 +190,7 @@
 
     
 
-    /* establishing colors for movies to be used in markers */
-    var filmColors = {
-        "Hard Eight": "#417505",
-        "Boogie Nights": "#F47804",
-        "Inherent Vice": "#7ED321",
-        "Licorice Pizza": "#F5D323",
-        "Magnolia": "#52322C",
-        "One Battle After Another": "#4290EB",
-        "Punch Drunk Love": "#BF4983",
-        "The Master": "#2D5787",
-        "There Will Be Blood": "#A10215",
-        "Phantom Thread": "#B65CE8"
-    };
-    /*default color if no movie or doesn't match */
-    var defaultColor = "#888888";
-
+    
     /*establish markers */
     function objectMarkers(feature, latlng) {
         var filmTitle = (feature.properties.film || "").trim();
