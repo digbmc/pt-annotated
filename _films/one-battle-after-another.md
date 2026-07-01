@@ -1,11 +1,11 @@
 ---
 title: One Battle After Another
 code: OBAA
-thumbnail-image: # full url or relative path to the image for the card on the home page
-featured-image: # full url or relative path to the image for the top of the film page
-featured-image-alt: # alt text for the banner image on the film page
+thumbnail-image: https://ptannotated.com/iiif/obaa/obaa-10744/tiles/full/1920,1080/0/default.jpg #full url or relative path to the image for the card on the home page
+featured-image: https://ptannotated.com/iiif/obaa/obaa-10744/tiles/full/1920,1080/0/default.jpg # full url or relative path to the image for the top of the film page
+featured-image-alt: A man yells through a payphone. # alt text for the banner image on the film page
 has-narrow-title-svg: true # films with long/wide title SVGs have a narrow version for use on the homepage tiles
-deployed: false
+deployed: true
 annotated: false
 ---
 
