@@ -9,11 +9,11 @@
 # URL VARIABLES
 #
 # site domain, full URL to the production location of your collection
-url: https://digbmc.github.io
+url: https://eizent.github.io
 # path to location on the domain if necessary e.g. /digital/hjccc
-baseurl: /pt-annotated
+baseurl: /pt-annotated-map
 # location of code, the full url to your github repository
-source-code: https://github.com/digbmc/pt-annotated
+source-code: https://github.com/eizent/pt-annotated-map/tree/main
 
 ##########
 # SITE SETTINGS
@@ -35,7 +35,8 @@ author: digbmc
 #
 # Set the metadata for your collection (the name of the CSV file in your _data directory that describes the objects in your collection) 
 # Use the filename of your CSV **without** the ".csv" extension! E.g. _data/demo-metadata.csv --> "demo-metadata"
-metadata: pta-metadata 
+metadata: pta-metadata
+mapmetadata: pta-map-loc
 # page generation settings [optional!]
 # [optional: only used if you need to tweak CB defaults or generate from more than one data file]
 # page_gen:
