@@ -8,6 +8,10 @@ permalink: /tags.html
 
 Use these word cloud visualizations to browse the cinematographic techniques and recurring themes observed across Paul Thomas Anderson's filmography. Each screenshot in the collection has been tagged with applicable technical and thematic terms from a controlled vocabulary, detailed in the [glossary](#glossary) below. Word size in the visualizations is determined by frequency and all words link to a corresponding collection search.
 
+<div class="alert alert-primary text-center" role="alert">
+      Progress Note: All screenshots have technical tags. Only annotated screenshots have thematic tags.
+    </div>
+
 <div class="cloud-container">
     <h3 class="text-center">Techniques</h3>
     {% include feature/cloud.html fields="angle;distance;location;movement;lighting;composition;duration" min=1 %}
