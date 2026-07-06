@@ -44,6 +44,7 @@ Licorice Pizza, same as Boogie Nights, is star-studded with fantastic needledrop
 
 While maybe not as immediately obvious as with Boogie Nights and its disco-club locale, Inherent Vice is similarly engaging with a period of music history from which its narrative is informed. I’d even argue that the music history being referenced in this trippy neo-noir is uncomplicated—more staunchly at the thematic forefront—in comparison, as Boogie Nights’ focus on the adult film industry ultimately obscures the theoretical “takeaways” one could make on the film’s alignment with disco. With Inherent Vice, the very heart of the film’s narrative is in direct and undisturbed conversation with music history; that is, a story about the 60s being over is a story contained within and chronicled by music.
 
+*interim image here as well*
 
 {% include feature/image.html objectid="phan-01237" caption=false width="75" %}
 
