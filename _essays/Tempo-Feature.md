@@ -19,7 +19,7 @@ Many techniques can be employed to help change the tempo of a film: shots with l
 ## Purpose:
 Using David Bordwell’s theoretical foundation for measuring tempo in films, I employ some of his methodologies to break down PT’s films. The goal is to understand how PT uses tempo to impact the feeling of scenes, the perception of time, and then to reflect on whether or not your viewing experience deems PT as being successful. Hopefully, this feature can serve as a jumping-off point for PT’s audience to reflect on some of the more technical aspects of PT’s filmmaking. 
 
-## Methodology:
+## Methods:
 
 **Figure I: PT-Annotated Screenshots**
 
