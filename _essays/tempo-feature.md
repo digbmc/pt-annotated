@@ -1,5 +1,5 @@
 ---
-title: "Tempo as a Means of Understanding Time in PTA's Filmography"
+title: "Tempo and Shot Length in PTA's Filmography"
 author: Lucia Engelhardt
 layout: data-essay
 featured_image: punc-04151
@@ -7,7 +7,6 @@ tags:
     - Tempo
 ---
 ## What is Tempo?
-
 Tempo is most often thought of as a characteristic of music. Tempo measures the pace of a song through beats per minute (BPM). However, tempo can also be used to understand a film's flow. But what does this look like? [^1]
 
 ## Tempo in Film
