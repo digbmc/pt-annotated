@@ -38,7 +38,7 @@ Paul Thomas Anderson’s signature filmmaking style is characterized by many asp
 
 ### Mixtape #6A: *Boogie Nights*
 
-Boogie Nights might be the first thing one thinks of when considering the significance of music to Paul Thomas Anderson’s filmmaking. The entire film is steeped in music, both in its near ceaseless soundtracking and the thematic importance of disco to the world of the characters. The title even comes from a 1976 disco track of the same name by the band Heatwave; this song was originally intended to feature in the film, however the devoutly Christian lead singer, Johnnie Wilder Jr, didn’t want his music to be used in a film about the porn industry. Beyond solely the genre of disco, though, the significance of music in Boogie Nights centers around the sociality of the film: the workplace culture intertwined with partying (boogie-ing!) and, ultimately, the formation of an alternative family unit.
+Boogie Nights might be the first thing one thinks of when considering the significance of music to Paul Thomas Anderson’s filmmaking. The entire film is steeped in music, both in its near ceaseless soundtracking and the thematic importance of disco to the world of the characters. The title even comes from a 1976 disco track of the same name by the band Heatwave; this song was originally intended to feature in the film, however the devoutly Christian lead singer, Johnnie Wilder Jr, didn’t want his music to be used in a film about the porn industry[^1]. Beyond solely the genre of disco, though, the significance of music in Boogie Nights centers around the sociality of the film: the workplace culture intertwined with partying (boogie-ing!) and, ultimately, the formation of an alternative family unit.
 
 ### Mixtape #6B: *Licorice Pizza*
 
@@ -46,15 +46,14 @@ Licorice Pizza, same as Boogie Nights, is star-studded with fantastic needledrop
 
 ### Mixtape #6C: *Inherent Vice* 
 
-While maybe not as immediately obvious as with Boogie Nights and its disco-club locale, Inherent Vice is similarly engaging with a period of music history from which its narrative is informed. I’d even argue that the music history being referenced in this trippy neo-noir is uncomplicated — more staunchly at the thematic forefront — in comparison, as Boogie Nights’ focus on the adult film industry ultimately obscures the theoretical “takeaways” one could make on the film’s alignment with disco. With Inherent Vice, the very heart of the film’s narrative is in direct and undisturbed conversation with music history; that is, a story about the 60s being over is a story contained within and chronicled by music.
+While maybe not as immediately obvious as with Boogie Nights and its disco-club locale, Inherent Vice is similarly engaging with a period of music history from which its narrative is informed. I’d even argue that the music history being referenced in this trippy neo-noir is uncomplicated—more staunchly at the thematic forefront—in comparison, as Boogie Nights’ focus on the adult film industry ultimately obscures the theoretical “takeaways” one could make on the film’s alignment with disco. With Inherent Vice, the very heart of the film’s narrative is in direct and undisturbed conversation with music history; that is, a story about the 60s being over is a story contained within and chronicled by music.
 
 
 {% include feature/image.html objectid="phan-01237" caption=false width="75" %}
 
+[^1]: Golsen, Tyler. “How Paul Thomas Anderson Got Jeff Lynne on ‘Boogie Nights.’” Far Out Magazine, 2023. https://faroutmagazine.co.uk/paul-thomas-anderson-jeff-lynne-boogie-nights/.
 
 
 ### Bibliography
 
-1. First source
-2. Second source
-3. Etc.
+1. Golsen, Tyler. “How Paul Thomas Anderson Got Jeff Lynne on ‘Boogie Nights.’” Far Out Magazine, 2023. https://faroutmagazine.co.uk/paul-thomas-anderson-jeff-lynne-boogie-nights/.
