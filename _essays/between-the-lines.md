@@ -1,5 +1,5 @@
 ---
-title: 'Between the Lines: Network Graphing PTA Collaborators'
+title: 'Between the Lines: Graphing Paul Thomas Anderson's Network of Collaborators'
 author: Clara Smith
 layout: data-essay
 featured_image: boog-05509
