@@ -11,6 +11,8 @@ tags:
 
 — Quiz Kid Donnie Smith, *Magnolia* (1999)
 
+[Jump to Graph](#graphing-pta)
+
 Who makes a movie? The simplest answer is: it’s complicated. Most often, films are cited to their director, who serves as the public face of the project and plays a central role in shaping its creative vision. It is no surprise, then, that the Paul Thomas Annotated website prioritizes the director as its focus. He is what binds together this corpus of films, bringing his unique style to each one across over twenty years of filmmaking. It is perhaps best to define Paul Thomas Anderson as the creator of these films, but he is not the sole maker. 
 
 Building on the ideas of the French New Wave, Andrew Sarris introduced the *auteur* theory to American film theory, which posits that the director is the author of a film and has near complete creative control over their work.[^1] Not everyone who directs is an *auteur*, as a true *auteur* needs both talent and a distinctive personal style. Sarris visualizes the criteria as concentric circles, in which the outer ring is technical competence, then distinguishable personality, and the innermost circle is interior meaning. The *auteur* lies at the center of the diagram, having achieved all three levels in their work. Paul Thomas Anderson is widely considered one of the modern *auteurs*, but even without broad acclaim, the mere fact that we have created a site dedicated to the meaning and importance of his films indicates our thoughts on Anderson’s *auteur* status. 
@@ -26,6 +28,8 @@ A network graph was chosen for this visualization due to these connections. Wein
 A social network graph of Hollywood is not an original idea. The idea of six degrees of separation is that everyone is at most six connections away from each other and has inspired the game “Six Degrees of Kevin Bacon” which is trying to link any given actor to Kevin Bacon.[^5] (PTA is connected to Kevin Bacon through multiple actors, for example Julianne Moore was in *Magnolia* (1999) and was also in *Crazy, Stupid, Love* (2011) with Kevin Bacon). While the concept of a Hollywood graph has been done many times, often these visualizations are focused on actors, and do not include connections between critical crew members, lacking the full picture of the creation of these films. 
 
 Perhaps it is a coincidence that the graph ended up looking like a flower. But it is difficult not to think of *Magnolia* (1999), Anderson’s sprawling film about the invisible connections between strangers. Like the film itself, the graph highlights the meaning that emerges when we explore the relationships between individuals.
+
+### Graphing PTA
 
 <div class="mb-4">
 <div class="embed-responsive ratio ratio-4x3">
@@ -92,8 +96,6 @@ The color-coding of the nodes remains the same, based on the person’s job. But
 <iframe src="https://clarasmith.digital.brynmawr.edu/ptacollab/#" width="100%" ></iframe></div></div>
 
 *Note: This feature uses the TMDB API but is not endorsed or certified by TMDB.*
-
-### Conclusion
 
 No one person makes a movie. By mapping the hundreds of artists, technicians, performers, and craftspeople who contribute to Anderson’s films, these graphs make visible the network of collaboration. Instead of condensing people in a list of credits, this project envisions an alternative, more, interactive mode of attribution. In doing so, it offers another way of reading Anderson’s filmography through the relationships that make auteurship possible. Every connection reminds us that a creative vision only becomes a film through the expertise and work of countless others. To understand who makes a movie, sometimes you have to look between the lines.  
 
