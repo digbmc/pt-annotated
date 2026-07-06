@@ -8,25 +8,7 @@ tags:
 
 ### Table of Contents
 
-[Introduction](#introduction)
-
-[Method](#method)
-
-[Z-Projections](#z-projections)
-
-[Median Hue and Median Saturation Graphs](#median-hue-and-median-saturation-graphs)
-
-[Montages](#montages)
-
-[Genre](#genre)
-
-[Directorial Comparisons](#directorial-comparisons)
-
-[Deformation as Art](#deformation-as-art)
-
-[Conclusion](#conclusion)
-
-[Works Cited](#works-cited)
+{:toc} 
 
 ### Introduction
 Any artistic work ever created has been subjected to the question of meaning; it is, after all, a viewer’s (or, perhaps, a human’s) natural response when faced with something new. However, within their article “Deformance and Interpretation,” Lisa Samuels and Jerome McGann pose the question, “how do we release or expose [the art’s] possibilities of meaning?”[^1] “Deformative” methods of interpretation call for “responsive works of imagination, not reflexive works of analysis."[^2] This effort seeks to pry open a work, to reimagine it in novel and valuable ways in order to highlight new avenues of meaning and interpretation. These “deformative” works— such as reading a poem backwards[^3]— deconstruct the original text (or, in this case, film) to allow us to access what is not immediately accessible upon first viewing. “reinstalls the text—any text, prose or verse—as a performative event, a made thing."[^4]
