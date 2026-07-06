@@ -51,7 +51,7 @@ While maybe not as immediately obvious as with Boogie Nights and its disco-club 
 
 {% include feature/image.html objectid="phan-01237" caption=false width="75" %}
 
-[^1]: Golsen, Tyler. “How Paul Thomas Anderson Got Jeff Lynne on ‘Boogie Nights.’” Far Out Magazine, 2023. https://faroutmagazine.co.uk/paul-thomas-anderson-jeff-lynne-boogie-nights/.
+[^1]: Far Out Magazine, "How Paul Thomas Anderson Got Jeff Lynne on 'Boogie Nights.'"
 
 
 ### Bibliography
