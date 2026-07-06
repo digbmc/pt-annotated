@@ -43,7 +43,7 @@ After compiling all of the screenshots and necessary metadata (screenshot timest
 To capture the ASL of PTA’s films, I used open-source code from Distant Viewing Explorer to detect the shot boundaries (when one shot is cut/transitions to another shot) of each film. [^4] I then downloaded each film and converted the film files to mp4’s using ffmpeg. Next, I ran the converted MP4 through the Distant Viewing code, which produced a table with information about how many shot boundaries the film has, the timestamp (start and end of each shot), and the length of the shot. I compiled this information into a data sheet and, in JupyterLab, used Vega-Altair to make a scatter plot. The graph plots each sequential shot of every film (x-axis) and how long the shot is (y-axis). Thus, this graph displays the ASL of every one of PTA’s films. 
 
 
-## The Rhythm of PTA through PT-Annotated Screenshots
+## Figure I
 
 <div class="mb-4">
 <div class="embed-responsive ratio ratio-4x3">
@@ -51,7 +51,7 @@ To capture the ASL of PTA’s films, I used open-source code from Distant Viewin
 
 How to use the graph: if you hover your mouse over a tick, the thumbnail for the tick's screenshot appears. The x-axis is the timestamp at which the screenshot was taken during the film (all in sequential order), while the y-axis is each of PTA’s films. The bottom chart works as a slider. You can click and slide your mouse to examine specific moments in the films at a closer look. 
 
-## ASL of PTA’s Films
+## Figure II
 
 <div class="mb-4">
 <div class="embed-responsive ratio ratio-4x3">
@@ -63,6 +63,9 @@ How to use the graph: if you click on one of the films in the legend, you can ex
 
 
 ### Bibliography
+1. Bordwell, David. The Way Hollywood Tells It: Story and Style In Modern Movies. E-book, Berkeley: University of California Press,        2006,  https://hdl.handle.net/2027/heb08199.0001.001.
+2. Costa, Daniel. "tempo". Encyclopedia Britannica, 9 Apr. 2026, https://www.britannica.com/art/tempo-music. Accessed 6 July 2026.
+3. Taylor Arnold and Lauren Tilon, Distant Viewing Explorer (2025). https://distantviewing.org/dvexplorer
 
 [^1] Costa, Daniel. "tempo". Encyclopedia Britannica, 9 Apr. 2026, https://www.britannica.com/art/tempo-music. Accessed 6 July 2026.
 [^2]     Bordwell, David. The Way Hollywood Tells It: Story and Style In Modern Movies. E-book, Berkeley: University of California Press, 2006, https://hdl.handle.net/2027/heb08199.0001.001.
