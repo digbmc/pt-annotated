@@ -4,8 +4,12 @@ author: Tallulah Stallvik
 layout: data-essay
 featured_image: boog-10007
 tags:
-    - Intertextuality
+    - boogie-nights
+	- licorice-pizza
+	- inherent-vice
+	- Intertextuality
     - Violence
+	- Intimacies
     - Histories
 ---
 
