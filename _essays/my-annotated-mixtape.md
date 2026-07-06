@@ -1,5 +1,5 @@
 ---
-title: "My Annotated Mixtape #6: The Music of *Boogie Nights*, *Licorice Pizza*, and *Inherent Vice*"
+title: "My Annotated Mixtape #6: The Music of <em>Boogie Nights</em>, <em>Licorice Pizza</em>, and <em>Inherent Vice</em>"
 author: Tallulah Stallvik
 layout: data-essay
 featured_image: boog-10007
