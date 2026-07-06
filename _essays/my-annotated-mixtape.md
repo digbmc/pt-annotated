@@ -5,12 +5,13 @@ layout: data-essay
 featured_image: boog-10007
 tags:
     - boogie-nights
-	- licorice-pizza
-	- inherent-vice
-	- Intertextuality
+    - licorice-pizza
+    - inherent-vice
+    - intertextuality
     - Violence
-	- Intimacies
+    - Intimacies
     - Histories
+    - music
 ---
 
 *note: interim featured image*

@@ -3,7 +3,9 @@ title: Paul Thomas Visualized
 author: Grace Muller
 layout: data-essay
 featured_image: supp-72001
-tags: PTA
+tags: 
+    - PTA
+    - data essay
 ---
 
 ### Table of Contents

@@ -5,6 +5,8 @@ layout: data-essay
 featured_image: boog-05509
 tags:
     - pta
+    - network
+    - data essay
 ---
 
 "*Want to know the common element for the entire group?... I'll tell you the answer.*" 

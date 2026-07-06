@@ -1,5 +1,5 @@
 ---
-title: Reading Phantom Thread
+title: "Reading <em>Phantom Thread</em>"
 author: Ada Griffin
 featured_image: phan-11125
 tags:
