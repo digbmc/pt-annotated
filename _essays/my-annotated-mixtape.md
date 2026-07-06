@@ -1,6 +1,6 @@
 ---
-title: Sample Data Essay 1
-author: Spock
+title: My Annotated Mixtape #6: The Music of *Boogie Nights*, *Licorice Pizza*, and *Inherent Vice*
+author: Tallulah Stallvik
 layout: data-essay
 featured_image: lico-15608
 tags:
