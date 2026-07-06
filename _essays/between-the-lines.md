@@ -97,7 +97,7 @@ The color-coding of the nodes remains the same, based on the person’s job. But
 
 ### Conclusion
 
-No one person makes a movie. By mapping the hundreds of artists, technicians, performers, and craftspeople who contribute to Anderson’s films, these graphs make visible the network of collaboration. Instead of condensing people in a list of credits, this project envisions an alternative, more, interactive mode of attribution. In doing so, it offers another way of reading Anderson’s filmography through the relationships that make auteurship possible. Every connection reminds us that a creative vision only becomes a film through the expertise and work of countless others. To understand who makes a movie, sometimes you have to look between the lines.  
+No one person makes a movie. By mapping the hundreds of artists, technicians, performers, and craftspeople who contribute to Anderson’s films, these graphs make visible the network of collaboration. Instead of condensing people in a list of credits, this project envisions an alternative, more interactive mode of attribution. In doing so, it offers another way of reading Anderson’s filmography through the relationships that make auteurship possible. Every connection reminds us that a creative vision only becomes a film through the expertise and work of countless others. To understand who makes a movie, sometimes you have to look between the lines.  
 
 [^1]: Sarris, “Notes on the Auteur Theory in 1962.”
 [^2]: Sadoul, Dictionary of Films, vi.
