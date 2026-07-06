@@ -13,7 +13,6 @@ permalink: /
         </p>
     </div>
     <div class="alert alert-primary text-center" role="alert">
-      Progress Note: <em>Punch-Drunk Love</em> is fully annotated. Screenshots and technical metadata are
-      available for <em>Boogie Nights</em>, <em>Hard Eight</em>, <em>Inherent Vice</em>, <em>Licorice Pizza</em>, <em>Magnolia</em>, <em>The Master</em>, <em>One Battle After Another</em>, <em>Phantom Thread</em>, <em>Punch-Drunk Love</em>, and <em>There Will Be Blood</em>.
+      Progress Note: <em>Phantom Thread</em> and <em>Punch-Drunk Love</em> are fully annotated. Screenshots and technical metadata are available for <em>Boogie Nights</em>, <em>Hard Eight</em>, <em>Inherent Vice</em>, <em>Licorice Pizza</em>, <em>Magnolia</em>, <em>The Master</em>, <em>One Battle After Another</em>, <em>Phantom Thread</em>, <em>Punch-Drunk Love</em>, and <em>There Will Be Blood</em>.
     </div>
 </div>
