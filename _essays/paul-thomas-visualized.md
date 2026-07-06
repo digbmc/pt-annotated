@@ -2,8 +2,8 @@
 title: Paul Thomas Visualized
 author: Grace Muller
 layout: data-essay
-featured_image:
-tags:
+featured_image: supp-72001
+tags: PTA
 ---
 
 ### Table of Contents
@@ -47,6 +47,8 @@ I ended up utilizing the same program used to capture stills for both Colors of 
 The first striking thing about this collection of Z-Projections is just how different they are from one another. As I look at the summed z-projection for Punch-Drunk Love, I feel as though I’m viewing multiple scenes playing out at once; I see various figures performing various actions: sitting down for dinner, peeking out from behind a wall, standing, walking, etc. However, looking at the summed z-projection of The Master, I feel as though I’m looking at the shape of Lancaster Dodd himself through a fogged-up window. Hard Eight looks like an open doorway, with lights of a marquee over on the right side. This reflects the varied types of shots and compositions used by Paul Thomas Anderson; the longer a figure, shot, object, or color is onscreen, the more it imprints itself on the final image, so the varied shapes and colors reflect varied colors and shot compositions. 
 
 There’s a small shape towards the bottom of *Punch-Drunk Love* that ends up being the back of one of the chairs in Barry’s house, for example: 
+
+
 
 This is a really unique shot; the camera stays stationary as Barry moves around the room, being begged by “Georgia” from the phone sex line to send her some money. The camera is in the shadows, as if spying on Barry, reflecting how much Barry doesn’t want anyone to know that he’s called a phone sex line. Because of the stationary camera, that chair stays in the same spot on screen for an extended period of time, and thus is visible in the final image. 
 
