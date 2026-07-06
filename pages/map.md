@@ -2,5 +2,5 @@
 title: Map
 layout: map
 permalink: /map.html
-published: false
+published: true
 ---
