@@ -2,12 +2,14 @@
 title: My Annotated Mixtape #6: The Music of *Boogie Nights*, *Licorice Pizza*, and *Inherent Vice*
 author: Tallulah Stallvik
 layout: data-essay
-featured_image:
+featured_image: boog-10007
 tags:
     - Intertextuality
     - Violence
     - Histories
 ---
+
+*note: interim featured image*
 
 # My Annotated Mixtape #6: The Music of *Boogie Nights*, *Licorice Pizza*, and *Inherent Vice*
 
