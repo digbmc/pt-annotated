@@ -2,6 +2,7 @@
 title: Sample Data Essay 1
 author: Spock
 layout: data-essay
+published: false
 featured_image: lico-15608
 tags:
     - Intertextuality
