@@ -11,8 +11,6 @@ tags:
 
 — Quiz Kid Donnie Smith, *Magnolia* (1999)
 
-### Introduction
-
 Who makes a movie? The simplest answer is: it’s complicated. Most often, films are cited to their director, who serves as the public face of the project and plays a central role in shaping its creative vision. It is no surprise, then, that the Paul Thomas Annotated website prioritizes the director as its focus. He is what binds together this corpus of films, bringing his unique style to each one across over twenty years of filmmaking. It is perhaps best to define Paul Thomas Anderson as the creator of these films, but he is not the sole maker. 
 
 Building on the ideas of the French New Wave, Andrew Sarris introduced the *auteur* theory to American film theory, which posits that the director is the author of a film and has near complete creative control over their work.[^1] Not everyone who directs is an *auteur*, as a true *auteur* needs both talent and a distinctive personal style. Sarris visualizes the criteria as concentric circles, in which the outer ring is technical competence, then distinguishable personality, and the innermost circle is interior meaning. The *auteur* lies at the center of the diagram, having achieved all three levels in their work. Paul Thomas Anderson is widely considered one of the modern *auteurs*, but even without broad acclaim, the mere fact that we have created a site dedicated to the meaning and importance of his films indicates our thoughts on Anderson’s *auteur* status. 
