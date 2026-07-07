@@ -18,7 +18,7 @@ Bordwell describes varying techniques filmmakers employ to change the tempo of t
 The principal method Bordwell discusses to understand film tempo is through average shot length (ASL). This is one of the primary ways I explore tempo within PTA’s films.
 
 
-### How To Measure Tempo in Film
+### How to Measure Tempo in Film
 Many techniques can be employed to help change the tempo of a film: shots with lots of fast movement captured (actors running, objects moving fast, disco strobe), intense and dynamic camera movement (whiplash pans, jerky reframings, rack focusing), or quick cutting (making the length of each shot super short). The data in this feature uses shot length to measure the tempo of PTA’s films. [^3]
 
 ### David Bordwell’s The Way Hollywood Tells It: 
@@ -48,7 +48,7 @@ To capture the shot length of PTA’s films, I used open-source code from Distan
 
 <div class="mb-4">
 <div class="embed-responsive ratio ratio-4x3">
-<iframe src="https://lucia-engelhardt.github.io/data-essays/graph/finished-ss-graph(4).html" width="100%" ></iframe></div></div>
+<iframe src="https://lucia-engelhardt.github.io/data-essays/graph/finished-ss-graph(5).html" width="100%" ></iframe></div></div>
 
 How to use the graph: if you hover your mouse over a tick, the thumbnail for the tick's screenshot appears. The x-axis is the timestamp at which the screenshot was taken during the film (all in sequential order), while the y-axis is each of PTA’s films. The bottom chart works as a slider. You can click and slide your mouse to examine specific moments in the films at a closer look. 
 
@@ -56,9 +56,9 @@ How to use the graph: if you hover your mouse over a tick, the thumbnail for the
 
 <div class="mb-4">
 <div class="embed-responsive ratio ratio-4x3">
-<iframe src="https://lucia-engelhardt.github.io/data-essays/graph/asl-finished-scatterplot(2).html" width="100%" ></iframe></div></div>
+<iframe src="https://lucia-engelhardt.github.io/data-essays/graph/asl-final-scatterplot(4).html" width="100%" ></iframe></div></div>
  
-How to use the graph: if you click on one of the films in the legend, you can examine one film at a time. You can also move around the graph and zoom in or out. If you hover your mouse over a point, you can see the point’s metadata. The x-axis is the number of the shot within the order of the film (the first shot all the way to the last shot in the film), while the y-axis displays the length of each shot in seconds. 
+How to use the graph: if you click on one of the films in the legend, you can examine one film at a time. You can also move around the graph and zoom in or out. If you hover your mouse over a point, you can see the point’s metadata. The x-axis shows the shot number in the order of the film (from the first to the last), while the y-axis shows the length of each shot in seconds. 
 
 ### Analysis
 
