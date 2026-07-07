@@ -19,7 +19,7 @@ The principal method Bordwell discusses to understand film tempo is through aver
 
 
 ### How To Measure Tempo in Film
-Many techniques can be employed to help change the tempo of a film: shots with lots of fast movement captured (actors running, objects moving fast, disco strobe), intense and dynamic camera movement (whiplash pans, jerky reframings, rack focusing), or quick cutting (making the length of each shot super short). The data in this feature uses the average shot length (ASL) to measure the tempo of PTA’s films. [^3]
+Many techniques can be employed to help change the tempo of a film: shots with lots of fast movement captured (actors running, objects moving fast, disco strobe), intense and dynamic camera movement (whiplash pans, jerky reframings, rack focusing), or quick cutting (making the length of each shot super short). The data in this feature uses shot length to measure the tempo of PTA’s films. [^3]
 
 ### David Bordwell’s The Way Hollywood Tells It: 
 Bordwell is a prominent film theorist whose work is often used in film analysis courses. In his book The Way Hollywood Sees It: Story and Style in Modern Movies, he follows the changing techniques of filmmakers over time. He ultimately argues that filmmakers have less creative freedom in terms of the tools they use for filmmaking due to pressure to use new dominant technologies. 
@@ -39,9 +39,9 @@ These screenshot guidelines essentially demonstrate what was deemed as important
 
 After compiling all of the screenshots and necessary metadata (screenshot timestamp, scene, and film), I used JupyterLab and Vega-Altair to create a strip-plot graph displaying all ten of PTA’s films along with a thumbnail for each screenshot taken. 
 
-**Figure II: ASL of PTA’s Films** 
+**Figure II: Shot Lengths of PTA’s Films** 
 
-To capture the ASL of PTA’s films, I used open-source code from Distant Viewing Explorer to detect the shot boundaries (when one shot is cut/transitions to another shot) of each film. [^4] I then downloaded each film and converted the film files to mp4’s using ffmpeg. Next, I ran the converted MP4 through the Distant Viewing code, which produced a table with information about how many shot boundaries the film has, the timestamp (start and end of each shot), and the length of the shot. I compiled this information into a data sheet and, in JupyterLab, used Vega-Altair to make a scatter plot. The graph plots each sequential shot of every film (x-axis) and how long the shot is (y-axis). Thus, this graph displays the ASL of every one of PTA’s films. 
+To capture the shot length of PTA’s films, I used open-source code from Distant Viewing Explorer to detect the shot boundaries (when one shot is cut/transitions to another shot) of each film. [^4] I then downloaded each film and converted the film files to mp4’s using ffmpeg. Next, I ran the converted MP4 through the Distant Viewing code, which produced a table with information about how many shot boundaries the film has, the timestamp (start and end of each shot), and the length of the shot. I compiled this information into a data sheet and, in JupyterLab, used Vega-Altair to make a scatter plot. The graph plots each sequential shot of every film (x-axis) and how long the shot is (y-axis). Thus, this graph displays the shot length of every one of PTA’s films. 
 
 
 ### Figure I
