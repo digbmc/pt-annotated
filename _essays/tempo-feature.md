@@ -13,7 +13,7 @@ tags:
 The term tempo is often associated with music as a way to measure the pace of a song. However, within the context of film, tempo is used to describe the pacing of a film and how viewers experience the narrative speed (i.e., did the film feel long, short, etc). All films have varying degrees of temporality, with certain moments feeling slower or faster as a way to stand out from the rest of the film. For this reason, tempo is one of the key tools used by filmmakers to construct the narrative of their film. Examples of filmmakers manipulating tempo could be for battle scenes, the moment before someone gets murdered in a thriller, or a training montage. 
 Bordwell describes varying techniques filmmakers employ to change the tempo of their film: shots with lots of fast movement captured (actors running, objects moving fast, disco strobe), intense and dynamic camera movement (whiplash pans, jerky reframings, rack focusing), or quick cutting (making the length of each shot super short). However, the main way Bordwell discusses tempo in film is through the lens of average shot length (ASL). [^1]
 
-###Who is David Bordwell?
+### Who is David Bordwell?
 
 Bordwell is a prominent film theorist whose work is often used in film analysis course curricula. In his book *The Way Hollywood Sees It: Story and Style in Modern Movies*, he follows the changing techniques of filmmakers over time. One of Bordwell's chapters argues that filmmakers have less creative freedom in terms of the tools they use for filmmaking due to pressure to use new dominant technologies. Bordwell cites the increase in quicker cutting (having more shots per film and shorter ASL) over time as an example of this phenomenon. I based my study of PTA’s film tempo on Bordwell’s breakdown of quick cutting. My goal is to bridge technical aspects of filmmaking/film theory to the experience of viewing one of PTA’s films in an effort to discuss and understand film in a holistic way. 
 The visualizations I made are ultimately to encourage viewers to compare their own experiences of watching PTA’s films to the filmmaking tools he’s employed. Some questions to think about when using these visualizations could be: what moments feel faster and slower in PTA’s films? Why do they feel different than the flow of the rest of the film? What was PTA trying to convey to viewers with these changes? And ultimately, is PTA successful with his application of tempo?[^2]
@@ -29,10 +29,12 @@ For Figure II, I used the application [MakeMKV](https://www.makemkv.com/) to dec
 #### Figure I: PT-Annotated Screenshots
 
 Figure I was a means to represent one of Bordwell’s offered ways of measuring film tempo (through changes in shots/movement on camera). The guidelines for taking screenshots of PTA’s films are as follows:
+
     1. Capture a screenshot any time the focus of the frame changes (shows something new) 
     2. Screenshot title cards/title screens at start of film (even when it’s a blank screen) 
-    3. Don’t take a screenshot every time the camera switches for shot-reverse-shots during conversations, only when something new             occurs within the shot-reverse-shot scene (i.e., change in angle, new character, etc.) 
+    3. Don’t take a screenshot every time the camera switches for shot-reverse-shots during conversations, only when something new              occurs within the shot-reverse-shot scene (i.e., change in angle, new character, etc.) 
     4. Too many screenshots are better than not enough 
+    
 These screenshot guidelines essentially demonstrate what was deemed as important information while watching each film from the perspective of whoever took the screenshots. This visualization represents qualitative data and a viewer’s experience while watching PTA’s films.
 
 #### Figure II: Shot Lengths and ASL of PTA’s Films
@@ -40,19 +42,15 @@ These screenshot guidelines essentially demonstrate what was deemed as important
 Figure II’s visualization includes a scatter plot with shot lengths and a bar chart with the ASL of each film. This data is quantitative and represents Bordwell’s main method of explaining the tempo of films through ASL. 
 
 ### Figure I
-
 <div class="mb-4">
 <div class="embed-responsive ratio ratio-4x3">
 <iframe src="https://lucia-engelhardt.github.io/data-essays/graph/finished-ss-graph(5).html" width="100%" ></iframe></div></div>
-
 How to use the graph: if you hover your mouse over a tick, the thumbnail for the tick's screenshot appears. The x-axis is the timestamp at which the screenshot was taken during the film (all in sequential order), while the y-axis is each of PTA’s films. The bottom chart works as a slider. You can click and slide your mouse to examine specific moments in the films at a closer look. 
 
 ### Figure II
-
 <div class="mb-4">
 <div class="embed-responsive ratio ratio-4x3">
 <iframe src="https://lucia-engelhardt.github.io/data-essays/graph/asl-final-scatterplot(5).html" width="100%" ></iframe></div></div>
- 
 How to use the graph: if you click on one of the films in the legend, you can examine one film at a time. You can also move around the graph and zoom in or out. If you hover your mouse over a point, you can see the point’s metadata. The x-axis shows the shot number in the order of the film (from the first to the last), while the y-axis shows the length of each shot in seconds. 
 
 ### Analysis
