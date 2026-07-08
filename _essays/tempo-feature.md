@@ -77,17 +77,17 @@ Broberg and Panagiotidis' research which aims to explain the role of tempo in fi
 Adams et al. conducted a study to demonstrate how tempo is used by filmmakers. The study tests the ability of machine learning to see if it is able to gain important information about the film. The study was successful, and thus the authors conclude that shot length and motion can be used not only to change a film’s tempo but also to convey meaningful information to viewers. [^4]
 
 ### Bibliography
-Adams, Brett, Chitra Dorai, and Svetha Venkatesh. "Role of shot length in characterizing tempo 
+- Adams, Brett, Chitra Dorai, and Svetha Venkatesh. "Role of shot length in characterizing tempo 
     and dramatic story sections in motion pictures." (2000).
-Bordwell, David. *The Way Hollywood Tells It: Story and Style In Modern Movies*. E-book, 
+- Bordwell, David. *The Way Hollywood Tells It: Story and Style In Modern Movies*. E-book, 
     Berkeley: University of California Press, 2006, 
     https://hdl.handle.net/2027/heb08199.0001.001. 
-Broberg, Felix and Panagiotidis, Andreas. “Impact of shot length and motion on cinematic 
+- Broberg, Felix and Panagiotidis, Andreas. “Impact of shot length and motion on cinematic 
     tempo.” KTH Royal Institute of Technology, 2022, 
     https://kth.diva-portal.org/smash/get/diva2:1704346/FULLTEXT01.pdf.
-Costa, D. "tempo." *Encyclopedia Britannica*, April 9, 2026. 
+- Costa, D. "tempo." *Encyclopedia Britannica*, April 9, 2026. 
     https://www.britannica.com/art/tempo-music. 
-Taylor Arnold and Lauren Tilon, *Distant Viewing Explorer* (2025). 
+- Taylor Arnold and Lauren Tilon, *Distant Viewing Explorer* (2025). 
     https://distantviewing.org/dvexplorer 
 
 
