@@ -85,7 +85,7 @@ This project faced a great number of hurdles and, as with any visualizations, th
 
 The initial plan was to have an edge for every role a person has fulfilled, however, Gephi cannot support multiple edges between the same two nodes. So, even if someone had multiple jobs on the same film, they will only have one line between them and that film. Additionally, a person can only have one known for department, so they cannot be filtered by all of their roles (e.g. Anderson does not appear when filtered for writing, despite writing all of his films). 
 
-### Additional Resources
+### Supplementary Graph
 
 Alongside the main network graph, I created a second visualization that approaches the same data from a more artistic perspective. Rather than connecting collaborators to the films they worked on, this graph connects every person directly to every other cast and crew member with whom they worked on a production. 
 
@@ -97,7 +97,13 @@ The color-coding of the nodes remains the same, based on the person’s job. But
 
 *Note: This feature uses the TMDB API but is not endorsed or certified by TMDB.*
 
-No one person makes a movie. By mapping the hundreds of artists, technicians, performers, and craftspeople who contribute to Anderson’s films, these graphs make visible the network of collaboration. Instead of condensing people in a list of credits, this project envisions an alternative, more interactive mode of attribution. In doing so, it offers another way of reading Anderson’s filmography through the relationships that make auteurship possible. Every connection reminds us that a creative vision only becomes a film through the expertise and work of countless others. To understand who makes a movie, sometimes you have to look between the lines.  
+No one person makes a movie. By mapping the hundreds of artists, technicians, performers, and craftspeople who contribute to Anderson’s films, these graphs make visible the network of collaboration. Instead of condensing people in a list of credits, this project envisions an alternative, more interactive mode of attribution. In doing so, it offers another way of reading Anderson’s filmography through the relationships that make auteurship possible. Every connection reminds us that a creative vision only becomes a film through the expertise and work of countless others. To understand who makes a movie, sometimes you have to look between the lines. 
+
+### Links and Downloads
+
+- [GitHub gist of the main graph file](https://gist.github.com/claraeks/098cddacb0de6672ce2f4176e16bbb39), can be opened in [Gephi Lite](https://lite.gephi.org/v1.0.2/)
+- [GitHub gist of the supplementary graph file](https://gist.github.com/claraeks/1f0aa905065c91e2d453716306ff1926), can be opened in [Gephi Lite](https://lite.gephi.org/v1.0.2/)
+
 
 [^1]: Sarris, “Notes on the Auteur Theory in 1962.”
 [^2]: Sadoul, Dictionary of Films, vi.
