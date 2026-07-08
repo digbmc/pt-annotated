@@ -33,7 +33,11 @@ Perhaps it is a coincidence that the graph ended up looking like a flower. But i
 
 <div class="mb-4">
 <div class="embed-responsive ratio ratio-4x3">
-<iframe src="https://claraeks.github.io/ptacollab/" width="100%" ></iframe></div></div>
+<iframe src="https://claraeks.github.io/ptacollab/" width="100%" title="Network Graph"></iframe>
+</div>
+</div>
+
+A network graph of PTA collaborators based on what films they have worked on.
 
 *Note: This feature uses the TMDB API but is not endorsed or certified by TMDB.*
 
@@ -93,7 +97,9 @@ The color-coding of the nodes remains the same, based on the person’s job. But
 
 <div class="mb-4">
 <div class="embed-responsive ratio ratio-4x3">
-<iframe src="https://clarasmith.digital.brynmawr.edu/ptacollab/#" width="100%" ></iframe></div></div>
+<iframe src="https://clarasmith.digital.brynmawr.edu/ptacollab/#" width="100%" title="Supplementary Network Graph"></iframe></div></div>
+
+A network graph of PTA collaborators in which people are connected to who they have worked with.
 
 *Note: This feature uses the TMDB API but is not endorsed or certified by TMDB.*
 
