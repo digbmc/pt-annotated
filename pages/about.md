@@ -74,6 +74,7 @@ We would like to thank the following individuals, groups, and institutions for t
 - Jacob Mazer
 - Jill Malcolm
 - Robert Curry
+- Selby Hearth
 - The librarians and staff at the <a href="https://www.oscars.org/library" target="_blank">Margaret Herrick Library</a> (Academy Library)
 - The organizers and participants of <a href="https://iliads.org/" target="_blank">ILiADS</a> 2025
 
