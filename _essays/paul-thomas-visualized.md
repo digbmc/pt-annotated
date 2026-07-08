@@ -443,48 +443,46 @@ To continue our conversation with Mittell on deformative criticism, he writes th
 
 ### Works Cited
 
--Bagnall, Philip. “Walking in the Light: Illuminating religion in Paul Thomas Anderson’s THE 
-MASTER.” *Scannain.* https://www.scannain.com/featured/opinion-piece/walking-sunshine-light-religion-paul-thomas-andersons-master/ 
+- Bagnall, Philip. “Walking in the Light: Illuminating religion in Paul Thomas Anderson’s THE 
+MASTER.” *Scannain.* [https://www.scannain.com/featured/opinion-piece/walking-sunshine-light-religion-paul-thomas-andersons-master/](https://www.scannain.com/featured/opinion-piece/walking-sunshine-light-religion-paul-thomas-andersons-master/) 
 
--Breslin, James E. B. *Mark Rothko: A Biography.* University of Chicago Press, 1993.
+- Breslin, James E. B. *Mark Rothko: A Biography.* University of Chicago Press, 1993.
 
--Cima, Rosie. “Why Every Movie Looks Sort of Orange and Blue.” Priceonomics, 2015. 
-https://priceonomics.com/why-every-movie-looks-sort-of-orange-and-blue/ 
+- Cima, Rosie. “Why Every Movie Looks Sort of Orange and Blue.” Priceonomics, 2015. 
+[https://priceonomics.com/why-every-movie-looks-sort-of-orange-and-blue/](https://priceonomics.com/why-every-movie-looks-sort-of-orange-and-blue/)
 
--“Color In Film: Color Basics.” *Cinegrading.*
-https://cinegrading.com/blogs/all/color-in-film-color-basics?srsltid=AfmBOorgnuI4LZElLyS24yxMExXm7MrxYiVrxAkXB9tDwIUqIm2wRLtA 
+- “Color In Film: Color Basics.” *Cinegrading.*
+[https://cinegrading.com/blogs/all/color-in-film-color-basics?srsltid=AfmBOorgnuI4LZElLyS24yxMExXm7MrxYiVrxAkXB9tDwIUqIm2wRLtA](https://cinegrading.com/blogs/all/color-in-film-color-basics?srsltid=AfmBOorgnuI4LZElLyS24yxMExXm7MrxYiVrxAkXB9tDwIUqIm2wRLtA) 
 
--Ferguson, Kyle L. “Digital Surrealism: Visualizing Walt Disney Animation Studios.” *Digital 
-Humanities Quarterly.* Vol. 11, No. 1, 2017. https://doi.org/10.63744/xtpq8gu3cfct
+- Ferguson, Kyle L. “Digital Surrealism: Visualizing Walt Disney Animation Studios.” *Digital 
+Humanities Quarterly.* Vol. 11, No. 1, 2017. [https://doi.org/10.63744/xtpq8gu3cfct](https://doi.org/10.63744/xtpq8gu3cfct)
 
--Ferreira, Tiago and Wayne Rasband. “ImageJ User Guide: IJ 1.46r” 2012. 
-http://imagej.nih.gov/ij/docs/guide/user-guide.pdf
+- Ferreira, Tiago and Wayne Rasband. “ImageJ User Guide: IJ 1.46r” 2012. 
+[http://imagej.nih.gov/ij/docs/guide/user-guide.pdf](http://imagej.nih.gov/ij/docs/guide/user-guide.pdf)
 
--Kuhn, Annette, and Guy Westwell. *A Dictionary of Film Studies.* 1st ed., Oxford University 
+- Kuhn, Annette, and Guy Westwell. *A Dictionary of Film Studies.* 1st ed., Oxford University Press, 2012, [https://doi.org/10.1093/acref/9780199587261.001.0001.](https://doi.org/10.1093/acref/9780199587261.001.0001.)
 
--Press, 2012, https://doi.org/10.1093/acref/9780199587261.001.0001.
+- Mittell, Jason. “Deformin' in the Rain: How (and Why) to Break a Classic Film.” *Digital 
+Humanities Quarterly,* Vol. 15 No. 1, 2021. [https://dhq.digitalhumanities.org/vol/15/1/000521/000521.html](https://dhq.digitalhumanities.org/vol/15/1/000521/000521.html)
 
--Mittell, Jason. “Deformin' in the Rain: How (and Why) to Break a Classic Film.” *Digital 
-Humanities Quarterly,* Vol. 15 No. 1, 2021. https://dhq.digitalhumanities.org/vol/15/1/000521/000521.html
+- “Orange and Blue Movies are Common.” *Under the Moonlight*, 2018.
+[https://underthemoonlight.ca/2018/03/31/orange-and-blue-movies-are-common/](https://underthemoonlight.ca/2018/03/31/orange-and-blue-movies-are-common/) 
 
--“Orange and Blue Movies are Common.” *Under the Moonlight*, 2018.
-https://underthemoonlight.ca/2018/03/31/orange-and-blue-movies-are-common/ 
+- *Paul Thomas Annotated: In the Margins.* [https://ptannotated.com](https://ptannotated.com)
 
--*Paul Thomas Annotated: In the Margins.* https://ptannotated.com 
+- Richie, Donald. *Ozu: His Life and Films.* Berkeley: University of California Press, 1974.
 
--Richie, Donald. *Ozu: His Life and Films.* Berkeley: University of California Press, 1974.
+- Rodriguez, Dave. *Colors of Ozu.* 2022. [https://drodz11.github.io/colors-of-ozu/](https://drodz11.github.io/colors-of-ozu/)
 
--Rodriguez, Dave. *Colors of Ozu.* 2022. https://drodz11.github.io/colors-of-ozu/ 
+- Sample, Mark. “Notes towards a Deformed Humanities.” 2012. 
+[https://samplereality.com/2012/05/02/notes-towards-a-deformed-humanities/](https://samplereality.com/2012/05/02/notes-towards-a-deformed-humanities/)
 
--Sample, Mark. “Notes towards a Deformed Humanities.” 2012. 
-https://samplereality.com/2012/05/02/notes-towards-a-deformed-humanities/ 
+- Samuels, Lisa and McGann, Jerome. “Deformance and Interpretation.” *New Literary History,* 
+Vol. 30, No. 1, Poetry and Poetics (Winter, 1999). pp. 25-56. [https://raley.english.ucsb.edu/wp-content/Engl800/Deformance.pdf](https://raley.english.ucsb.edu/wp-content/Engl800/Deformance.pdf) 
 
--Samuels, Lisa and McGann, Jerome. “Deformance and Interpretation.” *New Literary History,* 
-Vol. 30, No. 1, Poetry and Poetics (Winter, 1999). pp. 25-56. https://raley.english.ucsb.edu/wp-content/Engl800/Deformance.pdf 
+- “The Imperfect Cinematography of Paul Thomas Anderson.” *Indepthcine.*
+[https://www.indepthcine.com/videos/pta-cinematography](https://www.indepthcine.com/videos/pta-cinematography)  
 
--“The Imperfect Cinematography of Paul Thomas Anderson.” *Indepthcine.*
-https://www.indepthcine.com/videos/pta-cinematography  
-
--Voorhies, James. “Surrealism.” The Metropolitan Museum of Art, 2004. 
-https://www.metmuseum.org/essays/surrealism 
+- Voorhies, James. “Surrealism.” The Metropolitan Museum of Art, 2004. 
+[https://www.metmuseum.org/essays/surrealism](https://www.metmuseum.org/essays/surrealism)
 
