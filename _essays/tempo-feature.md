@@ -26,16 +26,18 @@ For Figure I, I sorted through the PT-Annotated metadata for the process of capt
 
 For Figure II, I used the application [MakeMKV](https://www.makemkv.com/) to decrypt all ten of PTA's films and then produce MKV files. The DVDs for this process were acquired through Bryn Mawr's library system and are all owned by Bryn Mawr College. After procuring the MKV files of each DVD, I then converted the MKV files to MP4 files because MKV files are not compatible with [Distant Viewing Explorer's](https://distantviewing.org/dvexplorer/) open-source code. To convert MKV files to MP4, I used [FFmpeg](https://www.ffmpeg.org/). Once I had the MP4 files, I ran each one (one at a time) through [Distnat Viewing Explorer's open-source code](https://distantviewing.org/dvscripts/shot.html) in JupyterLab. This process takes a very long time (around forty to seventy minutes per file). Distant Viewing Explorer detects shot boundaries (when one shot is cut/transitions to another shot) of videos. Once the code finished running, the end result was a data table with the start and end times (in seconds) of every shot within the file, which I then converted to shot lengths. 
 
-**Figure I: PT-Annotated Screenshots**
+#### Figure I: PT-Annotated Screenshots
 
 Figure I was a means to represent one of Bordwell’s offered ways of measuring film tempo (through changes in shots/movement on camera). The guidelines for taking screenshots of PTA’s films are as follows:
+
     1. Capture a screenshot any time the focus of the frame changes (shows something new) 
     2. Screenshot title cards/title screens at start of film (even when it’s a blank screen) 
     3. Don’t take a screenshot every time the camera switches for shot-reverse-shots during conversations, only when something new             occurs within the shot-reverse-shot scene (i.e., change in angle, new character, etc.) 
     4. Too many screenshots are better than not enough 
+    
 These screenshot guidelines essentially demonstrate what was deemed as important information while watching each film from the perspective of whoever took the screenshots. This visualization represents qualitative data and a viewer’s experience while watching PTA’s films.
 
-**Figure II: Shot Lengths and ASL of PTA’s Films**
+#### Figure II: Shot Lengths and ASL of PTA’s Films
 
 Figure II’s visualization includes a scatter plot with shot lengths and a bar chart with the ASL of each film. This data is quantitative and represents Bordwell’s main method of explaining the tempo of films through ASL. 
 
@@ -63,7 +65,7 @@ An example of when PTA manipulates tempo to display shifting dynamics between Ba
 
 The rest of the film feels increasingly fast. After Barry and Lena’s date, there is a rapid succession of quick shots (and lots of screenshots were captured during this time). The viewer can feel Barry get punched by his sudden and rapidly growing love for Lena through this change in tempo. 
 
-Something interesting to note is that at some points Figures I and II oppose each other. Based on Bordwell’s theory of tempo, the quicker a film’s relative shot length, the faster the tempo should feel. When sequences involve many shot-reverse shots (typically during conversations) and no new information is being provided to the viewer (characters, angles, etc), fewer screenshots are taken. This makes sense based on the [screenshotting guidelines](#methods) given to the screenshotters.  
+Something interesting to note is that at some points Figures I and II oppose each other. Based on Bordwell’s theory of tempo, the quicker a film’s relative shot length, the faster the tempo should feel. When sequences involve many shot-reverse shots (typically during conversations) and no new information is being provided to the viewer (characters, angles, etc), fewer screenshots are taken. This makes sense based on the [screenshotting guidelines](#figure-i:pt-annotated-Screenshots) given to the screenshotters.  
 
 An example of this is at the timestamp 1:28:49 (5,329 second mark) in *Magnolia*. During this scene, the reporter Gwenovier is confronting Frank Mackey about his family history. In Figure II, around shot # 366, there is no indication that the scene is slowing down, and rather, the shots following shot #366 are all much shorter than *Magnolia*’s ASL. However, the scene itself feels painfully slow as Mackey’s past slowly comes to light. The rhythm of the film stalls as the viewer awaits Mackey’s secret to be revealed, similar to waiting for a response with bated breath. 
 
