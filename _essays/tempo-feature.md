@@ -28,21 +28,26 @@ Bordwell discusses the increase in quicker cutting (having more shots per film a
 
 ### Methods
 
+**Gathering the Data**
+
+For Figure I, I sorted through the PT-Annotated metadata for the process of capturing screenshots and cleaned it up. I only kept the necessary data for my visualization, which included: the screenshot IIIF manifests, the timestamp of screenshot/scene #, and the screenshot name in the PT-Annotated database. I then had to convert all of the screenshot timestamps to seconds to make it easier to graph them as data points. 
+
+For Figure II, I used the application [MakeMKV](https://www.makemkv.com/) to decrypt all ten of PTA's films and then produce MKV files. The DVDs for this process were acquired through Bryn Mawr's library system and are all owned by Bryn Mawr College. After procuring the MKV files of each DVD, I then converted the MKV files to MP4 files because MKV files are not compatible with [Distant Viewing Explorer's](https://distantviewing.org/dvexplorer/) open-source code. To convert the MKV files to MP4 files, I used [FFmpeg](https://www.ffmpeg.org/). Once I had the MP4 files, I ran each one (one at a time) through [Distnat Viewing Explorer's open-source code](https://distantviewing.org/dvscripts/shot.html) in JupyterLab. This process takes a very long time (around forty to seventy minutes per file). Distant Viewing Explorer detects shot boundaries (when one shot is cut/transitions to another shot) of videos. Once the code finished running, the end result was a data table with the start and end times (in seconds) of every shot within the file, which I then converted to shot lengths. 
+
+The ultimate goal of these two graphs was to provide one graph (Figure I) as a visual representation of qualitative data and another graph (Figure II) as a visual representation of quantitative data. These two ways of examining tempo, when used together, provide a more nuanced understanding of tempo across PTA's films. 
+
 **Figure I: PT-Annotated Screenshots**
 
-Figure I was a means to represent one of Bordwell’s offered ways of measuring film tempo (through changes in shots/movement on camera). The guidelines for taking screenshots of PTA’s films were as follows:
+Figure I was a means to represent one of Bordwell’s offered ways of measuring film tempo (through changes in shots/movement on camera). The guidelines for taking screenshots of PTA’s films are as follows:
     1. Capture a screenshot any time the focus of the frame changes (shows something new)
     2. Screenshot title cards/title screens at start of film (even when it’s a blank screen)
     3. Don’t take a screenshot every time the camera switches for shot-reverse-shots during conversations, only when                           something new occurs within the shot-reverse-shot scene (i.e., change in angle, new character, etc.). 
     4. Too many screenshots are better than not enough
 These screenshot guidelines essentially demonstrate what was deemed as important information while watching each film from the perspective of whoever took the screenshots. 
 
-After compiling all of the screenshots and necessary metadata (screenshot timestamp, scene, and film), I used JupyterLab and Vega-Altair to create a strip-plot graph displaying all ten of PTA’s films along with a thumbnail for each screenshot taken. 
+**Figure II: Shot Lengths and ASL of PTA’s Films** 
 
-**Figure II: Shot Lengths of PTA’s Films** 
-
-To capture the shot length of PTA’s films, I used open-source code from Distant Viewing Explorer to detect the shot boundaries (when one shot is cut/transitions to another shot) of each film. [^4] I then downloaded each film and converted the film files to mp4’s using ffmpeg. Next, I ran the converted MP4 through the Distant Viewing code, which produced a table with information about how many shot boundaries the film has, the timestamp (start and end of each shot), and the length of the shot. I compiled this information into a data sheet and, in JupyterLab, used Vega-Altair to make a scatter plot. The graph plots each sequential shot of every film (x-axis) and how long the shot is (y-axis). Thus, this graph displays the shot length of every one of PTA’s films. 
-
+Figure II represents Bordwell's main way of describing tempo in film, through ASL. The graph provided includes a scatter plot with shot lengths and a bar chart with the ASL of each film. 
 
 ### Figure I
 
@@ -68,7 +73,7 @@ How to use the graph: if you click on one of the films in the legend, you can ex
 2. Costa, Daniel. "tempo". Encyclopedia Britannica, 9 Apr. 2026, https://www.britannica.com/art/tempo-music. Accessed 6 July 2026.
 3. Taylor Arnold and Lauren Tilon, Distant Viewing Explorer (2025). https://distantviewing.org/dvexplorer
 
-[^1] Costa, Daniel. "tempo". Encyclopedia Britannica, 9 Apr. 2026, https://www.britannica.com/art/tempo-music. Accessed 6 July 2026.
-[^2]     Bordwell, David. The Way Hollywood Tells It: Story and Style In Modern Movies. E-book, Berkeley: University of California Press, 2006, https://hdl.handle.net/2027/heb08199.0001.001.
-[^3]    Bordwell, David. The Way Hollywood Tells It: Story and Style In Modern Movies. E-book, Berkeley: University of California Press, 2006, https://hdl.handle.net/2027/heb08199.0001.001.
-[^4] Taylor Arnold and Lauren Tilon, Distant Viewing Explorer (2025). https://distantviewing.org/dvexplorer
+[^1]:Costa, Daniel. "tempo". Encyclopedia Britannica, 9 Apr. 2026, https://www.britannica.com/art/tempo-music. Accessed 6 July 2026.
+[^2]:Bordwell, David. The Way Hollywood Tells It: Story and Style In Modern Movies. E-book, Berkeley: University of California Press, 2006, https://hdl.handle.net/2027/heb08199.0001.001.
+[^3]:Bordwell, David. The Way Hollywood Tells It: Story and Style In Modern Movies. E-book, Berkeley: University of California Press, 2006, https://hdl.handle.net/2027/heb08199.0001.001.
+[^4]:Taylor Arnold and Lauren Tilon, Distant Viewing Explorer (2025). https://distantviewing.org/dvexplorer
