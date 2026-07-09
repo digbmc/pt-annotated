@@ -59,9 +59,18 @@ These screenshot guidelines essentially demonstrate what was deemed as important
 Figure II’s visualization includes a scatter plot with shot lengths and a bar chart with the ASL of each film. This data is quantitative and represents Bordwell’s main method of explaining the tempo of films through ASL. 
 
 ### Figure I
+<!--
 <div class="mb-4">
 <div class="embed-responsive ratio ratio-4x3">
 <iframe src="https://lucia-engelhardt.github.io/data-essays/graph/finished-ss-graph(6).html" width="100%" ></iframe></div></div>
+-->
+
+<div class="mb-4">
+  <div class="ratio ratio-4x3 embed-responsive">
+    <iframe style="display: block; vertical-align: bottom;" src="https://lucia-engelhardt.github.io/data-essays/graph/finished-ss-graph(6).html" width="100%"></iframe>
+  </div>
+</div>
+
 How to use the graph: if you hover your mouse over a tick, the thumbnail for the tick's screenshot appears. The x-axis is the timestamp at which the screenshot was taken during the film (all in sequential order), while the y-axis is each of PTA’s films. The bottom chart works as a slider. You can click and slide your mouse to examine specific moments in the films at a closer look. 
 
 ### Figure II
@@ -108,7 +117,5 @@ Adams et al. conducted a study to demonstrate how tempo is used by filmmakers. T
 
 [^1]:Bordwell, “Intensified Continuity: Four Dimensions.”
 [^2]:Bordwell, “Intensified Continuity: Four Dimensions.”
-[^3]:Broberg and Panagiotidis, “Impact of shot length and motion on cinematic 
-    tempo.”
-[^4]:Adams et al., "Role of shot length in characterizing tempo 
-    and dramatic story sections in motion pictures."
+[^3]:Broberg and Panagiotidis, “Impact of shot length and motion on cinematic tempo.”
+[^4]:Adams et al., "Role of shot length in characterizing tempo and dramatic story sections in motion pictures."
