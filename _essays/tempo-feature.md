@@ -8,6 +8,26 @@ tags:
     - pta
 ---
 
+<h2 class="text-center pt-2 mb-2">{{ page.title }}</h2>
+
+<ul class="list-group list-group-horizontal justify-content-center mb-2">
+    <li class="list-group-item bg-dark text-start py-0 my-2 border border-top-0 border-bottom-0 border-start-0 border-secondary">
+        <a href="#intro">Intro</a>
+    </li>
+    <li class="list-group-item bg-dark text-start py-0 my-2 border border-top-0 border-bottom-0 border-start-0 border-secondary">
+        <a href="#who-is-david-bordwell">Theory</a>
+    </li>
+    <li class="list-group-item bg-dark text-start py-0 my-2">
+        <a href="#methods">Methods</a>
+    </li>
+     <li class="list-group-item bg-dark text-start py-0 my-2">
+        <a href="#analysis">Analysis</a>
+    </li>
+     <li class="list-group-item bg-dark text-start py-0 my-2">
+        <a href="#other-applications">Other</a>
+    </li>
+</ul>
+
 ### Intro
 
 The term tempo is often associated with music as a way to measure the pace of a song. However, within the context of film, tempo is used to describe the pacing of a film and how viewers experience the narrative speed (i.e., did the film feel long, short, etc). All films have varying degrees of temporality, with certain moments feeling slower or faster as a way to stand out from the rest of the film. For this reason, tempo is one of the key tools used by filmmakers to construct the narrative of their film. Examples of filmmakers manipulating tempo could be for battle scenes, the moment before someone gets murdered in a thriller, or a training montage. 
