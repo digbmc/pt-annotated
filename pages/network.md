@@ -5,6 +5,7 @@ permalink: /network.html
 ---
 
   <div class="sigma-parent">
+
     <div class="sigma-expand" id="sigma-canvas"></div>
   </div>
 <div id="mainpanel">
@@ -32,7 +33,7 @@ permalink: /network.html
 </div> 
     <div class="b1">
     <form>
-      <div id="search" class="cf"><h2>Search:</h2>
+      <div id="network-search" class="cf"><h2>Search:</h2>
         <input type="text" name="search" value="Search by name" class="empty"/><div class="state"></div>
         <div class="results"></div>
       </div>
@@ -45,12 +46,14 @@ permalink: /network.html
   </div>
   <div id="information">
   </div>
+  </div>
+  <div id="copyright">
+		<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="assets/lib/sigma-network/images/CC.png" /></a></div>
   <div id="zoom">
   		<div class="z" rel="in"></div> <div class="z" rel="out"></div> <div class="z" rel="center"></div>
 	</div>
-	<div id="copyright">
-		<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="assets/lib/sigma-network/images/CC.png" /></a></div>
-	</div>
+
+	
 
 <div id="attributepane">
 <div class="text">
