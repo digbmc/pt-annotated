@@ -65,18 +65,18 @@ Figure II’s visualization includes a scatter plot with shot lengths and a bar 
 <iframe src="https://lucia-engelhardt.github.io/data-essays/graph/finished-ss-graph(6).html" width="100%" ></iframe></div></div>
 -->
 
-<div class="mb-1">
+<div class="mb-4">
  <div class="embed-responsive ratio ratio-4x3">
-    <iframe style="https://lucia-engelhardt.github.io/data-essays/graph/finished-ss-graph(6).html" width="100%"></iframe>
+    <iframe style="https://lucia-engelhardt.github.io/data-essays/graph/finished-ss-graph(7).html" width="100%"></iframe>
   </div>
 </div>
 How to use the graph: if you hover your mouse over a tick, the thumbnail for the tick's screenshot appears. The x-axis is the timestamp at which the screenshot was taken during the film (all in sequential order), while the y-axis is each of PTA’s films. The bottom chart works as a slider. You can click and slide your mouse to examine specific moments in the films at a closer look. 
 
 ### Figure II
 
-<div class="mb-1">
+<div class="mb-4">
     <div class="embed-responsive ratio ratio-4x3">
-        <iframe src="https://lucia-engelhardt.github.io/data-essays/graph/asl-final-scatterplot(7).html" width="100%" ></iframe>
+        <iframe src="https://lucia-engelhardt.github.io/data-essays/graph/asl-final-scatterplot(8).html" width="100%" ></iframe>
     </div>
 </div>
 How to use the graph: if you click on one of the films in the legend, you can examine one film at a time. You can also move around the graph and zoom in or out. If you hover your mouse over a point, you can see the point’s metadata. The x-axis shows the shot number in the order of the film (from the first to the last), while the y-axis shows the length of each shot in seconds. 
