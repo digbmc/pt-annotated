@@ -51,6 +51,7 @@ Figure I was a means to represent one of Bordwell’s offered ways of measuring 
 - Screenshot title cards/title screens at start of film (even when it’s a blank screen) 
 - Don’t take a screenshot every time the camera switches for shot-reverse-shots during conversations, only when something new         occurs within the shot-reverse-shot scene (i.e., change in angle, new character, etc.) 
 - Too many screenshots are better than not enough
+
 These screenshot guidelines essentially demonstrate what was deemed as important information while watching each film from the perspective of whoever took the screenshots. This visualization represents qualitative data and a viewer’s experience while watching PTA’s films.
 
 #### Figure II: Shot Lengths and ASL of PTA’s Films
