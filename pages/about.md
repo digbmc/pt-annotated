@@ -68,11 +68,13 @@ We would like to thank the following individuals, groups, and institutions for t
 - Bryn Mawr College
 - Bryn Mawr Film Institute
 - Camilla MacKay
+- Dave Rodriguez
 - <a href="https://digitalscholarship.blogs.brynmawr.edu/" target="_blank">Digital Scholarship @ Bryn Mawr College</a>
 - The friendly bartenders at the <a href="https://www.instagram.com/foxfireroom/?hl=en" target="_blank">Foxfire Room</a>
 - Glen Robson
 - Jacob Mazer
 - Jill Malcolm
+- Richard Fuller and the <a href="https://www.observersbooksociety.co.uk/" target="_blank">Observer's Pocket Series Collector's Society</a>
 - Robert Curry
 - Selby Hearth
 - The librarians and staff at the <a href="https://www.oscars.org/library" target="_blank">Margaret Herrick Library</a> (Academy Library)

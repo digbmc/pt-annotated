@@ -9,6 +9,8 @@ tags:
     - data essay
 ---
 
+<a href="/pt-annotated/network.html">Test Graph</a>
+
 "*Want to know the common element for the entire group?... I'll tell you the answer.*" 
 
 — Quiz Kid Donnie Smith, *Magnolia* (1999)
