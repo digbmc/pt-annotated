@@ -8,8 +8,6 @@ tags:
     - pta
 ---
 
-<h2 class="text-center pt-2 mb-2">{{ page.title }}</h2>
-
 <ul class="list-group list-group-horizontal justify-content-center mb-2">
     <li class="list-group-item bg-dark text-start py-0 my-2 border border-top-0 border-bottom-0 border-start-0 border-secondary">
         <a href="#intro">Intro</a>
@@ -17,13 +15,13 @@ tags:
     <li class="list-group-item bg-dark text-start py-0 my-2 border border-top-0 border-bottom-0 border-start-0 border-secondary">
         <a href="#who-is-david-bordwell">Theory</a>
     </li>
-    <li class="list-group-item bg-dark text-start py-0 my-2">
+    <li class="list-group-item bg-dark text-start py-0 my-2 border border-top-0 border-bottom-0 border-start-0 border-secondary">
         <a href="#methods">Methods</a>
     </li>
-     <li class="list-group-item bg-dark text-start py-0 my-2">
+     <li class="list-group-item bg-dark text-start py-0 my-2 border border-top-0 border-bottom-0 border-start-0 border-secondary">
         <a href="#analysis">Analysis</a>
     </li>
-     <li class="list-group-item bg-dark text-start py-0 my-2">
+     <li class="list-group-item bg-dark text-start py-0 my-2 border border-top-0 border-bottom-0 border-start-0 border-secondary">
         <a href="#other-applications">Other</a>
     </li>
 </ul>
@@ -51,7 +49,7 @@ For Figure II, I used the application [MakeMKV](https://www.makemkv.com/) to dec
 Figure I was a means to represent one of Bordwell’s offered ways of measuring film tempo (through changes in shots/movement on camera). The guidelines for taking screenshots of PTA’s films are as follows:
     1. Capture a screenshot any time the focus of the frame changes (shows something new) 
     2. Screenshot title cards/title screens at start of film (even when it’s a blank screen) 
-    3. Don’t take a screenshot every time the camera switches for shot-reverse-shots during conversations, only when something new occurs within the shot-reverse-shot        scene (i.e., change in angle, new character, etc.) 
+    3. Don’t take a screenshot every time the camera switches for shot-reverse-shots during conversations, only when something new         occurs within the shot-reverse-shot scene (i.e., change in angle, new character, etc.) 
     4. Too many screenshots are better than not enough
 These screenshot guidelines essentially demonstrate what was deemed as important information while watching each film from the perspective of whoever took the screenshots. This visualization represents qualitative data and a viewer’s experience while watching PTA’s films.
 
