@@ -21,7 +21,7 @@ tags:
      <li class="list-group-item bg-dark text-start py-0 my-2 border border-top-0 border-bottom-0 border-start-0 border-secondary">
         <a href="#analysis">Analysis</a>
     </li>
-     <li class="list-group-item bg-dark text-start py-0 my-2 border border-top-0 border-bottom-0 border-start-0 border-secondary">
+     <li class="list-group-item bg-dark text-start py-0 my-2">
         <a href="#other-applications">Other</a>
     </li>
 </ul>
