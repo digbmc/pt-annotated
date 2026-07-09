@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Clara Smith"
+  },
+  "text": {
+    "more": "A network graph with every cast and crew member who has worked on a Paul Thomas Anderson film. This graph contains information on what films people worked on and what their role on set was.",
+    "intro": "A network graph of Paul Thomas Anderson collaborators.",
+    "title": "Paul Thomas Anderson Collaborators"
+  },
+  "legend": {
+    "edgeLabel": "Films Worked On",
+    "colorLabel": "Department",
+    "nodeLabel": "Collaborators"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "known for",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "line",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 4,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 2,
+      "minEdgeSize": 0.5,
+      "minNodeSize": 1,
+      "maxNodeSize": 10
+    },
+    "mouseProperties": {
+      "maxRatio": 32,
+      "minRatio": 0.75
+    }
+  }
+}
