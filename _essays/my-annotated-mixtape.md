@@ -26,7 +26,7 @@ This feature project aims to approach the songs of these films—Boogie Nights, 
 Embedded below is the complete playlist for the non-original songs played in *Boogie Nights*, *Licorice Pizza*, and *Inherent Vice*, in that order. The songs also show up in the playlist as they chronologically feature in the films. The songs from *Boogie Nights* range from "Best of My Love" to "Livin' Thing;" the songs from *Licorice Pizza* range from "July Tree" to "Tomorrow May Not Be Your Day;" the songs from *Inherent Vice* range from "Dreaming on a Cloud" to "Any Day Now." Happy listening!
 
 <div class="mb-4">
-<div class="embed-responsive ratio ratio-16x9"><iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0u0EwOYeTthYo1YOABnwPS?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<div class="embed-responsive ratio ratio-16x9"><iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0u0EwOYeTthYo1YOABnwPS?utm_source=generator" width="50%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 </div></div>
 
 ### Data Visualizations: Across the Films
