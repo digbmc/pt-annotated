@@ -9,8 +9,6 @@ tags:
     - data essay
 ---
 
-[Test Graph](/pt-annotated/network.html)
-
 "*Want to know the common element for the entire group?... I'll tell you the answer.*" 
 
 — Quiz Kid Donnie Smith, *Magnolia* (1999)
@@ -36,8 +34,10 @@ Perhaps it is a coincidence that the graph ended up looking like a flower. But i
 ### Graphing PTA
 
 <div class="mb-4">
-<div class="embed-responsive ratio ratio-4x3">
-<iframe src="https://claraeks.github.io/ptacollab/" width="100%" ></iframe></div></div>
+<div class="embed-responsive ratio ratio-16x9"> 
+<iframe src="/pt-annotated/network.html#network-container" width="100%" allow="fullscreen"></iframe></div></div>
+
+<a href="{{ '/network.html' | relative_url }}">Open in Full Screen <svg class="bi icon-sprite" aria-hidden="true"><use xlink:href="{{ 'assets/lib/icons/fullscreen.svg' | relative_url }}"/></svg></a>
 
 *Note: This feature uses the TMDB API but is not endorsed or certified by TMDB.*
 
