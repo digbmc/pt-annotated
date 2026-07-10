@@ -29,6 +29,8 @@ Embedded below is the complete playlist for the non-original songs played in *Bo
 <div class="embed-responsive ratio ratio-16x9"><iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0u0EwOYeTthYo1YOABnwPS?utm_source=generator" width="50%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 </div></div>
 
+
+
 Together with the playlist, I’ve also included a searchable table which gives a more clear picture of the music per film, with some foundational metadata shown. This data also provides the basis for the visualizations below. The search function filters for words, so it can be used to either look for specific songs or for filtering to see any song entry including a specific word. 
 
 <div class="mb-4">
