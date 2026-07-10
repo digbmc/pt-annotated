@@ -59,29 +59,32 @@ These screenshot guidelines essentially demonstrate what was deemed as important
 Figure II’s visualization includes a scatter plot with shot lengths and a bar chart with the ASL of each film. This data is quantitative and represents Bordwell’s main method of explaining the tempo of films through ASL. 
 
 ### Figure I
-<!--
-<div class="mb-4">
-    <div class="embed-responsive ratio ratio-4x3">
-        <iframe src="https://lucia-engelhardt.github.io/data-essays/graph/finished-ss-graph(7).html" width="100%" ></iframe>
-    </div>
-</div>
--->
-<div class="mb-4">
-    <div class="embed-responsive ratio ratio-4x3">
-        <iframe src="https://lucia-engelhardt.github.io/data-essays/graph/finished-ss-graph(7).html" width="100%" height="400"                 scrolling="no" frameborder="0"></iframe>
-    </div>
-</div>
 
-How to use the graph: if you hover your mouse over a tick, the thumbnail for the tick's screenshot appears. The x-axis is the timestamp at which the screenshot was taken during the film (all in sequential order), while the y-axis is each of PTA’s films. The bottom chart works as a slider. You can click and slide your mouse to examine specific moments in the films at a closer look. 
+
+<div class="mb-1 mx-auto" style="max-width: 1100px;">
+    <div class="ratio ratio-11:6" style="min-height: 600px;">
+        <iframe 
+            src="https://lucia-engelhardt.github.io/data-essays/graph/finished-ss-graph.html" 
+            style="width: 100%; height: 100%; border: none; display: block; margin: 0;">  
+        </iframe>
+    </div>
+</div>
+- **How to use Figure I:** if you hover your mouse over a tick, the thumbnail for the tick's screenshot appears along with its screenshot number. The x-axis is the timestamp at which the screenshot was taken during the film (all in sequential order), while the y-axis is each of PTA’s films. The bottom chart works as a slider. You can click and slide your mouse to examine specific moments in the films at a closer look. Using the legend you can also select a specific film you would like to examine by clicking on the film's name. To return to the original visualization double click anywhere on the visualization. 
+
 
 ### Figure II
 
-<div class="mb-4">
-    <div class="embed-responsive ratio ratio-4x3">
-        <iframe src="https://lucia-engelhardt.github.io/data-essays/graph/asl-final-scatterplot(8).html" width="100%" ></iframe>
+
+<div class="mb-1 mx-auto" style="max-width: 1200px;">
+    <div class="ratio ratio-8:3" style="min-height: 450px;">
+         <iframe 
+             src="https://lucia-engelhardt.github.io/data-essays/graph/asl-final-scatterplot.html" 
+             style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; display: block;">
+         </iframe>
     </div>
 </div>
-How to use the graph: if you click on one of the films in the legend, you can examine one film at a time. You can also move around the graph and zoom in or out. If you hover your mouse over a point, you can see the point’s metadata. The x-axis shows the shot number in the order of the film (from the first to the last), while the y-axis shows the length of each shot in seconds. 
+- __How to use Figure II:__ using the legend you can examine one film at a time by clicking the film's name. You can also move around the graph and zoom in or out (by using a scrolling down motion for zooming in and a scrolling up motion for zooming out). If you hover your mouse over a point, you can see the point’s metadata. The x-axis shows the shot number in the order of the film (from the first to the last), while the y-axis shows the length of each shot in seconds. To refresh the graph to it's original visualization double click anywhere on the visualization (if looking at one film you mayb need to double click multiple times before getting original visualization)
+
 
 ### Analysis
 
