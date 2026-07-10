@@ -37,7 +37,7 @@ Embedded below is the complete playlist for the non-original songs played in *Bo
 
 #### A More Granular Breakdown of Rock Sub-Genres
 
-<div class="flourish-embed flourish-chart" data-src="visualisation/29475575"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/29475575/thumbnail" width="100%" alt="chart visualization" /></noscript></div> 
+<div class="flourish-embed flourish-chart" data-src="visualisation/29475575"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/29475575/thumbnail" width="100%" alt="chart visualization" /></noscript></div>
 
 #### Movement In and Out of the Diegesis
 
