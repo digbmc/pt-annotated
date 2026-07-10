@@ -34,7 +34,7 @@ Embedded below is the complete playlist for the non-original songs played in *Bo
 Together with the playlist, I’ve also included a searchable table which gives a more clear picture of the music per film, with some foundational metadata shown. This data also provides the basis for the visualizations below. The search function filters for words, so it can be used to either look for specific songs or for filtering to see any song entry including a specific word. 
 
 <div class="mb-4">
-<div class="embed-responsive ratio ratio-16x9"><div class="flourish-embed flourish-table" data-src="visualisation/29655347"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/29655347/thumbnail" width="100%" alt="table visualization"></noscript></div>    </div></div>
+<div class="embed-responsive ratio ratio-4x3"><div class="flourish-embed flourish-table" data-src="visualisation/29655347"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/29655347/thumbnail" width="100%" alt="table visualization"></noscript></div>    </div></div>
 
 
 ### Data Visualizations: Across the Films
