@@ -60,20 +60,33 @@ The visualizations I made aim to encourage viewers to compare their own experien
 
 #### Figure II: Shot Lengths and ASL of PTA’s Films  
 
-<div class="mb-1 mx-auto" style="max-width: 1300px;"> 
-    <div class="ratio ratio-26:9" style="min-height: 450px;"> 
-        <iframe src="https://lucia-engelhardt.github.io/data-essays/graph/asl-final-scatterplot.html" 
-                style="width: 100%; height: 100%; border: none; display: block; margin: 0;"> 
-        </iframe>
-    </div> 
-</div>
-- __How to use Figure II:__ using the legend you can examine one film at a time by clicking the film's name. You can also move around the graph and zoom in or out (by using a scrolling down motion for zooming in and a scrolling up motion for zooming out). If you hover your mouse over a point, you can see the point’s metadata. The x-axis shows the shot number in the order of the film (from the first to the last), while the y-axis shows the length of each shot in seconds. To refresh the graph to it's original visualization double click anywhere on the visualization (if looking at one film you mayb need to double click multiple times before getting original visualization)
+### Figure I
 
-### Analysis
+
+<div class="mb-1 mx-auto" style="max-width: 1100px;">
+    <div class="ratio ratio-11:6" style="min-height: 600px;">
+        <iframe 
+            src="https://lucia-engelhardt.github.io/data-essays/graph/finished-ss-graph.html" 
+            style="width: 100%; height: 100%; border: none; display: block; margin: 0;">  
+        </iframe>
+    </div>
+</div>
+- **How to use Figure I:** if you hover your mouse over a tick, the thumbnail for the tick's screenshot appears along with its screenshot number. The x-axis is the timestamp at which the screenshot was taken during the film (all in sequential order), while the y-axis is each of PTA’s films. The bottom chart works as a slider. You can click and slide your mouse to examine specific moments in the films at a closer look. Using the legend you can also select a specific film you would like to examine by clicking on the film's name. To return to the original visualization double click anywhere on the visualization. 
+
 
 As an example of the potential ways these graphs can be used for analysis, I will examine *Punch-Drunk Love*. Looking at the first half of the film, Figure I displays more breaks (pockets of no screenshots) occurring, while Figure II shows the shot lengths are consistently longer (which is an indicator of slow tempo based on Bordwell’s theory). This makes sense since the tempo of *Punch-Drunk Love*—like most films—begins on the slower end. The tempo increases throughout the film and is the quickest at the film’s climax. The film begins by following the inner workings of Barry Egan’s life before meeting Lena Leonard. As Barry's relationship with Lena grows, so does the speed of the film.  
 
-An example of when PTA manipulates tempo to display shifting dynamics between Barry and Lena is during their [date](https://digbmc.github.io/pta-manifests/punc/punc-04422/manifest.json) at the 43-minute (2,608 second) mark. Shot #129 is one of the longest shots of their date. Barry tells Lena his pudding scam secret, and the longer the shot continues, the more Barry opens up to Lena. Then, just as Barry finishes his story, Lena brings up an embarrassing story Barry’s sister told her about one of Barry’s outbursts. The viewer can immediately feel Barry close up. The shot feels quicker as [Barry fidgets](https://digbmc.github.io/pta-manifests/punc/punc-04732/manifest.json), and the tempo of the scene shifts and increases before ultimately, reaching a crescendo in shot #132 after Barry abruptly excuses himself and then [destroys the restaurant’s bathroom](https://digbmc.github.io/pta-manifests/punc/punc-04744/manifest.json) within the span of fourteen seconds (a relatively quick shot compared to the ASL of this film).  
+
+<div class="mb-1 mx-auto" style="max-width: 1200px;">
+    <div class="ratio ratio-8:3" style="min-height: 450px;">
+         <iframe 
+             src="https://lucia-engelhardt.github.io/data-essays/graph/asl-final-scatterplot.html" 
+             style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; display: block;">
+         </iframe>
+    </div>
+</div>
+- __How to use Figure II:__ using the legend you can examine one film at a time by clicking the film's name. You can also move around the graph and zoom in or out (by using a scrolling down motion for zooming in and a scrolling up motion for zooming out). If you hover your mouse over a point, you can see the point’s metadata. The x-axis shows the shot number in the order of the film (from the first to the last), while the y-axis shows the length of each shot in seconds. To refresh the graph to it's original visualization double click anywhere on the visualization (if looking at one film you mayb need to double click multiple times before getting original visualization)
+
 
 The rest of the film feels increasingly fast. After Barry and Lena’s date, there is a rapid succession of quick shots (and lots of screenshots were captured during this time). The viewer can feel Barry get punched by his sudden and rapidly growing love for Lena through this change in tempo.  
 

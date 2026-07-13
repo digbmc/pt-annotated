@@ -1,0 +1,29 @@
+---
+layout: blank-page
+---
+
+
+<head>
+<!--[if IE]><script type="text/javascript" src="js/excanvas.js"></script><![endif]--> <!-- js/default.js -->
+  <script src="{{ '/assets/lib/sigma-network/js/jquery/jquery.min.js' | relative_url }}" type="text/javascript"></script>
+  <script src="{{ '/assets/lib/sigma-network/js/sigma/sigma.min.js' | relative_url }}" type="text/javascript" language="javascript"></script>
+    <script src="{{ '/assets/lib/sigma-network/js/sigma/sigma.parseJson.js' | relative_url }}" type="text/javascript" language="javascript"></script>
+  <script src="{{ '/assets/lib/sigma-network/js/fancybox/jquery.fancybox.pack.js' | relative_url }}" type="text/javascript" language="javascript"></script>
+  <script src="{{ '/assets/lib/sigma-network/js/main.js' | relative_url }}" type="text/javascript" language="javascript"></script>
+
+  <link rel="stylesheet" type="text/css" href="{{ '/assets/lib/sigma-network/js/fancybox/jquery.fancybox.css' | relative_url }}"/>
+  <link rel="stylesheet" href="{{ '/assets/lib/sigma-network/css/style.css' | relative_url }}" type="text/css" media="screen" /> 
+
+<style>
+  body:has(#network-container:target) .iframe-back-button {
+      display: none !important;
+    }
+</style>
+</head> 
+<body><a class="iframe-back-button" href="{{ '/essays/between-the-lines.html#collaborative-filmography-network' | relative_url }}"><svg class="bi icon-sprite" aria-hidden="true"><use xlink:href="{{ 'assets/lib/icons/arrow-left.svg' | relative_url }}"/></svg>Back to Essay </a>
+  
+<div id="network-container" style="width: 100%; height: 750px; background: rgb(201, 201, 201); position: relative">
+  {{ content }}
+</div>
+</body>
+

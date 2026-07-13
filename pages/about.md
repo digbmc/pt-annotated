@@ -77,6 +77,7 @@ We would like to thank the following individuals, groups, and institutions for t
 - Richard Fuller and the <a href="https://www.observersbooksociety.co.uk/" target="_blank">Observer's Pocket Series Collector's Society</a>
 - Robert Curry
 - Selby Hearth
+- Sharona Katan
 - The librarians and staff at the <a href="https://www.oscars.org/library" target="_blank">Margaret Herrick Library</a> (Academy Library)
 - The organizers and participants of <a href="https://iliads.org/" target="_blank">ILiADS</a> 2025
 
