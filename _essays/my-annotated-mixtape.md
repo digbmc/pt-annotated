@@ -2,7 +2,7 @@
 title: "My Annotated Mixtape #6: The Music of <em>Boogie Nights</em>, <em>Licorice Pizza</em>, and <em>Inherent Vice</em>"
 author: Tallulah Stallvik
 layout: data-essay
-featured_image: boog-10007
+featured_image: assets/img/musicfeature-headimage.png
 tags:
     - boogie-nights
     - licorice-pizza
@@ -13,8 +13,6 @@ tags:
     - Histories
     - music
 ---
-
-*note: interim featured image*
 
 ### Introduction 
 
