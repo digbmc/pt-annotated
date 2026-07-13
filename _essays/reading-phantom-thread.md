@@ -185,6 +185,8 @@ Sitwell writes that everyone hopes to “find redemption in the example of what 
 
 One myth Splendours and Miseries returns to again and again is the tale of Orpheus and Eurydice, repeatedly referencing that, while he is entering the Underworld to bring someone back – seemingly his mother – the legend says he must not look back at her as he does this. It is the looking that truly condemns her to death. “But we are seeking for someone, and will be brought to her by a crowd of shadows," writes Sitwell. "Then we shall take her by the hand and lead her, but the myth says we must not look back.”[^26] It’s notable that the last explicit reference to Reynolds’s mother in the film is his vision of his mother standing before him. He speaks to her silent, still form, but she does not, cannot, reply, simply posing as she did in his photograph of her. She seems to disappear while he is looking at her, there in one shot and gone in the next. It’s right after the loss of this vision of his mother that he proposes to Alma, finally allowing life back into the House of Woodcock. Perhaps he finally accepted that his mother is truly gone. He violated the myth; he could not help but see her. It is the looking that made him lose her; in seeking the image of her, the personification, rather than the person, he condemned her forever to the underworld.
 
+### Notes 
+
 [^1]: M.C. Cooke, *Edible and Poisonous Mushrooms* (London: Society for Promoting Christian Knowledge, 1902), 119.
 [^2]: Ibid
 [^3]: John Lehmann, *The London Magazine*, July, 1954, 85.
