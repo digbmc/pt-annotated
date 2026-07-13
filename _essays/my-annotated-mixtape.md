@@ -13,6 +13,7 @@ tags:
     - Histories
     - music
 ---
+*Screenshots BOOG-10007, LICO-11812, and INHE-11441 were used for this header image*
 
 ### Introduction 
 
