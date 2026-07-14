@@ -27,16 +27,22 @@ Perhaps it is a coincidence that the graph ended up looking like a flower. But i
 
 ### Collaborative Filmography Network
 
-<div class="mb-4">
+<div class="mb-4 desktop-graph">
 <div class="embed-responsive ratio ratio-16x9"> 
 <iframe src="/pt-annotated/network.html#network-container" width="100%" allow="fullscreen"></iframe>
 </div>
-</div>
 <a href="{{ '/network.html' | relative_url }}">Open in Full Screen <svg class="bi icon-sprite" aria-hidden="true"><use xlink:href="{{ 'assets/lib/icons/fullscreen.svg' | relative_url }}"/></svg></a>
+</div>
 
-A network graph of PTA collaborators based on what films they have worked on.
+<div class="row mobile-graph-backup">
+<div class="col-md text-center">
+<img src="{{ '/assets/img/graph-fallback.png' | relative_url }}" alt="Network Graph Image" class="mobile-graph-image" width="100%">
+<em>Note: For the fully interactive network graph, please view this page on a desktop computer.</em>
 
-*Note: This feature uses the TMDB API but is not endorsed or certified by TMDB.*
+</div>
+</div>
+
+A network graph of PTA collaborators based on what films they have worked on.[^2]
 
 ### Using the Graph
 
@@ -64,7 +70,7 @@ What can we learn from looking at this network graph as a whole? Production size
 
 Position within the network is also meaningful. Because the graph uses a force-directed layout— in which nodes connected to each other are drawn together, while simultaneously repulsed so they don’t overlap until the graph reaches an equilibrium—collaborators who worked on many films tend to be pulled toward the center. Those who only worked on a single film are towards the outside.
 
-The layout also highlights changes across Anderson’s career. Due to the shared collaborators, his first four feature films (*Hard Eight*, *Boogie Nights*, *Magnolia*, *Punch-Drunk Love*) cluster together on one side of the graph, while his later films are on the other. This division reflects a gradual shift in his creative partnerships. Some collaborators define a certain period of his work such as cinematographer Robert Elswit, who worked on films up until *Inherent Vice*, or Graeme Stewart, who joined *The Master* as a music editor and has worked on every film since. Other collaborators remain constant throughout his career and bridge periods, such as Cassandra Kulukundis who has worked in casting for every film since *Boogie Nights* (and who won the first ever Academy Award for Best Casting for her work on *One Battle After Another*).[^2] With such a varied filmography, Anderson combines a core of long-term collaborators with specialists who join for particular phases of his career or individual projects. This balance allows him to maintain a recognizable creative identity while experimenting with different styles throughout his career.
+The layout also highlights changes across Anderson’s career. Due to the shared collaborators, his first four feature films (*Hard Eight*, *Boogie Nights*, *Magnolia*, *Punch-Drunk Love*) cluster together on one side of the graph, while his later films are on the other. This division reflects a gradual shift in his creative partnerships. Some collaborators define a certain period of his work such as cinematographer Robert Elswit, who worked on films up until *Inherent Vice*, or Graeme Stewart, who joined *The Master* as a music editor and has worked on every film since. Other collaborators remain constant throughout his career and bridge periods, such as Cassandra Kulukundis who has worked in casting for every film since *Boogie Nights* (and who won the first ever Academy Award for Best Casting for her work on *One Battle After Another*).[^3] With such a varied filmography, Anderson combines a core of long-term collaborators with specialists who join for particular phases of his career or individual projects. This balance allows him to maintain a recognizable creative identity while experimenting with different styles throughout his career.
 
 Position within the network is also meaningful. Because the graph uses a force-directed layout—in which nodes connected to each other are drawn together, while simultaneously repulsed so they don’t overlap until the graph reaches an equilibrium—collaborators who worked on many films tend to be pulled toward the center. Those who only worked on a single film are towards the outside.
 
@@ -75,24 +81,24 @@ Alongside the main network graph, I created a second visualization that approach
 The color-coding of the nodes remains the same, based on the person’s job. But the color-coding of the edges is based on what film they worked together on. As thousands of overlapping relationships intersect, each production emerges through the density of color. This graph is less concerned with practical use than with revealing the immense scale and interconnectedness of filmmaking. Individual relationships are more difficult to distinguish, but they have a collective effect in creating an abstract portrait of creative labor.
 
 <div class="mb-4">
-<div class="embed-responsive ratio ratio-4x3">
+<div class="embed-responsive ratio ratio-16x9">
 <iframe src="https://clarasmith.digital.brynmawr.edu/ptacollab/#" width="100%" title="Supplementary Network Graph"></iframe></div></div>
 
-A network graph of PTA collaborators in which people are connected to who they have worked with.
+A network graph of PTA collaborators in which people are connected to who they have worked with.[^4]
 
 *Note: This feature uses the TMDB API but is not endorsed or certified by TMDB.*
 
 ### Auteurs, Artists, and Anything Between
 
-Building on the ideas of the French New Wave, Andrew Sarris introduced the *auteur* theory, which posits that the director is the author of a film and has near complete creative control over their auteur, as a true auteur needs both talent and a distinctive personal style. Sarris visualizes the criteria as concentric circles, in which the outer ring is technical competence, then distinguishable personality, and the innermost circle is interior meaning (the abstract and intangible heart of a film). The auteur lies at the center of the diagram, having achieved all three levels in their work. Anderson is widely considered one of the greatest modern auteurs; the mere fact that we have created a site dedicated to the meaning and importance of his films indicates our thoughts on his auteur status. 
+Building on the ideas of the French New Wave, a film movement that rejected traditional filmmaking, Andrew Sarris introduced the *auteur* theory to American film theory. This theory posits that the director is the author of a film and has near-complete creative control over their work.[^5] According to Sarris, not everyone who directs is an auteur, as a true auteur needs both talent and a distinctive personal style. Sarris visualizes the criteria as concentric circles, in which the outer ring is technical competence, then distinguishable personality, and the innermost circle is interior meaning (the abstract and intangible heart of a film). The auteur lies at the center of the diagram, having achieved all three levels in their work. Anderson is widely considered one of the greatest modern auteurs; the mere fact that we have created a site dedicated to the meaning and importance of his films indicates our thoughts on his auteur status. 
 
-However, auteur theory is not without its critics. Georges Sadoul argues instead that “a film is almost always a collective creation and each collaborator, from the least technician to the most famous star, in small part or large, is one of the authors.”[^4] Although this project focuses on Anderson, his films are not a product of him alone; they take the work of a great number of people. This feature is not intended to deny Anderson as an auteur, nor declare him as the sole maker, but to understand how auteurship and collaborative work are not irreconcilable concepts. The graph does not seek to decenter Anderson, in fact, quite the opposite as he is the point through which everything intersects. In an interview, Anderson said that for One Battle After Another he was “working with the most incredible and talented crew…\[b\]ecause it’s one thing to come up with an idea and tell it, but these people have to execute it…the execution of it is in the hands of some very talented people.” [^5]
+However, auteur theory is not without its critics. Georges Sadoul argues instead that “a film is almost always a collective creation and each collaborator, from the least technician to the most famous star, in small part or large, is one of the authors.”[^6] Although this project focuses on Anderson, his films are not a product of him alone; they take the work of a great number of people. This feature is not intended to deny Anderson as an auteur, nor declare him as the sole maker, but to understand how auteurship and collaborative work are not irreconcilable concepts. The graph does not seek to decenter Anderson, in fact, quite the opposite as he is the point through which everything intersects. In an interview, Anderson said that for One Battle After Another he was “working with the most incredible and talented crew…\[b\]ecause it’s one thing to come up with an idea and tell it, but these people have to execute it…the execution of it is in the hands of some very talented people.” [^7]
 
 Let’s say a director proposes to use red and blue lighting in a scene to represent the romantic relationship between the two main characters. The director comes up with the idea, but it is the gaffer who implements it. It is up to them to use their expertise to choose *which* lights, what wattage, what shape and size, whether warm tone or cool tone works best. They must consider the set, the placement of the actors, the cameras that are being used. Once all these decisions are made, the director looks at the lighting, approves, and the production moves on. No one can deny that it is the director’s idea, but it is in collaboration with the rest of the crew. To skip from the director’s vision to their approval is to miss out on the vital labor and the creative work of the crew. This graph seeks to bridge that gap, to draw the line between concept and execution of the films.
   
-One way the film industry formally distinguishes different kinds of labor is through above-the-line and below-the-line workers.[^6] The distinction is based on the production budget and how the crew will be paid, although it also generally aligns with the type of work being done. Above-the-line are people in creative development, production, direction, and lead actors, who are typically paid a fixed rate for the project and may get residuals. Below-the-line are day-to-day crew members on hourly wages. Ostensibly, the separation is only about the budget and not relative importance of different figures; however, the hierarchical nature of the terms implies a level of superiority. 
+One way the film industry formally distinguishes different kinds of labor is through above-the-line and below-the-line workers.[^8] The distinction is based on the production budget and how the crew will be paid, although it also generally aligns with the type of work being done. Above-the-line are people in creative development, production, direction, and lead actors, who are typically paid a fixed rate for the project and may get residuals. Below-the-line are day-to-day crew members on hourly wages. Ostensibly, the separation is only about the budget and not relative importance of different figures; however, the hierarchical nature of the terms implies a level of superiority. 
 
-This visualization proposes another way of thinking about those lines. These lines are not separating people—they’re connecting them. In the words of Anderson, a good film set is “just about organization and communication. You can have fun doing it and be kind and get it done.”[^7]
+This visualization proposes another way of thinking about those lines. These lines are not separating people—they’re connecting them. In the words of Anderson, a good film set is “just about organization and communication. You can have fun doing it and be kind and get it done.”[^9]
 
 ### Methods
 
@@ -126,22 +132,24 @@ To understand who makes a movie, sometimes you have to look between the lines.
 - [GitHub gist of the Coworking Network graph file](https://gist.github.com/claraeks/1f0aa905065c91e2d453716306ff1926), can be opened in [Gephi Lite](https://lite.gephi.org/v1.0.2/)
 
 [^1]: Weingart, “Demystifying Networks, Parts I & II.”
-[^2]: Tangcay, “‘One Battle After Another’ Casting Director Cassandra Kulukundis Wins Inaugural Oscar for Best Casting.”
-[^3]: Sarris, “Notes on the Auteur Theory in 1962.”
-[^4]: Sadoul, Dictionary of Films, vi.
-[^5]: Heidmann, “Paul Thomas Anderson: ‘We Continue to Move Forward.’”
-[^6]: Pruner, “Above-the-Line vs. Below-the-Line Crew.”
-[^7]: Remnick, “Paul Thomas Anderson on What Makes a Movie Great.”
+[^2]: This feature uses the TMDB API but is not endorsed or certified by TMDB
+[^3]: Tangcay, “‘One Battle After Another’ Casting Director Cassandra Kulukundis Wins Inaugural Oscar for Best Casting.”
+[^4]: This feature uses the TMDB API but is not endorsed or certified by TMDB
+[^5]: Sarris, “Notes on the Auteur Theory in 1962.”
+[^6]: Sadoul, Dictionary of Films, vi.
+[^7]: Heidmann, “Paul Thomas Anderson: ‘We Continue to Move Forward.’”
+[^8]: Pruner, “Above-the-Line vs. Below-the-Line Crew.”
+[^9]: Remnick, “Paul Thomas Anderson on What Makes a Movie Great.”
 
 ### Bibliography
 
 - Bastian, Mathieu, Sebastien Heymann, and Mathieu Jacomy. “Gephi: An Open Source Software for Exploring and Manipulating Networks.” *Proceedings of the International AAAI Conference on Web and Social Media* 3, no. 1 (2009): 361–62.
-- Heidmann. “Paul Thomas Anderson: ‘We Continue to Move Forward.’” The Talks, March 15, 2026. https://the-talks.com/interview/paul-thomas-anderson/. 
+- Heidmann. “Paul Thomas Anderson: ‘We Continue to Move Forward.’” The Talks, March 15, 2026. <https://the-talks.com/interview/paul-thomas-anderson/>. 
 - Huynh, David. *OpenRefine*. Version 3.10.1. Code for Science and Society, released 2026. <https://openrefine.org/>.
-- Jacomy, Alexis, and Guillaume Plique. *Sigma.Js*. Version 1. Released 2014. www.sigmajs.org/.
+- Jacomy, Alexis, and Guillaume Plique. *Sigma.Js*. Version 1. Released 2014. <www.sigmajs.org/>.
 - Oxford Internet Institute. *InteractiveVis*. Released 2012. <https://github.com/oxfordinternetinstitute/InteractiveVis/>.
 - Pruner, Aaron. “Above-the-Line vs. Below-the-Line Jobs in Film.” *Backstage*, May 10, 2022. <https://www.backstage.com/magazine/article/above-the-line-vs-below-the-line-crew-differences-74969/>.
-- Remnick, David. “Paul Thomas Anderson on What Makes a Movie Great.” The New Yorker Interview. The New Yorker, December 12, 2021. https://www.newyorker.com/culture/the-new-yorker-interview/paul-thomas-anderson-on-what-makes-a-movie-great. 
+- Remnick, David. “Paul Thomas Anderson on What Makes a Movie Great.” The New Yorker Interview. The New Yorker, December 12, 2021. <https://www.newyorker.com/culture/the-new-yorker-interview/paul-thomas-anderson-on-what-makes-a-movie-great>. 
 - Sadoul, Georges. *Dictionary of Films*. Edited by Peter Morris. Berkeley, University of California Press, 1972. <http://archive.org/details/bub_gb_PvsZikRu-hAC>.
 - Sarris, Andrew. “Notes on the Auteur Theory in 1962.” *Film Culture* (New York), no. No. 27 (Winter 1962): 1–8. <https://dn721605.ca.archive.org/0/items/film-culture-1962-no-27/film-culture-1962-no-27.pdf>.
 - Tangcay, Jazz. “‘One Battle After Another’ Casting Director Cassandra Kulukundis Wins Inaugural Oscar for Best Casting.” Variety, March 16, 2026. <https://variety.com/2026/artisans/news/one-battle-after-another-wins-first-oscar-best-casting-1236680670/>. 
