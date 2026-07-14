@@ -8,7 +8,12 @@ tags:
     - network
     - data essay
 ---
-
+<!--*iframe is making page jump down, this forces it to load at the top-->
+<script>
+window.onload = function() {
+    window.scrollTo(0, 0);
+};
+</script>
 ### Table of Contents
 {: .no_toc}
 
