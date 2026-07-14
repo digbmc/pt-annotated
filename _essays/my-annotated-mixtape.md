@@ -177,7 +177,7 @@ Young was also explicit inspiration for Docâ€™s costuming throughout the film: â
 
 {% include feature/image.html objectid="inhe-11725" caption=false width="100" %}
 
-<iframe src="https://www.discogs.com/release/11069645-Neil-Young-Yesteryear-Of-The-Horse/image/SW1hZ2U6MzEwMjQzNDI="></iframe>
+Certain photos of Neil Young are so similar to Doc that it feels like you are just looking at a shot from the film. For photo references, see <a href="https://henrydiltz.com/search?type=product%2Carticle%2Cpage&options%5Bprefix%5D=last&q=neil+young">Henry Diltz' photographs of Young</a>, or <a href="https://www.discogs.com/release/11069645-Neil-Young-Yesteryear-Of-The-Horse/image/SW1hZ2U6MzEwMjQzNDI=">this image</a> from Discog's entry on *Yesteryear Of The Horse*.
 
 ##### *An Experimentation with Reality*
 
