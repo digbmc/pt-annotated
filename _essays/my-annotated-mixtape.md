@@ -73,7 +73,7 @@ Boogie Nights might be the first thing one thinks of when considering the signif
 
 ##### *Disco, or, "The Politics of, Ohhh, Feeling Good"[^2]*
 
-{% include feature/image.html objectid="boog-10007";"boog-10312" caption=false width="100" %}
+{% include feature/image.html objectid="boog-10007;boog-10312" caption=false width="100" %}
 
 Both visually and aurally, the opening of Boogie Nights establishes disco as fundamental to the film’s sound, aesthetic, and sub-cultural sentiments. The iconic tracking shot that introduces much of the ensemble cast in the Hot Traxx nightclub spans almost three whole minutes of disco-entrenched glitz, glamour, and gallivanting. By means of the three consecutive disco tracks overheard in the nightclub, the characters are not simply first shown but introduced within this specific cultural context; their narrative grounding and social involvement in this space, and therefore association with the sounds of disco, frame their lives. Hot Traxx being a social and business hub for the characters is more than simply setting the scene of the era. Instead, it speaks to an inherent thematic correlation between the world of disco and the world of the adult film industry. While certainly separate spheres of life with individual origins and governing ideologies, there exists ties between disco and the porn industry given their shared explorations of the body, sexuality, and counter (or not)-culture—despite, perhaps, divergent successes in these explorations, and their societal consequences.
 
@@ -89,7 +89,7 @@ Even beyond this more tangible experience of sharing the dance floor, there is a
 
 Now, Boogie Nights is not exactly engaging so directly with queer culture. First, the film takes place once disco has risen drastically in popularity. While the characters are somewhat marginalized—or, more so, looked down upon—for their involvement in the porn industry, I would hardly classify that as the same position queerness places one in. However, as mentioned above, there are thousands of years of history interlinking sex work and queerness. This bridging of seemingly separate entities is predicated on both behaviors’ perceived sexual “deviance,” simply meaning anything non-normative. Furthermore, this relationship is explored explicitly in the film via Scotty’s infatuation with Dirk as well as Dirk’s assault. The violent gay-bashing Dirk experiences in the latter half of the film, which follows a set up where a man asks to watch him masturbate in a car, expressly depicts this connection between sex work and queerness and their shared responses of disgust and violence. 
 
-{% include feature/image.html objectid="boog-15602"; "boog-22010" caption=false width="100" %}
+{% include feature/image.html objectid="boog-15602;boog-22010" caption=false width="100" %}
 
 It is both because of this parallel and despite its varied truth that the theme of the alternative family rings extremely true. Even when queerness is not expressly invoked, the characters define themselves with the vocabulary of a family more than a “friend group” or circle of colleagues. This pattern of identification is especially true for Amber Waves and her relationship with both Dirk and Rollergirl. A recognition of this pattern doesn’t mean a validation of this dynamic though, as the “motherly” role Amber plays in their lives is perverted by their sex work, drug use, and general toxicity. But despite this all, it would be discrediting these characters and the work of the film to not acknowledge the significance their built community—a community that truly is more than just a work environment—plays in their lives.
 
@@ -137,7 +137,7 @@ While maybe not as immediately obvious as with *Boogie Nights*, *Inherent Vice* 
 
 There are countless ways *Inherent Vice* simultaneously mourns and pokes fun at the hippie subculture and its related ideals, using the year 1970 to claim (or forcefully initiate) the official end of such wide-eyed, flower-crowned, ever-stoned nonsense. The word “hippie” is constantly thrown around by Doc’s opponents — namely, the detective "Bigfoot" Bjornsen, whose scathing “Congratulations, hippie scum” in front of a line of police cars in the desert first made it abundantly clear to me what this film was really getting at.  Beyond the vocalized taunts and jokes, though, is a cast of characters all caught in a push-and-pull relationship with hippiedom; each person is either seeking out the vestiges of the hippie life or being reeled away by 70s possession (or both). While Doc spends the film with a strong allegiance to his hippie lifestyle, he is shown now dating Deputy D.A Penny Kimball and her buttoned-up suit jacket, a far cry from the dreamy wisp that is Shasta Fay. These two contrasting romantic partners represent the changing of the decades and, from a bit of a despairing perspective, the inevitability of it all. For if even Doc Sportello and his long, messy hair can find himself having an affair with the establishment, what hope is there for the rest of us? However, their relationship is not necessarily only a concession on Doc’s part; this clash of worlds is also indicative of Penny’s desire for the freedom (and drugs) of the hippies.
 
-{% include feature/image.html objectid="inhe-15124"; "inhe-03923" caption=false width="100" %}
+{% include feature/image.html objectid="inhe-15124;inhe-03923" caption=false width="100" %}
 
 Apart from the music actually featured in the film, this moment and its ideological upheaval is reflected in music trends and the shifting artistries of many musicians of the time. This is only natural, as music was a large part of, and communal space for, the hippie subculture; political folk and psychedelia were crucial in defining, leading, and gathering the hippie aesthetic and lifestyle. So, with the end of the 60s and its containment of everything from the Summer of Love to Woodstock to the Manson family, a reaction to hippie music was to be expected. This is not to say that rock didn’t continue building on itself and that the hippie staples of the 60s didn’t continue to be driving inspirations, but that disillusionment with the characteristic optimism and sentimentality of the hippies found its way into rock music. The Who’s famous “Won’t Get Fooled Again,” released in 1971, greatly captures this sentiment: “We were liberated from the fold, that's all/And the world looks just the same/And history ain't changed./'Cause the banners, they all flown in the last war.”[^17]
 
@@ -165,7 +165,7 @@ Throughout the film, there are a couple of other times in which the soundtrack i
 
 {% include feature/image.html objectid="inhe-22044" caption=false width="100" %}
 
-#### Conclusion
+### Conclusion
 
 Disco was commercialized and US imperialism is shrouded in its mists and all along The Who was right: we keep getting fooled again. However, that is only the dourest message to take away from this. Remember, just like in the end of PTA’s films, there is a whole world of people connected by their humanity and their complexity and their shared loneliness—and, maybe (just maybe), a fighting spirit. There are still people writing political folk songs, even if Woodstock is in the past. There are more people than ever who recognize the inhumanity in the world. There are queer people dancing more visibly than they have ever been allowed. Ultimately, the goal of this project was to highlight music as a foundational aspect of humanity, not just filmmaking. By understanding what music can offer a film—from sonic effect to cultural context—it becomes clear how inextricable music is from the collective experiences of daily life; suddenly, you aren’t just talking about a car radio in 1970s LA, but about the whole span of American history and those who lived it.
 
@@ -191,7 +191,7 @@ Disco was commercialized and US imperialism is shrouded in its mists and all alo
 17. Yuhas, Alan. “What Inherent Vice Tells Us About Modern America.” The Guardian, 2014. https://www.theguardian.com/film/2014/dec/12/what-inherent-vice-tells-us-about-modern-america.
 
 
-#### Notes
+### Notes
 
 [^1]: Far Out Magazine, "How Paul Thomas Anderson Got Jeff Lynne on 'Boogie Nights.'"
 [^2]: Genius Lyrics, “Re-Flex (UK) – The Politics of Dancing Lyrics"
