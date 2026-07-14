@@ -89,8 +89,49 @@ The color-coding of the nodes remains the same, based on the person’s job. But
 <div class="col-md text-center">
 <img src="{{ 'assets/img/cowork-network-fallback.png' | relative_url }}" alt="Network Graph Image" class="mobile-graph-image" width="100%">
 <em>Note: For the fully interactive network graph, please view this page on a desktop computer.</em>
-
 </div>
+</div>
+<div class="film-legend" style="width:100%; position:relative;">
+    <div class="legend-item" style="display: inline-flex; flex-direction: row; align-items: center; padding-inline: 0px 0.5rem; text-align:start;">
+        <div class="legend-swatch" style="height:0.75rem; width:0.7rem; border-radius:2px; background-color:rgb(244 120 4); border:none;box-sizing: content-box;flex-shrink:0;"></div>
+        <p class="legend-label" style="margin:0px; padding-inline:0.2em 0px; font-size: 1rem;">Boogie Nights</p>
+    </div>
+    <div class="legend-item" style="display: inline-flex; flex-direction: row; align-items: center; padding-inline: 0px 0.5rem; text-align:start;">
+        <div class="legend-swatch" style="height:0.75rem; width:0.7rem; border-radius:2px; background-color:rgb(65 117 5); border:none;box-sizing: content-box;flex-shrink:0;"></div>
+        <p class="legend-label" style="margin:0px; padding-inline:0.2em 0px; font-size: 1rem;">Hard Eight</p>
+    </div>
+    <div class="legend-item" style="display: inline-flex; flex-direction: row; align-items: center; padding-inline: 0px 0.5rem; text-align:start;">
+        <div class="legend-swatch" style="height:0.75rem; width:0.7rem; border-radius:2px; background-color:rgb(126 211 33); border:none;box-sizing: content-box;flex-shrink:0;"></div>
+        <p class="legend-label" style="margin:0px; padding-inline:0.2em 0px; font-size: 1rem;">Inherent Vice</p>
+    </div>
+    <div class="legend-item" style="display: inline-flex; flex-direction: row; align-items: center; padding-inline: 0px 0.5rem; text-align:start;">
+        <div class="legend-swatch" style="height:0.75rem; width:0.7rem; border-radius:2px; background-color:rgb(245 211 35); border:none;box-sizing: content-box;flex-shrink:0;"></div>
+        <p class="legend-label" style="margin:0px; padding-inline:0.2em 0px; font-size: 1rem;">Licorice Pizza</p>
+    </div>
+    <div class="legend-item" style="display: inline-flex; flex-direction: row; align-items: center; padding-inline: 0px 0.5rem; text-align:start;">
+        <div class="legend-swatch" style="height:0.75rem; width:0.7rem; border-radius:2px; background-color:rgb(82 50 44); border:none;box-sizing: content-box;flex-shrink:0;"></div>
+        <p class="legend-label" style="margin:0px; padding-inline:0.2em 0px; font-size: 1rem;">Magnolia</p>
+    </div>
+    <div class="legend-item" style="display: inline-flex; flex-direction: row; align-items: center; padding-inline: 0px 0.5rem; text-align:start;">
+        <div class="legend-swatch" style="height:0.75rem; width:0.7rem; border-radius:2px; background-color:rgb(45 87 135); border:none;box-sizing: content-box;flex-shrink:0;"></div>
+        <p class="legend-label" style="margin:0px; padding-inline:0.2em 0px; font-size: 1rem;">The Master</p>
+    </div>
+    <div class="legend-item" style="display: inline-flex; flex-direction: row; align-items: center; padding-inline: 0px 0.5rem; text-align:start;">
+        <div class="legend-swatch" style="height:0.75rem; width:0.7rem; border-radius:2px; background-color:rgb(66 144 235); border:none;box-sizing: content-box;flex-shrink:0;"></div>
+        <p class="legend-label" style="margin:0px; padding-inline:0.2em 0px; font-size: 1rem;">One Battle After Another</p>
+    </div>
+    <div class="legend-item" style="display: inline-flex; flex-direction: row; align-items: center; padding-inline: 0px 0.5rem; text-align:start;">
+        <div class="legend-swatch" style="height:0.75rem; width:0.7rem; border-radius:2px; background-color:rgb(182 92 232); border:none;box-sizing: content-box;flex-shrink:0;"></div>
+        <p class="legend-label" style="margin:0px; padding-inline:0.2em 0px; font-size: 1rem;">Phantom Thread</p>
+    </div>
+    <div class="legend-item" style="display: inline-flex; flex-direction: row; align-items: center; padding-inline: 0px 0.5rem; text-align:start;">
+        <div class="legend-swatch" style="height:0.75rem; width:0.7rem; border-radius:2px; background-color:rgb(191 73 131); border:none;box-sizing: content-box;flex-shrink:0;"></div>
+        <p class="legend-label" style="margin:0px; padding-inline:0.2em 0px; font-size: 1rem;">Punch-Drunk Love</p>
+    </div>
+    <div class="legend-item" style="display: inline-flex; flex-direction: row; align-items: center; padding-inline: 0px 0.5rem; text-align:start;">
+        <div class="legend-swatch" style="height:0.75rem; width:0.7rem; border-radius:2px; background-color:rgb(161 2 21); border:none;box-sizing: content-box;flex-shrink:0;"></div>
+        <p class="legend-label" style="margin:0px; padding-inline:0.2em 0px; font-size: 1rem;">There Will Be Blood</p>
+    </div>
 </div>
 
 A network graph of PTA collaborators in which people are connected to who they have worked with.[^4]
