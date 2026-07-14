@@ -177,6 +177,8 @@ Young was also explicit inspiration for Doc’s costuming throughout the film: �
 
 {% include feature/image.html objectid="inhe-11725" caption=false width="100" %}
 
+Certain photos of Neil Young are so similar to Doc that it feels like you are just looking at a shot from the film. For photo references, see <a href="https://henrydiltz.com/search?type=product%2Carticle%2Cpage&options%5Bprefix%5D=last&q=neil+young">Henry Diltz' photographs of Young</a>, or <a href="https://www.discogs.com/release/11069645-Neil-Young-Yesteryear-Of-The-Horse/image/SW1hZ2U6MzEwMjQzNDI=">this image</a> from Discog's entry on *Yesteryear Of The Horse*.
+
 ##### *An Experimentation with Reality*
 
 In addition to the lyrical importance of “Journey Through the Past,” the song plays a further role in the film’s conversation about time as fluctuating and unmooring. In what does feel like a joke, somewhat undermining the uncomplicated nostalgia I claimed earlier, the song came out two years after the film takes place. Given the title and scene placement of the song, this anachronism is a reminder that the past is over, and that this flashback is more ghost than human in the present the characters find themselves in. 
