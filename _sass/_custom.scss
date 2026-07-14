@@ -964,3 +964,33 @@ a[target="_blank"]::after {
     margin-right: 8px;
     opacity: 0.7;
 }
+
+/* ------------
+    Network Graph Mobile Backup
+   ------------ */
+
+/* Default - assume it is a desktop mouse user, graph appears, backup image does not */
+.mobile-graph-backup {
+  display: none !important;
+}
+.desktop-graph {
+  display: block !important;
+}
+
+/* Backup appears when on touch-based device*/
+@media (pointer: coarse) {
+  .desktop-graph {
+    display: none !important;
+  }
+  
+.mobile-graph-backup { /*includes caption*/
+    display: flex !important; 
+    margin-bottom: 1.5rem; 
+  }
+
+  .mobile-graph-image {
+    display: block !important;
+    margin-bottom: 1.5rem; 
+  }
+
+} 
