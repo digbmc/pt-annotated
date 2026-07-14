@@ -76,6 +76,7 @@ The visualizations I made aim to encourage viewers to compare their own experien
         </iframe>
     </div> 
 </div>
+
 - __How to use Figure II:__ Using the legend you can examine one film at a time by clicking the film's name. You can also move around the graph and zoom in or out (by using a scrolling down motion for zooming in and a scrolling up motion for zooming out). If you hover your mouse over a point, you can see the point’s metadata. The x-axis shows the shot number in the order of the film (from the first to the last), while the y-axis shows the length of each shot in seconds. Using the legend you can select a specific film to examine by clicking on the film's name. To refresh the graph to it's original visualization double click anywhere on the visualization (if you clicked on a film you may need to double click multiple times before getting original visualization)
 - __Note:__ The last point of every film is the end credits. 
 
