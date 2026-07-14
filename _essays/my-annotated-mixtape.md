@@ -2,7 +2,7 @@
 title: "My Awesome, Annotated Mixtape #6: The Music of <em>Boogie Nights</em>, <em>Licorice Pizza</em>, and <em>Inherent Vice</em>"
 author: Tallulah Stallvik
 layout: data-essay
-featured_image: assets/img/musicfeature-headimage.png
+featured_image: BOOG-00059
 tags:
     - boogie-nights
     - licorice-pizza
@@ -73,6 +73,8 @@ Boogie Nights might be the first thing one thinks of when considering the signif
 
 ##### *Disco, or, "The Politics of, Ohhh, Feeling Good"[^2]*
 
+{% include feature/image.html objectid="boog-10007";"boog-10312" caption=false width="100" %}
+
 Both visually and aurally, the opening of Boogie Nights establishes disco as fundamental to the film’s sound, aesthetic, and sub-cultural sentiments. The iconic tracking shot that introduces much of the ensemble cast in the Hot Traxx nightclub spans almost three whole minutes of disco-entrenched glitz, glamour, and gallivanting. By means of the three consecutive disco tracks overheard in the nightclub, the characters are not simply first shown but introduced within this specific cultural context; their narrative grounding and social involvement in this space, and therefore association with the sounds of disco, frame their lives. Hot Traxx being a social and business hub for the characters is more than simply setting the scene of the era. Instead, it speaks to an inherent thematic correlation between the world of disco and the world of the adult film industry. While certainly separate spheres of life with individual origins and governing ideologies, there exists ties between disco and the porn industry given their shared explorations of the body, sexuality, and counter (or not)-culture—despite, perhaps, divergent successes in these explorations, and their societal consequences.
 
 Disco’s inherent sexuality is expressed through various modes. Like much of popular music spanning the past many decades, romance and sex are simply common topics for disco lyrics. The explicitness of the sexual references, however, greatly ranges. Overall, disco probably isn’t any more explicit than rock of the era, and certainly not of modern pop and rap. The essentiality of sex and the body to disco is founded instead on its purpose as dance music and its subcultural roots in queer and POC-lead dance spaces. In Richard Dyer’s 1979 article “In Defense of Disco” for Gay Left, a London-based socialist journal, the queer theorist and film studies professor offers an argument about disco as a vessel for a liberatory re-formulation of music’s sexuality [^3]. He posits that the rhythm (or lack thereof) of rock music is inherently phallo-centric, based in a strained aggression which is physically expressed in thrusts. In turn, the way disco asks you to dance is a more fluid connection to the body, regardless of gender or what body one might be occupying. The difference between disco and other forms of popular music boils down to an allowance and embracement of physicality, in Dyer’s argument. How one should exist in and use their body is a question that is, of course, massively relevant to the world of adult films and sex work. The historical ties between homosexuality and prostitution ground the societal disapproval of sex work in more than a question of exploitation or feminism, and remind us to examine taboo not as objective immorality but as the product of a culture’s prejudices.
@@ -87,15 +89,22 @@ Even beyond this more tangible experience of sharing the dance floor, there is a
 
 Now, Boogie Nights is not exactly engaging so directly with queer culture. First, the film takes place once disco has risen drastically in popularity. While the characters are somewhat marginalized—or, more so, looked down upon—for their involvement in the porn industry, I would hardly classify that as the same position queerness places one in. However, as mentioned above, there are thousands of years of history interlinking sex work and queerness. This bridging of seemingly separate entities is predicated on both behaviors’ perceived sexual “deviance,” simply meaning anything non-normative. Furthermore, this relationship is explored explicitly in the film via Scotty’s infatuation with Dirk as well as Dirk’s assault. The violent gay-bashing Dirk experiences in the latter half of the film, which follows a set up where a man asks to watch him masturbate in a car, expressly depicts this connection between sex work and queerness and their shared responses of disgust and violence. 
 
+{% include feature/image.html objectid="boog-15602"; "boog-22010" caption=false width="100" %}
+
 It is both because of this parallel and despite its varied truth that the theme of the alternative family rings extremely true. Even when queerness is not expressly invoked, the characters define themselves with the vocabulary of a family more than a “friend group” or circle of colleagues. This pattern of identification is especially true for Amber Waves and her relationship with both Dirk and Rollergirl. A recognition of this pattern doesn’t mean a validation of this dynamic though, as the “motherly” role Amber plays in their lives is perverted by their sex work, drug use, and general toxicity. But despite this all, it would be discrediting these characters and the work of the film to not acknowledge the significance their built community—a community that truly is more than just a work environment—plays in their lives.
 
 The theme of family that closes out the film ultimately is captured not even in a disco track. By the time the end of the story arrives, disco as a defining sound of the film has mostly faded away. The audience has been whipped back and forth by the competing energies of glam rock, Motown, yacht rock, and everything in between; the chaos of the music follows the chaos of the characters as they dissolve and reform, fail and succeed. And now, as the story is ending, everything is beautifully—almost daintily—bunched back together by the butter-smooth harmonies of the Beach Boys. “God Only Knows” is famously one of the most sentimental, heartwarming songs of all time (maybe a statement influenced by some personal bias, but *Pet Sounds* is also just one of the best albums ever). The harmonies the band is so known for feel representative in this moment of the montaged scenes the song plays over: Rollergirl returning to school, Amber helping Buck shoot a commercial for his finally-opened store, Dirk preparing to return to the spotlight. The song cements these characters’ inextricability from each other, reuniting the happy family.
+
+<div class="mb-4">
+<div class="embed-responsive ratio ratio-4x3"><iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/0ObrXLrfrqJUNc8RfmIBHP?utm_source=generator&theme=0" width="60%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div></div>
 
 #### Mixtape Side B: *Licorice Pizza*
 
 *Licorice Pizza*, same as *Boogie Nights*, is star-studded with fantastic needle drops. Both films distinguish themselves in PTA’s filmography due to primarily using non-original music, cementing the period aspect of the film. Besides its purpose of capturing the early 70s, the soundtrack is deftly used to match—and define, at times—the mood of both the romance and the business in the plot.
 
 ##### *“You're Not Real Pretty, but You're Mine”[^7]*
+
+{% include feature/image.html objectid="lico-11454" caption=false width="100" %}
 
 *Licorice Pizza* is, of course, a romance film. A rom-com, a cringe-rom, a controversially-aged rom, but a rom nonetheless. Much of the soundtrack follows Gary and Alana’s relationship through its ups and downs and ultimate turnaround. The film features a pop-y love song by Sonny and Cher, as well as the equally romantic “Let Me Roll It” from Wings. One of the most prominently romantic aspects of the soundtrack, though, is the recurrence of jazz tracks. At the start of the film, the first four songs are all jazz: Nina Simone’s “July Tree,” followed by three diegetic tracks heard in various restaurant settings. While the rock ‘n’ roll might define the era of the film, the introductory haze of jazzy melodies initially sets its romantic tone.
 
@@ -107,9 +116,15 @@ Hand in hand with the central romantic plotline is Gary and Alana’s relationsh
 
 The Doors’ “Peace Frog” accompanies the beginnings of Gary and Alana’s business as they deliver waterbeds. As a piece of the soundtrack, the song infuses the montage with infectious energy, reflecting this new potential for success. However, the violent lyrics are pointedly opposed to the excitement of the scene (“Blood in the streets, it's up to my knee … Blood will be born in the birth of a nation/Blood is the rose of mysterious union”).[^10] The choice to feature a song whose very prominent lyrics do not match the mood is an express choice to introduce a tension, a reminder of something. The exact meaning of the lyrics, however, is not entirely straightforward.
 
+<div class="mb-4">
+<div class="embed-responsive ratio ratio-4x3"></div><iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/5piJiL6aRhvrKBa9YuEfS9?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+
 As claimed by Robby Krieger, the Doors’ guitarist, the lyrics to “Peace Frog” came from three poems by lead singer Jim Morrison: “Abortion Stories,” “Dawn’s Highway,” and “Newborn Awakening.”[^11][^12] “Abortion Stories” was supposedly based on an abortion one of Morrison’s girlfriends had, however I am not confident in the accuracy of such a statement.[^13] As with much of Morrison’s life and persona, the song’s exact meaning remains enigmatic. However, many of the lyrics, specifically the mention of Chicago, have garnered the song a very concrete meaning in the public’s imagination: a protest song based on the police violence outside the 1968 Democratic Convention. The lyric goes, “blood in the streets, the town of Chicago,” and, especially given the song’s release in 1971, it is hard inspiration not to assume.[^14] The use of the song ends up invoking this public perception regardless of intentioned meaning. Given the protest’s focus on the Vietnam war, the audience is being reminded of the violence inherent to America’s foreign affairs in this moment of Gary and Alana’s economic prosperity. The commentary here is bolstered by the film’s representation of the 1973 Oil Embargo, a result of the Arab-Israeli War in which the US was heavily involved due to their economic and military relationship with Israel.
 
 Once “Peace Frog” is established as accentuating the political contexts of the film, a couple other songs from the soundtrack join in on this conversation about American imperialism. Most obvious is “Life on Mars?” by David Bowie, which the film directly links to the Oil Embargo. The song comes in as extradiegetic commentary when Gary jogs down a street lined with cars who cannot drive because of the gas crisis. Jogging, though, is not nearly a dramatic enough description—rather, he is holding his arms out, yelling “It’s the end of the world, Greggo,” as if a prophet or messenger. The exaggeration of the statement doesn’t even feel out of place alongside the scene of these machines we rely on so much suddenly not functioning. The sequence in the film truly captures this crescendoing sense of doom, a crescendo then made audial by the addition of “Life on Mars?” Bowie’s slow build of lyric and melody and volume acts as the perfect scene partner to this dystopian moment. The song may not be explicitly telling the story of war or economic crisis or political instability, but at its heart is the disillusionment caused by the monotony of life, the inability to escape reality. The film then reminds us that this reality is one not simply tinged but controlled by global systems of violence. It is the feeling that nothing makes sense anymore, and that even the idea of “anymore” is just a phantom, because it never did.
+
+<div class="mb-4">
+<div class="embed-responsive ratio ratio-4x3"></div><iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/3ZE3wv8V3w2T2f7nOCjV0N?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe><iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/3mDOHVY9MWZOTODSNF5GBj?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
 
 While subtle, barely noticeable in the film, the Paul Revere and the Raiders’ cover of “Indian Reservation (The Lament of the Cherokee Reservation Indian)” is also entangled in this conversation. Put simply, it is a reminder of the violence that has underpinned the American identity from the very beginning, contextualizing our modern imperialism as an extension of Manifest Destiny. However, the song also relates more specifically to “Peace Frog,” which similarly—though less centrally—mentions violence perpetrated against people indigenous to the Americas: “Indians scattered on dawn's highway bleeding/Ghosts crowd the young child's fragile eggshell mind.”[^15] Morrison’s lyrics are more geared toward a personal experience witnessing violence (as the lyric has been speculated to stem from a childhood memory of a car crash), but in the company of the greater music-driven commentary they especially take on this pervasion of violence.[^16] The way in which these musical connections are scattered across the film fashions a sense of concealment, mirroring how, despite its constant presence, this violence is veiled by the bright and shiny façades of waterbed stores and the endless choices of capitalism.
 
@@ -121,6 +136,8 @@ While maybe not as immediately obvious as with *Boogie Nights*, *Inherent Vice* 
 ##### *Goodbye, Hippiedom*
 
 There are countless ways *Inherent Vice* simultaneously mourns and pokes fun at the hippie subculture and its related ideals, using the year 1970 to claim (or forcefully initiate) the official end of such wide-eyed, flower-crowned, ever-stoned nonsense. The word “hippie” is constantly thrown around by Doc’s opponents — namely, the detective "Bigfoot" Bjornsen, whose scathing “Congratulations, hippie scum” in front of a line of police cars in the desert first made it abundantly clear to me what this film was really getting at.  Beyond the vocalized taunts and jokes, though, is a cast of characters all caught in a push-and-pull relationship with hippiedom; each person is either seeking out the vestiges of the hippie life or being reeled away by 70s possession (or both). While Doc spends the film with a strong allegiance to his hippie lifestyle, he is shown now dating Deputy D.A Penny Kimball and her buttoned-up suit jacket, a far cry from the dreamy wisp that is Shasta Fay. These two contrasting romantic partners represent the changing of the decades and, from a bit of a despairing perspective, the inevitability of it all. For if even Doc Sportello and his long, messy hair can find himself having an affair with the establishment, what hope is there for the rest of us? However, their relationship is not necessarily only a concession on Doc’s part; this clash of worlds is also indicative of Penny’s desire for the freedom (and drugs) of the hippies.
+
+{% include feature/image.html objectid="inhe-15124"; "inhe-03923" caption=false width="100" %}
 
 Apart from the music actually featured in the film, this moment and its ideological upheaval is reflected in music trends and the shifting artistries of many musicians of the time. This is only natural, as music was a large part of, and communal space for, the hippie subculture; political folk and psychedelia were crucial in defining, leading, and gathering the hippie aesthetic and lifestyle. So, with the end of the 60s and its containment of everything from the Summer of Love to Woodstock to the Manson family, a reaction to hippie music was to be expected. This is not to say that rock didn’t continue building on itself and that the hippie staples of the 60s didn’t continue to be driving inspirations, but that disillusionment with the characteristic optimism and sentimentality of the hippies found its way into rock music. The Who’s famous “Won’t Get Fooled Again,” released in 1971, greatly captures this sentiment: “We were liberated from the fold, that's all/And the world looks just the same/And history ain't changed./'Cause the banners, they all flown in the last war.”[^17]
 
@@ -146,33 +163,11 @@ In addition to the lyrical importance of “Journey Through the Past,” the son
 
 Throughout the film, there are a couple of other times in which the soundtrack is contributing to a dissolution of reality. *Inherent Vice*, out of this triad, is the film with the most transdiegetic tracks. Moments like this blur the line between the world of the film and the world of the audience. Therefore, the “reality” of the film is being tampered with—disrupted, reflecting the paranoia and mass-conspiracy of the plot. Similarly, it further entangles the musical choices in the dream-like, drug-induced atmosphere. There is an erosion of reality happening, much like the erosion of the hippies’ subcultural ideals; while playful and humorous, the unreality ultimately ends up just feeling macabre. We always knew everything would fall apart, though: “How the hope of the 1960s blinkered out is right there in the title: inherent vice is a legal term that means everything contains the seeds of its own downfall.”[^21]
 
+{% include feature/image.html objectid="inhe-22044" caption=false width="100" %}
+
 #### Conclusion
 
 Disco was commercialized and US imperialism is shrouded in its mists and all along The Who was right: we keep getting fooled again. However, that is only the dourest message to take away from this. Remember, just like in the end of PTA’s films, there is a whole world of people connected by their humanity and their complexity and their shared loneliness—and, maybe (just maybe), a fighting spirit. There are still people writing political folk songs, even if Woodstock is in the past. There are more people than ever who recognize the inhumanity in the world. There are queer people dancing more visibly than they have ever been allowed. Ultimately, the goal of this project was to highlight music as a foundational aspect of humanity, not just filmmaking. By understanding what music can offer a film—from sonic effect to cultural context—it becomes clear how inextricable music is from the collective experiences of daily life; suddenly, you aren’t just talking about a car radio in 1970s LA, but about the whole span of American history and those who lived it.
-
-
-
-[^1]: Far Out Magazine, "How Paul Thomas Anderson Got Jeff Lynne on 'Boogie Nights.'"
-[^2]: Genius Lyrics, “Re-Flex (UK) – The Politics of Dancing Lyrics"
-[^3]: Richard Dyer, *Gay Left*, "In Defense of Disco"
-[^4]: John Rockwell, *The New York Times*, "Why Are the New Stars of Disco Mostly Women?"
-[^5]: International Disco Day, "Dancefloor as Protest - Celebrating the Spirit of Disco and Its Legacy."
-[^6]: Rictor Norton, *Mother clap’s Molly House: The gay subculture in England 1700-1830*
-[^7]: Genius Lyrics, "Sonny & Cher – but You’re Mine Lyrics"
-[^8]: Gabriel Tynes, *Courthouse News Service*. "Share of Young Adults Living at Home Has Nearly Tripled since 1970s"
-[^9]: The Doors, *Genius Lyrics*. "The Doors – Peace Frog Lyrics"
-[^10]: The Doors, *Genius Lyrics*. "The Doors – Peace Frog Lyrics"
-[^11]: Jess Mayhew, *Reverb.* "Song Stories: Robby Krieger on The Origin of the Doors’ ‘Peace Frog’ & ‘Light My Fire.'"
-[^12]: Max Bell, *Louder Sound.* "The Doors: The 20 Best Songs"
-[^13]: Songfacts, "Peace Frog by the Doors"
-[^14]: The Doors, *Genius Lyrics*. "The Doors – Peace Frog Lyrics"
-[^15]: The Doors, *Genius Lyrics*. "The Doors – Peace Frog Lyrics"
-[^16]: Songfacts, "Peace Frog by the Doors"
-[^17]: The Who, *Genius Lyrics.* “The Who – Won’t Get Fooled Again Lyrics"
-[^18]: Ella Taylor, *NPR*. "The 1970s, Ugly and Adrift in ‘Inherent Vice.’”
-[^19]: Neil Young, *Genius Lyrics.* "Neil Young – Journey through the Past Lyrics"
-[^20]: Bryn Adams, *The Credits.* “Costume Designer Mark Bridges Makes Inherent Vice Look Nice"
-[^21]: Alan Yuhas, *The Guardian.* "What Inherent Vice Tells Us About Modern America"
 
 
 ### Bibliography
@@ -196,3 +191,26 @@ Disco was commercialized and US imperialism is shrouded in its mists and all alo
 17. Yuhas, Alan. “What Inherent Vice Tells Us About Modern America.” The Guardian, 2014. https://www.theguardian.com/film/2014/dec/12/what-inherent-vice-tells-us-about-modern-america.
 
 
+#### Notes
+
+[^1]: Far Out Magazine, "How Paul Thomas Anderson Got Jeff Lynne on 'Boogie Nights.'"
+[^2]: Genius Lyrics, “Re-Flex (UK) – The Politics of Dancing Lyrics"
+[^3]: Richard Dyer, *Gay Left*, "In Defense of Disco"
+[^4]: John Rockwell, *The New York Times*, "Why Are the New Stars of Disco Mostly Women?"
+[^5]: International Disco Day, "Dancefloor as Protest - Celebrating the Spirit of Disco and Its Legacy."
+[^6]: Rictor Norton, *Mother clap’s Molly House: The gay subculture in England 1700-1830*
+[^7]: Genius Lyrics, "Sonny & Cher – but You’re Mine Lyrics"
+[^8]: Gabriel Tynes, *Courthouse News Service*. "Share of Young Adults Living at Home Has Nearly Tripled since 1970s"
+[^9]: The Doors, *Genius Lyrics*. "The Doors – Peace Frog Lyrics"
+[^10]: The Doors, *Genius Lyrics*. "The Doors – Peace Frog Lyrics"
+[^11]: Jess Mayhew, *Reverb.* "Song Stories: Robby Krieger on The Origin of the Doors’ ‘Peace Frog’ & ‘Light My Fire.'"
+[^12]: Max Bell, *Louder Sound.* "The Doors: The 20 Best Songs"
+[^13]: Songfacts, "Peace Frog by the Doors"
+[^14]: The Doors, *Genius Lyrics*. "The Doors – Peace Frog Lyrics"
+[^15]: The Doors, *Genius Lyrics*. "The Doors – Peace Frog Lyrics"
+[^16]: Songfacts, "Peace Frog by the Doors"
+[^17]: The Who, *Genius Lyrics.* “The Who – Won’t Get Fooled Again Lyrics"
+[^18]: Ella Taylor, *NPR*. "The 1970s, Ugly and Adrift in ‘Inherent Vice.’”
+[^19]: Neil Young, *Genius Lyrics.* "Neil Young – Journey through the Past Lyrics"
+[^20]: Bryn Adams, *The Credits.* “Costume Designer Mark Bridges Makes Inherent Vice Look Nice"
+[^21]: Alan Yuhas, *The Guardian.* "What Inherent Vice Tells Us About Modern America"
