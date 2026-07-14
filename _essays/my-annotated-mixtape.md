@@ -14,6 +14,30 @@ tags:
     - music
 ---
 
+<ul class="list-group list-group-horizontal justify-content-center mb-2">
+    <li class="list-group-item bg-dark text-start py-0 my-2 border border-top-0 border-bottom-0 border-start-0 border-secondary">
+        <a href="#introduction">Introduction</a>
+    </li>
+    <li class="list-group-item bg-dark text-start py-0 my-2 border border-top-0 border-bottom-0 border-start-0 border-secondary">
+        <a href="#method-and-process">Method and Process</a>
+    </li>
+    <li class="list-group-item bg-dark text-start py-0 my-2 border border-top-0 border-bottom-0 border-start-0 border-secondary">
+        <a href="#the-music">The Music</a>
+    </li>
+    <li class="list-group-item bg-dark text-start py-0 my-2 border border-top-0 border-bottom-0 border-start-0 border-secondary">
+        <a href="#data-visualizations-across-the-films">Data Visualizations</a>
+    </li>
+    <li class="list-group-item bg-dark text-start py-0 my-2 border border-top-0 border-bottom-0 border-start-0 border-secondary">
+        <a href="#a-closer-look-at-the-films">A Closer Look at the Films</a>
+    </li>
+    <li class="list-group-item bg-dark text-start py-0 my-2 border border-top-0 border-bottom-0 border-start-0 border-secondary">
+        <a href="#conclusion">Conclusion</a>
+    </li>
+    <li class="list-group-item bg-dark text-start py-0 my-2 border border-top-0 border-bottom-0 border-start-0 border-secondary">
+        <a href="#bibliography">Bibliography</a>
+    </li>
+</ul>
+
 ### Introduction 
 
 Paul Thomas Anderson’s signature filmmaking style is characterized by aspects such as thematic reoccurrence, camera technique, his undeniably engaging sense of humor, and, most importantly for the present essay, his musical choices. There is a throughline of sonic intentionality and significance to the unfolding of his narratives, both sprawling and intimate. As part of his auteurist approach to filmmaking, he has a long history of consistent musical collaborators, most notably Jonny Greenwood of Radiohead fame. Prior to the genesis of this particular partnership, he also worked with Jon Brion and Michael Penn a few times on his three nineties projects and 2002 rom-com *Punch-Drunk Love*. The scores produced for his films are every bit as committed to masterful storytelling as the scripts, actors, and production design, and while an in-depth exploration of Greenwood, Brion, and Penn’s contributions to the world of PTA would surely deliver engaging analysis, that is not my focus here. Instead, I was drawn to the less consistently utilized but equally engaging soundtracks of licensed, pre-existing songs in a few of his films. This interest was sparked after first watching *Boogie Nights* and recognizing that the mesmerizing effect the story had on me was due in part to the near-consuming count of (incredible) songs. Then came *Licorice Pizza* and *Inherent Vice* in my PTA education, whose soundtracks solidified a pattern of intense engagement with music history in his filmography. Furthermore, these three films which most heavily utilize non-original songs are all set *around* the 70s: late 70s to the 80s, 1973, and 1970, respectively. Therefore, their contrast and comparison proves even more fruitful; not only are they similarly using music, but all revolving around interconnected music histories.
@@ -115,8 +139,8 @@ Hand in hand with the central romantic plotline is Gary and Alana’s relationsh
 
 The Doors’ “Peace Frog” accompanies the beginnings of Gary and Alana’s business as they deliver waterbeds. As a piece of the soundtrack, the song infuses the montage with infectious energy, reflecting this new potential for success. However, the violent lyrics are pointedly opposed to the excitement of the scene (“Blood in the streets, it's up to my knee … Blood will be born in the birth of a nation/Blood is the rose of mysterious union”).[^10] The choice to feature a song whose very prominent lyrics do not match the mood is an express choice to introduce a tension, a reminder of something. The exact meaning of the lyrics, however, is not entirely straightforward.
 
-<div class="mb-4">
-<div class="embed-responsive ratio ratio-2x1"></div><iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/5piJiL6aRhvrKBa9YuEfS9?utm_source=generator&theme=0" width="50%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+<div class="mb-4 justify-content-center" max-width="50%">
+<div class="embed-responsive ratio ratio-16x9"><iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/5piJiL6aRhvrKBa9YuEfS9?utm_source=generator&theme=0" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div></div>
 
 As claimed by Robby Krieger, the Doors’ guitarist, the lyrics to “Peace Frog” came from three poems by lead singer Jim Morrison: “Abortion Stories,” “Dawn’s Highway,” and “Newborn Awakening.”[^11][^12] “Abortion Stories” was supposedly based on an abortion one of Morrison’s girlfriends had, however I am not confident in the accuracy of such a statement.[^13] As with much of Morrison’s life and persona, the song’s exact meaning remains enigmatic. However, many of the lyrics, specifically the mention of Chicago, have garnered the song a very concrete meaning in the public’s imagination: a protest song based on the police violence outside the 1968 Democratic Convention. The lyric goes, “blood in the streets, the town of Chicago,” and, especially given the song’s release in 1971, it is hard inspiration not to assume.[^14] The use of the song ends up invoking this public perception regardless of intentioned meaning. Given the protest’s focus on the Vietnam war, the audience is being reminded of the violence inherent to America’s foreign affairs in this moment of Gary and Alana’s economic prosperity. The commentary here is bolstered by the film’s representation of the 1973 Oil Embargo, a result of the Arab-Israeli War in which the US was heavily involved due to their economic and military relationship with Israel.
 
