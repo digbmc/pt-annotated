@@ -36,7 +36,7 @@ Perhaps it is a coincidence that the graph ended up looking like a flower. But i
 
 <div class="row mobile-graph-backup">
 <div class="col-md text-center">
-<img src="{{ '/assets/img/graph-fallback.png' | relative_url }}" alt="Network Graph Image" class="mobile-graph-image" width="100%">
+<img src="{{ '/assets/img/network-fallback.png' | relative_url }}" alt="Network Graph Image" class="mobile-graph-image" width="100%">
 <em>Note: For the fully interactive network graph, please view this page on a desktop computer.</em>
 
 </div>
@@ -78,9 +78,20 @@ Alongside the main network graph, I created a second visualization that approach
 
 The color-coding of the nodes remains the same, based on the person’s job. But the color-coding of the edges is based on what film they worked together on. As thousands of overlapping relationships intersect, each production emerges through the density of color. This graph is less concerned with practical use than with revealing the immense scale and interconnectedness of filmmaking. Individual relationships are more difficult to distinguish, but they have a collective effect in creating an abstract portrait of creative labor.
 
-<div class="mb-4">
-<div class="embed-responsive ratio ratio-16x9">
-<iframe src="https://clarasmith.digital.brynmawr.edu/ptacollab/#" width="100%" title="Supplementary Network Graph"></iframe></div></div>
+<div class="mb-4 desktop-graph">
+<div class="embed-responsive ratio ratio-16x9"> 
+<iframe src="https://clarasmith.digital.brynmawr.edu/ptacollab/#" width="100%" title="Supplementary Network Graph"></iframe>
+</div>
+<a href="{{ '/cowork-network.html' | relative_url }}">Open in Full Screen <svg class="bi icon-sprite" aria-hidden="true"><use xlink:href="{{ 'assets/lib/icons/fullscreen.svg' | relative_url }}"/></svg></a>
+</div>
+
+<div class="row mobile-graph-backup">
+<div class="col-md text-center">
+<img src="{{ 'assets/img/cowork-network-fallback.png' | relative_url }}" alt="Network Graph Image" class="mobile-graph-image" width="100%">
+<em>Note: For the fully interactive network graph, please view this page on a desktop computer.</em>
+
+</div>
+</div>
 
 A network graph of PTA collaborators in which people are connected to who they have worked with.[^4]
 
