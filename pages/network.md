@@ -1,5 +1,5 @@
 ---
-title: Network Graph
+title: Collaborative Filmography Network
 layout: network
 permalink: /network.html
 ---
