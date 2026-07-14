@@ -72,8 +72,6 @@ Position within the network is also meaningful. Because the graph uses a force-d
 
 The layout also highlights changes across Anderson’s career. Due to the shared collaborators, his first four feature films (*Hard Eight*, *Boogie Nights*, *Magnolia*, *Punch-Drunk Love*) cluster together on one side of the graph, while his later films are on the other. This division reflects a gradual shift in his creative partnerships. Some collaborators define a certain period of his work such as cinematographer Robert Elswit, who worked on films up until *Inherent Vice*, or Graeme Stewart, who joined *The Master* as a music editor and has worked on every film since. Other collaborators remain constant throughout his career and bridge periods, such as Cassandra Kulukundis who has worked in casting for every film since *Boogie Nights* (and who won the first ever Academy Award for Best Casting for her work on *One Battle After Another*).[^3] With such a varied filmography, Anderson combines a core of long-term collaborators with specialists who join for particular phases of his career or individual projects. This balance allows him to maintain a recognizable creative identity while experimenting with different styles throughout his career.
 
-Position within the network is also meaningful. Because the graph uses a force-directed layout—in which nodes connected to each other are drawn together, while simultaneously repulsed so they don’t overlap until the graph reaches an equilibrium—collaborators who worked on many films tend to be pulled toward the center. Those who only worked on a single film are towards the outside.
-
 ### Coworking Network
 
 Alongside the main network graph, I created a second visualization that approaches the same data from a more artistic perspective. Rather than connecting collaborators to the films they worked on, this graph connects every person directly to every other cast and crew member with whom they worked on a production. 
@@ -85,8 +83,6 @@ The color-coding of the nodes remains the same, based on the person’s job. But
 <iframe src="https://clarasmith.digital.brynmawr.edu/ptacollab/#" width="100%" title="Supplementary Network Graph"></iframe></div></div>
 
 A network graph of PTA collaborators in which people are connected to who they have worked with.[^4]
-
-*Note: This feature uses the TMDB API but is not endorsed or certified by TMDB.*
 
 ### Auteurs, Artists, and Anything Between
 
@@ -114,7 +110,7 @@ Once I was satisfied with my graph, I exported it as a graphml file and reupload
 
 ### Limitations
 
-This project faced a great number of hurdles and, as with any visualizations, there are drawbacks. TMDB was an enormous resource in this project; however, using a preexisting data set that is community-sourced at such a large quantity means that not every individual is able to be checked for accuracy and there may be discrepancies in name/involvement/title/etc. In addition, contributors have been grouped by what department they are “known for.” However, this category is based on all of their works and not their specific involvement in PTA films. This has led to a few cases in which someone is known for a department that does not align with their role. For example, Robert Downey Sr., who is listed for directing, had a cameo in two films and had no involvement in the direction. If one were to just look at the graph and the color coding this may be misleading, although the details are clarified in the information panel. 
+This project faced a great number of hurdles and, as with any visualizations, there are drawbacks. TMDB was an enormous resource in this project; however, using a preexisting data set that is community-sourced at such a large quantity means that not every individual is able to be checked for accuracy and there may be discrepancies in name, involvement, or title. In addition, contributors have been grouped by what department they are “known for.” However, this category is based on all of their works and not their specific involvement in PTA films. This has led to a few cases in which someone is known for a department that does not align with their role. For example, Robert Downey Sr., who is listed for directing, had a cameo in two films and had no involvement in the direction. If one were to just look at the graph and the color coding this may be misleading, although the details are clarified in the information panel. 
 
 The initial plan was to have an edge for every role a person has fulfilled; however, Gephi cannot support multiple edges between the same two nodes. So, even if someone had multiple jobs on the same film, they will only have one line between them and that film. Additionally, a person can only have one “known for” department, so they cannot be filtered by all of their roles (for instance, Anderson does not appear when filtered for writing, despite having written all his films). 
 
