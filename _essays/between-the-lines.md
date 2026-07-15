@@ -14,11 +14,27 @@ window.onload = function() {
     window.scrollTo(0, 0);
 };
 </script>
-### Table of Contents
-{: .no_toc}
 
-- list 
-{:toc} 
+<ul class="list-group list-group-horizontal justify-content-center mb-2">
+    <li class="list-group-item bg-dark text-start py-0 my-2 border border-top-0 border-bottom-0 border-start-0 border-secondary">
+        <a href="#collaborative-filmography-network">Network I</a>
+    </li>
+    <li class="list-group-item bg-dark text-start py-0 my-2 border border-top-0 border-bottom-0 border-start-0 border-secondary">
+        <a href="#analysis">Analysis</a>
+    </li>
+     <li class="list-group-item bg-dark text-start py-0 my-2 border border-top-0 border-bottom-0 border-start-0 border-secondary">
+        <a href="#coworking-network">Network II</a>
+    </li>
+    <li class="list-group-item bg-dark text-start py-0 my-2 border border-top-0 border-bottom-0 border-start-0 border-secondary">
+        <a href="#auteurs-artists-and-anything-between">Theory</a>
+    </li>
+    <li class="list-group-item bg-dark text-start py-0 my-2 border border-top-0 border-bottom-0 border-start-0 border-secondary">
+        <a href="#methods">Methods</a>
+    </li>
+    <li class="list-group-item bg-dark text-start py-0 my-2">
+        <a href="#conclusion">Conclusion</a>
+    </li>
+</ul>
 
 "*Want to know the common element for the entire group?... I'll tell you the answer.*" 
 
@@ -31,23 +47,19 @@ It takes hundreds of people working together to make a film; and I chose a netwo
 Perhaps it is a coincidence that the graph ended up looking like a flower. But it is difficult not to think of *Magnolia* (1999), Anderson’s sprawling film about the invisible connections between strangers. Like the film itself, the graph highlights the meaning that emerges when we explore the relationships between individuals.
 
 ### Collaborative Filmography Network
-
 <div class="mb-4 desktop-graph">
 <div class="embed-responsive ratio ratio-16x9"> 
-<iframe src="/pt-annotated/network.html#network-container" width="100%" allow="fullscreen" loading="lazy"></iframe>
+<iframe src="/pt-annotated/network.html#network-container" width="100%" loading="lazy"></iframe>
 </div>
 <a href="{{ '/network.html' | relative_url }}">Open in Full Screen <svg class="bi icon-sprite" aria-hidden="true"><use xlink:href="{{ 'assets/lib/icons/fullscreen.svg' | relative_url }}"/></svg></a>
-</div>
-
+</div> 
 <div class="row mobile-graph-backup">
 <div class="col-md text-center">
 <img src="{{ '/assets/img/network-fallback.png' | relative_url }}" alt="Network Graph Image" class="mobile-graph-image" width="100%">
 <em>Note: For the fully interactive network graph, please view this page on a desktop computer.</em>
-
 </div>
 </div>
-
-A network graph of PTA collaborators based on what films they have worked on.[^2]
+<figcaption class="figure-caption text-center"> <span markdown="1">A network graph of PTA collaborators based on what films they have worked on.[^2]</span></figcaption>
 
 ### Using the Graph
 
@@ -92,7 +104,7 @@ The color-coding of the nodes remains the same, based on the person’s job. But
 
 <div class="row mobile-graph-backup">
 <div class="col-md text-center">
-<img src="{{ 'assets/img/cowork-network-fallback.png' | relative_url }}" alt="Network Graph Image" class="mobile-graph-image" width="100%">
+<img src="{{ '/assets/img/cowork-network-fallback.png' | relative_url }}" alt="Network Graph Image" class="mobile-graph-image" width="100%">
 <em>Note: For the fully interactive network graph, please view this page on a desktop computer.</em>
 </div>
 </div>
@@ -138,8 +150,7 @@ The color-coding of the nodes remains the same, based on the person’s job. But
         <p class="legend-label" style="margin:0px; padding-inline:0.2em 0px; font-size: 1rem;">There Will Be Blood</p>
     </div>
 </div>
-
-A network graph of PTA collaborators in which people are connected to who they have worked with.[^4]
+<figcaption class="figure-caption text-center"> <span markdown="1">A network graph of PTA collaborators based on what films they have worked on.[^4]</span></figcaption>
 
 ### Auteurs, Artists, and Anything Between
 
@@ -165,7 +176,7 @@ Once these spreadsheets were made, I uploaded them to [Gephi](https://gephi.org/
 
 Once I was satisfied with my graph, I exported it as a graphml file and reuploaded it to Gephi Lite. Gephi Lite is the online browser-based version of Gephi, which allowed for even more customization, such as color organizing through specific hex codes. Gephi Lite also can connect to GitHub as a way to publish public graph files. Since Gephi Lite cannot export interactive graphs, I re-imported my graph back into Gephi. Utilizing the [SigmaExport plugin](https://github.com/oxfordinternetinstitute/gephi-plugins/tree/sigmaexporter-plugin/modules/sigmaExporter), I exported as a [Sigma.js](https://www.sigmajs.org/) template. Sigma.js is a JavaScript library for creating interactive network graphs that can be viewed in a browser. The plugin and template were created by the [Oxford Internet Institute’s InteractiveVis](https://github.com/oxfordinternetinstitute/InteractiveVis/) project. The export files, containing the data and the template for the site, were uploaded into GitHub.
 
-### Limitations
+#### Limitations
 
 This project faced a great number of hurdles and, as with any visualizations, there are drawbacks. TMDB was an enormous resource in this project; however, using a preexisting data set that is community-sourced at such a large quantity means that not every individual is able to be checked for accuracy and there may be discrepancies in name, involvement, or title. In addition, contributors have been grouped by what department they are “known for.” However, this category is based on all of their works and not their specific involvement in PTA films. This has led to a few cases in which someone is known for a department that does not align with their role. For example, Robert Downey Sr., who is listed for directing, had a cameo in two films and had no involvement in the direction. If one were to just look at the graph and the color coding this may be misleading, although the details are clarified in the information panel. 
 
