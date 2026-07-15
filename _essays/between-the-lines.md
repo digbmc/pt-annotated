@@ -150,7 +150,7 @@ The color-coding of the nodes remains the same, based on the person’s job. But
         <p class="legend-label" style="margin:0px; padding-inline:0.2em 0px; font-size: 1rem;">There Will Be Blood</p>
     </div>
 </div>
-<figcaption class="figure-caption text-center"> <span markdown="1">A network graph of PTA collaborators based on what films they have worked on.[^4]</span></figcaption>
+<figcaption class="figure-caption text-center"> <span markdown="1">A network graph of PTA collaborators in which people are connected to who they have worked with.[^4]</span></figcaption>
 
 ### Auteurs, Artists, and Anything Between
 
