@@ -1,0 +1,31 @@
+---
+layout: blank-page
+---
+
+<head>
+  <script src="https://vega.github.io/vega/vega.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@6"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@6.4.1"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@7"></script>
+
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+</head>
+<body>
+  <a class="iframe-back-button" href="{{'/essays/between-the-lines.html' | relative_url }}"><svg class="bi icon-sprite" aria-hidden="true"><use xlink:href="{{ 'assets/lib/icons/arrow-left.svg' | relative_url }}"/></svg>Back to Essay </a>
+  
+ <div class="vega-container" style="width: 100%; height: 700px; background: rgb(201, 201, 201); position: relative">
+  {{ content }}
+
+</div> 
+
+</body>
