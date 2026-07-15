@@ -26,7 +26,7 @@ window.onload = function() {
 
 Who makes a movie? The simplest answer is: it’s complicated. Films are often cited to their director, who serves as the public face of the project and plays a central role in shaping its creative vision. It is no surprise, then, that the *Paul Thomas Annotated* website prioritizes the director as its focus. He is what binds together this corpus of films, bringing his unique style to each one across over twenty years of filmmaking. It is perhaps best to define Paul Thomas Anderson as the *creator* of these films, but he is not the sole *maker*. 
 
-It takes hundreds of people working together to make a film; and I chose a network graph for this visualization due to the collaborative nature of filmmaking. Weingart (2011) describes networks most simply as “stuff and relationships,” which is quite broad and could describe just about everything in the world. But, he continues, that does not mean that a network is a worthless endeavor, because “representing information as a network implicitly suggests not only that connections matter, but that they are *required* to understand whatever’s going on.”[^1] To truly deconstruct films, as we wish to do with Anderson’s filmography, we must pick apart the work that went into them and give credit to the hundreds of people who contributed to them. 
+It takes hundreds of people working together to make a film; and I chose a network graph for this visualization due to the collaborative nature of filmmaking. Weingart (2011) describes networks most simply as “stuff and relationships,” which is quite broad and could describe just about everything in the world. But, he continues, that does not mean that a network is a worthless endeavor, because “representing information as a network implicitly suggests not only that connections matter, but that they are *required* to understand whatever’s going on.”[^1] To truly deconstruct films, as we wish to do with Anderson’s filmography, we must examine the work that went into them and give credit to the hundreds of people who contributed to them. 
 
 Perhaps it is a coincidence that the graph ended up looking like a flower. But it is difficult not to think of *Magnolia* (1999), Anderson’s sprawling film about the invisible connections between strangers. Like the film itself, the graph highlights the meaning that emerges when we explore the relationships between individuals.
 
@@ -51,13 +51,13 @@ A network graph of PTA collaborators based on what films they have worked on.[^2
 
 ### Using the Graph
 
-A network graph is divided into nodes (points) and edges (lines between points). In the case of this graph, people and films are nodes, and edges connect individuals to the films they have worked on. Nodes are color-coded by which department the crew member is most known for (for example, acting, directing, and so on). You can click on any node and it will highlight the connections and pull up information about the individual, such as which films they have worked on and their specific department and role on set. Actors will additionally have their character name. If someone held multiple jobs on set, all positions will be listed. 
+A network graph is divided into nodes (points) and edges (lines between points). In this graph, people and films are nodes, and edges connect individuals to the films on which they worked. Nodes are color-coded by which department the crew member is most known for (for example, acting, directing, and so on). You can click on any node and it will highlight the connections and pull up information about the individual, such as which films they have worked on and their specific department and role on set. Actors will additionally have their character name. All the jobs someone held on set are listed. 
 
-If you are searching for a particular collaborator, the search bar can be used to find them. The graph can be filtered through the group selector (Known For Department) in order to only see all the nodes of a particular category. 
+To search for a particular collaborator, one can use the search bar to find them. The graph can be filtered through the group selector (Known For Department) to only see all the nodes of a particular category. 
 
 #### Departments (Based on [TMDB](https://www.themoviedb.org/talk/598c3a70925141080100e601))
 - Art: in charge of the visual design of the film; positions include set designers, props, painters, etc.
-- Crew: while a term for the overall workers on the film, here being used to categorize any role that does not fit into a specific department; positions include choreographers, drivers, catering, etc.
+- Crew: while a term for the overall workers on the film, here it serves to categorize any role that does not fit into a specific department. Positions include choreographers, drivers, catering, etc.
 - Production: administrative and logistical work; positions include casting, accounting, location coordinators, etc.
 - Acting: any performers, from leads, to extras, to voice actors
 - Costume & Make-Up: in charge of the visual design of characters; positions include costume designers, hairstylists, make-up artists, etc.
