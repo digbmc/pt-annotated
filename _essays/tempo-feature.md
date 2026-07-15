@@ -29,10 +29,6 @@ tags:
     </li>
 </ul>  
 
-"in the context of film" & "pacing of film" in the intro, a bit repetitive, reads sort of clunky 
-& this continues to next sentence, just a lot of "film" in a couple of sentences
-^ & just in general throughout intro a bit 
-
 ### Intro
 
 The term tempo is often associated with music to measure the pace of a song.[^1] However, within the context of film, tempo is used to describe pacing and how viewers experience narrative speed (for example, did the film feel long or short). All films have varying degrees of temporality, with certain moments feeling slower or faster to stand out from others. For this reason, tempo is one of the key tools filmmakers use to construct narrative. Examples of filmmakers manipulating tempo include quick cutting during battle scenes to make them feel fast and intense, a lingering shot on someone right before they get murdered to build up suspense, or a song playing over a succession of quick shots (a montage) of working out to represent a training montage.
@@ -85,7 +81,7 @@ An example of when PTA manipulates tempo to display shifting dynamics between Ba
 
 The rest of the film feels increasingly fast. After Barry and Lena’s date, there is a rapid succession of quick shots (and lots of screenshots were captured during this time). The viewer can feel Barry get punched by his sudden and rapidly growing love for Lena through this change in tempo.  
 
-Something else to note is that at some points Figures I and II oppose each other. The quicker a film’s relative shot length, the faster the tempo should feel. When sequences involve many shot-reverse shots (typically during conversations) and no new information is being provided to the viewer (characters, angles, etc.), fewer screenshots are taken. This makes sense based on the [screenshotting guidelines](#figure-i-paul-thomas-annotated-screenshots) given.   
+Something else to note is that at some points Figures I and II oppose each other. The quicker a film’s relative shot length, the faster the tempo should feel. When sequences involve many shot-reverse shots (typically during conversations) and no new information is being provided to the viewer (characters, angles, etc.), fewer screenshots are taken. This makes sense based on the [screenshotting guidelines](#fig1) given.   
 
 An example of fewer screenshots being taken during a shot-reverse shot is at the timestamp 1:28:49 (5,329 second mark) in *Magnolia*. During [this scene](https://digbmc.github.io/pt-annotated/items/magn-12809.html), the reporter Gwenovier confronts Frank Mackey about his family history. In Figure II, around shot # 366, there is no indication that [the scene](https://digbmc.github.io/pt-annotated/items/magn-12849.html) is slowing down; rather, the shots following #366 are all much shorter than *Magnolia*’s ASL. However, the scene itself feels painfully slow as Mackey’s past comes to light. The rhythm of the film stalls as the viewer awaits Mackey’s secret to be revealed, like waiting for a response with bated breath.  
 
@@ -95,7 +91,7 @@ These visualizations can also be used to look at the pulses of PTA's films. For 
 
 ### Methods
 
-#### Figure I: Paul Thomas Annotated Screenshots
+#### Figure I: Paul Thomas Annotated Screenshots {#fig1}
 
 Figure I is a visualization of all screenshots taken by the PT-Annotated team to break down the inner workings of all ten of PTA’s films. For reference, each film has somewhere between 359 and 1144 captured screenshots. These screenshots were taken manually over the span of two years (2024-2026) by PT-Annotated team members under the following guidelines: 
 - Capture a screenshot any time the focus of the frame changes (shows something new). 
@@ -155,4 +151,3 @@ Adams, et al. conducted a study to demonstrate how tempo is used by filmmakers. 
 [^7]:The DVDs for this process were acquired through Bryn Mawr's library system and are all owned by Bryn Mawr College.
 [^8]:Broberg and Panagiotidis, “Impact of shot length and motion on cinematic tempo,” KTH Royal Institute of Technology, 2022. 
 [^9]:Adams, Brett, Chitra Dorai, and Svetha Venkatesh, "Role of shot length in characterizing tempo and dramatic story sections in motion pictures," 2000. 
-
