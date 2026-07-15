@@ -28,7 +28,7 @@ tags:
         <a href="#data-visualizations-across-the-films">Data Visualizations</a>
     </li>
     <li class="list-group-item bg-dark text-start py-0 my-2 border border-top-0 border-bottom-0 border-start-0 border-secondary">
-        <a href="#a-closer-look-at-the-films">A Closer Look at the Films</a>
+        <a href="#a-closer-look-at-the-films">The Films</a>
     </li>
     <li class="list-group-item bg-dark text-start py-0 my-2 border border-top-0 border-bottom-0 border-start-0 border-secondary">
         <a href="#conclusion">Conclusion</a>
