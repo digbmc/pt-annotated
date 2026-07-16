@@ -1016,3 +1016,14 @@ a[target="_blank"]::after {
    .modal-content {
     background-color: #000;
    }
+
+   .btn-outline-secondary {
+    color: #f6754f;
+    border-color: #f6754f;
+   }
+
+   .btn-outline-secondary:hover {
+    color: #000;
+    background-color: #f6754f;
+    border-color: #f6754f;
+   }
