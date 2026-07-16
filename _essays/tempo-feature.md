@@ -57,6 +57,7 @@ The visualizations were also made to encourage viewers to compare their own expe
         </iframe> 
     </div> 
 </div> 
+<a href="{{ '/tempo-figure-1.html' | relative_url }}">Open in Full Screen <svg class="bi icon-sprite" aria-hidden="true"><use xlink:href="{{ 'assets/lib/icons/fullscreen.svg' | relative_url }}"/></svg></a>
 - __How to use Figure I:__ If you hover your mouse over a tick, the thumbnail for the tick's screenshot appears along with its screenshot number. The x-axis is the timestamp at which the screenshot was taken during the film (all in sequential order), while the y-axis is each of PTA’s films. The bottom chart works as a slider. You can click and slide your mouse to examine specific moments in the films at a closer look. Using the legend, you can also select a specific film you would like to examine by clicking on the film's name. To return to the original visualization, double-click anywhere on the visualization.
 - __Note:__ The last point of every film is the title screen. This isn't a gap in the film.
 
@@ -68,9 +69,8 @@ The visualizations were also made to encourage viewers to compare their own expe
                 style="width: 100%; height: 100%; border: none; display: block; margin: 0;"> 
         </iframe>
     </div> 
-    <a href="{{ '/tempo-figure-1.html' | relative_url }}">Open in Full Screen <svg class="bi icon-sprite" aria-hidden="true"><use xlink:href="{{ 'assets/lib/icons/fullscreen.svg' | relative_url }}"/></svg></a>
 </div>
-
+<a href="{{ '/tempo-figure-2.html' | relative_url }}">Open in Full Screen <svg class="bi icon-sprite" aria-hidden="true"><use xlink:href="{{ 'assets/lib/icons/fullscreen.svg' | relative_url }}"/></svg></a>
 - __How to use Figure II:__ How to use the visualization: Using the legend, you can examine one film at a time by clicking the film's name. You can also move around the graph and zoom in or out (by using a scrolling motion for zooming in and out). If you hover your mouse over a point, you can see the point’s metadata. The x-axis shows the shot number in the order of the film (from the first to the last), while the y-axis shows the length of each shot in seconds. To refresh the graph to its original visualization, double click anywhere on the visualization (if you click on a film, you may need to double-click multiple times before getting back to the original visualization). 
 - __Note:__ The last point of every film is the end credits. 
 
