@@ -193,7 +193,7 @@ To understand who makes a movie, sometimes you have to look between the lines.
 [^2]: This feature uses the TMDB API but is not endorsed or certified by TMDB
 [^3]: Tangcay, “‘One Battle After Another’ Casting Director Cassandra Kulukundis Wins Inaugural Oscar for Best Casting.”
 [^4]: This feature uses the TMDB API but is not endorsed or certified by TMDB
-[^5]: Sarris, “Notes on the Auteur Theory in 1962.”
+[^5]: Sarris, “Notes on the Auteur Theory in 1962,” 6.
 [^6]: Sadoul, Dictionary of Films, vi.
 [^7]: Heidmann, “Paul Thomas Anderson: ‘We Continue to Move Forward.’”
 [^8]: Pruner, “Above-the-Line vs. Below-the-Line Crew.”
