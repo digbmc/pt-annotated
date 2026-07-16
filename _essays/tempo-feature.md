@@ -68,6 +68,7 @@ The visualizations were also made to encourage viewers to compare their own expe
                 style="width: 100%; height: 100%; border: none; display: block; margin: 0;"> 
         </iframe>
     </div> 
+    <a href="{{ '/tempo-figure-1.html' | relative_url }}">Open in Full Screen <svg class="bi icon-sprite" aria-hidden="true"><use xlink:href="{{ 'assets/lib/icons/fullscreen.svg' | relative_url }}"/></svg></a>
 </div>
 
 - __How to use Figure II:__ How to use the visualization: Using the legend, you can examine one film at a time by clicking the film's name. You can also move around the graph and zoom in or out (by using a scrolling motion for zooming in and out). If you hover your mouse over a point, you can see the point’s metadata. The x-axis shows the shot number in the order of the film (from the first to the last), while the y-axis shows the length of each shot in seconds. To refresh the graph to its original visualization, double click anywhere on the visualization (if you click on a film, you may need to double-click multiple times before getting back to the original visualization). 
