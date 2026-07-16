@@ -14,7 +14,7 @@ tags:
     - music
 ---
 
-<ul class="list-group list-group-horizontal justify-content-center mb-2">
+<ul class="list-group justify-content-center mb-2">
     <li class="list-group-item bg-dark text-start py-0 my-2 border border-top-0 border-bottom-0 border-start-0 border-secondary">
         <a href="#introduction">Introduction</a>
     </li>

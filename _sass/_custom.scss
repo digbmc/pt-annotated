@@ -234,7 +234,16 @@ a:hover svg {
 }
 
 @media (min-width: 768px) {
-    .item-list {display: vertical
+    .list-group {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media (max-width: 768px) {
+    .list-group {
+        display: flex;
+        flex-direction: column;
     }
 }
 
