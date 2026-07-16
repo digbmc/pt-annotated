@@ -96,7 +96,7 @@ Boogie Nights might be the most salient example of music's significance in Ander
 
 ##### *Disco, or, "The Politics of, Ohhh, Feeling Good"[^2]*
 
-{% include feature/image.html objectid="boog-10007;boog-10312" caption=false width="100" %}
+{% include feature/image.html objectid="boog-10007;boog-10312" caption="Dirk dancing at Hot Traxx;Dirk winning an award at the Adult Film Awards" width="100" %}
 
 Both visually and aurally, the opening of Boogie Nights establishes disco as fundamental to the film’s sound, aesthetic, and sub-cultural sentiments. The iconic tracking shot that introduces much of the ensemble cast in the Hot Traxx nightclub spans almost three whole minutes of disco-entrenched glitz, glamour, and gallivanting. By means of the three consecutive disco tracks overheard in the nightclub, the film does not simply first show the characters but rather, this musical choice introduces them within this specific cultural context; their narrative grounding and social involvement in this space, and therefore association with the sounds of disco, frame their lives. Hot Traxx as a social and business hub for the characters is more than simply setting the scene of the era. Instead, it speaks to an inherent thematic correlation between the world of disco and the world of the adult film industry. While certainly separate spheres of life with individual origins and governing ideologies, there exists ties between disco and the porn industry given their shared explorations of the body, sexuality, and counter (or not)-culture—despite, perhaps, divergent successes in these explorations, and their societal consequences.
 
@@ -112,7 +112,7 @@ Even beyond this tangible experience of sharing the dance floor, there is an abs
 
 Now, Boogie Nights is not exactly engaging so directly with queer culture. First, the film takes place once disco has risen drastically in popularity.[^7] While the characters are somewhat marginalized—or, more so, looked down upon—for their involvement in the porn industry, I would hardly classify that as the same position queerness places one in. However, as mentioned above, there are thousands of years of history interlinking sex work and queerness. This bridging of seemingly separate entities is predicated on both behaviors’ perceived sexual “deviance,” simply meaning anything non-normative. Furthermore, this relationship is explored explicitly in the film via Scotty’s infatuation with Dirk as well as Dirk’s assault. The violent gay-bashing Dirk experiences in the latter half of the film, which follows a set up where a man asks to watch him masturbate in a car, expressly depicts this connection between sex work and queerness and their shared responses of disgust and violence.
 
-{% include feature/image.html objectid="boog-15602;boog-22010" caption=false width="100" %}
+{% include feature/image.html objectid="boog-15602;boog-22010" caption="Dirk in a car before being assaulted;Dirk crying in Amber Wave's lap"  width="100" %}
 
 It is both because of this parallel and despite its varied truth that the theme of the alternative family rings extremely true. Even when queerness is not expressly invoked, the characters define themselves with the vocabulary of a family more than a “friend group” or circle of colleagues. This pattern of identification is especially true for Amber Waves and her relationship with both Dirk and Rollergirl. A recognition of this pattern doesn’t mean a validation of this dynamic though, as the “motherly” role Amber plays in their lives is perverted by their sex work, drug use, and general toxicity. But despite this all, it would be discrediting these characters and the work of the film to not acknowledge the significance their built community—a community that truly is more than just a work environment—plays in their lives.
 
@@ -127,7 +127,7 @@ Ultimately, it isn't even a disco track which ends up encapsulating the theme of
 
 ##### *“You're Not Real Pretty, but You're Mine”[^8]*
 
-{% include feature/image.html objectid="lico-11454" caption=false width="100" %}
+{% include feature/image.html objectid="lico-11454" caption="Gary and Alana in an early romantic moment" width="100" %}
 
 *Licorice Pizza* is, of course, a romance film. A rom-com, a cringe-rom, a controversially-aged rom, but a rom nonetheless. Much of the soundtrack follows Gary and Alana’s relationship through its ups and downs and ultimate turnaround. The film features a pop-y love song by Sonny and Cher, as well as the equally romantic “Let Me Roll It” from Wings. One of the most prominently romantic aspects of the soundtrack, though, is the recurrence of jazz tracks. At the start of the film, the first four songs are all jazz: Nina Simone’s “July Tree,” followed by three diegetic tracks heard in various restaurant settings. While the rock ‘n’ roll might define the era of the film, the introductory haze of jazzy melodies initially sets its romantic tone.
 
@@ -158,7 +158,7 @@ While maybe not as immediately obvious as with *Boogie Nights*, *Inherent Vice* 
 
 There are countless ways *Inherent Vice* simultaneously mourns and pokes fun at the hippie subculture and its related ideals, using the year 1970 to claim (or forcefully initiate) the official end of such wide-eyed, flower-crowned, ever-stoned nonsense. Doc's opponents constantly throw around the word "hippie"—namely, the detective "Bigfoot" Bjornsen, whose scathing “Congratulations, hippie scum” in front of a line of police cars in the desert first made it abundantly clear to me what this film was really getting at.  Beyond the vocalized taunts and jokes, though, is a cast of characters all caught in a push-and-pull relationship with hippiedom; each person is either seeking out the vestiges of the hippie life or being reeled away by 70s possession (or both). While Doc spends the film with a strong allegiance to his hippie lifestyle, he is shown now dating Deputy D.A Penny Kimball and her buttoned-up suit jacket, a far cry from the dreamy wisp that is Shasta Fay. These two contrasting romantic partners represent the changing of the decades and, from a bit of a despairing perspective, the inevitability of it all. For if even Doc Sportello and his long, messy hair can find himself having an affair with the establishment, what hope is there for the rest of us? However, their relationship is not necessarily only a concession on Doc’s part; Penny's desire for the freedom (and drugs) of the hippies complexifies this clash of worlds.
 
-{% include feature/image.html objectid="inhe-15124;inhe-03923" caption=false width="100" %}
+{% include feature/image.html objectid="inhe-15124;inhe-03923" caption="Doc and Shasta;Doc and Penny" width="100" %}
 
 Apart from the music the film features, this moment and its ideological upheaval is reflected in music trends and the shifting artistries of many musicians of the time. This is only natural, as music was a large part of, and communal space for, the hippie subculture; political folk and psychedelia were crucial in defining, leading, and gathering the hippie aesthetic and lifestyle. So, with the end of the 60s and its containment of everything from the Summer of Love to Woodstock to the Manson family, a reaction to hippie music was to be expected. This is not to say that rock didn’t continue building on itself and that the hippie staples of the 60s didn’t continue to be driving inspirations, but that disillusionment with the characteristic optimism and sentimentality of the hippies found its way into rock music. The Who’s famous “Won’t Get Fooled Again,” released in 1971, greatly captures this sentiment: “We were liberated from the fold, that's all/And the world looks just the same/And history ain't changed./'Cause the banners, they all flown in the last war.”[^20]
 
@@ -175,7 +175,7 @@ Neil Young's "Journey Through the Past" is the individual song most clearly in c
 
 Young was also explicit inspiration for Doc’s costuming throughout the film: “Bridges so [sic] in him something of a ‘Neil Young iconoclast—scruffy, laidback, a bit frayed and almost accidentally cool,’ as the production notes have it. Bridges said Young’s influence ran through all of Phoenix’s costumes. ‘Many times when I needed an idea for Doc I would look at Neil’s choices during that era and often find a unique period look that was great then and still looks great today,’ he said.”[^23] This connection between Young and Doc further solidifies the significant role this song plays in the film’s narrative development.
 
-{% include feature/image.html objectid="inhe-11725" caption=false width="100" %}
+{% include feature/image.html objectid="inhe-11725" caption="Doc looking <i>exactly</i> like Neil Young" width="100" %}
 
 Certain photos of Neil Young are so similar to Doc that it feels like you are just looking at a shot from the film. For photo references, see <a href="https://henrydiltz.com/search?type=product%2Carticle%2Cpage&options%5Bprefix%5D=last&q=neil+young">Henry Diltz' photographs of Young</a>, or <a href="https://www.discogs.com/release/11069645-Neil-Young-Yesteryear-Of-The-Horse/image/SW1hZ2U6MzEwMjQzNDI=">this image</a> from Discog's entry on *Yesteryear Of The Horse*.
 
@@ -185,7 +185,7 @@ In addition to the lyrical importance of “Journey Through the Past,” the son
 
 Throughout the film, there are a couple of other times in which the soundtrack contibrutes to a dissolution of reality. *Inherent Vice*, out of this triad, is the film with the most transdiegetic tracks. Moments like this blur the line between the world of the film and the world of the audience. Therefore, the “reality” of the film is being tampered with—disrupted, reflecting the paranoia and mass-conspiracy of the plot. Similarly, it further entangles the musical choices in the dream-like, drug-induced atmosphere. There is an erosion of reality happening, much like the erosion of the hippies’ subcultural ideals; while playful and humorous, the unreality ultimately ends up just feeling macabre. We always knew everything would fall apart, though: “How the hope of the 1960s blinkered out is right there in the title: inherent vice is a legal term that means everything contains the seeds of its own downfall.”[^24]
 
-{% include feature/image.html objectid="inhe-22044" caption=false width="100" %}
+{% include feature/image.html objectid="inhe-22044" caption="The iconic last shot ..." width="100" %}
 
 ### Conclusion
 
