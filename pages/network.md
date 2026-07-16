@@ -1,11 +1,10 @@
 ---
-title: Network Graph
+title: Collaborative Filmography Network
 layout: network
 permalink: /network.html
 ---
 
   <div class="sigma-parent">
-
     <div class="sigma-expand" id="sigma-canvas"></div>
   </div>
 <div id="mainpanel">

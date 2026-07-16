@@ -4,7 +4,6 @@ layout: vega
 permalink: /tempo-figure-1.html
 ---
 
-
   <div id="vis"></div>
   <script>
     (function(vegaEmbed) {
@@ -23,6 +22,4 @@ permalink: /tempo-figure-1.html
         .catch(error => showError(el, error));
     })(vegaEmbed);
     </script>
-
-
 

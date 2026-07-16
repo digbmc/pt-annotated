@@ -8,12 +8,33 @@ tags:
     - network
     - data essay
 ---
+<!--*iframe is making page jump down, this forces it to load at the top-->
+<script>
+window.onload = function() {
+    window.scrollTo(0, 0);
+};
+</script>
 
-### Table of Contents
-{: .no_toc}
-
-- list 
-{:toc} 
+<ul class="list-group list-group-horizontal justify-content-center mb-2">
+    <li class="list-group-item bg-dark text-start py-0 my-2 border border-top-0 border-bottom-0 border-start-0 border-secondary">
+        <a href="#collaborative-filmography-network">Network I</a>
+    </li>
+    <li class="list-group-item bg-dark text-start py-0 my-2 border border-top-0 border-bottom-0 border-start-0 border-secondary">
+        <a href="#analysis">Analysis</a>
+    </li>
+     <li class="list-group-item bg-dark text-start py-0 my-2 border border-top-0 border-bottom-0 border-start-0 border-secondary">
+        <a href="#coworking-network">Network II</a>
+    </li>
+    <li class="list-group-item bg-dark text-start py-0 my-2 border border-top-0 border-bottom-0 border-start-0 border-secondary">
+        <a href="#auteurs-artists-and-anything-between">Theory</a>
+    </li>
+    <li class="list-group-item bg-dark text-start py-0 my-2 border border-top-0 border-bottom-0 border-start-0 border-secondary">
+        <a href="#methods">Methods</a>
+    </li>
+    <li class="list-group-item bg-dark text-start py-0 my-2">
+        <a href="#conclusion">Conclusion</a>
+    </li>
+</ul>
 
 "*Want to know the common element for the entire group?... I'll tell you the answer.*" 
 
@@ -21,38 +42,34 @@ tags:
 
 Who makes a movie? The simplest answer is: it’s complicated. Films are often cited to their director, who serves as the public face of the project and plays a central role in shaping its creative vision. It is no surprise, then, that the *Paul Thomas Annotated* website prioritizes the director as its focus. He is what binds together this corpus of films, bringing his unique style to each one across over twenty years of filmmaking. It is perhaps best to define Paul Thomas Anderson as the *creator* of these films, but he is not the sole *maker*. 
 
-It takes hundreds of people working together to make a film; and I chose a network graph for this visualization due to the collaborative nature of filmmaking. Weingart (2011) describes networks most simply as “stuff and relationships,” which is quite broad and could describe just about everything in the world. But, he continues, that does not mean that a network is a worthless endeavor, because “representing information as a network implicitly suggests not only that connections matter, but that they are *required* to understand whatever’s going on.”[^1] To truly deconstruct films, as we wish to do with Anderson’s filmography, we must pick apart the work that went into them and give credit to the hundreds of people who contributed to them. 
+It takes hundreds of people working together to make a film; and I chose a network graph for this visualization due to the collaborative nature of filmmaking. Weingart (2011) describes networks most simply as “stuff and relationships,” which is quite broad and could describe just about everything in the world. But, he continues, that does not mean that a network is a worthless endeavor, because “representing information as a network implicitly suggests not only that connections matter, but that they are *required* to understand whatever’s going on.”[^1] To truly deconstruct films, as we wish to do with Anderson’s filmography, we must examine the work that went into them and give credit to the hundreds of people who contributed to them. 
 
 Perhaps it is a coincidence that the graph ended up looking like a flower. But it is difficult not to think of *Magnolia* (1999), Anderson’s sprawling film about the invisible connections between strangers. Like the film itself, the graph highlights the meaning that emerges when we explore the relationships between individuals.
 
 ### Collaborative Filmography Network
-
 <div class="mb-4 desktop-graph">
 <div class="embed-responsive ratio ratio-16x9"> 
-<iframe src="/pt-annotated/network.html#network-container" width="100%" allow="fullscreen"></iframe>
+<iframe src="/pt-annotated/network.html#network-container" width="100%" loading="lazy"></iframe>
 </div>
 <a href="{{ '/network.html' | relative_url }}">Open in Full Screen <svg class="bi icon-sprite" aria-hidden="true"><use xlink:href="{{ 'assets/lib/icons/fullscreen.svg' | relative_url }}"/></svg></a>
-</div>
-
+</div> 
 <div class="row mobile-graph-backup">
 <div class="col-md text-center">
-<img src="{{ '/assets/img/graph-fallback.png' | relative_url }}" alt="Network Graph Image" class="mobile-graph-image" width="100%">
+<img src="{{ '/assets/img/network-fallback.png' | relative_url }}" alt="Network Graph Image" class="mobile-graph-image" width="100%">
 <em>Note: For the fully interactive network graph, please view this page on a desktop computer.</em>
-
 </div>
 </div>
-
-A network graph of PTA collaborators based on what films they have worked on.[^2]
+<figcaption class="figure-caption text-center"> <span markdown="1">A network graph of PTA collaborators based on what films they have worked on.[^2]</span></figcaption>
 
 ### Using the Graph
 
-A network graph is divided into nodes (points) and edges (lines between points). In the case of this graph, people and films are nodes, and edges connect individuals to the films they have worked on. Nodes are color-coded by which department the crew member is most known for (for example, acting, directing, and so on). You can click on any node and it will highlight the connections and pull up information about the individual, such as which films they have worked on and their specific department and role on set. Actors will additionally have their character name. If someone held multiple jobs on set, all positions will be listed. 
+A network graph is divided into nodes (points) and edges (lines between points). In this graph, people and films are nodes, and edges connect individuals to the films on which they worked. Nodes are color-coded by which department the crew member is most known for (for example, acting, directing, and so on). You can click on any node and it will highlight the connections and pull up information about the individual, such as which films they have worked on and their specific department and role on set. Actors will additionally have their character name. All the jobs someone held on set are listed. 
 
-If you are searching for a particular collaborator, the search bar can be used to find them. The graph can be filtered through the group selector (Known For Department) in order to only see all the nodes of a particular category. 
+To search for a particular collaborator, one can use the search bar to find them. The graph can be filtered through the group selector (Known For Department) to only see all the nodes of a particular category. 
 
 #### Departments (Based on [TMDB](https://www.themoviedb.org/talk/598c3a70925141080100e601))
 - Art: in charge of the visual design of the film; positions include set designers, props, painters, etc.
-- Crew: while a term for the overall workers on the film, here being used to categorize any role that does not fit into a specific department; positions include choreographers, drivers, catering, etc.
+- Crew: while a term for the overall workers on the film, here it serves to categorize any role that does not fit into a specific department. Positions include choreographers, drivers, catering, etc.
 - Production: administrative and logistical work; positions include casting, accounting, location coordinators, etc.
 - Acting: any performers, from leads, to extras, to voice actors
 - Costume & Make-Up: in charge of the visual design of characters; positions include costume designers, hairstylists, make-up artists, etc.
@@ -72,21 +89,68 @@ Position within the network is also meaningful. Because the graph uses a force-d
 
 The layout also highlights changes across Anderson’s career. Due to the shared collaborators, his first four feature films (*Hard Eight*, *Boogie Nights*, *Magnolia*, *Punch-Drunk Love*) cluster together on one side of the graph, while his later films are on the other. This division reflects a gradual shift in his creative partnerships. Some collaborators define a certain period of his work such as cinematographer Robert Elswit, who worked on films up until *Inherent Vice*, or Graeme Stewart, who joined *The Master* as a music editor and has worked on every film since. Other collaborators remain constant throughout his career and bridge periods, such as Cassandra Kulukundis who has worked in casting for every film since *Boogie Nights* (and who won the first ever Academy Award for Best Casting for her work on *One Battle After Another*).[^3] With such a varied filmography, Anderson combines a core of long-term collaborators with specialists who join for particular phases of his career or individual projects. This balance allows him to maintain a recognizable creative identity while experimenting with different styles throughout his career.
 
-Position within the network is also meaningful. Because the graph uses a force-directed layout—in which nodes connected to each other are drawn together, while simultaneously repulsed so they don’t overlap until the graph reaches an equilibrium—collaborators who worked on many films tend to be pulled toward the center. Those who only worked on a single film are towards the outside.
-
 ### Coworking Network
 
 Alongside the main network graph, I created a second visualization that approaches the same data from a more artistic perspective. Rather than connecting collaborators to the films they worked on, this graph connects every person directly to every other cast and crew member with whom they worked on a production. 
 
 The color-coding of the nodes remains the same, based on the person’s job. But the color-coding of the edges is based on what film they worked together on. As thousands of overlapping relationships intersect, each production emerges through the density of color. This graph is less concerned with practical use than with revealing the immense scale and interconnectedness of filmmaking. Individual relationships are more difficult to distinguish, but they have a collective effect in creating an abstract portrait of creative labor.
 
-<div class="mb-4">
-<div class="embed-responsive ratio ratio-16x9">
-<iframe src="https://clarasmith.digital.brynmawr.edu/ptacollab/#" width="100%" title="Supplementary Network Graph"></iframe></div></div>
+<div class="mb-4 desktop-graph">
+<div class="embed-responsive ratio ratio-16x9"> 
+<iframe src="https://clarasmith.digital.brynmawr.edu/ptacollab/#" width="100%" title="Supplementary Network Graph"></iframe>
+</div>
+<a href="{{ '/cowork-network.html' | relative_url }}">Open in Full Screen <svg class="bi icon-sprite" aria-hidden="true"><use xlink:href="{{ 'assets/lib/icons/fullscreen.svg' | relative_url }}"/></svg></a>
+</div>
 
-A network graph of PTA collaborators in which people are connected to who they have worked with.[^4]
-
-*Note: This feature uses the TMDB API but is not endorsed or certified by TMDB.*
+<div class="row mobile-graph-backup">
+<div class="col-md text-center">
+<img src="{{ '/assets/img/cowork-network-fallback.png' | relative_url }}" alt="Network Graph Image" class="mobile-graph-image" width="100%">
+<em>Note: For the fully interactive network graph, please view this page on a desktop computer.</em>
+</div>
+</div>
+<div class="film-legend" style="width:100%; position:relative;">
+    <div class="legend-item" style="display: inline-flex; flex-direction: row; align-items: center; padding-inline: 0px 0.5rem; text-align:start;">
+        <div class="legend-swatch" style="height:0.75rem; width:0.7rem; border-radius:2px; background-color:rgb(244 120 4); border:none;box-sizing: content-box;flex-shrink:0;"></div>
+        <p class="legend-label" style="margin:0px; padding-inline:0.2em 0px; font-size: 1rem;">Boogie Nights</p>
+    </div>
+    <div class="legend-item" style="display: inline-flex; flex-direction: row; align-items: center; padding-inline: 0px 0.5rem; text-align:start;">
+        <div class="legend-swatch" style="height:0.75rem; width:0.7rem; border-radius:2px; background-color:rgb(65 117 5); border:none;box-sizing: content-box;flex-shrink:0;"></div>
+        <p class="legend-label" style="margin:0px; padding-inline:0.2em 0px; font-size: 1rem;">Hard Eight</p>
+    </div>
+    <div class="legend-item" style="display: inline-flex; flex-direction: row; align-items: center; padding-inline: 0px 0.5rem; text-align:start;">
+        <div class="legend-swatch" style="height:0.75rem; width:0.7rem; border-radius:2px; background-color:rgb(126 211 33); border:none;box-sizing: content-box;flex-shrink:0;"></div>
+        <p class="legend-label" style="margin:0px; padding-inline:0.2em 0px; font-size: 1rem;">Inherent Vice</p>
+    </div>
+    <div class="legend-item" style="display: inline-flex; flex-direction: row; align-items: center; padding-inline: 0px 0.5rem; text-align:start;">
+        <div class="legend-swatch" style="height:0.75rem; width:0.7rem; border-radius:2px; background-color:rgb(245 211 35); border:none;box-sizing: content-box;flex-shrink:0;"></div>
+        <p class="legend-label" style="margin:0px; padding-inline:0.2em 0px; font-size: 1rem;">Licorice Pizza</p>
+    </div>
+    <div class="legend-item" style="display: inline-flex; flex-direction: row; align-items: center; padding-inline: 0px 0.5rem; text-align:start;">
+        <div class="legend-swatch" style="height:0.75rem; width:0.7rem; border-radius:2px; background-color:rgb(82 50 44); border:none;box-sizing: content-box;flex-shrink:0;"></div>
+        <p class="legend-label" style="margin:0px; padding-inline:0.2em 0px; font-size: 1rem;">Magnolia</p>
+    </div>
+    <div class="legend-item" style="display: inline-flex; flex-direction: row; align-items: center; padding-inline: 0px 0.5rem; text-align:start;">
+        <div class="legend-swatch" style="height:0.75rem; width:0.7rem; border-radius:2px; background-color:rgb(45 87 135); border:none;box-sizing: content-box;flex-shrink:0;"></div>
+        <p class="legend-label" style="margin:0px; padding-inline:0.2em 0px; font-size: 1rem;">The Master</p>
+    </div>
+    <div class="legend-item" style="display: inline-flex; flex-direction: row; align-items: center; padding-inline: 0px 0.5rem; text-align:start;">
+        <div class="legend-swatch" style="height:0.75rem; width:0.7rem; border-radius:2px; background-color:rgb(66 144 235); border:none;box-sizing: content-box;flex-shrink:0;"></div>
+        <p class="legend-label" style="margin:0px; padding-inline:0.2em 0px; font-size: 1rem;">One Battle After Another</p>
+    </div>
+    <div class="legend-item" style="display: inline-flex; flex-direction: row; align-items: center; padding-inline: 0px 0.5rem; text-align:start;">
+        <div class="legend-swatch" style="height:0.75rem; width:0.7rem; border-radius:2px; background-color:rgb(182 92 232); border:none;box-sizing: content-box;flex-shrink:0;"></div>
+        <p class="legend-label" style="margin:0px; padding-inline:0.2em 0px; font-size: 1rem;">Phantom Thread</p>
+    </div>
+    <div class="legend-item" style="display: inline-flex; flex-direction: row; align-items: center; padding-inline: 0px 0.5rem; text-align:start;">
+        <div class="legend-swatch" style="height:0.75rem; width:0.7rem; border-radius:2px; background-color:rgb(191 73 131); border:none;box-sizing: content-box;flex-shrink:0;"></div>
+        <p class="legend-label" style="margin:0px; padding-inline:0.2em 0px; font-size: 1rem;">Punch-Drunk Love</p>
+    </div>
+    <div class="legend-item" style="display: inline-flex; flex-direction: row; align-items: center; padding-inline: 0px 0.5rem; text-align:start;">
+        <div class="legend-swatch" style="height:0.75rem; width:0.7rem; border-radius:2px; background-color:rgb(161 2 21); border:none;box-sizing: content-box;flex-shrink:0;"></div>
+        <p class="legend-label" style="margin:0px; padding-inline:0.2em 0px; font-size: 1rem;">There Will Be Blood</p>
+    </div>
+</div>
+<figcaption class="figure-caption text-center"> <span markdown="1">A network graph of PTA collaborators in which people are connected to who they have worked with.[^4]</span></figcaption>
 
 ### Auteurs, Artists, and Anything Between
 
@@ -112,9 +176,9 @@ Once these spreadsheets were made, I uploaded them to [Gephi](https://gephi.org/
 
 Once I was satisfied with my graph, I exported it as a graphml file and reuploaded it to Gephi Lite. Gephi Lite is the online browser-based version of Gephi, which allowed for even more customization, such as color organizing through specific hex codes. Gephi Lite also can connect to GitHub as a way to publish public graph files. Since Gephi Lite cannot export interactive graphs, I re-imported my graph back into Gephi. Utilizing the [SigmaExport plugin](https://github.com/oxfordinternetinstitute/gephi-plugins/tree/sigmaexporter-plugin/modules/sigmaExporter), I exported as a [Sigma.js](https://www.sigmajs.org/) template. Sigma.js is a JavaScript library for creating interactive network graphs that can be viewed in a browser. The plugin and template were created by the [Oxford Internet Institute’s InteractiveVis](https://github.com/oxfordinternetinstitute/InteractiveVis/) project. The export files, containing the data and the template for the site, were uploaded into GitHub.
 
-### Limitations
+#### Limitations
 
-This project faced a great number of hurdles and, as with any visualizations, there are drawbacks. TMDB was an enormous resource in this project; however, using a preexisting data set that is community-sourced at such a large quantity means that not every individual is able to be checked for accuracy and there may be discrepancies in name/involvement/title/etc. In addition, contributors have been grouped by what department they are “known for.” However, this category is based on all of their works and not their specific involvement in PTA films. This has led to a few cases in which someone is known for a department that does not align with their role. For example, Robert Downey Sr., who is listed for directing, had a cameo in two films and had no involvement in the direction. If one were to just look at the graph and the color coding this may be misleading, although the details are clarified in the information panel. 
+This project faced a great number of hurdles and, as with any visualizations, there are drawbacks. TMDB was an enormous resource in this project; however, using a preexisting data set that is community-sourced at such a large quantity means that not every individual is able to be checked for accuracy and there may be discrepancies in name, involvement, or title. In addition, contributors have been grouped by what department they are “known for.” However, this category is based on all of their works and not their specific involvement in PTA films. This has led to a few cases in which someone is known for a department that does not align with their role. For example, Robert Downey Sr., who is listed for directing, had a cameo in two films and had no involvement in the direction. If one were to just look at the graph and the color coding this may be misleading, although the details are clarified in the information panel. 
 
 The initial plan was to have an edge for every role a person has fulfilled; however, Gephi cannot support multiple edges between the same two nodes. So, even if someone had multiple jobs on the same film, they will only have one line between them and that film. Additionally, a person can only have one “known for” department, so they cannot be filtered by all of their roles (for instance, Anderson does not appear when filtered for writing, despite having written all his films). 
 

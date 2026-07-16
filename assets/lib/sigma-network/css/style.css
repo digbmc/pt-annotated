@@ -342,7 +342,7 @@ display: none;
 
 #zoom {
 	z-index:999;
-	position: absolute;
+	position: fixed;
 	left: 45%;
 	bottom: 25px;
 	margin:0 auto;
