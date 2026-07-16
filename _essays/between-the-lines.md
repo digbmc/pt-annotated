@@ -8,12 +8,6 @@ tags:
     - network
     - data essay
 ---
-<!--*iframe is making page jump down, this forces it to load at the top-->
-<script>
-window.onload = function() {
-    window.scrollTo(0, 0);
-};
-</script>
 
 <ul class="list-group list-group-horizontal justify-content-center mb-2">
     <li class="list-group-item bg-dark text-start py-0 my-2 border border-top-0 border-bottom-0 border-start-0 border-secondary">
@@ -49,7 +43,7 @@ Perhaps it is a coincidence that the graph ended up looking like a flower. But i
 ### Collaborative Filmography Network
 <div class="mb-4 desktop-graph">
 <div class="embed-responsive ratio ratio-16x9"> 
-<iframe src="/pt-annotated/network.html#network-container" width="100%" loading="lazy"></iframe>
+<iframe src="/pt-annotated/network.html" width="100%" loading="lazy"></iframe>
 </div>
 <a href="{{ '/network.html' | relative_url }}">Open in Full Screen <svg class="bi icon-sprite" aria-hidden="true"><use xlink:href="{{ 'assets/lib/icons/fullscreen.svg' | relative_url }}"/></svg></a>
 </div> 
