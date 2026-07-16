@@ -233,6 +233,11 @@ a:hover svg {
     vertical-align: 0;
 }
 
+@media (min-width: 768px) {
+    .item-list {flex-direction: column
+    }
+}
+
 /* Hide auto-injected SVG icons */
 /*This section of code can be deleted if there is another way to get rid of the automatic external link items other than hiding them*/
 a[target="_blank"] svg.bi,
