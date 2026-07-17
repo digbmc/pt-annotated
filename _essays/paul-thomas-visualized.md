@@ -248,8 +248,7 @@ Humanities Quarterly* 15, no. 1 (2021). <a href="https://dhq.digitalhumanities.o
 ### Notes
 
 [^1]: Lisa Samuels and Jerome McGann, "Deformance and Interpretation," *New Literary History* 30, no. 1 (Winter 1999), 29.
-[^2]: Kyle L. Ferguson, “Digital Surrealism: Visualizing Walt Disney Animation Studios," *Digital 
-Humanities Quarterly* 11, no. 1 (2017). 
+[^2]: Kyle L. Ferguson, “Digital Surrealism: Visualizing Walt Disney Animation Studios," *Digital Humanities Quarterly* 11, no. 1 (2017). 
 [^3]: *Paul Thomas Annotated: In the Margins.*
 [^4]: Ferguson, “Digital Surrealism: Visualizing Walt Disney Animation Studios.”
 [^5]: Tiago Ferreira and Wayne Rasband, *ImageJ User Guide: IJ 1.46r*, October 12, 2012, 12, https://imagej.net/ij/docs/guide/user-guide.pdf. 
