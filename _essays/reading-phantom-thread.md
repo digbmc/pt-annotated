@@ -33,7 +33,7 @@ This book was published by the Society for Promoting Christian Knowledge, a Chri
 
 *Edible and Poisonous Mushrooms* serves an obvious utility for Reynolds’s household. The book is written in relatively accessible language, focusing on practical tips for identification of various fungi. While Cooke does include the scientific names, each entry moves away from specialized language, providing descriptions of the mushroom in layman’s terms, and focusing on color, size, shape, and distinctive features. Some entries include advice for ideal cooking. The book features many detailed, colored illustrations of all of the mushrooms in the book, allowing readers to easily visually compare the mushroom they’ve found to the book. It is perfectly logical that Reynolds’s employees would keep this book in his country home, where wild mushrooms are much more plentiful than in the city. When Alma [asks Reynolds’s housekeeper](https://ptannotated.com/items/phan-04733.html), whom she is helping prepare a meal, about identifying a specific mushroom, the woman tells her to consult the book in the kitchen. The book is a reliable source for determining which mushrooms are safe to eat and, for Alma’s purposes, which are not. 
 
-{% include feature/image.html objectid="phan-11125;supp-00004" caption=false %}
+{% include feature/image.html objectid="phan-11125" caption=false %}
 
 {% include feature/image.html objectid="supp-00004" caption=false %}
 
