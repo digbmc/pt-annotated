@@ -102,14 +102,14 @@ Two of the poems featured in the issue bear some relevance to the plot. Vernon W
 
 {% include feature/image.html objectid="phan-15235" caption=false %}
 
-<figcaption class="figure-caption text-center"> <span markdown="1"*>The Observer’s Books* are visible as Alma reaches for <em>Edible and Poisonous Mushrooms</span></figcaption>
+<figcaption class="figure-caption text-center"> <span markdown="1">The Observer’s Books* are visible as Alma reaches for <em>Edible and Poisonous Mushrooms</span></figcaption>
 
 
 *The Observer’s Books* were a series of small informational guides, published by the British company Frederick Warne & Co between 1937 and 2003. They covered a broad range of topics: hobbies, machinery, plant and animal life. Popular books would sometimes be re-released on a regular basis. Today they are a collector’s item. The books make sense in Reynolds’s home. They were a popular British series and are placed on a shelf in the kitchen, serving as a guide to the natural world. 	
 
 {% include feature/image.html objectid="supp-00011" caption=false %} 
 
-<figcaption class="figure-caption text-center"> <span markdown="1"*>A list of <em>Observer’s Books</em>, featured on page 2 of <em>The Observer’s Book of British Birds’ Eggs</span></figcaption>
+<figcaption class="figure-caption text-center"> <span markdown="1">A list of <em>Observer’s Books</em>, featured on page 2 of <em>The Observer’s Book of British Birds’ Eggs</span></figcaption>
 
 
 However, the books also serve a more symbolic meaning. They are shown only in one shot, stacked on the shelf alongside *Edible and Poisonous Mushrooms*. The books, each in their own way, represent Reynolds himself. All three books are also focused on caretaking in some form: *Dogs* details how to raise and care for a dog, *Cacti* provides information on how to cultivate succulents, and *Birds' Eggs* takes great care to remind readers not to disturb birds nests, especially endangered species, saying they hope a guide for to allow hobbyists to more quickly identify the eggs, and therefore allowing them to leave the nest more quickly and listing rules for preserving nests while observing them. It is no accident that these books appear as Alma prepares to poison Reynolds, making him sick in order to nurse him back to health. She has learned how best to care for Reynolds, which she has found is only possible when he is incapacitated. It seems she has succeeded; Reynolds realizes she is poisoning him and welcomes it. The books represent her arc as she discovered the best way to truly be a part of Reynolds’s life and family. 
@@ -119,14 +119,14 @@ However, the books also serve a more symbolic meaning. They are shown only in on
 
 {% include feature/image.html objectid="supp-00018" caption=false %}
 
-<figcaption class="figure-caption text-center"> <span markdown="1"*>The cover of *The Observer’s Book of Dogs*</span></figcaption>
+<figcaption class="figure-caption text-center"> <span markdown="1">The cover of *The Observer’s Book of Dogs*</span></figcaption>
 
 
 Of the three *Observer’s Books*, *The Observer's Book of Dogs* bears the most obvious relevance to Reynolds’s life. Reynolds himself has dogs, though the exact number of them is not clear. They appear only in one scene, in the dressmaker’s country home, so it seems likely they live there full time rather than following him to London. While the viewer never gets a full, clear view of them, only glimpsing the top of their heads in one shot, they are obviously quite large dogs, not suited for city life. The film never explicitly states their breed, but in an interview Daniel Day-Lewis said he insisted they be lurchers. Lurchers are not an officially recognized breed, but rather a common mix, included in the book in a back section dedicated to unofficial or mixed breeds. The author, Clifford L. Hubbard, describes them as “an all-purpose utility dog, usually of Greyhound or Whippet shape, which, although ostracized, is a fairly common race in the Midlands and north of England,”[^12] locations in keeping with their country home.
 
 {% include feature/image.html objectid="supp-00035" caption=false %}
 
-<figcaption class="figure-caption text-center"> <span markdown="1"*>Greyhounds are commonly used to breed lurchers</span></figcaption>
+<figcaption class="figure-caption text-center"> <span markdown="1">Greyhounds are commonly used to breed lurchers</span></figcaption>
 
 
 Though the book is largely dedicated to describing the various breeds and common mixes of dogs, each entry listing scientific name, origin, appearance, and skills of the breed, a large section is dedicated to detailed information on dog care—what to feed them, how much exercise they require, how to identify illness, and so on. The book covers most general questions on dog care. Its being in the kitchen makes sense, too; while Reynolds journeys to his country home fairly often, if the dogs do not travel to London with him, it’s fair to assume that his staff would be the ones caring for the dog the vast majority of the time. 
@@ -135,7 +135,7 @@ The book also carries some more allegorical implications. Reynolds himself is so
 
 {% include feature/image.html objectid="phan-01942" caption=false %}
 
-<figcaption class="figure-caption text-center"> <span markdown="1"*>Reynolds’s dogs greet Alma as she enters his country estate</span></figcaption>
+<figcaption class="figure-caption text-center"> <span markdown="1">Reynolds’s dogs greet Alma as she enters his country estate</span></figcaption>
 
 
 Shortly afterwards, during the scene in which Reynolds follows Alma to a New Years Eve party after they fight, a man in an oversized dog costume [falls](https://ptannotated.com/items/phan-14556.html) on the ground as he watches Alma amongst the crowd. This is a moment of great conflict within their relationship, and Reynolds is failing to fulfill Alma’s desires, refusing to attend the party with her. The dog, which Reynolds has already associated with himself, falls down, perhaps symbolizing Reynolds’s failures. The inclusion of a person in a dog costume also serves to further blur the line between dog and human. 
@@ -146,7 +146,7 @@ The scene in which the books appear, where Alma poisons Reynolds for the second 
 
 {% include feature/image.html objectid="supp-00010" caption=false %}
 
-<figcaption class="figure-caption text-center"> <span markdown="1"*>The cover of <em>The Observer’s Book of British Birds Egg</span></figcaption>
+<figcaption class="figure-caption text-center"> <span markdown="1">The cover of <em>The Observer’s Book of British Birds Egg</span></figcaption>
 
 
 *The Observer’s Book of British Birds’ Eggs*, compiled by Glynne Evans, follows the standard format for the series. Each short entry details how common a species is, where it nests, the number of eggs they typically lay, and the look of the egg, alongside a fairly detailed illustration of the appearance of the egg. It is perfectly reasonable that Reynolds would keep this book in his country home, where birds nests would no doubt be plentiful. While the audience has never seen him show much interest in birding, he could have bought the book to give himself the option, or it may belong to one of his staff, as it is placed in the kitchen. 
@@ -155,7 +155,7 @@ There are also several symbolic connections. Perhaps the most obvious connection
 
 {% include feature/image.html objectid="supp-00012" caption=false %}
 
-<figcaption class="figure-caption text-center"> <span markdown="1"*>*An illustration of the woodcock egg</span></figcaption>
+<figcaption class="figure-caption text-center"> <span markdown="1">An illustration of the woodcock egg</span></figcaption>
 
 Alma too can be connected to the bird. Through marriage, she herself has become a woodcock. Describing the quantity of the species, the entry reads, “Their number are increased during the winter by both passage and migrant birds arriving.”[^15] Alma is an immigrant to England, whose presence there has increased the number of Woodcocks. It’s also of note that they chose a book specifically on the identification of eggs, not birds themselves. The egg is perhaps the most quintessential symbol of new life, and Alma seeks to bring new life into the House of Woodcock. When Reynolds proposes to her, he leaves behind the “dead house” he has created for himself, finally allowing life to be brought back to his home and business. The egg also is specifically connected to the nurturing care of mother birds, which represents both Reynolds’s longing for his mother, and the motherly, caretaking role Alma takes on with him.
 
@@ -167,7 +167,7 @@ In Alma’s fantasy of their future life together, she imagines having a child t
 
 {% include feature/image.html objectid="supp-00016" caption=false %}
 
-<figcaption class="figure-caption text-center"> <span markdown="1"*>*Top: The cover of *The Observer’s Book of Cacti & Other Succulents* Bottom: sketches of various succulents</span></figcaption>
+<figcaption class="figure-caption text-center"> <span markdown="1">Top: The cover of *The Observer’s Book of Cacti & Other Succulents*  Bottom: sketches of various succulents</span></figcaption>
 
 
 The third book in Reynolds’s collection, *The Observer’s Book of Cacti and Other Succulents* by S.H. Scott, serves perhaps the least obvious function in Reynolds’s life. It is also the only one that was not yet published at the time the film takes place. Each entry provides details on a different kind of cactus or succulent, including details on appearance, native habitat, and flowers. However, it is highly unlikely any of this information would come up regularly. All cacti are indigenous to the Americas, and there are only a small number of succulents native to England. While non-native succulents and cacti had been grown in the U.K. for quite some time, we are given no indication that any of the characters engage in it.
@@ -176,7 +176,7 @@ The first explanation for the book's inclusion in Reynolds’s collection speaks
 
 {% include feature/image.html objectid="supp-00015" caption="" %}
 
-<figcaption class="figure-caption text-center"> <span markdown="1"*>*A photograph of the succulent sedum, one of the few succulents native to EnglandAn illustration of the woodcock egg</span></figcaption>
+<figcaption class="figure-caption text-center"> <span markdown="1">A photograph of the succulent sedum, one of the few succulents native to EnglandAn illustration of the woodcock egg</span></figcaption>
 
 
 Reynolds himself is also a cactus-like figure: externally prickly and harsh, unwilling to allow people into the inner parts of him, but capable of producing great beauty. In particular, several portions of the foreword to the book could just as easily be applied to Reynolds as to the plants. The foreword emphasizes the incredible, and often overlooked, beauty of succulents. Scott writes that the succulent has perfectly adapted itself to the environment it comes from. Reynolds, while incredibly demanding, has perfectly calibrated himself to survive in the high stress and demanding world of couture fashion, often at the cost of his personal relationships. Scott continues, writing that “because they have developed adaptations for overcoming periods of drought, they require much less attention than do other plants…for in their natural environment they are used to a great deal of hardship in the hands of nature.”[^16] Reynolds’s life beyond his work, at least before Alma, is incredibly lonely. His only meaningful connection seems to be his sister, Cyril, who is herself a part of his business. He has trained himself to survive with little to no meaningful human connection, not relying (or at least working not to rely) on others for his fulfillment and wellbeing. 
@@ -190,7 +190,12 @@ Reynolds, at least initially, comes across as cruel and demanding, holding those
 
 ### *Vogue* (October, 1954)
 
-{% include feature/image.html objectid="supp-00026;phan-12324;supp-00036" caption="Left to right: The front cover of <em>Vogue</em>, Doctor Hardy reads <em>Vogue</em> while waiting for Alma and Cyril, the back cover of <em>Vogue</em>" %}
+{% include feature/image.html objectid="supp-00026;supp-00036" caption=false %}
+
+{% include feature/image.html objectid="phan-12324" caption=false %}
+
+<figcaption class="figure-caption text-center"> <span markdown="1">Top: The front and back cover of *Vogue*. Bottom: Doctor Hardy reads *Vogue* while waiting for Cyril and alma</span></figcaption>
+
 
 The October, 1954 edition of *British Vogue* is full of styling tips, interviews, and advertisements that speak to the fashion of the period. A copy appears once in the film; Doctor Hardy flips through it while awaiting Alma and Cyril. Vogue is a magazine that has been steadily published since its founding in 1892, quickly becoming almost synonymous with fashion itself. Originally an American publication, it was imported to England until the founding of *British Vogue* in 1916, soon followed by branches in Spain, Italy, and Paris. 
 
@@ -198,23 +203,37 @@ The October, 1954 edition of *British Vogue* is full of styling tips, interviews
 
 While Dior was perhaps the most revolutionary French couturier, the French couture scene exploded during the period, rapidly gaining influence and prestige. The London couture scene, around which *Phantom Thread* revolves, was modelled after the French industry. Many designers would attempt to recreate the French interior style in their salons, as well as copying Parisian fashion. This copy of *Vogue* certainly makes the English interest in all things French clear. The magazine has a generally cosmopolitan air, advertising South African furs, Swiss watches, and “Oriental” fashion. However, France, and Paris specifically, is by far the most mentioned locale. Several ads proclaim their Parisian style, or, in the case of two perfumes, French scent. One article, simply titled “Paris ideas — please copy,” lists various French fashions its readers can imitate. While the season for the release of new collections is well over, the piece still manages to fill two pages with tips for styling and accessorizing, finding excitement in the “simulation of a fresh approach to clothes, an imaginative re-assessment of shapes and colours and fabrics.”[^19] It seems even these subtle tips, such as preferred fabrics for hats, or novel methods of slotting a scarf into your coat, must come out of Paris rather than England. 
 
-{% include feature/image.html objectid="phan-04326;phan-04235;phan-04353" caption="Outfits from Reynolds’s fashion show" %}
+{% include feature/image.html objectid="phan-04326;phan-04235;phan-04353" caption=false %}
+
+<figcaption class="figure-caption text-center"> <span markdown="1">Outfits from Reynolds’s fashion show</span></figcaption>
+
 
 Reynolds’s designs would certainly not look out of place alongside the ones featured in this issue of *Vogue*. Looking at his fashion show, you can clearly see the hallmarks of 1950s fashion. The grey suit he displays, with its structured hips and tapered waist, fits in easily alongside those photographed on pages 122 and 123. His full-skirted dresses certainly align with the dramatic “New Look,” particularly the red dress Alma wears during the fashion show. However, Reynolds still has a distinctive personal style, the most noticeable signifier of which is his tendency towards embellishment. While certainly not gaudy, his fashions lack the sleek simplicity of many of those shown in the pages of *Vogue*. This is something he himself freely admits. When Cyril suggests that the Countess Henrietta Harding may have left their house in pursuit of something more “fashionable and chic,” Reynolds explodes, calling it a “filthy little word,” the inventor of which “should be hung, drawn, and quartered.” Chiceness is often associated with minimalist, well made fashions, with clean lines and solid colors. This is not Reynold’s style. The classic little black dress, to which this edition of *Vogue* dedicates six pages of recommendations, is seemingly not in Reynolds’s artistic vocabulary. His pieces always include some subtle embellishment—the strip of tan down the center of the grey suit, the lace on the bodice and hem of [Alma’s pink gown](https://ptannotated.com/items/phan-03333.html), the [intricate, floral pattern](https://ptannotated.com/items/phan-03557.html), supposedly beloved by his clients, that makes up Alma’s cocktail dress. The [dress he makes for the countess](https://ptannotated.com/items/phan-00722.html) is perhaps the most different from the fashions photographed in *Vogue*. The style is quite reminiscent of Tudor fashion, with the slashing in the bodice, open fronted skirt, and slight ruff at the neck. While it is certainly a modernized version, with its grand sleeves merely an illusion created by a removable cape, it leans much more into the rich and ornate than most designs featured in the magazine. This is likely meant to be a nod to the countess’s noble status—after all, purple is the color of royalty. Reynolds also clearly likes the design himself; in his later fashion show, he sends Alma in a slightly modified version of the gown. 
 
-{% include feature/image.html objectid="phan-13208;supp-00027" caption="Left: the wedding dress Reynolds designs for the princess Right: a wedding dress ad on page 16 of <em>Vogue</em>"  %}
+{% include feature/image.html objectid="phan-13208" caption=false %}
+
+{% include feature/image.html objectid="supp-00027" caption=false %}
+
+<figcaption class="figure-caption text-center"> <span markdown="1">Top: the wedding dress Reynolds designs for the princess  Bottom: a wedding dress ad on page 16 of *Vogue*</span></figcaption>
 
 Comparing the fashions of the women in the film to those in *Vogue* also reveals things about their style and character. During the 1950s, women’s fashion tended toward two quite distinct silhouettes: the straight-cut dress, emphasizing a woman’s natural shape, and the exaggerated, full-skirted dresses, inspired by Dior’s “New Look.” The two most prominent women in the film, Cyril and Alma, tend towards different silhouettes and styles. This defined aesthetic difference serves both to show the range of 1950s fashion and emphasizes the differences between the two women, as they compete for Reynolds’s attention. 
 
-{% include feature/image.html objectid="phan-03729;supp-00029;phan-04940;supp-00031;phan-04356" caption=false %}
+{% include feature/image.html objectid="phan-03729;phan-04940;phan-04356" caption=false %}
+
+{% include feature/image.html objectid="supp-00029;psupp-00031" caption=false %}
 
 Cyril prefers sleeker, more fitted silhouettes. We often see her in simple, dark dresses or suits, always with a more fitted pencil skirt. Cyril is upper class, and, while she does work, it is in Reynold’s studio, not in a job which requires physical labor or significant movement. Her lifestyle affords her the ability to prioritize aesthetics over practicality, as she does not need to worry that her fitted skirts will limit her range of motion. While her clothing is more subtle than much of what Reynolds designs, it speaks to an attunement with what is considered fashionable for the period. The simplicity of her clothing also differentiates her from the clients and models who come through Reynolds’s salon, and life. She has a distinctive look, almost always seen with an elegant updo, pearl necklace, and red lipstick. Her dark clothing seems perhaps more professional or official, aligning her somewhat with Reynolds, who almost always wears a dark suit. She is an almost equal partner in his business. Her distinctive style also differentiates her from Reynolds’s girlfriends. She is not a passing phase, a temporary muse; Cyril is a permanent fixture in his life, and, at least initially, the closest thing to a partner he ever intends to have. 
 
-{% include feature/image.html objectid="phan-10348;supp-00030;phan-12137;supp-00028;phan-03406" caption=false %}
+{% include feature/image.html objectid="phan-10348;phan-12137;phan-03406" caption=false %}
+
+{% include feature/image.html objectid="supp-00030;supp-00028" caption=false %}
 
 Alma’s outfits, both those explicitly designed by Reynolds and those that are not, tend to be full skirted, or at the very least not fitted. This speaks to the difference in her origins. Less fitted skirts allow for a greater range of movement, and are more practical for jobs that involve significant labor or movement. Alma begins the move in a much humbler place than Cyril, working as a waitress in the countryside. Though she may have received new finery from Reynolds, not all of her clothing seems to be from him, or, at the very least, she has not fully abandoned her practical sensibilities. During times she is not on public display, particularly when they are in the countryside, she turns toward even less form fitting clothing, donning comfortable sweaters, crinkled button downs, and wool skirts—a shape much more reminiscent of the 1940s’ practical, masculine sensibilities than anything Cyril wears. While she has been given modern, fashionable clothing by Reynolds, it is perhaps not what comes naturally to her, or at the very least not something she has access to. This silhouette is also better aligned with Reynolds’s design style. He is not married to one particular shape, but the overall tendency of his designs is towards the dramatic full skirt and embellishment, quite unlike Cyril’s clothing. She allows herself to be shaped by Reynolds. Though she initially wears lipstick, she stops wearing it once he removes it for her on their first date. She alters her identity and personal style to fit his taste, becoming almost an extension of him and his brand. 
 
-{% include feature/image.html objectid="phan-04031;supp-00032" caption="Left: Alma at a fashion shoot Right: an ad for a designer in <em>Vogue</em>" %}
+{% include feature/image.html objectid="phan-04031;supp-00032" caption=false %}
+
+<figcaption class="figure-caption text-center"> <span markdown="1">Left: Alma at a fashion shoot  Right: an ad for a designer in *Vogue*</span></figcaption>
+
 
 While the pages of the magazine are filled with beautiful, smiling models, like Alma, none of them are credited. Throughout the film, we see Reynolds again and again attempt to subsume Alma’s identity into his own, making her a blank canvas for his creations. The models in this magazine appear to have met the same fate; uncredited, stripped of individuality, they are left as little more than mannequins. Her situation is perhaps not so unique, aligned with the general treatment of models during the period. 
 
@@ -224,20 +243,30 @@ Most of Reynolds’s clients are older women (Countess Harding, Barbara Rose, Mr
 
 The older women in the film each take different approaches to their fashion. Neither Cyril nor the Countess betray any visible insecurity about their aging. While Cyril’s fashion certainly follows some of the advice given to the “Mrs. Exeters” of the time—dark colors are famously sliming, and her dresses resemble several of those recommended in the magazine—she carries herself with incredible poise, and has clearly developed a distinct personal style. The same is true of the Countess. From the very first shot of her, she comes across as self-assured and regal. While she clearly makes an effort to maintain her figure—as she puts on the dress Reynolds maid we see she wears a corset and hip padding beneath her clothing—she, at least while wearing her clothes, does not seem to hold any insecurities. The suit she wears when arriving is fashionable for the time; with its structured jacket, tapered waist, and form fitting skirt, it very much looks like those seen in the magazine. The suit also resembles the structure of Reynolds’s grey suit. Whether or not he himself designed the suit she wears, its similarities to his own line speaks to their compatible tastes. Both women have a clear sense of their own individual style, and a taste of their own.
 
-{% include feature/image.html objectid="supp-00034;phan-0494;supp-00033" caption=false %}
+{% include feature/image.html objectid="phan-04948" caption=false %}
+
+{% include feature/image.html objectid="supp-00034;supp-00033" caption=false %}
 
 In contrast, Barbara Rose seems entirely beholden to the trends of the time, to a greater degree than any other character we see. She sports nearly every seasonal fad reported in the issue of Vogue. In her first appearance, she wears a fur coat, advertised on pages 138-139 as the single largest trend of the year, and a back sliding hat. Her dresses match more with the “New Look” silhouette, unlike those of Cyril and the Countess. The dress Reynolds designs for her is similarly full skirted and short rather than floor length. In a section on eveningwear on page 131 of *Vogue*, they write that while long and short skirts are equally in fashion, the shorter skirt is “clearly for the young.” While the dress Reynolds makes Barbara is perhaps more mature than the one pictured on the opposite page, with longer sleeves, a higher neck, and in satin rather than tulle frills, this association with youth speaks to larger issues within Barbara’s self perception. She is clearly insecure about her appearance. While it is not specifically stated, it’s easy to assume this is related both to her age and body, which were highly stigmatized by the beauty standards of the time. It seems that, rather than seeking out clothing that appeals to her tastes, she blindly follows the trends of the season in hopes it will bring her confidence. By copying the fashions of the young, she may hope to make herself appear more youthful, and therefore more beautiful. However, it seems that, no matter how beautiful her clothing, she cannot overcome her insecurities. During her [dress fitting](https://ptannotated.com/items/phan-05048.html) with Reynolds, she bursts into tears looking at herself, saying “I know you’re doing the best you can…I’m still so ugly,” to which Reynolds responds that he is trying to make her a beautiful dress. The implication is that her love of fashion should supersede her feelings about herself, allowing her to be a canvas for his work. It is her perceived lack of taste and style that seems to bring Reynolds’s contempt. He, and Alma, feels that she does not deserve to wear his clothing, as she cannot fully appreciate it. Barbara drunkenly falls asleep in the dress Reynolds makes her, which he takes great offense to. The implication is that, if she truly appreciated the craftsmanship of the dress, she would have treated it with greater respect, and certainly never slept in it as if it were indistinguishable from her nightgown. Reynolds certainly does not thoughtlessly adopt every passing trend, and he clearly has little respect for those with no eye of their own. 
 
 
 ### *Splendours and Miseries* (1943) 
 
-{% include feature/image.html objectid="supp-00023" caption="The frontispiece of <em>Splendours and Miseries</em>" %}
+{% include feature/image.html objectid="supp-00023" caption=false %}
+
+<figcaption class="figure-caption text-center"> <span markdown="1">The frontispiece of *Splendours and Miseries*</span></figcaption>
+
 
 *Spleandours and Miseries* is the only entry in this essay which does not appear in the finished film; Reynolds is seen reading it in a scene that was ultimately cut from the film, which can be found in [this](https://youtu.be/lPwfENwnMlI?si=7lgSe2tmn3MEgK1c) short film of deleted moments. Although it is not featured in the final cut of the film, the book still connects to the film in meaningful and illuminating ways. It is difficult to categorize exactly which genre *Splendours and Miseries* falls under. It follows no defined plot, moving easily through spiritual musings, artistic critique, and retellings of Biblical or Ancient myths. The author, Sacheverell Sitwell (1897-1988), did not confine himself to one area, writing critique of art and music, travel memoirs, poetry, and poetic prose. He was particularly interested in modernism, developing an impressive collection of modern art alongside his brother, Osbert. The two created an exhibition of Modern French Art which introduced the British public to the works of Modignliani and Picasso. He collaborated with Osbert, his sister Edith, and composer Sir William Walton to create an experimental performance titled “Facades,” in which Edith read her poetry aloud over Walton’s composition (to little critical or commercial success.) The genre-bending of *Splendours and Miseries* is typical of Sitwell’s style – he had a reputation for refusing generic categorization in his writing. The book that established him as an art historian was *Southern Baroque Art*, which, though described as a study of painting, art, and music of 17th and 18th century Spain and Italy, is arguably more prose than art history.  
 
 The book’s first point of relevance to the film comes from the name itself. A copy of *Splendours and Miseries* appears in a deleted scene in the film, where Reynolds sits reading while Alma plays with their infant child. On a very basic level, Alma and Reynolds’s tumultuous relationship is rife with both splendours and miseries; the joy and love in their relationship is matched in almost equal measure by their arguments and pain. In the final poisoning scene, Alma seems to argue that their happiness, and Reynolds’s happiness specifically, hinges on his suffering. To force him to slow down, to stop dedicating himself entirely to his work, she feels she must poison him, so in his sickness he will be forced to rest. This poisoning is also what allows Alma to engage in tender caretaking of Reynolds, to feel needed by him. This combination of joy and pain, splendour and misery, are what defines their relationship. 
 
-{% include feature/image.html objectid="phan-02009;supp-00024" caption="Left: Reynolds’s photo of his mother Right: A photograph of Sitwell and his mother included in “Songs my Mother Taught Me”"  %}
+{% include feature/image.html objectid="phan-02009" caption=false %}
+
+{% include feature/image.html objectid="supp-00024" caption=false %}
+
+<figcaption class="figure-caption text-center"> <span markdown="1">Top: Reynolds’s photo of his mother Bottom: A photograph of Sitwell and his mother included in “Songs my Mother Taught Me"</span></figcaption>
+
 
 The content of the book relates to the film, but in a very different way. Reynolds is haunted by the death of his mother, trapped in a purgatory of his own making, unwilling to allow his life to change. The book itself follows the relationship between the living and the dead, the closeness between their two worlds, and the journey to recover someone from death itself. This is one of the major tensions of the film. Reynolds refuses to allow his life to change in any substantial way, attempting to keep the House of Woodcock frozen in time. He specifically avoids long-term romantic relationships, telling Alma at the beginning of the film he intends to be a lifelong bachelor. He also seems to look for his mother in all of the women in his life. Cyril serves as a motherly figure, tending to his needs with precision and gentleness. Reynolds only proposes to Alma after he is taken ill and she cares for him through it. It is only when he is left in a state of complete helplessness, and is tended to by alma, that he can allow her to become a permanent part of his family. 
 
@@ -245,7 +274,9 @@ The final chapter of the book, “Songs My Mother Taught Me,” tenderly describ
 
 Sitwell writes that everyone hopes to “find redemption in the example of what has been before. We have likened it to some dread personal loss, for it is, in fact, the recovery of lost peace and happiness. We have said that it can be mother, wife, or sweetheart, child, or lover, whichever would be missed most…We seek for the person, or personification.”[^22] In Reynolds’s search for his mother, it’s left ambiguous whether he is looking for the person or the personification. While he seems to be attempting to keep his mother alive, or regain access to her, when he has a vision of her during his sickness, he does not see her as a moving, speaking human being, but rather as a full version of the photograph he keeps of her. The vision of his mother is unmoving, exactly as she was in her photo. He is perhaps not searching for the reality of his mother, her personhood, but the personification, the image, of motherly love and childish devotion. Sitwell describes his relationship with his mother as uniquely loving and painful, writing “O what I would give to remember in more detail still, for I was loved by her, and it has never happened to me again that in every mouthful that I age, and every moment that I breathed, were indescribable pain and ecstasy, both together, from the strengths of my affections.”[^23] Earlier in the piece, he describes the connection between mother and son as “primitive.”[^24] The motherly love he describes seems more animalistic than human, from the basest parts of human nature. When Reynolds sees a vision of his mother, he tells her “I just miss you, it’s as simple as that.” The love both men feel for their mothers is perhaps the most basic of all their feelings, simplistic and childish in its logic. Sitwell’s memory of a day with his mother, immortalized in a photograph, is, as he puts it, “a memory of nothing in particular. Nothing, indeed, at all. But of the awakening of affection. Of the first warmth of love. Of the safety and comfort of that emotion.”[^25] For both men, their memory of their mother seems to be their first understanding of love, a kind of love they have never since been able to recreate or access again. 
 
-{% include feature/image.html objectid="phan-12821" caption="Reynolds’s vision of his mother." %}
+{% include feature/image.html objectid="phan-12821" caption=false %}
+
+<figcaption class="figure-caption text-center"> <span markdown="1">Reynolds’s vision of his mother</span></figcaption>
 
 One myth Splendours and Miseries returns to again and again is the tale of Orpheus and Eurydice, repeatedly referencing that, while he is entering the Underworld to bring someone back – seemingly his mother – the legend says he must not look back at her as he does this. It is the looking that truly condemns her to death. “But we are seeking for someone, and will be brought to her by a crowd of shadows," writes Sitwell. "Then we shall take her by the hand and lead her, but the myth says we must not look back.”[^26] It’s notable that the last explicit reference to Reynolds’s mother in the film is his vision of his mother standing before him. He speaks to her silent, still form, but she does not, cannot, reply, simply posing as she did in his photograph of her. She seems to disappear while he is looking at her, there in one shot and gone in the next. It’s right after the loss of this vision of his mother that he proposes to Alma, finally allowing life back into the House of Woodcock. Perhaps he finally accepted that his mother is truly gone. He violated the myth; he could not help but see her. It is the looking that made him lose her; in seeking the image of her, the personification, rather than the person, he condemned her forever to the underworld.
 
