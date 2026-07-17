@@ -52,7 +52,7 @@ The visualizations were also made to encourage viewers to compare their own expe
 
 <div class="mb-1 mx-auto" style="max-width: 1100px; width: 100%;"> 
     <div style="position: relative; width: 100%; aspect-ratio: 16/ 9; min-height: 700px;"> 
-     <iframe src="/pt-annotated/tempo-figure-1.html#vega-container" width="100%" allow="fullscreen"
+     <iframe src="{{ '/tempo-figure-1.html#vega-container' | relative_url }}" width="100%" allow="fullscreen"
      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none; display: block;">
      </iframe>
     </div> 
@@ -66,7 +66,7 @@ The visualizations were also made to encourage viewers to compare their own expe
 
 <div class="mb-1 mx-auto" style="max-width: 1300px; width: 100%;"> 
     <div style="position: relative; width: 100%; aspect-ratio: 26/ 9; min-height: 450px;"> 
-        <iframe src="/pt-annotated/tempo-figure-2.html#vega-container"
+        <iframe src="{{ '/tempo-figure-2.html#vega-container' | relative_url }}"
             style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none; display: block;">
         </iframe>
     </div> 
