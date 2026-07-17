@@ -46,6 +46,8 @@ So that Reynolds will need her care, Alma poisons him twice with the same kind o
 
 {% include feature/image.html objectid="supp-00020;supp-00021" caption=false %}
 
+{% include feature/image.html objectid="supp-00021" caption=false %}
+
 <figcaption class="figure-caption text-center"> <span markdown="1">The cover and frontispiece of *The London Magazine*, Volume 1, No. 6</span></figcaption>
 
 
