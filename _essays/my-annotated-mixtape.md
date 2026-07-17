@@ -196,23 +196,23 @@ Disco was commercialized and US imperialism is shrouded in its mists and all alo
 
 ### Bibliography
 
-1. Adams, Bryan. “Costume Designer Mark Bridges Makes Inherent Vice Look Nice - the Credits.” *The Credits*. December 12, 2014. https://www.motionpictures.org/2014/12/costume-designer-mark-bridges-makes-inherent-vice-look-nice/. 
+1. Adams, Bryan. “Costume Designer Mark Bridges Makes Inherent Vice Look Nice - the Credits.” *The Credits*, December 12, 2014. https://www.motionpictures.org/2014/12/costume-designer-mark-bridges-makes-inherent-vice-look-nice/. 
 2. Bell, Max. “The Doors: The 20 Best Songs | Louder.” *Louder Sound*. August 2, 2021. https://www.loudersound.com/features/the-20-best-doors-songs. 
 3. “Dancefloor as Protest - Celebrating the Spirit of Disco and Its Legacy.” International Disco Day. Accessed July 14, 2026. https://www.internationaldiscoday.org/social-impact/dancefloor-as-protest/.
 4. Dyer, Richard. “In Defense of Disco.” *Gay Left* 8 (Summer 1979): 20-23.
-5. Golsen, Tyler. “How Paul Thomas Anderson Got Jeff Lynne on ‘Boogie Nights.’” *Far Out Magazine*. October 7, 2023. https://faroutmagazine.co.uk/paul-thomas-anderson-jeff-lynne-boogie-nights/.
-6. Mayhew, Jess. “Song Stories: Robby Krieger on The Origin of the Doors’ ‘Peace Frog’ & ‘Light My Fire.’” *Reverb*. June 17, 2016. https://reverb.com/news/song-stories-the-doors-peace-frog-and-light-my-fire-with-robby-krieger. 
+5. Golsen, Tyler. “How Paul Thomas Anderson Got Jeff Lynne on ‘Boogie Nights.’” *Far Out Magazine*, October 7, 2023. https://faroutmagazine.co.uk/paul-thomas-anderson-jeff-lynne-boogie-nights/.
+6. Mayhew, Jess. “Song Stories: Robby Krieger on The Origin of the Doors’ ‘Peace Frog’ & ‘Light My Fire.’” *Reverb*, June 17, 2016. https://reverb.com/news/song-stories-the-doors-peace-frog-and-light-my-fire-with-robby-krieger. 
 7. Norton, Rictor. *Mother clap’s Molly House: The gay subculture in England 1700-1830.* London: Tempus Publishing, 2006.
 8. “Peace Frog by the Doors - Songfacts.” Songfacts. Accessed July 14, 2026. https://www.songfacts.com/facts/the-doors/peace-frog. 
 9. Re-Flex. “Re-Flex (UK) – The Politics of Dancing Lyrics | Genius Lyrics.” Genius Lyrics. Accessed July 14, 2026. https://genius.com/Re-flex-uk-the-politics-of-dancing-lyrics.
-10. Rockwell, John. “Why Are the New Stars of Disco Mostly Women? (Published 1979).” *The New York Times*. March 4, 1979. https://www.nytimes.com/1979/03/04/archives/why-are-the-new-stars-of-disco-mostly-women-why-disco-stars-are.html. 
+10. Rockwell, John. “Why Are the New Stars of Disco Mostly Women? (Published 1979).” *The New York Times*, March 4, 1979. https://www.nytimes.com/1979/03/04/archives/why-are-the-new-stars-of-disco-mostly-women-why-disco-stars-are.html. 
 11. Sonny & Cher. “Sonny & Cher – but You’re Mine Lyrics | Genius Lyrics.” Genius Lyrics. Accessed July 14, 2026. https://genius.com/Sonny-and-cher-but-youre-mine-lyrics.
-12. Taylor, Ella. “The 1970s, Ugly and Adrift in ‘Inherent Vice.’” *NPR*. December 11, 2014. https://www.npr.org/2014/12/11/369878497/the-1970s-ugly-and-adrift-in-inherent-vice.
+12. Taylor, Ella. “The 1970s, Ugly and Adrift in ‘Inherent Vice.’” *NPR*, December 11, 2014. https://www.npr.org/2014/12/11/369878497/the-1970s-ugly-and-adrift-in-inherent-vice.
 13. The Doors. “The Doors – Peace Frog Lyrics | Genius Lyrics.” Genius Lyrics. Accessed July 14, 2026. https://genius.com/The-doors-peace-frog-lyrics.
 14. The Who. “The Who – Won’t Get Fooled Again Lyrics | Genius Lyrics.” Genius Lyrics. Accessed July 14, 2026. https://genius.com/The-who-wont-get-fooled-again-lyrics.  
 15. Tynes, Gabriel. “Share of Young Adults Living at Home Has Nearly Tripled since 1970s.” *Courthouse News Service*, July 20, 2022. https://www.courthousenews.com/share-of-young-adults-living-at-home-has-nearly-tripled-since-1970s/. 
 16. Young, Neil. “Neil Young – Journey through the Past Lyrics | Genius Lyrics.” Genius Lyrics. Accessed July 14, 2026. https://genius.com/Neil-young-journey-through-the-past-lyrics.
-17. Yuhas, Alan. “What Inherent Vice Tells Us About Modern America.” *The Guardian*. December 12, 2014. https://www.theguardian.com/film/2014/dec/12/what-inherent-vice-tells-us-about-modern-america.
+17. Yuhas, Alan. “What Inherent Vice Tells Us About Modern America.” *The Guardian*, December 12, 2014. https://www.theguardian.com/film/2014/dec/12/what-inherent-vice-tells-us-about-modern-america.
 
 
 ### Notes
