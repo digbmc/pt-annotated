@@ -40,7 +40,10 @@ So that Reynolds will need her care, Alma poisons him twice with the same kind o
 
 ### *The London Magazine* (July, 1954)
 
-{% include feature/image.html objectid="supp-00020;supp-00021" caption="The cover and frontispiece of <em>The London Magazine</em>, Volume 1, No. 6" %}
+{% include feature/image.html objectid="supp-00020;supp-00021" caption=false %}
+
+<figcaption class="figure-caption text-center"> <span markdown="1">The cover and frontispiece of *The London Magazine*, Volume 1, No. 6</span></figcaption>
+
 
 *The London Magazine* is a long-running periodical that has been discontinued and revived many times throughout its history. It was founded in 1732, brought back in 1820, stopped again in 1829 a few years after its editor was shot by his longtime rival and associate at a competing magazine, revived from 1898 to 1933, before finally coming back in its current form under editor John Lehmann (1907-1987). The magazine appears at Reynolds's bedside during a scene in his country home.   	
 
