@@ -8,12 +8,6 @@ tags:
     - network
     - data essay
 ---
-<!--*iframe is making page jump down, this forces it to load at the top-->
-<script>
-window.onload = function() {
-    window.scrollTo(0, 0);
-};
-</script>
 
 <ul class="list-group list-group-horizontal justify-content-center mb-2">
     <li class="list-group-item bg-dark text-start py-0 my-2 border border-top-0 border-bottom-0 border-start-0 border-secondary">
@@ -49,7 +43,7 @@ Perhaps it is a coincidence that the graph ended up looking like a flower, but i
 ### Collaborative Filmography Network
 <div class="mb-4 desktop-graph">
 <div class="embed-responsive ratio ratio-16x9"> 
-<iframe src="/pt-annotated/network.html#network-container" width="100%" loading="lazy"></iframe>
+<iframe src="/pt-annotated/network.html" width="100%" loading="lazy"></iframe>
 </div>
 <a href="{{ '/network.html' | relative_url }}">Open in Full Screen <svg class="bi icon-sprite" aria-hidden="true"><use xlink:href="{{ 'assets/lib/icons/fullscreen.svg' | relative_url }}"/></svg></a>
 </div> 
@@ -65,7 +59,7 @@ Perhaps it is a coincidence that the graph ended up looking like a flower, but i
 
 A network graph is divided into nodes (points) and edges (lines between points). In this graph, people and films are nodes, and edges connect individuals to the films on which they worked. Nodes are color-coded by which department the crew member is most known for (for example, acting, directing, and so on). You can click on any node and it will highlight the connections and pull up information about the individual, such as which films they have worked on and their specific department and role on set. Actors will additionally have their character name. All the jobs someone held on set are listed. 
 
-To search for a particular collaborator, one can use the search bar to find them. The graph can be filtered through the group selector (Known For Department) to only see all the nodes of a particular category. 
+To search for a particular collaborator, one can use the search bar to find them. The graph can be filtered through the group selector ("known for" department) to only see all the nodes of a particular category. 
 
 #### Departments (Based on [TMDB](https://www.themoviedb.org/talk/598c3a70925141080100e601))
 - Art: in charge of the visual design of the film; positions include set designers, props, painters, etc.
@@ -168,13 +162,15 @@ This visualization proposes another way of thinking about those lines. These lin
 
 The dataset for this graph was gathered using [The Movie Database (TMDB) API](https://developer.themoviedb.org/docs/getting-started) based on the Credits page. API stands for Application Programming Interface, which allows software to share data with other software. This resource provided JSON files for each of the films that contained the name of every credited cast and crew member along with supplementary information about them. I used [OpenRefine](https://openrefine.org/) and Microsoft Excel to clean and transform the data into edges and nodes. I needed to combine any duplicates of individuals such that every person only appears once but has all of their credited films listed. 
 
-Each node is one row in a spreadsheet, which contains identifying information and additional attributes. For each node there is a unique ID based on the existing IDs that TMDB uses, as the API assigns every individual a number. The film’s IDs are consistent with the existing four-letter notation used elsewhere in the *PTAnnotated* project (e.g. boog for *Boogie Nights*). Each node also has a label; in this case, it was the name of the collaborator. In a situation where someone goes by a different name than their given name, such as a stage name, the name that they are publicly known by was used for the sake of clarity. Additional attributes were their Known For department (from the TMDB API, which is based on their most credited role), and their specific departments and roles for each film. Films have attributes for release year and a link to the relevant *PTAnnotated* film page.
+Each node is one row in a spreadsheet, which contains identifying information and additional attributes. For each node there is a unique ID based off on the existing IDs that TMDB uses as the API assigns every individual a number. The film’s IDs are consistent with the existing four-letter notation used elsewhere in the *PTAnnotated* project (e.g. boog for *Boogie Nights*). Each node also has a label; in this case, it was the name of the collaborator. In a situation where someone goes by a different name than their given name, such as a stage name, the name that they are publicly known by was used for the sake of clarity. Additional attributes were their "known for" department (from the TMDB API, which is based on their most credited role), and their specific departments and roles for each film. Films have attributes for release year and a link to the relevant *PTAnnotated* film page.
 
 Edges connect a source node (the starting point) to a target node (the end point), so each collaborator is a source and has a directed arrow leading to their targets, which in this instance is the films they worked on. Functionally, this meant a spreadsheet with a column for the sources and a column for the target; if they are in the same row, they are connected. A source can be connected to multiple targets.  
 
 Once these spreadsheets were made, I uploaded them to [Gephi](https://gephi.org/) as CSV files. Gephi is an open source software for creating network graphs, and I used it to generate the graph and customize the layout, sizing, labels, etc. 
 
 Once I was satisfied with my graph, I exported it as a graphml file and reuploaded it to Gephi Lite. Gephi Lite is the online browser-based version of Gephi, which allowed for even more customization, such as color organizing through specific hex codes. Gephi Lite also can connect to GitHub as a way to publish public graph files. Since Gephi Lite cannot export interactive graphs, I re-imported my graph back into Gephi. Utilizing the [SigmaExport plugin](https://github.com/oxfordinternetinstitute/gephi-plugins/tree/sigmaexporter-plugin/modules/sigmaExporter), I exported it as a [Sigma.js](https://www.sigmajs.org/) template. Sigma.js is a JavaScript library for creating interactive network graphs that can be viewed in a browser. The plugin and template were created by the [Oxford Internet Institute’s InteractiveVis](https://github.com/oxfordinternetinstitute/InteractiveVis/) project. The export files, containing the data and the template for the site, were uploaded into GitHub.
+
+<a href="https://github.com/digbmc/pta-features-data/tree/main/network-cs"><svg class="bi icon-sprite" aria-hidden="true"><use xlink:href="{{ 'assets/lib/icons/github.svg' | relative_url }}"/></svg>View code and data for this visualization</a>
 
 #### Limitations
 
@@ -190,17 +186,15 @@ The goal of the *PTAnnotated* project is to break the films down into its smalle
 
 To understand who makes a movie, sometimes you have to look between the lines.
 
-### Links and Downloads
-
-- [GitHub gist of the Collaborative Filmography graph file](https://gist.github.com/claraeks/098cddacb0de6672ce2f4176e16bbb39), can be opened in [Gephi Lite](https://lite.gephi.org/v1.0.2/)
-- [GitHub gist of the Coworking Network graph file](https://gist.github.com/claraeks/1f0aa905065c91e2d453716306ff1926), can be opened in [Gephi Lite](https://lite.gephi.org/v1.0.2/)
-
 [^1]: Weingart, “Demystifying Networks, Parts I & II.”
 [^2]: This feature uses the TMDB API but is not endorsed or certified by TMDB.
 [^3]: Tangcay, “‘One Battle After Another’ Casting Director Cassandra Kulukundis Wins Inaugural Oscar for Best Casting.”
 [^4]: This feature uses the TMDB API but is not endorsed or certified by TMDB.
 [^5]: Sarris, “Notes on the Auteur Theory in 1962," 6.
 [^6]: Sadoul, *Dictionary of Films*, vi.
+[^4]: This feature uses the TMDB API but is not endorsed or certified by TMDB
+[^5]: Sarris, “Notes on the Auteur Theory in 1962,” 6.
+[^6]: Sadoul, Dictionary of Films, vi.
 [^7]: Heidmann, “Paul Thomas Anderson: ‘We Continue to Move Forward.’”
 [^8]: Pruner, “Above-the-Line vs. Below-the-Line Crew.”
 [^9]: Remnick, “Paul Thomas Anderson on What Makes a Movie Great.”

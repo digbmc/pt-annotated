@@ -233,6 +233,20 @@ a:hover svg {
     vertical-align: 0;
 }
 
+@media (min-width: 768px) {
+    .list-group {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media (max-width: 768px) {
+    .list-group {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 /* Hide auto-injected SVG icons */
 /*This section of code can be deleted if there is another way to get rid of the automatic external link items other than hiding them*/
 a[target="_blank"] svg.bi,
@@ -582,6 +596,11 @@ a[target="_blank"]::after {
     margin-bottom: 1rem;
     border: 1px solid $secondary;
 }
+
+.figure-caption {
+    color: #f6754f;
+}
+
 
 /* -----------------
     Browse Settings
@@ -1001,4 +1020,15 @@ a[target="_blank"]::after {
 
    .modal-content {
     background-color: #000;
+   }
+
+   .btn-outline-secondary {
+    color: #f6754f;
+    border-color: #f6754f;
+   }
+
+   .btn-outline-secondary:hover {
+    color: #000;
+    background-color: #f6754f;
+    border-color: #f6754f;
    }
