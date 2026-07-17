@@ -93,7 +93,7 @@
                                 <div class="carousel-caption">
                                     {% assign caption-text = item.title | default: item.description %}
                                     {% if caption-text %}
-                                        <p class="mb-2 small text-light">{{ caption-text | escape }}</p>
+                                        <p class="mb-2 small text-light">{{ caption-text }}</p>
                                     {% endif %}
                                     <a href="{{ item-link }}" class="btn btn-sm btn-{{ btn-color }}">{{ btn-text }}</a>
                                 </div>
@@ -108,11 +108,11 @@
                             {% assign item-link = '/items/' | append: item.objectid | append: '.html' | relative_url %}
                         {% endif %}
                         <div class="carousel-item py-2{% if forloop.first %} active{% endif %}">
-                            <img class="d-block h-100 mx-auto lazyload" alt="{{ item.image_alt_text | default: item.title | escape }}" data-src="{% if item.image_small %}{{ item.image_small | relative_url }}{% else %}{{ item.image_thumb | relative_url }}{% endif %}">
+                            <img class="d-block h-100 mx-auto lazyload" alt="{{ item.image_alt_text | default: item.title }}" data-src="{% if item.image_small %}{{ item.image_small | relative_url }}{% else %}{{ item.image_thumb | relative_url }}{% endif %}">
                             <div class="carousel-caption">
                                 {% assign caption-text = item.title | default: item.description %}
                                 {% if caption-text %}
-                                    <p class="mb-2 small text-light">{{ caption-text | escape }}</p>
+                                    <p class="mb-2 small text-light">{{ caption-text }}</p>
                                 {% endif %}
                                 <a href="{{ item-link }}" class="btn btn-sm btn-{{ btn-color }}">{{ btn-text }}</a>
                             </div>
