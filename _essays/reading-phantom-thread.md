@@ -20,7 +20,7 @@ For this project, I read through seven sources featured in the film—two magazi
 
 ### *Edible and Poisonous Mushrooms* (1902) 
 
-{% include feature/image.html objectid="supp-00002" caption=false %}
+{% include feature/image.html objectid="supp-00002" width="50" caption=false %}
 
 <figcaption class="figure-caption text-center"> <span markdown="1">The cover of *Edible and Poisonous Mushrooms*</span></figcaption>
 
