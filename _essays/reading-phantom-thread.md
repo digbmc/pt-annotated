@@ -35,7 +35,7 @@ This book was published by the Society for Promoting Christian Knowledge, a Chri
 
 {% include feature/image.html objectid="phan-11125" caption=false %}
 
-{% include feature/image.html objectid="supp-00004" caption=false %}
+{% include feature/image.html objectid="supp-00004" width="50" caption=false %}
 
 <figcaption class="figure-caption text-center"> <span markdown="1">Top: The book as shown in the film   Bottom:  The page of the book Alma looks at as it appears in the texts</span></figcaption>
 
@@ -44,9 +44,9 @@ So that Reynolds will need her care, Alma poisons him twice with the same kind o
 
 ### *The London Magazine* (July, 1954)
 
-{% include feature/image.html objectid="supp-00020" caption=false %}
+{% include feature/image.html objectid="supp-00020" width="50" caption=false %}
 
-{% include feature/image.html objectid="supp-00021" caption=false %}
+{% include feature/image.html objectid="supp-00021" width="50" caption=false %}
 
 <figcaption class="figure-caption text-center"> <span markdown="1">The cover and frontispiece of *The London Magazine*, Volume 1, No. 6</span></figcaption>
 
@@ -107,9 +107,9 @@ Two of the poems featured in the issue bear some relevance to the plot. Vernon W
 
 *The Observer’s Books* were a series of small informational guides, published by the British company Frederick Warne & Co between 1937 and 2003. They covered a broad range of topics: hobbies, machinery, plant and animal life. Popular books would sometimes be re-released on a regular basis. Today they are a collector’s item. The books make sense in Reynolds’s home. They were a popular British series and are placed on a shelf in the kitchen, serving as a guide to the natural world. 	
 
-{% include feature/image.html objectid="supp-00011" caption=false %} 
+{% include feature/image.html objectid="supp-00011" width="50" caption=false %} 
 
-<figcaption class="figure-caption text-center"> <span markdown="1">A list of <em>Observer’s Books</em>, featured on page 2 of <em>The Observer’s Book of British Birds’ Eggs</span></figcaption>
+<figcaption class="figure-caption text-center"> <span markdown="1">A list of *Observer’s Books*, featured on page 2 of *The Observer’s Book of British Birds’ Eggs*</span></figcaption>
 
 
 However, the books also serve a more symbolic meaning. They are shown only in one shot, stacked on the shelf alongside *Edible and Poisonous Mushrooms*. The books, each in their own way, represent Reynolds himself. All three books are also focused on caretaking in some form: *Dogs* details how to raise and care for a dog, *Cacti* provides information on how to cultivate succulents, and *Birds' Eggs* takes great care to remind readers not to disturb birds nests, especially endangered species, saying they hope a guide for to allow hobbyists to more quickly identify the eggs, and therefore allowing them to leave the nest more quickly and listing rules for preserving nests while observing them. It is no accident that these books appear as Alma prepares to poison Reynolds, making him sick in order to nurse him back to health. She has learned how best to care for Reynolds, which she has found is only possible when he is incapacitated. It seems she has succeeded; Reynolds realizes she is poisoning him and welcomes it. The books represent her arc as she discovered the best way to truly be a part of Reynolds’s life and family. 
@@ -117,14 +117,14 @@ However, the books also serve a more symbolic meaning. They are shown only in on
 
 #### *Of Dogs* (194)
 
-{% include feature/image.html objectid="supp-00018" caption=false %}
+{% include feature/image.html objectid="supp-00018" width="50" caption=false %}
 
 <figcaption class="figure-caption text-center"> <span markdown="1">The cover of *The Observer’s Book of Dogs*</span></figcaption>
 
 
 Of the three *Observer’s Books*, *The Observer's Book of Dogs* bears the most obvious relevance to Reynolds’s life. Reynolds himself has dogs, though the exact number of them is not clear. They appear only in one scene, in the dressmaker’s country home, so it seems likely they live there full time rather than following him to London. While the viewer never gets a full, clear view of them, only glimpsing the top of their heads in one shot, they are obviously quite large dogs, not suited for city life. The film never explicitly states their breed, but in an interview Daniel Day-Lewis said he insisted they be lurchers. Lurchers are not an officially recognized breed, but rather a common mix, included in the book in a back section dedicated to unofficial or mixed breeds. The author, Clifford L. Hubbard, describes them as “an all-purpose utility dog, usually of Greyhound or Whippet shape, which, although ostracized, is a fairly common race in the Midlands and north of England,”[^12] locations in keeping with their country home.
 
-{% include feature/image.html objectid="supp-00035" caption=false %}
+{% include feature/image.html objectid="supp-00035" width="50" caption=false %}
 
 <figcaption class="figure-caption text-center"> <span markdown="1">Greyhounds are commonly used to breed lurchers</span></figcaption>
 
@@ -144,7 +144,7 @@ The scene in which the books appear, where Alma poisons Reynolds for the second 
 
 #### *Of British Birds’ Eggs* (1954)
 
-{% include feature/image.html objectid="supp-00010" caption=false %}
+{% include feature/image.html objectid="supp-00010" width="50" caption=false %}
 
 <figcaption class="figure-caption text-center"> <span markdown="1">The cover of <em>The Observer’s Book of British Birds Egg</span></figcaption>
 
@@ -153,7 +153,7 @@ The scene in which the books appear, where Alma poisons Reynolds for the second 
 
 There are also several symbolic connections. Perhaps the most obvious connection to the film is that Reynolds’s last name—Woodcock—comes from a squat, brown woodland bird that typically lives in England year round. The bird gets an entry in *The Observer’s Book of British Birds’ Eggs*, which describes them as widely spread across England. There are several details that correlate to Reynolds’s life. According to the entry, while they are found all throughout England, woodcocks are often overlooked due to “their retiring and largely nocturnal” lifestyle.[^13] While Reynolds does not follow an exclusively nocturnal schedule, he is willing to work whenever he feels called to. Alma describes that Reynolds will wake her in the middle of the night, sometimes after only a few hours of sleep, to begin working on a dress. Describing the nests of the woodcock, the entry reads, “The birds usually make their nests in a forest, out of dead leaves and undergrowth.”[^14] Reynolds has refused changes to his life following the death of his mother. He eventually admits the faults of this to Alma, telling her, “A house that does not change is a dead house.” 
 
-{% include feature/image.html objectid="supp-00012" caption=false %}
+{% include feature/image.html objectid="supp-00012" width="50" caption=false %}
 
 <figcaption class="figure-caption text-center"> <span markdown="1">An illustration of the woodcock egg</span></figcaption>
 
@@ -163,9 +163,9 @@ In Alma’s fantasy of their future life together, she imagines having a child t
 
 #### *Of Cacti & Other Succulents* (1958)
 
-{% include feature/image.html objectid="supp-00014" caption=false %}
+{% include feature/image.html objectid="supp-00014" width="50" caption=false %}
 
-{% include feature/image.html objectid="supp-00016" caption=false %}
+{% include feature/image.html objectid="supp-00016" width="50" caption=false %}
 
 <figcaption class="figure-caption text-center"> <span markdown="1">Top: The cover of *The Observer’s Book of Cacti & Other Succulents*  Bottom: sketches of various succulents</span></figcaption>
 
@@ -174,7 +174,7 @@ The third book in Reynolds’s collection, *The Observer’s Book of Cacti and O
 
 The first explanation for the book's inclusion in Reynolds’s collection speaks to Reynolds’s cosmopolitanism. While he only travels outside of England once in the film, he clearly carries ties to other nations. He has designed fashions for the Princess of Belgium from baptism to wedding, including an entire wardrobe for her coming out season. The English couture industry of the time was highly connected to and influenced by the Parisian one, and we see this reflected in the French style decor in his home and workplace. He and Alma travel to [Switzerland](https://ptannotated.com/items/phan-13639.html) for their honeymoon. 
 
-{% include feature/image.html objectid="supp-00015" caption="" %}
+{% include feature/image.html objectid="supp-00015" width="50" caption=false %}
 
 <figcaption class="figure-caption text-center"> <span markdown="1">A photograph of the succulent sedum, one of the few succulents native to EnglandAn illustration of the woodcock egg</span></figcaption>
 
@@ -212,7 +212,7 @@ Reynolds’s designs would certainly not look out of place alongside the ones fe
 
 {% include feature/image.html objectid="phan-13208" caption=false %}
 
-{% include feature/image.html objectid="supp-00027" caption=false %}
+{% include feature/image.html objectid="supp-00027" width="50" caption=false %}
 
 <figcaption class="figure-caption text-center"> <span markdown="1">Top: the wedding dress Reynolds designs for the princess  Bottom: a wedding dress ad on page 16 of *Vogue*</span></figcaption>
 
@@ -220,7 +220,7 @@ Comparing the fashions of the women in the film to those in *Vogue* also reveals
 
 {% include feature/image.html objectid="phan-03729;phan-04940;phan-04356" caption=false %}
 
-{% include feature/image.html objectid="supp-00029;psupp-00031" caption=false %}
+{% include feature/image.html objectid="supp-00029;supp-00031" caption=false %}
 
 Cyril prefers sleeker, more fitted silhouettes. We often see her in simple, dark dresses or suits, always with a more fitted pencil skirt. Cyril is upper class, and, while she does work, it is in Reynold’s studio, not in a job which requires physical labor or significant movement. Her lifestyle affords her the ability to prioritize aesthetics over practicality, as she does not need to worry that her fitted skirts will limit her range of motion. While her clothing is more subtle than much of what Reynolds designs, it speaks to an attunement with what is considered fashionable for the period. The simplicity of her clothing also differentiates her from the clients and models who come through Reynolds’s salon, and life. She has a distinctive look, almost always seen with an elegant updo, pearl necklace, and red lipstick. Her dark clothing seems perhaps more professional or official, aligning her somewhat with Reynolds, who almost always wears a dark suit. She is an almost equal partner in his business. Her distinctive style also differentiates her from Reynolds’s girlfriends. She is not a passing phase, a temporary muse; Cyril is a permanent fixture in his life, and, at least initially, the closest thing to a partner he ever intends to have. 
 
@@ -230,7 +230,9 @@ Cyril prefers sleeker, more fitted silhouettes. We often see her in simple, dark
 
 Alma’s outfits, both those explicitly designed by Reynolds and those that are not, tend to be full skirted, or at the very least not fitted. This speaks to the difference in her origins. Less fitted skirts allow for a greater range of movement, and are more practical for jobs that involve significant labor or movement. Alma begins the move in a much humbler place than Cyril, working as a waitress in the countryside. Though she may have received new finery from Reynolds, not all of her clothing seems to be from him, or, at the very least, she has not fully abandoned her practical sensibilities. During times she is not on public display, particularly when they are in the countryside, she turns toward even less form fitting clothing, donning comfortable sweaters, crinkled button downs, and wool skirts—a shape much more reminiscent of the 1940s’ practical, masculine sensibilities than anything Cyril wears. While she has been given modern, fashionable clothing by Reynolds, it is perhaps not what comes naturally to her, or at the very least not something she has access to. This silhouette is also better aligned with Reynolds’s design style. He is not married to one particular shape, but the overall tendency of his designs is towards the dramatic full skirt and embellishment, quite unlike Cyril’s clothing. She allows herself to be shaped by Reynolds. Though she initially wears lipstick, she stops wearing it once he removes it for her on their first date. She alters her identity and personal style to fit his taste, becoming almost an extension of him and his brand. 
 
-{% include feature/image.html objectid="phan-04031;supp-00032" caption=false %}
+{% include feature/image.html objectid="phan-04031" caption=false %}
+
+{% include feature/image.html objectid="supp-00032" width="50" caption=false %}
 
 <figcaption class="figure-caption text-center"> <span markdown="1">Left: Alma at a fashion shoot  Right: an ad for a designer in *Vogue*</span></figcaption>
 
@@ -252,7 +254,7 @@ In contrast, Barbara Rose seems entirely beholden to the trends of the time, to 
 
 ### *Splendours and Miseries* (1943) 
 
-{% include feature/image.html objectid="supp-00023" caption=false %}
+{% include feature/image.html objectid="supp-00023" width="50" caption=false %}
 
 <figcaption class="figure-caption text-center"> <span markdown="1">The frontispiece of *Splendours and Miseries*</span></figcaption>
 
@@ -263,7 +265,7 @@ The book’s first point of relevance to the film comes from the name itself. A 
 
 {% include feature/image.html objectid="phan-02009" caption=false %}
 
-{% include feature/image.html objectid="supp-00024" caption=false %}
+{% include feature/image.html objectid="supp-00024" width="50" caption=false %}
 
 <figcaption class="figure-caption text-center"> <span markdown="1">Top: Reynolds’s photo of his mother Bottom: A photograph of Sitwell and his mother included in “Songs my Mother Taught Me"</span></figcaption>
 
