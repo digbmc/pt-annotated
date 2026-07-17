@@ -48,12 +48,6 @@ The visualizations were also made to encourage viewers to compare their own expe
 
 ### Visualizations
 
-<div class="row mobile-graph-backup">
-<div class="col-md text-center">
-<em>Note: For fully interactive visualizations, please view this page on a desktop computer.</em>
-</div>
-</div>
-
 #### Figure I: Paul Thomas Annotated Screenshots
 
 <div class="mb-1 mx-auto" style="max-width: 1100px; width: 100%;"> 
