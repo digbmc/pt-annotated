@@ -63,6 +63,7 @@ See our <a href="https://www.zotero.org/groups/5918526/paul_thomas_annotated/lib
 
 We would like to thank the following individuals, groups, and institutions for their help and support as we build *Paul Thomas Annotated: In the Margins*.
 - Alex at <a href="https://www.yelp.com/biz/miss-donuts-los-angeles" target="_blank">Miss Donuts</a>
+- Alyssa Pivirotto
 - Ashlyn Stewart
 - Brandon Jackson
 - Bryn Mawr College
