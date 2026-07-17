@@ -55,7 +55,7 @@ var items = [
         {% if item.display_template %}"display_template": {{ item.display_template | jsonify }}, {%- endif -%}
         {% if item.format %}"format": {{ item.format | jsonify }}, {%- endif -%}
         {% if item.image_alt_text %}"alt": {{ item.image_alt_text | escape | jsonify }}, {%- endif -%}
-        "title":{{ item.title | strip | escape | jsonify }},
+        "title":{{ item.title | strip | jsonify }},
         {% if item.parentid %}"parent": {{ item.parentid | jsonify }}, {%- endif -%}
         "id":{{ item.objectid | jsonify }},
         "facets":"{% for f in facets %}{% if item[f.name] %}{%- assign values = item[f.name] | split: '; ' -%}{%- for v in values -%}{{ f.name | slugify }}-{{ v | slugify | append: ' ' }}{%- endfor -%}{%- endif -%}{%- endfor -%}"}
