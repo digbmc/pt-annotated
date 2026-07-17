@@ -186,31 +186,28 @@ The goal of the *PTAnnotated* project is to break the films down into its smalle
 
 To understand who makes a movie, sometimes you have to look between the lines.
 
-[^1]: Weingart, “Demystifying Networks, Parts I & II.”
+[^1]: Scott B. Weingart, “Demystifying Networks, Parts I & II,” *Journal of Digital Humanities* 1, no. 1 (2011), <https://journalofdigitalhumanities.org/1-1/demystifying-networks-by-scott-weingart/>.
 [^2]: This feature uses the TMDB API but is not endorsed or certified by TMDB.
-[^3]: Tangcay, “‘One Battle After Another’ Casting Director Cassandra Kulukundis Wins Inaugural Oscar for Best Casting.”
+[^3]: Jazz Tangcay, “‘One Battle After Another’ Casting Director Cassandra Kulukundis Wins Inaugural Oscar for Best Casting,” *Variety*, March 16, 2026, <https://variety.com/2026/artisans/news/one-battle-after-another-wins-first-oscar-best-casting-1236680670/>. 
 [^4]: This feature uses the TMDB API but is not endorsed or certified by TMDB.
-[^5]: Sarris, “Notes on the Auteur Theory in 1962," 6.
-[^6]: Sadoul, *Dictionary of Films*, vi.
-[^4]: This feature uses the TMDB API but is not endorsed or certified by TMDB
-[^5]: Sarris, “Notes on the Auteur Theory in 1962,” 6.
-[^6]: Sadoul, Dictionary of Films, vi.
-[^7]: Heidmann, “Paul Thomas Anderson: ‘We Continue to Move Forward.’”
-[^8]: Pruner, “Above-the-Line vs. Below-the-Line Crew.”
-[^9]: Remnick, “Paul Thomas Anderson on What Makes a Movie Great.”
+[^5]: Andrew Sarris, “Notes on the Auteur Theory in 1962,” *Film Culture*, no. 27 (Winter 1962/1963), 6.
+[^6]: Georges Sadoul, *Dictionary of Films*, ed. Peter Morris (Berkeley, University of California Press, 1972), vi.
+[^7]: Patrick Heidmann, “Paul Thomas Anderson: ‘We Continue to Move Forward,’” *The Talks*, March 15, 2026, <https://the-talks.com/interview/paul-thomas-anderson/>. 
+[^8]: Aaron Pruner, “Above-the-Line vs. Below-the-Line Crew,” *Backstage*, May 10, 2022, <https://www.backstage.com/magazine/article/above-the-line-vs-below-the-line-crew-differences-74969/>.
+[^9]: David Remnick, “Paul Thomas Anderson on What Makes a Movie Great,” *The New Yorker*, December 12, 2021, <https://www.newyorker.com/culture/the-new-yorker-interview/paul-thomas-anderson-on-what-makes-a-movie-great>. 
 
 ### Bibliography
 
 - Bastian, Mathieu, Sebastien Heymann, and Mathieu Jacomy. “Gephi: An Open Source Software for Exploring and Manipulating Networks.” *Proceedings of the International AAAI Conference on Web and Social Media* 3, no. 1 (2009): 361–62.
-- Heidmann. “Paul Thomas Anderson: ‘We Continue to Move Forward.’” The Talks, March 15, 2026. <https://the-talks.com/interview/paul-thomas-anderson/>. 
+- Heidmann, Patrick. “Paul Thomas Anderson: ‘We Continue to Move Forward.’” *The Talks*, March 15, 2026. <https://the-talks.com/interview/paul-thomas-anderson/>. 
 - Huynh, David. *OpenRefine*. Version 3.10.1. Code for Science and Society, released 2026. <https://openrefine.org/>.
 - Jacomy, Alexis, and Guillaume Plique. *Sigma.Js*. Version 1. Released 2014. <www.sigmajs.org/>.
 - Oxford Internet Institute. *InteractiveVis*. Released 2012. <https://github.com/oxfordinternetinstitute/InteractiveVis/>.
 - Pruner, Aaron. “Above-the-Line vs. Below-the-Line Jobs in Film.” *Backstage*, May 10, 2022. <https://www.backstage.com/magazine/article/above-the-line-vs-below-the-line-crew-differences-74969/>.
-- Remnick, David. “Paul Thomas Anderson on What Makes a Movie Great.” The New Yorker Interview. The New Yorker, December 12, 2021. <https://www.newyorker.com/culture/the-new-yorker-interview/paul-thomas-anderson-on-what-makes-a-movie-great>. 
+- Remnick, David. “Paul Thomas Anderson on What Makes a Movie Great.” *The New Yorker*, December 12, 2021. <https://www.newyorker.com/culture/the-new-yorker-interview/paul-thomas-anderson-on-what-makes-a-movie-great>. 
 - Sadoul, Georges. *Dictionary of Films*. Edited by Peter Morris. Berkeley, University of California Press, 1972. <http://archive.org/details/bub_gb_PvsZikRu-hAC>.
-- Sarris, Andrew. “Notes on the Auteur Theory in 1962.” *Film Culture* (New York), no. No. 27 (Winter 1962): 1–8. <https://dn721605.ca.archive.org/0/items/film-culture-1962-no-27/film-culture-1962-no-27.pdf>.
-- Tangcay, Jazz. “‘One Battle After Another’ Casting Director Cassandra Kulukundis Wins Inaugural Oscar for Best Casting.” Variety, March 16, 2026. <https://variety.com/2026/artisans/news/one-battle-after-another-wins-first-oscar-best-casting-1236680670/>. 
+- Sarris, Andrew. “Notes on the Auteur Theory in 1962.” *Film Culture*, no. 27 (Winter 1962/1963): 1–8. <https://dn721605.ca.archive.org/0/items/film-culture-1962-no-27/film-culture-1962-no-27.pdf>.
+- Tangcay, Jazz. “‘One Battle After Another’ Casting Director Cassandra Kulukundis Wins Inaugural Oscar for Best Casting.” *Variety*, March 16, 2026. <https://variety.com/2026/artisans/news/one-battle-after-another-wins-first-oscar-best-casting-1236680670/>. 
 - The Movie Database. *The Movie Database API*. Version 3. Released 2026. <https://developer.themoviedb.org/docs/getting-started>.
 - Weingart, Scott B. “Demystifying Networks, Parts I & II.” *Journal of Digital Humanities* 1, no. 1 (2011). <https://journalofdigitalhumanities.org/1-1/demystifying-networks-by-scott-weingart/>.
 
