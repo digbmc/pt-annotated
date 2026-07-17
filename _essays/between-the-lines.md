@@ -50,7 +50,7 @@ Perhaps it is a coincidence that the graph ended up looking like a flower, but i
 <div class="row mobile-graph-backup">
 <div class="col-md text-center">
 <img src="{{ '/assets/img/network-fallback.png' | relative_url }}" alt="Network Graph Image" class="mobile-graph-image" width="100%">
-<em>Note: For the fully interactive network graph, please view this page on a desktop computer.</em>
+<em>Note: For the interactive network graph, please view this page on a desktop computer.</em>
 </div>
 </div>
 <figcaption class="figure-caption text-center"> <span markdown="1">A network graph of PTA collaborators based on what films they have worked on.[^2]</span></figcaption>
@@ -99,7 +99,7 @@ The color-coding of the nodes remains the same, based on the person’s job. But
 <div class="row mobile-graph-backup">
 <div class="col-md text-center">
 <img src="{{ '/assets/img/cowork-network-fallback.png' | relative_url }}" alt="Network Graph Image" class="mobile-graph-image" width="100%">
-<em>Note: For the fully interactive network graph, please view this page on a desktop computer.</em>
+<em>Note: For the interactive network graph, please view this page on a desktop computer.</em>
 </div>
 </div>
 <div class="film-legend" style="width:100%; position:relative;">
