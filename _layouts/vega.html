@@ -21,11 +21,30 @@ layout: blank-page
   </style>
 </head>
 <body>
-  <a class="iframe-back-button" href="{{'/essays/tempo-feature.html' | relative_url }}"><svg class="bi icon-sprite" aria-hidden="true"><use xlink:href="{{ 'assets/lib/icons/arrow-left.svg' | relative_url }}"/></svg>Back to Essay </a>
+<style>
+    /* If the page is running inside an iframe, hide the back button and extra layouts */
+.is-framed .iframe-back-button,
+.is-framed .mobile-graph-image {
+    display: none !important;
+}
+
+/* Ensure the container utilizes full height and spacing inside the frame boundary */
+.is-framed #network-container {
+    margin-top: 0 !important;
+    top: 0 !important;
+    height: 100vh !important; /* Forces the graph to fill the entire iframe viewport */
+}
+</style>
+ <body>
+  <script>if (window.self !== window.top) {
+    document.documentElement.classList.add('is-framed');
+}</script>
+<body>
+  <a class="iframe-back-button" href="{{'/essays/tempo-feature.html#visualizations' | relative_url }}"><svg class="bi icon-sprite" aria-hidden="true"><use xlink:href="{{ 'assets/lib/icons/arrow-left.svg' | relative_url }}"/></svg>Back to Essay </a>
   
- <div class="vega-container" style="width: 100%; height: 700px; background: rgb(201, 201, 201); position: relative">
+ <div class="vega-container" style="width: 100%; height: 700px; position: relative">
   {{ content }}
 
 </div> 
-
+</body>
 </body>
