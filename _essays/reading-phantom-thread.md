@@ -21,7 +21,9 @@ For this project, I read through seven sources featured in the film—two magazi
 ### *Edible and Poisonous Mushrooms* (1902) 
 
 {% include feature/image.html objectid="supp-00002" caption=false %}
+
 <figcaption class="figure-caption text-center"> <span markdown="1">The cover of *Edible and Poisonous Mushrooms*</span></figcaption>
+
 
 *Edible and Poisonous Mushrooms* by M. C. Cooke is certainly the most prominent of the books featured in *Phantom Thread*—Alma uses it to plan her two poisoning of Reynolds. The author, Mordecai Cubitt Cooke (1825–1914), was a famous British mycologist, known as England’s leading expert on the subject. He worked successfully in London for many years as a school teacher before quitting at 34 to work part-time jobs and begin publishing his books. Cooke sought to make natural history popular with and accessible to the broader public, writing 14 books, all intended for an audience without a scientific background. He came to domestic and international fame through his prolific publishing—he reportedly wrote nearly 350 books and papers—and was in direct communication with many mycologists around the globe starting early in his career. 
 
