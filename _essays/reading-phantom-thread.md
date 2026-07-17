@@ -44,7 +44,7 @@ So that Reynolds will need her care, Alma poisons him twice with the same kind o
 
 ### *The London Magazine* (July, 1954)
 
-{% include feature/image.html objectid="supp-00020;supp-00021" caption=false %}
+{% include feature/image.html objectid="supp-00020" caption=false %}
 
 {% include feature/image.html objectid="supp-00021" caption=false %}
 
@@ -61,25 +61,37 @@ The magazine has a clear cosmopolitanism leaning, which also points to a divide 
 
 Both the magazine itself and background information paints a clear picture of its intended reader: well educated, cosmopolitan, wealthy. This profile almost perfectly describes Reynolds. He’s upper class and connected to other nations such as Belgium and France, through [the Princess](https://ptannotated.com/items/phan-05850.html) he dresses and his line of work respectively. From the [sheer number of books](https://ptannotated.com/items/phan-02228.html) he has in his home, it’s easy to assume that he has some interest in literature, or at the very least likes to present as someone who does. 
 
-{% include feature/image.html objectid="phan-04558" caption="As Reynolds lies sick in bed, <em>The London Magazine</em> is visible on his bedside table" %}
+{% include feature/image.html objectid="phan-04558" caption=false %}
+
+<figcaption class="figure-caption text-center"> <span markdown="1">As Reynolds lies sick in bed, *The London Magazine* is visible on his bedside table</span></figcaption>
+
 
 The portion of the issue most pertinent to the film is the short story “A Cottage in Cornwall” by C.H.B. Kitchin, which, through journal entries, tells the story of a woman who has been institutionalized because she believes her husband is poisoning her. It bears a striking resemblance to the actual events of the film: Alma repeatedly poisons Reynolds so that she can nurse him back to health. The narrative is slowly unveiled through an increasingly erratic set of journal entries, all addressed to the woman’s absent husband. While not the same form, *Phantom Thread* is notably framed by Alma’s stories of her relationship with Reynolds, similarly revealing the narrative through her perspective on events. 
 
 Several of the smaller details match Reynolds and Alma’s relationship. The narrator, like Alma, has relocated for the sake of her husband, though in the case of this story she follows him to the English countryside from London rather than the other way around. While the location of Reynolds’s second home is not explicitly stated, it is in the countryside, just as Cornwall is. Though [his home](https://ptannotated.com/items/phan-04620.html) is perhaps too lavish to truly qualify as a cottage, it is certainly a far cry from the ornate decor of his London home, much more aligned with the private, domestic vision of the narrator’s countryside home. Her marriage is quite similar to Reynolds and Alma’s in several ways. The woman seems to be in varying states of lucidity, at times missing her husband, who the doctors will not allow her to see, and at times fearing him. Of being encouraged to take up hobbies and make friends of her own, she writes, “When you long for your lover, you don't want a circle of gossiping pals. That’s why, I suppose, real love is anti-social.”[^6] Whether you believe her definition of true love or not, it certainly applies to Alma and Reynolds. Ironically, Reynolds and Alma are also often antisocial with one another, at times not speaking, or communicating only through argument. For Reynolds in particular, both his romantic love and his love of his craft make him antisocial, as he believes his “place” is in his workshop and home, not attending social engagements. In one entry, the narrator details the jealousy issues that plagued their relationship. She was envious of her husband’s female tennis partner, who he began playing with after his wife became too ill to play. A neighbor once played on this insecurity to drive a wedge between husband and wife, telling the narrator her husband had concealed that he was travelling with his tennis partner and reminding her “‘You’ve married an attractive male, my dear.” The narrator then says that the other woman was motivated by jealousy, as she herself wanted to steal the narrator’s husband. This mirrors the scene in which Reynolds and Alma attend Lady Baltimore’s dinner, during which time [Lady Baltimore implies](https://ptannotated.com/items/phan-13916.html) that Alma has been flirting with her godson during the meal, while she herself is clearly flirting with Reynolds.  
 
-{% include feature/image.html objectid="phan-11208" caption="Alma poisons Reynolds’s tea" %}
+{% include feature/image.html objectid="phan-11208" caption=false %}
+
+<figcaption class="figure-caption text-center"> <span markdown="1">Alma poisons Reynolds's tea</span></figcaption>
+
 
 The piece’s most obvious similarity to the film is, of course, the device of the poisoning. Even the method of poisoning is remarkably similar. The narrator of the story believes her husband has poisoned her after-dinner coffee and the sweetened milk he brings her before bed, disguising arsenic with sugar; the first time she poisons Reynolds, Alma does it by crushing the poisonous mushrooms and including them in his breakfast tea. Both occur (or in the case of the short story, don’t occur) during a ritual, mealtime drink, hidden within a comforting, domestic routine. Reynolds views his breakfast as an important routine, which, if altered or interrupted, can ruin his entire day. It is in this moment of simultaneous comfort and vulnerability that Alma strikes—not, to his knowledge, interrupting the meal, but secretly weaponizing it against him. While her belief is unfounded, the narrator fears her husband is doing the very same thing to her: “I said I wasn’t feeling very well, and you suggested I should go to bed. I did as you told me, and you brought me up a glass of hot milk, sweetened with sugar. I know I always have it like that, but it occurred to me that the sugar would hide the taste of arsenic, if there was something in the milk.”[^7] The combination of caretaking and harm that the woman sees in her husband’s gesture is reflected in Alma’s behavior. Alma poisons Reynolds explicitly so that she can take care of him, putting him in a position of complete dependence. 
 
 The woman, like Reynolds, also seeks to protect the person she believes is tormenting her. While still enveloped in her delusion, the woman tries to avoid going to the doctor, fearing that an examination would force her to reveal what her husband had done and cause him to be prosecuted. Reynolds, by the end of the film, knows Alma is poisoning him and welcomes it, certainly not seeking any retribution against her. The fact that the magazine is placed on Reynolds’s bedside table during an episode of exhaustion not brought on by poison is once again relevant. It is this period of neediness, during which Alma [describes him](https://ptannotated.com/items/phan-04547.html) as “tender” and “open” that inspires her to poison him, forcing him back into that same infantile state, the only time she feels truly needed and in control. The magazine foreshadows the events to come, brought on by the scene it appears in. However, this message seems to pass Reynolds by. He has placed the magazine to the side, choosing instead to lie in bed with Alma, welcoming her care. However, the viewer can never know if his knowing would have made any difference. Unlike the wife in the story, he never “flinched away” from Alma’s kiss; indeed, once he discovers he has been poisoned, [he welcomes her kiss](https://ptannotated.com/items/phan-15942.html). While both relationships are marred by a combination of longing and pain, the two leads’ relationships to it are perhaps the most notable divergence—where the paranoid wife fears it, Reynolds welcomes it with open arms. This difference speaks to the contrasting power dynamics in the two relationships. The wife in “A Cottage in Cornwall” is largely disempowered. She references being regularly bedridden and plagued by intense mental health struggles even before her delusions begin. She already relies on her husband for care, both emotional and physical. Reynolds, on the other hand, is the one with power in his and Alma’s relationship. He is a successful and wealthy couturier. He invites Alma into his life, eventually marrying her, but her presence is always dependent on his approval. Being poisoned by Alma is a break from normality rather than a continuation of it; a devoted, obsessive businessman, Reynolds puts his work above all else, unwilling to rest. He is incredibly controlling of every detail of his life and the behavior of those around him, reshaping Alma’s behavior down to the way she spreads butter. 
 
-{% include feature/image.html objectid="phan-12501" caption="Alma tends to Reynolds after poisoning him" %}
+{% include feature/image.html objectid="phan-12501" caption=false %}
+
+<figcaption class="figure-caption text-center"> <span markdown="1">Alma tends to Reynolds after poisoning him</span></figcaption>
+
 
 This contrast opens up questions of the gendered nature of power and identity. Reynolds’s name is synonymous with his business, The House of Woodcock, which has brought him notoriety and influence. Conversely, the narrator of the short story is never given a name. Her defining feature is her marriage, her status as a wife in relation to another man. For Reynolds, his poisoning allows him a break from his performance of masculinity. He maintains his household and business with an iron fist, never willing to give up any of his control to others. He only lets himself to stop this performance when he is too physically impaired to engage in it. Being poisoned allows him a break from the isolating and strenuous performance of masculinity, forcing him to be taken care of by Alma. However, for women, being killed or hurt by a man is not a meaningful departure from the general conditions of women, particularly within the confines of traditional heterosexual marriage. For the narrator of “A Cottage in Cornwall,” being poisoned would not offer her a reprieve either from the normal state of her specific relationship or the dynamics of gender at large in the way it does for Reynolds.
 
 While less striking than "A Cottage in Cornwall," several other pieces in the magazine bear some relevance to the plot and themes of the film. In the foreword to the issue, the magazine’s editor John Lehmann details the great emotional turmoil required of writers. Much of what he writes could easily be applied to Reynolds’s relationship to his work. It begins, “There is probably no profession that creates more acute nervous tension than the literary; no human being more subject to the alternations of confidence and enthusiasm followed by depression and paranoiac suspicion than the poet or novelist.”[^8] Throughout the course of the film, Reynolds’s moods are subject to rapid change; he is fussy and particular. [Alma tells a visiting doctor](https://ptannotated.com/items/phan-04511.html) that after periods of great stress, like his fashion show, he needs to “come down” afterwards, spending a period of a few days in a state of depression, weakened and needy. It is notable that it is during one of these episodes that the copy of *The London Magazine* appears, visible on his side table as he lies bedridden. His glasses are resting on top of it, as if he had recently been reading it and only just put it down. Reynolds enjoys good craftsmanship and artistry, regardless of its medium—his own art, or others. Perhaps he would see himself in the descriptions of these great, tortured artists, himself bound to what Lehman calls a “wheel of fire,” his art both invigorating and torturous.
 
-{% include feature/image.html objectid="phan-04435" caption="Reynolds breaks down after his fashion show, the immense cost of his creative labour finally hitting him" %}
+{% include feature/image.html objectid="phan-04435" caption=false %}
+
+<figcaption class="figure-caption text-center"> <span markdown="1">Reynolds breaks down after his fashion show, the immense cost of his creative labour finally hitting him</span></figcaption>
+
 
 Two of the poems featured in the issue bear some relevance to the plot. Vernon Watkins’s “Poet and Goldsmith” refers to two craftsmen of different trades—the literary and the artisanal. Reynolds’s trade perhaps falls in between these two. Fashion is often considered an art in the same category as visual arts and literature, but it also requires craftsmanship and materiality and must be created with some level of practicality. One section of the poem also feels pertinent to Reynolds’s life:“One thought that is dear to love True characters do not age in each other’s eyes/…there is no separation, no spear in the side,/Except in that forgetting of mutual death.”[^9] If, as Reynolds says, a house that does not change is dead, then the House of Woodcock has certainly been dead for some time, cold and unchanging across years. Reynolds spends the film haunted by the memory and, at one point, the vision of his dead mother. When he hallucinates her physical form, he sees her in the wedding dress he designed for her. He remembers her, not as she was when she died, but as she was in a cherished memory and photograph. Reynolds begins the film trapped by his mother’s death, unable to form meaningful relationships or change his life in any way. For Reynolds, at least initially, there is no separation between himself and his mother, and he has not allowed her to age and change in his mind, inadvertently doing the same thing to himself. 
 
@@ -88,28 +100,43 @@ Two of the poems featured in the issue bear some relevance to the plot. Vernon W
 
 ### The Observer’s Books[^11] 
 
-{% include feature/image.html objectid="phan-15235" caption="<em>The Observer’s Books</em> are visible as Alma reaches for <em>Edible and Poisonous Mushrooms</em>" %} 
+{% include feature/image.html objectid="phan-15235" caption=false %}
+
+<figcaption class="figure-caption text-center"> <span markdown="1"*>The Observer’s Books* are visible as Alma reaches for <em>Edible and Poisonous Mushrooms</span></figcaption>
+
 
 *The Observer’s Books* were a series of small informational guides, published by the British company Frederick Warne & Co between 1937 and 2003. They covered a broad range of topics: hobbies, machinery, plant and animal life. Popular books would sometimes be re-released on a regular basis. Today they are a collector’s item. The books make sense in Reynolds’s home. They were a popular British series and are placed on a shelf in the kitchen, serving as a guide to the natural world. 	
 
-{% include feature/image.html objectid="supp-00011" caption="A list of <em>Observer’s Books</em>, featured on page 2 of <em>The Observer’s Book of British Birds’ Eggs</em>" %} 
+{% include feature/image.html objectid="supp-00011" caption=false %} 
+
+<figcaption class="figure-caption text-center"> <span markdown="1"*>A list of <em>Observer’s Books</em>, featured on page 2 of <em>The Observer’s Book of British Birds’ Eggs</span></figcaption>
+
 
 However, the books also serve a more symbolic meaning. They are shown only in one shot, stacked on the shelf alongside *Edible and Poisonous Mushrooms*. The books, each in their own way, represent Reynolds himself. All three books are also focused on caretaking in some form: *Dogs* details how to raise and care for a dog, *Cacti* provides information on how to cultivate succulents, and *Birds' Eggs* takes great care to remind readers not to disturb birds nests, especially endangered species, saying they hope a guide for to allow hobbyists to more quickly identify the eggs, and therefore allowing them to leave the nest more quickly and listing rules for preserving nests while observing them. It is no accident that these books appear as Alma prepares to poison Reynolds, making him sick in order to nurse him back to health. She has learned how best to care for Reynolds, which she has found is only possible when he is incapacitated. It seems she has succeeded; Reynolds realizes she is poisoning him and welcomes it. The books represent her arc as she discovered the best way to truly be a part of Reynolds’s life and family. 
 
 
 #### *Of Dogs* (194)
 
-{% include feature/image.html objectid="supp-00018" caption="The cover of <em>The Observer’s Book of Dogs</em>" %}
+{% include feature/image.html objectid="supp-00018" caption=false %}
+
+<figcaption class="figure-caption text-center"> <span markdown="1"*>The cover of *The Observer’s Book of Dogs*</span></figcaption>
+
 
 Of the three *Observer’s Books*, *The Observer's Book of Dogs* bears the most obvious relevance to Reynolds’s life. Reynolds himself has dogs, though the exact number of them is not clear. They appear only in one scene, in the dressmaker’s country home, so it seems likely they live there full time rather than following him to London. While the viewer never gets a full, clear view of them, only glimpsing the top of their heads in one shot, they are obviously quite large dogs, not suited for city life. The film never explicitly states their breed, but in an interview Daniel Day-Lewis said he insisted they be lurchers. Lurchers are not an officially recognized breed, but rather a common mix, included in the book in a back section dedicated to unofficial or mixed breeds. The author, Clifford L. Hubbard, describes them as “an all-purpose utility dog, usually of Greyhound or Whippet shape, which, although ostracized, is a fairly common race in the Midlands and north of England,”[^12] locations in keeping with their country home.
 
-{% include feature/image.html objectid="supp-00035" caption= "Greyhounds are commonly used to breed lurchers" %}
+{% include feature/image.html objectid="supp-00035" caption=false %}
+
+<figcaption class="figure-caption text-center"> <span markdown="1"*>Greyhounds are commonly used to breed lurchers</span></figcaption>
+
 
 Though the book is largely dedicated to describing the various breeds and common mixes of dogs, each entry listing scientific name, origin, appearance, and skills of the breed, a large section is dedicated to detailed information on dog care—what to feed them, how much exercise they require, how to identify illness, and so on. The book covers most general questions on dog care. Its being in the kitchen makes sense, too; while Reynolds journeys to his country home fairly often, if the dogs do not travel to London with him, it’s fair to assume that his staff would be the ones caring for the dog the vast majority of the time. 
 
 The book also carries some more allegorical implications. Reynolds himself is sometimes associated with a dog. When he and Alma first enter his country home, he seems to group himself with his dogs, saying “Let’s show her the house.” Much later in the film, Reynolds [says](https://ptannotated.com/items/phan-13839.html) that he himself “barked” at a man in anger, when recounting his outburst to the doctor who tried to treat him during his poisoning—a break in his calm facade. It seems something more animalistic lurks beneath his veneer of calm. 
 
-{% include feature/image.html objectid="phan-01942" caption="Reynolds’s dogs greet Alma as she enters his country estate" %}
+{% include feature/image.html objectid="phan-01942" caption=false %}
+
+<figcaption class="figure-caption text-center"> <span markdown="1"*>Reynolds’s dogs greet Alma as she enters his country estate</span></figcaption>
+
 
 Shortly afterwards, during the scene in which Reynolds follows Alma to a New Years Eve party after they fight, a man in an oversized dog costume [falls](https://ptannotated.com/items/phan-14556.html) on the ground as he watches Alma amongst the crowd. This is a moment of great conflict within their relationship, and Reynolds is failing to fulfill Alma’s desires, refusing to attend the party with her. The dog, which Reynolds has already associated with himself, falls down, perhaps symbolizing Reynolds’s failures. The inclusion of a person in a dog costume also serves to further blur the line between dog and human. 
 
@@ -117,13 +144,18 @@ The scene in which the books appear, where Alma poisons Reynolds for the second 
 
 #### *Of British Birds’ Eggs* (1954)
 
-{% include feature/image.html objectid="supp-00010" caption="The cover of <em>The Observer’s Book of British Birds Eggs</em>" %}
+{% include feature/image.html objectid="supp-00010" caption=false %}
+
+<figcaption class="figure-caption text-center"> <span markdown="1"*>The cover of <em>The Observer’s Book of British Birds Egg</span></figcaption>
+
 
 *The Observer’s Book of British Birds’ Eggs*, compiled by Glynne Evans, follows the standard format for the series. Each short entry details how common a species is, where it nests, the number of eggs they typically lay, and the look of the egg, alongside a fairly detailed illustration of the appearance of the egg. It is perfectly reasonable that Reynolds would keep this book in his country home, where birds nests would no doubt be plentiful. While the audience has never seen him show much interest in birding, he could have bought the book to give himself the option, or it may belong to one of his staff, as it is placed in the kitchen. 
 
 There are also several symbolic connections. Perhaps the most obvious connection to the film is that Reynolds’s last name—Woodcock—comes from a squat, brown woodland bird that typically lives in England year round. The bird gets an entry in *The Observer’s Book of British Birds’ Eggs*, which describes them as widely spread across England. There are several details that correlate to Reynolds’s life. According to the entry, while they are found all throughout England, woodcocks are often overlooked due to “their retiring and largely nocturnal” lifestyle.[^13] While Reynolds does not follow an exclusively nocturnal schedule, he is willing to work whenever he feels called to. Alma describes that Reynolds will wake her in the middle of the night, sometimes after only a few hours of sleep, to begin working on a dress. Describing the nests of the woodcock, the entry reads, “The birds usually make their nests in a forest, out of dead leaves and undergrowth.”[^14] Reynolds has refused changes to his life following the death of his mother. He eventually admits the faults of this to Alma, telling her, “A house that does not change is a dead house.” 
 
-{% include feature/image.html objectid="supp-00012" caption="An illustration of the woodcock egg" %}
+{% include feature/image.html objectid="supp-00012" caption=false %}
+
+<figcaption class="figure-caption text-center"> <span markdown="1"*>*An illustration of the woodcock egg</span></figcaption>
 
 Alma too can be connected to the bird. Through marriage, she herself has become a woodcock. Describing the quantity of the species, the entry reads, “Their number are increased during the winter by both passage and migrant birds arriving.”[^15] Alma is an immigrant to England, whose presence there has increased the number of Woodcocks. It’s also of note that they chose a book specifically on the identification of eggs, not birds themselves. The egg is perhaps the most quintessential symbol of new life, and Alma seeks to bring new life into the House of Woodcock. When Reynolds proposes to her, he leaves behind the “dead house” he has created for himself, finally allowing life to be brought back to his home and business. The egg also is specifically connected to the nurturing care of mother birds, which represents both Reynolds’s longing for his mother, and the motherly, caretaking role Alma takes on with him.
 
@@ -131,13 +163,21 @@ In Alma’s fantasy of their future life together, she imagines having a child t
 
 #### *Of Cacti & Other Succulents* (1958)
 
-{% include feature/image.html objectid="supp-00014;supp-00016" caption="Left: The cover of <em>The Observer’s Book of Cacti & Other Succulents</em> Right: sketches of various succulents" %}
+{% include feature/image.html objectid="supp-00014" caption=false %}
+
+{% include feature/image.html objectid="supp-00016" caption=false %}
+
+<figcaption class="figure-caption text-center"> <span markdown="1"*>*Top: The cover of *The Observer’s Book of Cacti & Other Succulents* Bottom: sketches of various succulents</span></figcaption>
+
 
 The third book in Reynolds’s collection, *The Observer’s Book of Cacti and Other Succulents* by S.H. Scott, serves perhaps the least obvious function in Reynolds’s life. It is also the only one that was not yet published at the time the film takes place. Each entry provides details on a different kind of cactus or succulent, including details on appearance, native habitat, and flowers. However, it is highly unlikely any of this information would come up regularly. All cacti are indigenous to the Americas, and there are only a small number of succulents native to England. While non-native succulents and cacti had been grown in the U.K. for quite some time, we are given no indication that any of the characters engage in it.
 
 The first explanation for the book's inclusion in Reynolds’s collection speaks to Reynolds’s cosmopolitanism. While he only travels outside of England once in the film, he clearly carries ties to other nations. He has designed fashions for the Princess of Belgium from baptism to wedding, including an entire wardrobe for her coming out season. The English couture industry of the time was highly connected to and influenced by the Parisian one, and we see this reflected in the French style decor in his home and workplace. He and Alma travel to [Switzerland](https://ptannotated.com/items/phan-13639.html) for their honeymoon. 
 
-{% include feature/image.html objectid="supp-00015" caption="A photograph of the succulent sedum, one of the few succulents native to England" %}
+{% include feature/image.html objectid="supp-00015" caption="" %}
+
+<figcaption class="figure-caption text-center"> <span markdown="1"*>*A photograph of the succulent sedum, one of the few succulents native to EnglandAn illustration of the woodcock egg</span></figcaption>
+
 
 Reynolds himself is also a cactus-like figure: externally prickly and harsh, unwilling to allow people into the inner parts of him, but capable of producing great beauty. In particular, several portions of the foreword to the book could just as easily be applied to Reynolds as to the plants. The foreword emphasizes the incredible, and often overlooked, beauty of succulents. Scott writes that the succulent has perfectly adapted itself to the environment it comes from. Reynolds, while incredibly demanding, has perfectly calibrated himself to survive in the high stress and demanding world of couture fashion, often at the cost of his personal relationships. Scott continues, writing that “because they have developed adaptations for overcoming periods of drought, they require much less attention than do other plants…for in their natural environment they are used to a great deal of hardship in the hands of nature.”[^16] Reynolds’s life beyond his work, at least before Alma, is incredibly lonely. His only meaningful connection seems to be his sister, Cyril, who is herself a part of his business. He has trained himself to survive with little to no meaningful human connection, not relying (or at least working not to rely) on others for his fulfillment and wellbeing. 
 
