@@ -170,6 +170,8 @@ Once these spreadsheets were made, I uploaded them to [Gephi](https://gephi.org/
 
 Once I was satisfied with my graph, I exported it as a graphml file and reuploaded it to Gephi Lite. Gephi Lite is the online browser-based version of Gephi, which allowed for even more customization, such as color organizing through specific hex codes. Gephi Lite also can connect to GitHub as a way to publish public graph files. Since Gephi Lite cannot export interactive graphs, I re-imported my graph back into Gephi. Utilizing the [SigmaExport plugin](https://github.com/oxfordinternetinstitute/gephi-plugins/tree/sigmaexporter-plugin/modules/sigmaExporter), I exported as a [Sigma.js](https://www.sigmajs.org/) template. Sigma.js is a JavaScript library for creating interactive network graphs that can be viewed in a browser. The plugin and template were created by the [Oxford Internet Institute’s InteractiveVis](https://github.com/oxfordinternetinstitute/InteractiveVis/) project. The export files, containing the data and the template for the site, were uploaded into GitHub.
 
+<a href="https://github.com/digbmc/pta-features-data/tree/main/network-cs"><svg class="bi icon-sprite" aria-hidden="true"><use xlink:href="{{ 'assets/lib/icons/github.svg' | relative_url }}"/></svg>View code and data for this visualization</a>
+
 #### Limitations
 
 This project faced a great number of hurdles and, as with any visualizations, there are drawbacks. TMDB was an enormous resource in this project; however, using a preexisting data set that is community-sourced at such a large quantity means that not every individual is able to be checked for accuracy and there may be discrepancies in name, involvement, or title. In addition, contributors have been grouped by what department they are “known for.” However, this category is based on all of their works and not their specific involvement in PTA films. This has led to a few cases in which someone is known for a department that does not align with their role. For example, Robert Downey Sr., who is listed for directing, had a cameo in two films and had no involvement in the direction. If one were to just look at the graph and the color coding this may be misleading, although the details are clarified in the information panel. 
@@ -183,11 +185,6 @@ No one person makes a movie. By mapping the hundreds of artists, technicians, pe
 The goal of the *PTAnnotated* project is to break the films down into its smallest elements. This visualization takes a different approach by presenting the individual contribution and the collective simultaneously. By connecting every credit instead of isolating it, we’re reminded that a creative vision only becomes a film through the expertise and work of countless artists. 
 
 To understand who makes a movie, sometimes you have to look between the lines.
-
-### Links and Downloads
-
-- [GitHub gist of the Collaborative Filmography graph file](https://gist.github.com/claraeks/098cddacb0de6672ce2f4176e16bbb39), can be opened in [Gephi Lite](https://lite.gephi.org/v1.0.2/)
-- [GitHub gist of the Coworking Network graph file](https://gist.github.com/claraeks/1f0aa905065c91e2d453716306ff1926), can be opened in [Gephi Lite](https://lite.gephi.org/v1.0.2/)
 
 [^1]: Weingart, “Demystifying Networks, Parts I & II.”
 [^2]: This feature uses the TMDB API but is not endorsed or certified by TMDB
