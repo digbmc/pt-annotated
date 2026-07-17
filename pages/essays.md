@@ -7,9 +7,11 @@ published: true
 ---
 
 <h2 id="page-title">{{ page.title }}</h2>
-<div class="alert alert-primary text-center" role="alert">
+<!-- <div class="alert alert-primary text-center" role="alert">
   Progress Note: these essays are works in progress.
-</div>
+<p>These essays are work by students on the project.</p>
+</div> -->
+
 <a id="return-to-all" class="d-none" aria-hidden="true" href="#"><svg class="bi icon-sprite" aria-hidden="true"><use xlink:href="{{ '/assets/lib/icons/arrow-left.svg' | relative_url }}"/></svg> Return to all essays</a>
 
 <!--<p>
