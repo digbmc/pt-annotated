@@ -241,9 +241,9 @@ function setupGUI(config) {
     $GP.info_close.click(nodeNormal);
     $GP.info_close2.click(nodeNormal);
     $GP.form = $("#mainpanel").find("form");
-    $GP.search = new Search($GP.form.find("#search"));
+    $GP.search = new Search($GP.form.find("#network-search"));
     if (!config.features.search) {
-		$("#search").hide();
+		$("#network-search").hide();
 	}
 	if (!config.features.groupSelectorAttribute) {
 		$("#attributeselect").hide();

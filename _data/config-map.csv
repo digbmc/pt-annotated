@@ -1,3 +1,6 @@
 field,display_name,search
 description,Description,true
 film,Film,true
+location,Location,true
+latitude,Latitude,true
+longitude,Longitude,true

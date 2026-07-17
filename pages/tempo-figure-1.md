@@ -1,5 +1,5 @@
 ---
-title: Network Graph
+title: "Figure I: Collection of Paul Thomas Annotated Screenshots"
 layout: vega
 permalink: /tempo-figure-1.html
 ---

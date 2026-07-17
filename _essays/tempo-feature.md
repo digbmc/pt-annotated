@@ -119,6 +119,8 @@ The process for gathering data for Figure II was more complicated. I used the ap
 
 Distant Viewing Explorer detects shot boundaries (when one shot is cut/transitions to another shot) of videos. The open-source code uses dvt to open, read, and provide metadata for video files. Once the video has been opened, the shot boundary detection code runs through the video looking for changes in pixels to mark when a shot cuts/transitions. Once the code finishes running, the final step was making a data table which displayed the timestamps and frame numbers of all the shots. For my own data, I had to calculate shot lengths from the given timestamps and then calculate ASL from the calculated shot lengths. 
 
+<a href="https://github.com/digbmc/pta-features-data/tree/main/tempo-le"><svg class="bi icon-sprite" aria-hidden="true"><use xlink:href="{{ 'assets/lib/icons/github.svg' | relative_url }}"/></svg>View code and data for this visualization</a>
+
 ### Other Applications
 Beyond examining one of PTA’s films, these visualizations could lend themselves for cross-examining PTA’s work with other famous directors, with films being produced now, or further temporal examination within film. Other research projects that have conducted inquiries into the role of tempo within film include:
 

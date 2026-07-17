@@ -1,0 +1,134 @@
+{% comment %} 
+
+    Image item carousel.
+    This include adds a Bootstrap Carousel component populated with randomly selected image items, designed with index page in mind. 
+    https://getbootstrap.com/docs/5.1/components/carousel/
+
+    To use this custom carousel for your feature, specify which collection items you'd like to appear. 
+
+    E.G. --> {% include feature/custom-carousel.html title="Summed-Slice Z-Projections" carousel-items="supp-72010, supp-72022, supp-72007, supp-72001, supp-72019, supp-72004, supp-72028, supp-72016, supp-72025, supp-72013" %}
+
+    Options:
+
+    - "height" = the height of the carousel in px, just give the number (optional, default 300)
+    - "carousel-type" = the selection of items featured in the carousel, choose from thumb (all items with image_thumb) or small (all items with image_small). (optional, default thumb)
+    - "child-objects" = include child items in count or only parents, true or false (optional, default false)
+    - "title" = card title text inside card content area (optional)
+    - "header" = card header text in bar above card content (optional)
+    - "heading_level" = customize the level of the heading if necessary for accessibility, choose "h1", "h2", "h3", etc (optional, default "h2")
+    - "max" = maximum images selected for slide show (optional, default 9. Do not make too big!)
+    - "btn-color" = a bootstrap color class to theme the buttons. Can be any bootstrap template color (e.g. info, success) or outline (e.g. outline-info, outline-success), including colors created in config-theme-colors. (optional, default "primary")
+    - "btn-text" = the label used in the link btn to view the carousel item (optional, default "View Item")
+    - "caption-field" = the metadata field to use for slide captions (optional, default "title")
+    - "carousel-id" = a custom ID for this carousel instance; if omitted, the include generates a unique one automatically from the page/title context
+    - "carousel-items" = a comma-separated list of object IDs to include in the carousel in the order provided (optional)
+    - "filter-field" and "filter-value" = use these options together to filter which set of items will appear in the carousel based on a particular metadata field and value in that field. filter-field must match a column in your metadata. any item with a value in the filter-field that "contains" the filter-value will be included, it does not need to be an exact match. (optional)
+    
+{%- endcomment -%}
+
+{%- assign btn-color = include["btn-color"] | default: "primary" -%}
+{%- assign btn-text = include["btn-text"] | default: "View Item" -%}
+{%- assign caption-field = include["caption-field"] | default: "title" -%}
+{%- assign default-carousel-id-source = include.title | default: include.header | default: page.url -%}
+{%- assign default-carousel-id = default-carousel-id-source | slugify | prepend: 'carousel-' -%}
+{%- assign carousel-id = include["carousel-id"] | default: default-carousel-id -%}
+{%- assign carousel-indicators-id = include["carousel-indicators-id"] | default: carousel-id | append: '-indicators' -%}
+{%- assign carousel-inner-id = include["carousel-inner-id"] | default: carousel-id | append: '-inner' -%}
+{% if include["child-objects"] == true %}
+{%- assign carousel-items = site.data[site.metadata] | where_exp: 'item','item.objectid' | where_exp: "item","item.image_small != nil or item.image_thumb != nil"-%}
+{% else %}
+{%- assign carousel-items = site.data[site.metadata] | where_exp: 'item','item.objectid and item.parentid == nil' | where_exp: "item","item.image_small != nil or item.image_thumb != nil" -%}
+{% endif %}
+{%- if include["filter-field"] and include["filter-value"] -%}
+{% assign carousel-items = carousel-items | where_exp: 'item','item[include["filter-field"]] contains include["filter-value"]' %}
+{%- endif -%}
+{%- assign carousel-max = include.max | default: 9 -%}
+{%- if include["carousel-items"] -%}
+  {%- assign requested_ids = include["carousel-items"] | split: ',' -%}
+  {%- if include.max == nil -%}
+    {%- assign carousel-max = requested_ids | size -%}
+  {%- endif -%}
+{%- endif -%}
+
+{%- comment -%}
+    Set up carousel div
+{%- endcomment -%}
+<style>
+    #{{ carousel-id }} .carousel-item { height: {{ include.height | remove: 'px' | strip | default: '300' }}px; }
+</style>
+<div class="card mb-3">
+    {% if include.header %}<{{ include.heading_level | default: 'h2' | strip }} class="card-header h5">{{ include.header }}</{{ include.heading_level | default: 'h2' | strip }}>{% endif %}
+    <div class="card-body">
+        {% if include.title %}<{{ include.heading_level | default: 'h2' | strip }} class="card-title h5">{{ include.title }}</{{ include.heading_level | default: 'h2' | strip }}>{% endif %}
+        
+        <div id="{{ carousel-id }}" class="carousel slide bg-dark rounded mb-3" data-bs-ride="carousel">
+            <div id="{{ carousel-indicators-id }}" class="carousel-indicators">
+                {% if include["carousel-items"] %}
+                    {% for requested_id in requested_ids limit: carousel-max %}
+                        {% assign clean_requested_id = requested_id | strip %}
+                        {% assign item = site.data[site.metadata] | where: 'objectid', clean_requested_id | first %}
+                        {% if item %}
+                            <button type="button" data-bs-target="#{{ carousel-id }}" data-bs-slide-to="{{ forloop.index0 }}" class="{% if forloop.first %}active{% endif %}" {% if forloop.first %}aria-current="true"{% endif %} aria-label="Slide {{ forloop.index0 }}"></button>
+                        {% endif %}
+                    {% endfor %}
+                {% else %}
+                    {% for item in carousel-items limit: carousel-max %}
+                        <button type="button" data-bs-target="#{{ carousel-id }}" data-bs-slide-to="{{ forloop.index0 }}" class="{% if forloop.first %}active{% endif %}" {% if forloop.first %}aria-current="true"{% endif %} aria-label="Slide {{ forloop.index0 }}"></button>
+                    {% endfor %}
+                {% endif %}
+            </div>
+            <div id="{{ carousel-inner-id }}" class="carousel-inner">
+                {% if include["carousel-items"] %}
+                    {% for requested_id in requested_ids limit: carousel-max %}
+                        {% assign clean_requested_id = requested_id | strip %}
+                        {% assign item = site.data[site.metadata] | where: 'objectid', clean_requested_id | first %}
+                        {% if item %}
+                            {% if item.parentid %}
+                                {% assign item-link = '/items/' | append: item.parentid | append: '.html#' | append: item.objectid | relative_url %}
+                            {% else %}
+                                {% assign item-link = '/items/' | append: item.objectid | append: '.html' | relative_url %}
+                            {% endif %}
+                            <div class="carousel-item py-2{% if forloop.first %} active{% endif %}">
+                                <img class="d-block h-100 mx-auto lazyload" alt="{{ item.image_alt_text | default: item.title | escape }}" data-src="{% if item.image_small %}{{ item.image_small | relative_url }}{% else %}{{ item.image_thumb | relative_url }}{% endif %}">
+                                <div class="carousel-caption">
+                                    {% assign caption-text = item.title | default: item.description %}
+                                    {% if caption-text %}
+                                        <p class="mb-2 small text-light">{{ caption-text | escape }}</p>
+                                    {% endif %}
+                                    <a href="{{ item-link }}" class="btn btn-sm btn-{{ btn-color }}">{{ btn-text }}</a>
+                                </div>
+                            </div>
+                        {% endif %}
+                    {% endfor %}
+                {% else %}
+                    {% for item in carousel-items limit: carousel-max %}
+                        {% if item.parentid %}
+                            {% assign item-link = '/items/' | append: item.parentid | append: '.html#' | append: item.objectid | relative_url %}
+                        {% else %}
+                            {% assign item-link = '/items/' | append: item.objectid | append: '.html' | relative_url %}
+                        {% endif %}
+                        <div class="carousel-item py-2{% if forloop.first %} active{% endif %}">
+                            <img class="d-block h-100 mx-auto lazyload" alt="{{ item.image_alt_text | default: item.title | escape }}" data-src="{% if item.image_small %}{{ item.image_small | relative_url }}{% else %}{{ item.image_thumb | relative_url }}{% endif %}">
+                            <div class="carousel-caption">
+                                {% assign caption-text = item.title | default: item.description %}
+                                {% if caption-text %}
+                                    <p class="mb-2 small text-light">{{ caption-text | escape }}</p>
+                                {% endif %}
+                                <a href="{{ item-link }}" class="btn btn-sm btn-{{ btn-color }}">{{ btn-text }}</a>
+                            </div>
+                        </div>
+                    {% endfor %}
+                {% endif %}
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#{{ carousel-id }}" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#{{ carousel-id }}" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+            
+    </div>
+</div>

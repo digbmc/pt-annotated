@@ -233,6 +233,20 @@ a:hover svg {
     vertical-align: 0;
 }
 
+@media (min-width: 768px) {
+    .list-group {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media (max-width: 768px) {
+    .list-group {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 /* Hide auto-injected SVG icons */
 /*This section of code can be deleted if there is another way to get rid of the automatic external link items other than hiding them*/
 a[target="_blank"] svg.bi,
@@ -582,6 +596,11 @@ a[target="_blank"]::after {
     margin-bottom: 1rem;
     border: 1px solid $secondary;
 }
+
+.figure-caption {
+    color: #f6754f;
+}
+
 
 /* -----------------
     Browse Settings
@@ -964,3 +983,52 @@ a[target="_blank"]::after {
     margin-right: 8px;
     opacity: 0.7;
 }
+
+/* ------------
+    Network Graph Mobile Backup
+   ------------ */
+
+/* Default - assume it is a desktop mouse user, graph appears, backup image does not */
+.mobile-graph-backup {
+  display: none !important;
+}
+.desktop-graph {
+  display: block !important;
+}
+
+/* Backup appears when on touch-based device*/
+@media (pointer: coarse) {
+  .desktop-graph {
+    display: none !important;
+  }
+  
+.mobile-graph-backup { /*includes caption*/
+    display: flex !important; 
+    margin-bottom: 1.5rem; 
+  }
+
+  .mobile-graph-image {
+    display: block !important;
+    margin-bottom: 1.5rem; 
+  }
+
+} 
+
+/* ------------
+    Compound Objects Page
+   ------------ */
+
+   .modal-content {
+    background-color: #000;
+   }
+
+   .btn-outline-secondary {
+    color: #f6754f;
+    border-color: #f6754f;
+   }
+
+   .btn-outline-secondary:hover {
+    color: #000;
+    background-color: #f6754f;
+    border-color: #f6754f;
+   }

@@ -4,6 +4,7 @@ layout: blank-page
 
 
 <head>
+<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,user-scalable=no" />
 <!--[if IE]><script type="text/javascript" src="js/excanvas.js"></script><![endif]--> <!-- js/default.js -->
   <script src="{{ '/assets/lib/sigma-network/js/jquery/jquery.min.js' | relative_url }}" type="text/javascript"></script>
   <script src="{{ '/assets/lib/sigma-network/js/sigma/sigma.min.js' | relative_url }}" type="text/javascript" language="javascript"></script>
@@ -18,12 +19,30 @@ layout: blank-page
   body:has(#network-container:target) .iframe-back-button {
       display: none !important;
     }
+    /* If the page is running inside an iframe, hide the back button and extra layouts */
+.is-framed .iframe-back-button,
+.is-framed .mobile-graph-image {
+    display: none !important;
+}
+
+/* Ensure the container utilizes full height and spacing inside the frame boundary */
+.is-framed #network-container {
+    margin-top: 0 !important;
+    top: 0 !important;
+    height: 100vh !important; /* Forces the graph to fill the entire iframe viewport */
+}
 </style>
+
 </head> 
-<body><a class="iframe-back-button" href="{{ '/essays/between-the-lines.html#collaborative-filmography-network' | relative_url }}"><svg class="bi icon-sprite" aria-hidden="true"><use xlink:href="{{ 'assets/lib/icons/arrow-left.svg' | relative_url }}"/></svg>Back to Essay </a>
+<body>
+  <script>if (window.self !== window.top) {
+    document.documentElement.classList.add('is-framed');
+}</script>
+  <a class="iframe-back-button" href="{{ '/essays/between-the-lines.html#collaborative-filmography-network' | relative_url }}"><svg class="bi icon-sprite" aria-hidden="true"><use xlink:href="{{ 'assets/lib/icons/arrow-left.svg' | relative_url }}"/></svg>Back to Essay </a>
   
 <div id="network-container" style="width: 100%; height: 750px; background: rgb(201, 201, 201); position: relative">
   {{ content }}
+
 </div>
 </body>
 
