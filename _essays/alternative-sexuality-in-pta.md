@@ -8,7 +8,6 @@ tags:
     - Phantom Thread 
     - One Battle After Another 
     - Intertextuality
-    - History
 ---
 
 ### Introduction 
